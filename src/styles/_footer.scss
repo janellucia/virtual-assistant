@@ -1,0 +1,32 @@
+footer {
+  background: $black;
+  color: $white;
+  min-height: 150px;
+
+  a {
+    color: $white;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .credits {
+      p {
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+    }
+
+    .social {
+      a {
+        margin-right: 10px;
+
+      }
+      a:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

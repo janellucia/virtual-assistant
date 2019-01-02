@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'home';
+
+
+body {
+  margin: 0;
+  font-family: $secondFont;
+}
+
+main {
+  min-height: calc(100vh - 220px);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1.45rem 1.0875rem;
+}
+
+a.hidden {
+  left:-999px;
+  position:absolute;
+  top:0;
+  left: 0;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
+}
+a.hidden:focus, a.hidden:active {
+  color: #fff;
+  background-color:#000;
+  top: auto;
+  left: 0;
+  width: 150px;
+  height: auto;
+  overflow:auto;
+  margin: 10px 15%;
+  padding:5px;
+  text-align:center;
+  font-size:1.2em;
+  z-index:999;
+}

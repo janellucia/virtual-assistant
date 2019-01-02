@@ -1,0 +1,115 @@
+.landing {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  h1 {
+    font-size: 9rem;
+    text-transform: lowercase;
+    font-weight: 900;
+    width: 100%;
+    letter-spacing: -2px;
+  }
+  .sub-title {
+    color: lightgrey;
+  }
+}
+
+.about, .contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 720px;
+  margin: 0 auto;
+  width: 80%;
+  margin-left: 10%;
+  h2 {
+    font-size: 6rem;
+    margin: 0;
+    text-transform: lowercase;
+    margin-left: 45px;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  a {
+    color: $mainColor;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    font-weight: 600;
+    align-self: flex-start;
+  }
+  a:hover, a:focus {
+    color: $white;
+  }
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+
+  .project-wrap {
+    width: 47%;
+    position: relative;
+    margin: 70px 0;
+    display: block;
+
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all 0.5s ease;
+    }
+
+    .project-info {
+      opacity: 0;
+      background: lightgrey;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      bottom: 20px;
+      right: 20px;
+      padding: 30px;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .project-wrap:nth-child(even) {
+    align-self: flex-end;
+  }
+
+  .project-wrap:hover, .project-wrap:focus, .project-wrap:active {
+    img {
+      filter: blur(4px);
+    }
+    .project-info {
+      opacity: 1;
+    }
+  }
+}
+
+
+
+.top {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: flex-end;
+  a {
+    // align-self: flex-end;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all 10s ease;
+  }
+  a::after {
+    content: '__________';
+    width: 70px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+  }
+}

@@ -1,0 +1,31 @@
+$black: #000;
+$white: #fff;
+$grey: #f0ebf4;
+$darkGrey: #d8d3dc;
+
+$mainColor: #e64398; // raspberry
+$secondColor: #f172a1; // blush
+$thirdColor: #b29bc7; // pastel purple
+$fourthColor: #a1c2d1; // pastel blue
+
+
+$mainFont: 'Open Sans', sans-serif;
+$secondFont:'PT Sans', sans-serif;
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $mainFont;
+}
+
+
+a {
+  color: $black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px;
+}
+a:hover, a:focus {
+  background: $mainColor;
+  color: $white;
+  text-decoration: underline;
+}
