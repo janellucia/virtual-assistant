@@ -24,10 +24,8 @@ const Layout = ({ children }) => (
     render={data => (
       <PageTransition transitionTime={500}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>
-          <div className="wrapper">
-            {children}
-          </div>
+        <main id="main">
+           {children}
         </main>
         <Footer siteTitle={data.site.siteMetadata.title} />
       </PageTransition>

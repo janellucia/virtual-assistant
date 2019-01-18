@@ -1,0 +1,126 @@
+.title, .project-links {
+  background: $easy-rider;
+  position: relative;
+  
+  .wrapper {
+    min-height: 60vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: $white;
+    margin-top: -20px;
+  
+    .category {
+      font-size: 1.2rem;
+      @media (max-width: 768px) {
+        font-size: 0.9rem;
+      }
+    }
+  
+    h1 {
+      font-size: 6rem;
+      margin: 0;
+      text-transform: uppercase;
+      @media (max-width: 1025px) {
+        font-size: 4rem;
+      }
+      @media (max-width: 500px) {
+        font-size: 2.5rem;
+      }
+    }
+
+    .subtitle {
+      font-size: 1.7rem;
+      max-width: 870px;
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+      }
+    }
+    .button-wrap {
+      display: flex;
+      margin-top: 40px;
+      @media (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 20px;
+      }
+    }
+
+    .button {
+      margin-right: 20px;
+      border: 3px solid $white;
+      color: $white;
+      font-weight: 800;
+      padding: 7px 35px;
+      font-size: 1.5rem;
+      @media (max-width: 1025px) {
+        font-size: 1rem;
+        margin-bottom:  20px;
+      }
+    }
+    .button:hover, .button:focus {
+      background: $white;
+      color: $black;
+      // @media (max-width: 1025px) {
+      //   background: $black;
+      //   color: $white;
+      // }
+    }
+  }
+}
+.title {
+  margin-top: -50px;
+  &:after {
+    content: '';
+    width: 3px;
+    height: 200px;
+    background: $white;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    @media (max-width: 500px) {
+      height: 100px;
+    }
+  }
+}
+
+.wicked-title, .wicked-links {
+  background: $wicked-problem;
+}
+
+.adaptive-title, .adaptive-links {
+  background: $adaptive-leadership;
+}
+
+.image-right, .image-left, .image-right-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text-wrap {
+    width: 60%;
+    .large-text {
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+  }
+  .gatsby-image-wrapper {
+    width: 35%;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .text-wrap, .gatsby-image-wrapper {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .mobile-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.img {
+  width: 100% !important;
+  height: auto !important;
+}

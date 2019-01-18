@@ -9,10 +9,10 @@ const Footer = ({ siteTitle }) => (
         <p>&copy; {(new Date().getFullYear())} janel lucia. all rights reserved.</p>
       </section>
       <section className="social">
+      <a href="mailto:thejanellucia@gmail.com">email</a>
         <a href="https://www.instagram.com/janellucia/" target="blank">instagram</a>
         <a href="https://twitter.com/janellucia" target="blank">twitter</a>
         <a href="https://www.linkedin.com/in/janel-lucia-b7425b9a/" target="blank">linked-in</a>
-        <a href="https://github.com/janellucia" target="blank">github</a>
       </section>
     </div>
   </footer>

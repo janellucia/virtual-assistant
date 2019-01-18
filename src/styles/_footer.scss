@@ -12,6 +12,11 @@ footer {
     justify-content: space-between;
     align-items: center;
 
+
+    @media (max-width: 549px) {
+      flex-direction: column-reverse;
+    }
+
     .credits {
       p {
         font-size: 0.8rem;
@@ -20,9 +25,11 @@ footer {
     }
 
     .social {
+      @media (max-width: 549px) {
+        margin-bottom: 20px;
+      }
       a {
         margin-right: 10px;
-
       }
       a:last-of-type {
         margin-right: 0;

@@ -7,47 +7,42 @@ import SEO from '../components/seo'
 
 const Easy = (props) => (
   <Layout>
-    <SEO title="Project | Wicked Problem" />
-    <section className="title wicked-title">
+    <SEO title="Project | Adaptive Leadership" />
+    <section className="title adaptive-title">
       <div className="wrapper">
         {/* <p className="category">UX | design | sketch | invision</p> */}
-        <h1>Wicked Problem</h1>
-        <p className="subtitle">Exploring healthy emotional development for youth through user research</p>
+        <h1>Adaptive <br></br>Leadership</h1>
+        <p className="subtitle">Mobilizing for Change and Disrupting the Status Quo</p>
       </div>
     </section>
     <div id="wicked-problem" className="wrapper">
       <section className="image-right">
           <div className="text-wrap">
             <h2>Design Thinking</h2>
-            <p>In the advanced portion of Hacker You’s UX course we were given an assignment asking us to define a wicked problem and use research to explore solutions. Solving wicked problems is no easy task and often you find there are many wicked problems within other wicked problems. This project has expanded my creativity but also helped me embrace discomfort in an analytical way.</p>
-            <p className="large-text">My wicked problem centres around emotional development for youth and I’m asking how might we offer intervention and prevention solutions for youth mental health. </p>
-            <p>I found a growing body of scientific evidence stating that emotional development begins early in life, that it is a critical aspect of the development of overall brain architecture, and that it has enormous consequences over the course of a lifetime. That being said approximately 1 in 5 youth worldwide will experience a mental illness before they turn 25. This makes youth & adolescence a critical time for mental health promotion, prevention, early identification, and intervention.</p>
-            <p>Through my research I found kids are in need of a safe space where they can express themselves. Screen time, social media and inactivity are having a negative effect on kids, many parents don’t know of or have reliable and trustworthy resources around them.</p>
+            <p>Adaptive Leadership is a practical leadership framework that helps individuals and organizations adapt and thrive in challenging environments. It is being able, both individually and collectively, to take on the gradual but meaningful process of change.</p>
+            <p className="large-text">In this course we learn that leadership is an action, not a rigid trait, and that leadership can be exercised by anyone, whatever their role inside or outside an organization or community.</p>
+            <p>We are given the tools and techniques of Adaptive Leadership, which is a practical leadership framework developed at the Harvard Kennedy School, these tools are particularly useful for leading change during times of uncertainty or when there are no easy answers</p>
+            <p>Acumen uses metaphors such as being “on the dancefloor” and talks about moving “on to the balcony” to help us identify where the gaps in our community live. They also help us define the stakeholders involved and their values, loyalties and losses to better understand what drives their decisions. I found when you can understand the people in your community you can also make lasting change driven by empathy and compassion.</p>
+            <p>Take a look at my presentation to see my takeaways from this course. Adaptive Leadership has given me more confidence and helped me understand the people around me and I am so grateful I took this course.</p>
           </div>
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
       </section>
-      <section className="image-left mobile-reverse">
+      {/* <section className="image-left mobile-reverse">
       <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
         <div className="text-wrap">
           <p>I interviewed a mix of parents from different cities and towns and different economic and educational backgrounds to round off my research. I also interviewed children to get their point of view. In all groups I found that through our difference’s families are experiencing similar frustrations, anxiety, stress, lack of communication and confidence. Both children and adults interviewed reported a lack in confidence in the information they are receiving online. This creates a need for reliable information children and caregivers can rely on.</p>
           <p className="large-text">When it came to exploring solutions I wanted to create a safe space helping children build strong adaptive brains for lifelong success.</p>
           <p>There are plenty of organizations offering solutions in an amazing way. In my presentation I take a look at some amazing organizations creating positive spaces and experiences for kids. I learned so much about what is and can be done and that allowed me to expand my knowledge when it came to defining my solution through convergence.</p>
-          {/* <p>Users also have access to Travel tips and tips vary from suggested travel times to how to cope with crowded subways. This gives users the necessary tools to plan ahead and choose less crowded travel times in order to enjoy an easier commute.</p> */}
           <p>Take a look at the my presentation linked below to see my research in detail along with how I came up with my solution Kindred Academy.</p>
         </div>
-      </section>
-      {/* <section className="image-right-two">
-        <div className="text-wrap">
-        </div>
       </section> */}
-        {/* <Img fluid={props.data.imageThree.childImageSharp.fluid} /> */}
     </div>
-    <section className="project-links wicked-links">
+    <section className="project-links adaptive-links">
       <div className="wrapper">
-        <p className="category">UX | research | design | presentation</p>
-        <p className="subtitle">We want to teach our children to be resilient, determined and to see things through. Kindred Academy offers after school and Saturday programs, with additional counselling services available to support our youth into a more confident and compassionate future.</p>
+        <p className="category">leadership | think politically | adaptive experiments</p>
+        <p className="subtitle">Adaptive Leadership emerged from thirty plus years of research, defining the frontier of leadership training and development.</p>
         <div className="button-wrap">
-          <a href="../wicked-problem.pdf" className="button" target="_blank">View Presentation</a>
+          <a href="../adaptive-leadership.pdf" className="button" target="_blank">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>

@@ -8,9 +8,9 @@ const Header = ({ siteTitle }) => (
     <nav className="wrapper">
       <a href="#main" className="hidden">Skip to Main</a>
       <a href="#footer" className="hidden">Skip to Footer</a>
-      <Link to="/" className="icon">
+      {/* <Link to="/" className="icon">
           <Image />
-      </Link>
+      </Link> */}
     </nav>
   </header>
 )
