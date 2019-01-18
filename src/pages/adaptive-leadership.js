@@ -42,7 +42,7 @@ const Easy = (props) => (
         <p className="category">leadership | think politically | adaptive experiments</p>
         <p className="subtitle">Adaptive Leadership emerged from thirty plus years of research, defining the frontier of leadership training and development.</p>
         <div className="button-wrap">
-          <a href="../adaptive-leadership.pdf" className="button" target="_blank">View Presentation</a>
+          <a href="adaptive-leadership.pdf" className="button" target="_blank">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
