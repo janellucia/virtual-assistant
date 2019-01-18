@@ -8,8 +8,6 @@ import 'animate.css/animate.min.css';
 import '../styles/main.scss'
 
 
-// import PageTransition from 'gatsby-plugin-page-transitions'
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
