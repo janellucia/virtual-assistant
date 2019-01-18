@@ -8,7 +8,7 @@ import 'animate.css/animate.min.css';
 import '../styles/main.scss'
 
 
-import PageTransition from 'gatsby-plugin-page-transitions'
+// import PageTransition from 'gatsby-plugin-page-transitions'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,13 +22,13 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <PageTransition transitionTime={500}>
+      <div>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main id="main">
            {children}
         </main>
         <Footer siteTitle={data.site.siteMetadata.title} />
-      </PageTransition>
+      </div>
     )}
   />
 )
