@@ -10,7 +10,6 @@ const Easy = (props) => (
     <SEO title="Project | Wicked Problem" />
     <section className="title wicked-title">
       <div className="wrapper">
-        {/* <p className="category">UX | design | sketch | invision</p> */}
         <h1>Wicked Problem</h1>
         <p className="subtitle">Exploring healthy emotional development for youth through user research</p>
       </div>
@@ -27,20 +26,14 @@ const Easy = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
       </section>
       <section className="image-left mobile-reverse">
-      <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
         <div className="text-wrap">
           <p>I interviewed a mix of parents from different cities and towns and different economic and educational backgrounds to round off my research. I also interviewed children to get their point of view. In all groups I found that through our difference’s families are experiencing similar frustrations, anxiety, stress, lack of communication and confidence. Both children and adults interviewed reported a lack in confidence in the information they are receiving online. This creates a need for reliable information children and caregivers can rely on.</p>
           <p className="large-text">When it came to exploring solutions I wanted to create a safe space helping children build strong adaptive brains for lifelong success.</p>
           <p>There are plenty of organizations offering solutions in an amazing way. In my presentation I take a look at some amazing organizations creating positive spaces and experiences for kids. I learned so much about what is and can be done and that allowed me to expand my knowledge when it came to defining my solution through convergence.</p>
-          {/* <p>Users also have access to Travel tips and tips vary from suggested travel times to how to cope with crowded subways. This gives users the necessary tools to plan ahead and choose less crowded travel times in order to enjoy an easier commute.</p> */}
           <p>Take a look at the my presentation linked below to see my research in detail along with how I came up with my solution Kindred Academy.</p>
         </div>
       </section>
-      {/* <section className="image-right-two">
-        <div className="text-wrap">
-        </div>
-      </section> */}
-        {/* <Img fluid={props.data.imageThree.childImageSharp.fluid} /> */}
     </div>
     <section className="project-links wicked-links">
       <div className="wrapper">

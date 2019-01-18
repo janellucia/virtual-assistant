@@ -35,11 +35,9 @@ const Easy = (props) => (
           <p className="large-text">Take a look at the Invision prototype (link below) to see how app interactions are intented to work.</p>
         </div>
       </section>
-      {/* <section className="image-right-two">
-        <div className="text-wrap">
-        </div>
-      </section> */}
+      <div className="stand-alone-image">
         <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+      </div>
     </div>
     <section className="project-links">
       <div className="wrapper">
