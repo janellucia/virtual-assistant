@@ -12,6 +12,10 @@ const Easy = (props) => (
       <div className="wrapper">
         <h1>Adaptive <br></br>Leadership</h1>
         <p className="subtitle">Mobilizing for Change and Disrupting the Status Quo</p>
+        <div className="button-wrap">
+          <a href="https://drive.google.com/file/d/10i64DscOSwregTtcIFfWEfJ4v9FhLhk8/view?usp=sharing" className="button" target="_blank">View Presentation</a>
+          <Link to="/" className="button">Back to Homepage</Link>
+        </div>
       </div>
     </section>
     <div id="wicked-problem" className="wrapper">

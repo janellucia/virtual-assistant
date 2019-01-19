@@ -13,6 +13,10 @@ const Easy = (props) => (
       <div className="wrapper">
         <h1>Wicked Problem</h1>
         <p className="subtitle">Exploring healthy emotional development for youth through user research</p>
+        <div className="button-wrap">
+          <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank">View Presentation</a>
+          <Link to="/" className="button">Back to Homepage</Link>
+        </div>
       </div>
     </section>
     <div id="wicked-problem" className="wrapper">

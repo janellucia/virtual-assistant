@@ -10,9 +10,12 @@ const Easy = (props) => (
     <SEO title="Project | Easy Rider" />
     <section className="title">
       <div className="wrapper">
-        {/* <p className="category">UX | design | sketch | invision</p> */}
         <h1>Easy Rider</h1>
         <p className="subtitle">People helping people have an easy ride.</p>
+        <div className="button-wrap">
+          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank">Invision Prototype</a>
+          <Link to="/" className="button">Back to Homepage</Link>
+        </div>
       </div>
     </section>
     <div className="wrapper">

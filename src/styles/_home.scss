@@ -16,7 +16,7 @@
     }
 
     @media (max-width: 549px) {
-      font-size: 3rem;
+      font-size: 4rem;
     }
   }
   .sub-title {
@@ -44,7 +44,8 @@
     }
 
     @media (max-width: 549px) {
-      font-size: 2rem;
+      margin-left: 25px; 
+      font-size: 3rem;
     }
 
   }
@@ -71,6 +72,17 @@
   a:hover, a:focus {
     color: $white;
   }
+}
+
+.contact {
+  min-height: 80vh;
+
+  h2 {
+    @media (max-width: 549px) {
+      font-size: 2.4rem;
+    }
+  }
+
 }
 
 .portfolio {
