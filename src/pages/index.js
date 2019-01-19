@@ -12,7 +12,7 @@ const IndexPage = (props) => (
     <div className="wrapper">
       <section className="landing">
             <h1>Janel Lucia</h1>
-            <p className="sub-title">ux designer. developer. a11y enthusiast</p>
+            <p className="sub-title">ux designer. developer. a11y enthusiast.</p>
       </section>
       <section className="about">
         <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
@@ -78,12 +78,6 @@ const IndexPage = (props) => (
           <a href="mailto:thejanellucia@gmail.com">thejanellucia@gmail.com</a>
         </ScrollAnimation>
       </section>
-      <p className="top">
-      <a href="#">back to top</a>
-      </p>
-      {/* <ScrollToTop showUnder={160}>
-        <span>UP</span>
-      </ScrollToTop> */}
     </div>
   </Layout>
 )

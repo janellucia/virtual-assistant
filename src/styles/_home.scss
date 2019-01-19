@@ -5,18 +5,18 @@
   justify-content: space-around;
   text-align: center;
   h1 {
-    font-size: 9rem;
+    font-size: 10rem;
     text-transform: lowercase;
     font-weight: 900;
     width: 100%;
     letter-spacing: -2px;
 
-    @media (min-width: 550px) and (max-width: 1025px) {
-      font-size: 5.4rem;
+    @media (min-width: 621px) and (max-width: 1025px) {
+      font-size: 7rem;
     }
 
-    @media (max-width: 549px) {
-      font-size: 4rem;
+    @media (max-width: 620px) {
+      font-size: 3.5rem;
     }
   }
   .sub-title {
@@ -101,11 +101,12 @@
       .animated {
         display: flex;
         flex-direction: row;
+        align-items: center;
       }
 
     }
 
-    @media (max-width: 549px) {
+    @media (max-width: 700px) {
       margin: 40px 0;
       .animated {
         flex-direction: column;
@@ -120,12 +121,12 @@
       left: 0;
       transition: all 0.5s ease;
 
-      @media (min-width: 550px) and (max-width: 1025px) {
+      @media (min-width: 701px) and (max-width: 1025px) {
         position: static;
         width: 55%;
       }
 
-      @media (max-width: 549px) {
+      @media (max-width: 700px) {
         position: static;
         width: 90%;
         margin: 0 auto;
@@ -145,7 +146,7 @@
       padding: 60px;
       transition: all 0.5s ease;
 
-      @media (min-width: 550px) and (max-width: 1025px) {
+      @media (min-width: 701px) and (max-width: 1025px) {
         position: static;
         background: transparent;
         opacity: 1;
@@ -154,7 +155,7 @@
         padding: 30px;
       }
 
-      @media (max-width: 549px) {
+      @media (max-width: 700px) {
         position: static;
         background: transparent;
         opacity: 1;
@@ -241,7 +242,7 @@
       }
     }
 
-    @media (max-width: 549px) {
+    @media (max-width: 700px) {
       .animated {
         flex-direction: column;
       }
@@ -249,6 +250,7 @@
   }
 
   .project-wrap:hover, .project-wrap:focus, .project-wrap:active {
+    cursor: pointer;
     img {
       filter: blur(4px);
 
@@ -265,23 +267,7 @@
 
 
 
-.top {
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-
-  a {
-    font-weight: 600;
-    font-size: 1.2rem;
-  }
-  // &::after {
-  //   content: ' ';
-  //   width: 3px;
-  //   height: 30px;
-  //   background: $black;
-  //   position: absolute;
-  //   bottom: -25px;
-  //   right: 17px;
-  // }
+img {
+  width: 100% !important;
+  height: auto !important;
 }
