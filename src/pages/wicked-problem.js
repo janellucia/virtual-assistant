@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Img from "gatsby-image"
-import wickedProblem from '../pages/wicked-problem.pdf';
+// import wickedProblem from '../pages/wicked-problem.pdf';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -41,8 +41,7 @@ const Easy = (props) => (
         <p className="category">UX | research | design | presentation</p>
         <p className="subtitle">We want to teach our children to be resilient, determined and to see things through. Kindred Academy offers after school and Saturday programs, with additional counselling services available to support our youth into a more confident and compassionate future.</p>
         <div className="button-wrap">
-        {/* ../wicked-problem.pdf */}
-          <a href={wickedProblem} className="button" target="_blank">View Presentation</a>
+          <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>

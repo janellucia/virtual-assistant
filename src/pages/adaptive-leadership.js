@@ -22,10 +22,10 @@ const Easy = (props) => (
             <p className="large-text">In this course we learn that leadership is an action, not a rigid trait, and that leadership can be exercised by anyone, whatever their role inside or outside an organization or community.</p>
             <p>We are given the tools and techniques of Adaptive Leadership, which is a practical leadership framework developed at the Harvard Kennedy School, these tools are particularly useful for leading change during times of uncertainty or when there are no easy answers</p>
           </div>
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
       </section>
       <section className="image-left mobile-reverse">
-        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
         <div className="text-wrap">
           <p>Acumen uses metaphors such as being “on the dancefloor” and talks about moving “on to the balcony” to help us identify where the gaps in our community live. They also help us define the stakeholders involved and their values, loyalties and losses to better understand what drives their decisions. I found when you can understand the people in your community you can also make lasting change driven by empathy and compassion.</p>
           <p>Take a look at my presentation to see my takeaways from this course. Adaptive Leadership has given me more confidence and helped me understand the people around me and I am so grateful I took this course.</p>
@@ -37,7 +37,7 @@ const Easy = (props) => (
         <p className="category">leadership | think politically | adaptive experiments</p>
         <p className="subtitle">Adaptive Leadership emerged from thirty plus years of research, defining the frontier of leadership training and development.</p>
         <div className="button-wrap">
-          <a href="../adaptive-leadership.pdf" className="button" target="_blank">View Presentation</a>
+          <a href="https://drive.google.com/file/d/10i64DscOSwregTtcIFfWEfJ4v9FhLhk8/view?usp=sharing" className="button" target="_blank">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
