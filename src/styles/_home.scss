@@ -11,7 +11,7 @@
     width: 100%;
     letter-spacing: -2px;
 
-    @media (min-width: 621px) and (max-width: 1025px) {
+    @media (min-width: 621px) and (max-width: 1125px) {
       font-size: 7rem;
     }
 
@@ -39,7 +39,7 @@
     text-transform: lowercase;
     margin-left: 45px;
 
-    @media (min-width: 550px) and (max-width: 1025px) {
+    @media (min-width: 550px) and (max-width: 1125px) {
       font-size: 4rem;
     }
 
@@ -90,13 +90,14 @@
   flex-direction: column;
 
   .project-wrap {
-    width: 47%;
+    width: 45%;
     position: relative;
-    margin: 70px 0;
+    margin: -40px 0;
     display: block;
 
-    @media (max-width: 1025px) {
+    @media (max-width: 1125px) {
       width: 100%;
+      margin: 40px 0;
 
       .animated {
         display: flex;
@@ -121,7 +122,7 @@
       left: 0;
       transition: all 0.5s ease;
 
-      @media (min-width: 701px) and (max-width: 1025px) {
+      @media (min-width: 701px) and (max-width: 1125px) {
         position: static;
         width: 55%;
       }
@@ -143,16 +144,16 @@
       left: 20px;
       bottom: 20px;
       right: 20px;
-      padding: 60px;
+      padding: 40px;
       transition: all 0.5s ease;
 
-      @media (min-width: 701px) and (max-width: 1025px) {
+      @media (min-width: 701px) and (max-width: 1125px) {
         position: static;
         background: transparent;
         opacity: 1;
         width: 45%;
         color: $black;
-        padding: 30px;
+        padding: 20px;
       }
 
       @media (max-width: 700px) {
@@ -169,6 +170,7 @@
         letter-spacing: 0.1rem;
         font-family: $mainFont;
         font-weight: 300;
+        margin-top: 0;
       }
 
       h3 {
@@ -185,7 +187,7 @@
         font-family: $mainFont;
         font-weight: 500;
 
-        @media (max-width: 1025px) {
+        @media (max-width: 1125px) {
           width: 100%;
         }
       }
@@ -196,7 +198,7 @@
         font-weight: 800;
         padding: 7px 35px;
         font-size: 1.5rem;
-        @media (max-width: 1025px) {
+        @media (max-width: 1125px) {
           border: 3px solid $black;
           color: $black;
         }
@@ -206,37 +208,50 @@
         // border: 2px solid $white;
         background: $white;
         color: $black;
-        @media (max-width: 1025px) {
+        @media (max-width: 1125px) {
           background: $black;
           color: $white;
         }
       }
 
     }
+    .next-step-info {
+      background: $next-step;
+      @media (max-width: 1125px) {
+        background: transparent;
+      }
+    }
     .wicked-info {
       background: $wicked-problem;
-      @media (max-width: 1025px) {
+      @media (max-width: 1125px) {
         background: transparent;
       }
     }
     .easy-info {
       background: $easy-rider;
-      @media (max-width: 1025px) {
+      @media (max-width: 1125px) {
         background: transparent;
       }
     }
     .adaptive-info {
       background: $adaptive-leadership;
-      @media (max-width: 1025px) {
+      @media (max-width: 1125px) {
         background: transparent;
       }
     }
   }
 
+  .project-wrap:first-of-type {
+    margin-top: 70px;
+  }
+  .project-wrap:last-of-type {
+    margin-bottom: 70px;
+  }
+
   .project-wrap:nth-child(even) {
     align-self: flex-end;
 
-    @media (max-width: 1025px) {
+    @media (max-width: 1125px) {
       .animated {
         flex-direction: row-reverse;
       }
@@ -254,7 +269,7 @@
     img {
       filter: blur(4px);
 
-      @media (max-width: 1025px) {
+      @media (max-width: 1125px) {
         filter: blur(0px);
       }
 

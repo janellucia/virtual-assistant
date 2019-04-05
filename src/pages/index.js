@@ -18,7 +18,7 @@ const IndexPage = (props) => (
         <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
           <h2>Hello.</h2>
           <p>I am a UX / Product Designer in Toronto. I tell stories through the products I create and my goal is always to make smart digital experiences people enjoy using again and again.<br></br>
-          On top of ongoing independent study I’ve completed Hacker You’s full time Dev bootcamp and UX course. Right now I am learning more about design and facilitation techniques for making group discussions more timely and effective.
+          On top of ongoing independent study I’ve completed Hacker You’s full time front-end dev bootcamp and UX course. Right now I am learning more about design and facilitation techniques for making group discussions more timely and effective.
           <br></br><br></br>
           I’m also passionate about accessibility and inclusion<br></br>
           — so feel free to AMA!</p>
@@ -39,6 +39,17 @@ const IndexPage = (props) => (
         <div className="project-wrap" tabIndex="0">
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+            <div className="project-info next-step-info">
+              <p className="category">UX | research | design | developer</p>
+              <h3>The Next Step Forward</h3>
+              <p className="description">For this client project I was immediately aware of the empathy and compassion that The Next Step Forward had for their clients and I wanted that to be the main message. Having helped loved ones downsize their homes and knew what a difficult task this can become, especially when sorting through all of the sentimental objects of ones life. The stakeholders I was working with knew of the amazing service they wanted to offer and weren’t sure how to portray themselves online. My role was to use user research in order to create a safe place where one can make difficult decisions with a team who cares.</p>
+              <Link to="/next-step-forward/" className="button">case study</Link>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div className="project-wrap" tabIndex="0">
+          <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+            <Img fluid={props.data.imageThree.childImageSharp.fluid} />
             <div className="project-info wicked-info">
               <p className="category">UX | research | design | presentation</p>
               <h3>Wicked Problem</h3>
@@ -49,7 +60,7 @@ const IndexPage = (props) => (
         </div>
         <div className="project-wrap" tabIndex="0">
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
-            <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+            <Img fluid={props.data.imageFour.childImageSharp.fluid} />
             <div className="project-info easy-info">
               <p className="category">UX | design | sketch | invision</p>
               <h3>Easy Rider</h3>
@@ -60,7 +71,7 @@ const IndexPage = (props) => (
         </div>
         <div className="project-wrap" tabIndex="0">
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
-            <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+            <Img fluid={props.data.imageFive.childImageSharp.fluid} />
             <div className="project-info adaptive-info">
               <p className="category">leadership | think politically | Adaptive Experiments</p>
               <h3>Adaptive Leadership</h3>
@@ -73,7 +84,7 @@ const IndexPage = (props) => (
       <section className="contact">
         <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
           <h2>get in touch.</h2>
-          <p>Have an idea, need an idea? Want to collaborate, brainstorm or just want to say hey…<br></br>
+          <p>Have a cool idea you want to explore? Want to collaborate, brainstorm or just want to say hey…<br></br>
             Drop me a line and let’s talk!</p>
           <a href="mailto:thejanellucia@gmail.com">thejanellucia@gmail.com</a>
         </ScrollAnimation>
@@ -93,21 +104,28 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "home/wicked-home.png" }) {
+    imageTwo: file(relativePath: { eq: "home/next-step.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/easy-home.png" }) {
+    imageThree: file(relativePath: { eq: "home/wicked-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    imageFour: file(relativePath: { eq: "home/adaptive-home.png" }) {
+    imageFour: file(relativePath: { eq: "home/easy-home.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    imageFive: file(relativePath: { eq: "home/adaptive-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

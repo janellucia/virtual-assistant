@@ -10,10 +10,10 @@ const Easy = (props) => (
     <SEO title="Project | Adaptive Leadership" />
     <section className="title adaptive-title">
       <div className="wrapper">
-        <h1>Adaptive <br></br>Leadership</h1>
+        <h1>Adaptive Leadership</h1>
         <p className="subtitle">Mobilizing for Change and Disrupting the Status Quo</p>
         <div className="button-wrap">
-          <a href="https://drive.google.com/file/d/10i64DscOSwregTtcIFfWEfJ4v9FhLhk8/view?usp=sharing" className="button" target="_blank">View Presentation</a>
+          <a href="https://drive.google.com/file/d/10i64DscOSwregTtcIFfWEfJ4v9FhLhk8/view?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
@@ -41,7 +41,7 @@ const Easy = (props) => (
         <p className="category">leadership | think politically | adaptive experiments</p>
         <p className="subtitle">Adaptive Leadership emerged from thirty plus years of research, defining the frontier of leadership training and development.</p>
         <div className="button-wrap">
-          <a href="https://drive.google.com/file/d/10i64DscOSwregTtcIFfWEfJ4v9FhLhk8/view?usp=sharing" className="button" target="_blank">View Presentation</a>
+          <a href="https://drive.google.com/file/d/10i64DscOSwregTtcIFfWEfJ4v9FhLhk8/view?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Easy = (props) => (
         <h1>Easy Rider</h1>
         <p className="subtitle">People helping people have an easy ride.</p>
         <div className="button-wrap">
-          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank">Invision Prototype</a>
+          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Easy = (props) => (
           <p>This app allows users to leave a short message to describe any transit incidents involving line delays, traffic accidents, medical emergencies or any other factor contributing to a delay in your commute. </p>
           <p className="large-text">All incidents reported are available to other users via notifications, so they can begin their transit journey informed and aware of any potential barriers. Users are able to see wait times for nearby lines and get transit directions to their desired destination.</p>
           <p>Users also have access to Travel tips and tips vary from suggested travel times to how to cope with crowded subways. This gives users the necessary tools to plan ahead and choose less crowded travel times in order to enjoy an easier commute.</p>
-          <p className="large-text">Take a look at the Invision prototype (link below) to see how app interactions are intented to work.</p>
+          <p className="large-text">Take a look at the Invision prototype (link below) to see how app interactions are intended to work.</p>
         </div>
       </section>
       <div className="stand-alone-image">
@@ -47,7 +47,7 @@ const Easy = (props) => (
         <p className="category">user research | design | sketch | invision</p>
         <p className="subtitle">Easy rider is powered by users all over the city, transit riders connect to one another and work together to improve each other's transit experience.</p>
         <div className="button-wrap">
-          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank">Invision Prototype</a>
+          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>

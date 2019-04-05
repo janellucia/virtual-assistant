@@ -33,7 +33,7 @@
 
     .subtitle {
       font-size: 1.7rem;
-      max-width: 870px;
+      max-width: 1000px;
       @media (max-width: 768px) {
         font-size: 1.3rem;
       }
@@ -83,6 +83,10 @@
       height: 100px;
     }
   }
+}
+
+.next-step-title, .next-step-links {
+  background: $next-step;
 }
 
 .wicked-title, .wicked-links {

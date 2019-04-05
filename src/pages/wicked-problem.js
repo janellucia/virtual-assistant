@@ -14,7 +14,7 @@ const Easy = (props) => (
         <h1>Wicked Problem</h1>
         <p className="subtitle">Exploring healthy emotional development for youth through user research</p>
         <div className="button-wrap">
-          <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank">View Presentation</a>
+          <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Easy = (props) => (
         <p className="category">UX | research | design | presentation</p>
         <p className="subtitle">We want to teach our children to be resilient, determined and to see things through. Kindred Academy offers after school and Saturday programs, with additional counselling services available to support our youth into a more confident and compassionate future.</p>
         <div className="button-wrap">
-          <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank">View Presentation</a>
+          <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">View Presentation</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
