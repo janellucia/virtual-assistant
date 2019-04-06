@@ -47,17 +47,6 @@ const IndexPage = (props) => (
           </ScrollAnimation>
         </div>
         <div className="project-wrap" tabIndex="0">
-          <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
-            <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-            <div className="project-info wicked-info">
-              <p className="category">UX | research | design | presentation</p>
-              <h3>Wicked Problem</h3>
-              <p className="description">In Hacker You’s advanced UX course we were asked to define a wicked problem and deliver a presentation using research, divergence and convergence. I chose to focus my project on the impact of healthy emotional development for kids. I chose this topic because as my family grows this is a major topic of discussion at home. Our youth today face so many obstacles when it comes to self-love and acceptance than ever before, so how might we promote a healthy sense of belonging for kids today. Take a look at my case study where I roll up my research sleeves to find potential solutions for this topic.</p>
-              <Link to="/wicked-problem/" className="button">case study</Link>
-            </div>
-          </ScrollAnimation>
-        </div>
-        <div className="project-wrap" tabIndex="0">
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
             <Img fluid={props.data.imageFour.childImageSharp.fluid} />
             <div className="project-info easy-info">
@@ -65,6 +54,17 @@ const IndexPage = (props) => (
               <h3>Easy Rider</h3>
               <p className="description">I was tasked to come up with an app that would help public transit and the people using the service interact in a more positive way. My vision for Easy Rider was to address the need for interactive traveling on public transit. If you’re driving a vehicle you have access to apps such as Waze that allow users to interact with one another and report delays or incidents that other drivers would find helpful. Easy Rider is meant to empower users to get the most up to date information about traffic from a reliable source. This will help users plan ahead and act in an informed way when riding transit to avoid any sudden delays.</p>
               <Link to="/easy-rider/" className="button">case study</Link>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div className="project-wrap" tabIndex="0">
+          <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+            <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+            <div className="project-info wicked-info">
+              <p className="category">UX | research | design | presentation</p>
+              <h3>Wicked Problem</h3>
+              <p className="description">In Hacker You’s advanced UX course we were asked to define a wicked problem and deliver a presentation using research, divergence and convergence. I chose to focus my project on the impact of healthy emotional development for kids. I chose this topic because as my family grows this is a major topic of discussion at home. Our youth today face so many obstacles when it comes to self-love and acceptance than ever before, so how might we promote a healthy sense of belonging for kids today. Take a look at my case study where I roll up my research sleeves to find potential solutions for this topic.</p>
+              <Link to="/wicked-problem/" className="button">case study</Link>
             </div>
           </ScrollAnimation>
         </div>
