@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav className="wrapper">
+    <nav>
       <a href="#main" className="hidden">Skip to Main</a>
       <a href="#footer" className="hidden">Skip to Footer</a>
       {/* <Link to="/" className="icon">
