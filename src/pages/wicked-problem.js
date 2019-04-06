@@ -42,7 +42,7 @@ const Easy = (props) => (
     </div>
     <section className="project-links wicked-links">
       <div className="wrapper">
-        <p className="category">UX | research | design | presentation</p>
+        <p className="category">UX | user research | design | presentation</p>
         <p className="subtitle">We want to teach our children to be resilient, determined and to see things through. Kindred Academy offers after school and Saturday programs, with additional counselling services available to support our youth into a more confident and compassionate future.</p>
         <div className="button-wrap">
           <a href="https://drive.google.com/file/d/1KF0yXZcZJywqYY8nP43EeAkCO4FBQ7_F/view?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">View Presentation</a>

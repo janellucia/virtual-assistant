@@ -61,7 +61,7 @@ const IndexPage = (props) => (
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <Img fluid={props.data.imageThree.childImageSharp.fluid} />
             <div className="project-info wicked-info">
-              <p className="category">UX | research | design | presentation</p>
+              <p className="category">UX | user research | design | presentation</p>
               <h3>Wicked Problem</h3>
               <p className="description">In Hacker You’s advanced UX course we were asked to define a wicked problem and deliver a presentation using research, divergence and convergence. I chose to focus my project on the impact of healthy emotional development for kids. I chose this topic because as my family grows this is a major topic of discussion at home. Our youth today face so many obstacles when it comes to self-love and acceptance than ever before, so how might we promote a healthy sense of belonging for kids today. Take a look at my case study where I roll up my research sleeves to find potential solutions for this topic.</p>
               <Link to="/wicked-problem/" className="button">case study</Link>
