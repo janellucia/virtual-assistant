@@ -39,8 +39,8 @@ const IndexPage = (props) => (
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
             <div className="project-info next-step-info">
-              <p className="category">UX | research | design | developer</p>
-              <h3>The Next Step Forward</h3>
+              <p className="category">UI | UX | user research | developer</p>
+              <h3>Next Step Forward</h3>
               <p className="description">For this client project I was immediately aware of the empathy and compassion that The Next Step Forward had for their clients and I wanted that to be the main message. Having helped loved ones downsize their homes and knew what a difficult task this can become, especially when sorting through all of the sentimental objects of ones life. The stakeholders I was working with knew of the amazing service they wanted to offer and weren’t sure how to portray themselves online. My role was to use user research in order to create a safe place where one can make difficult decisions with a team who cares.</p>
               <Link to="/next-step-forward/" className="button">case study</Link>
             </div>
@@ -50,7 +50,7 @@ const IndexPage = (props) => (
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
             <Img fluid={props.data.imageFour.childImageSharp.fluid} />
             <div className="project-info easy-info">
-              <p className="category">UX | design | sketch | invision</p>
+              <p className="category">UI | UX | user research | sketch | invision</p>
               <h3>Easy Rider</h3>
               <p className="description">I was tasked to come up with an app that would help public transit and the people using the service interact in a more positive way. My vision for Easy Rider was to address the need for interactive traveling on public transit. If you’re driving a vehicle you have access to apps such as Waze that allow users to interact with one another and report delays or incidents that other drivers would find helpful. Easy Rider is meant to empower users to get the most up to date information about traffic from a reliable source. This will help users plan ahead and act in an informed way when riding transit to avoid any sudden delays.</p>
               <Link to="/easy-rider/" className="button">case study</Link>

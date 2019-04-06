@@ -44,7 +44,7 @@ const Easy = (props) => (
     </div>
     <section className="project-links next-step-links">
       <div className="wrapper">
-        <p className="category">UX | research | design | studio | developer</p>
+        <p className="category">UI | UX | user research | developer</p>
         <p className="subtitle">Whether it is for you or a loved one, moving can be stressful and overwhelming. Let The Next Step Forward help, they can assist with decluttering, managing your move, and setting up your new home with experience and compassion.</p>
         <div className="button-wrap">
           <a href="http://thenextstepforward.ca/" className="button" target="_blank" rel="noopener noreferrer" >View Live Website</a>

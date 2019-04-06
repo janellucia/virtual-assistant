@@ -44,7 +44,7 @@ const Easy = (props) => (
     </div>
     <section className="project-links">
       <div className="wrapper">
-        <p className="category">user research | design | sketch | invision</p>
+        <p className="category">UI | UX | user research | sketch | invision</p>
         <p className="subtitle">Easy rider is powered by users all over the city, transit riders connect to one another and work together to improve each other's transit experience.</p>
         <div className="button-wrap">
           <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
