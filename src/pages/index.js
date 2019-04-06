@@ -17,8 +17,7 @@ const IndexPage = (props) => (
       <section className="about">
         <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' >
           <h2>Hello.</h2>
-          <p>I am a UX / Product Designer in Toronto. I tell stories through the products I create and my goal is always to make smart digital experiences people enjoy using.<br></br>
-          On top of ongoing independent study I’ve completed Hacker You’s full time front-end dev bootcamp and UX course. Right now I am learning more about design and facilitation techniques for making group discussions more timely and effective.
+          <p>I am a Product Designer in Toronto. I tell stories through the products I create and my goal is to make smart digital experiences people feel good about using. On top of ongoing independent study I’ve completed Hacker You’s full time front-end bootcamp and UX course. Right now I'm learning new research &amp; facilitation techniques as a SidexSide Mentee.
           <br></br><br></br>
           I’m also passionate about accessibility and inclusion<br></br>
           — so feel free to AMA!</p>
