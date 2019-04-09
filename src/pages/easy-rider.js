@@ -13,7 +13,7 @@ const Easy = (props) => (
         <h1>Easy Rider</h1>
         <p className="subtitle">People helping people have an easy ride.</p>
         <div className="button-wrap">
-          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
+          <a href="https://invis.io/CDRGBNLJEFK#/357131010_1_-_Welcome" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
@@ -22,7 +22,7 @@ const Easy = (props) => (
       <section className="image-right">
           <div className="text-wrap">
             <h2>Design Thinking</h2>
-            <p>My vision for Easy Rider was to address the need for interactive traveling on public transit. If you’re driving a vehicle you have access to apps such as Waze that allow users to interact with one another and report delays or incidents that other drivers would find helpful. Easy Rider is meant to empower users to get the most up to date information about traffic from a reliable source. This will help users plan ahead and act in an informed way when riding transit to avoid any sudden delays.</p>
+            <p>My vision for Easy Rider was to address the need for interactive traveling on public transit. If you’re driving a vehicle you have access to apps such as Waze that allow users to interact with one another and report delays or incidents that other drivers would find helpful. Easy Rider is meant to empower users to get the most up to date information about traffic from a reliable source. The main goal is to help users plan ahead and act in an informed way when riding transit to avoid any sudden delays.</p>
             <p className="large-text">As I went through user-research and interviews I found that the majority of riders would like to avoid crowds and are frustrated with the amount of delays that occur and an overall feeling of being uninformed when riding transit.</p>
             <p> After further research I found that some people would even change their work schedule to accommodate an easier commute, others even take a detour route to enjoy an easier ride. One thing became clear Toronto’s transit riders are looking for a reliable source of information in order to enjoy a comfortable ride.</p>
             <p>When thinking about design I wanted to create a clean and simplified layout that offered a confident and reliable feeling to the user. There are many navigation apps like Google Maps and Apple Maps that have already established a trusted way of navigating on our phones, I wanted to take this approach with the interactivity of Waze to create a solution that offers users a way to have an informed ride on transit. Users also have extra accessibility options available.</p>
@@ -47,7 +47,7 @@ const Easy = (props) => (
         <p className="category">UI | UX | user research | sketch | invision</p>
         <p className="subtitle">Easy rider is powered by users all over the city, transit riders connect to one another and work together to improve each other's transit experience.</p>
         <div className="button-wrap">
-          <a href="https://infotech.invisionapp.com/share/2BOTDJ18PA3#/screens" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
+          <a href="https://invis.io/CDRGBNLJEFK#/357131010_1_-_Welcome" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
