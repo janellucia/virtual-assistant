@@ -1,6 +1,8 @@
 .title, .project-links {
   background: $easy-rider;
   position: relative;
+  min-height: 60vh;
+  width: 100%;
   
   .wrapper {
     min-height: 60vh;
@@ -64,12 +66,39 @@
     .button:hover, .button:focus {
       background: $white;
       color: $black;
-      // @media (max-width: 1025px) {
-      //   background: $black;
-      //   color: $white;
-      // }
+
     }
+
   }
+      .project-navigation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        min-height: 60vh;
+        width: 100%;
+  
+        .left-nav {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 40px;
+          a {
+            transform: rotate(90deg);
+          }
+        }
+        .right-nav {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 100%;
+          width: 40px;
+          a {
+            transform: rotate(90deg);
+          }
+        }
+      }
 }
 .title {
   margin-top: -50px;
@@ -121,6 +150,8 @@
     }
   }
 }
+
+
 .stand-alone-image {
   margin: 40px 0;
 }

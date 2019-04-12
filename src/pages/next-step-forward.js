@@ -51,6 +51,14 @@ const Easy = (props) => (
           <Link to="/" className="button">Back to Homepage</Link>
         </div>
       </div>
+        {/* <div className="project-navigation">
+          <div className="left-nav">
+            <a href="/adaptive-leadership" className="adaptive-link">adaptive leadership</a>
+          </div>
+          <div className="right-nav">
+            <a href="/easy-rider" className="easy-link">easy rider</a>
+          </div>
+        </div> */}
     </section>
   </Layout>
 )
