@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 720px;
+  max-width: 690px;
   margin: 0 auto;
   width: 80%;
   margin-left: 10%;
@@ -99,7 +99,7 @@
   .project-wrap {
     width: 45%;
     position: relative;
-    margin: -40px 0;
+    margin: -70px 0;
     display: block;
 
     @media (max-width: 1125px) {
@@ -240,8 +240,8 @@
         background: transparent;
       }
     }
-    .adaptive-info {
-      background: $adaptive-leadership;
+    .good-info {
+      background: $good-ones;
       @media (max-width: 1125px) {
         background: transparent;
       }
@@ -274,10 +274,10 @@
   .project-wrap:hover, .project-wrap:focus, .project-wrap:active {
     cursor: pointer;
     img {
-      filter: blur(4px);
+      // filter: blur(4px);
 
       @media (max-width: 1125px) {
-        filter: blur(0px);
+        // filter: blur(0px);
       }
 
     }

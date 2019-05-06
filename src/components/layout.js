@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
+import Menu from "./menu";
 import 'animate.css/animate.min.css';
 import '../styles/main.scss'
 
@@ -22,6 +23,7 @@ const Layout = ({ children }) => (
     render={data => (
       <div>
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Menu pageWrapId={"main"} outerContainerId={"App"} />
         <main id="main">
            {children}
         </main>
