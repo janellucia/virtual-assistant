@@ -1,9 +1,10 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+// import Img from "gatsby-image"
 
 export default props => {
   return (
-    <Menu right disableAutoFocus customBurgerIcon={ <img src="/8696ff5350a5477d3acb000659bcd5da/564ae/menu-2.png" alt="menu icon" /> } >
+    <Menu right disableAutoFocus  >
       <a className="menu-item" href="/">
         Home
       </a>
