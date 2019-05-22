@@ -30,7 +30,7 @@ const IndexPage = (props) => (
             <div className="project-info good-info">
             <p className="category">UX | UI | user research | design | invision</p>
               <h3>The Good Ones</h3>
-              <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ipsum. Suspendisse ut risus vehicula, vehicula tortor non, dictum nisi. Praesent eu pretium risus, non ullamcorper lacus. Mauris eget nibh vitae quam sollicitudin cursus. Vestibulum mollis egestas libero, cursus ullamcorper nisl sollicitudin quis. Etiam a diam.</p>
+              <p className="description">The good ones academy started as a group of artists collaborating to bring hair workshops to beauty industry professionals looking to level up their skills. These hair workshops consisted of hair cutting, styling, balayage (colour) and the most popular - the editorial workshop. The workshops were a hit and the good ones academy quickly became industry leaders teaching high end, quality workshops to some of Toronto’s top talent within the beauty industry. Looking to create an online platform I set out to solve this design problem using the 5 Planes of UX Methodology.</p>
               <Link to="/good-ones-academy/" className="button">case study</Link>
             </div>
           </ScrollAnimation>

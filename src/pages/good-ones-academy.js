@@ -65,6 +65,8 @@ const Easy = (props) => (
             <li>I choose a simple colour palette of blues and golds to create a calm and non gender biased inviting space. </li>
             <li>Gilroy was the main font used throughout the platform because I felt the rounded font lended to a friendly non-clinical atmosphere.</li>
           </ul>
+          <p><strong>Solution:</strong> The Good Ones Academy, a platform that users can engage in useful education to help propel their skills in the hair and beauty industry. This platform allows users to upgrade skills, learn about the team and instructors, and shop for brand specific merch. The education that will be offered allow the user to gain confidence to take the next step in their career.</p>
+          <p>Take a look at the Invision prototype (link below) to see how app interactions are intended to work, design for an iPhone XS.</p>
         </div>
       </section>
       <div className="stand-alone-image">
