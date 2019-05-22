@@ -24,17 +24,17 @@ const IndexPage = (props) => (
         </ScrollAnimation>
       </section>
       <section className="portfolio">
-        {/* <div className="project-wrap" tabIndex="0">
+        <div className="project-wrap" tabIndex="0">
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
-            <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="women with styled pony tail" />
+            <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="3 screen shots from the good ones academy mobile site" />
             <div className="project-info good-info">
-              <p className="category">UX | design | sketch | invision</p>
+            <p className="category">UX | UI | user research | design | invision</p>
               <h3>The Good Ones</h3>
               <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo ipsum. Suspendisse ut risus vehicula, vehicula tortor non, dictum nisi. Praesent eu pretium risus, non ullamcorper lacus. Mauris eget nibh vitae quam sollicitudin cursus. Vestibulum mollis egestas libero, cursus ullamcorper nisl sollicitudin quis. Etiam a diam.</p>
               <Link to="/good-ones-academy/" className="button">case study</Link>
             </div>
           </ScrollAnimation>
-        </div> */}
+        </div>
         <div className="project-wrap" tabIndex="0">
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="interior of a living room beautifully designed" />
@@ -85,28 +85,28 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "home/good-home.png" }) {
+    imageOne: file(relativePath: { eq: "home/tgo-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "home/next-step.png" }) {
+    imageTwo: file(relativePath: { eq: "home/next-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/wicked-home.png" }) {
+    imageThree: file(relativePath: { eq: "home/kindred-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "home/easy-home.png" }) {
+    imageFour: file(relativePath: { eq: "home/easy-rider-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

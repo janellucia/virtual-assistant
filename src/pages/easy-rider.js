@@ -58,21 +58,21 @@ export default Easy
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "easy-rider/welcome.png" }) {
+    imageOne: file(relativePath: { eq: "easy-rider/easy-welcome.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "easy-rider/style-guide.png" }) {
+    imageTwo: file(relativePath: { eq: "easy-rider/easy-colours.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "easy-rider/notifications-tips.png" }) {
+    imageThree: file(relativePath: { eq: "easy-rider/easy-page-iphones.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

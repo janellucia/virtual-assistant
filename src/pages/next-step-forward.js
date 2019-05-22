@@ -64,28 +64,28 @@ export default Easy
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "next-step/welcome.png" }) {
+    imageOne: file(relativePath: { eq: "next-step/next-welcome.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "next-step/user-personas.png" }) {
+    imageTwo: file(relativePath: { eq: "next-step/next-user-personas.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "next-step/wireframes-updated.png" }) {
+    imageThree: file(relativePath: { eq: "next-step/next-wireframes.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "next-step/final.png" }) {
+    imageFour: file(relativePath: { eq: "next-step/next-page-macbooks.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
