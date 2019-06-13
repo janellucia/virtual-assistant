@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Janel Lucia UX Designer`,
-    description: `I am a UX Designer and Front-End Developer in Toronto. I tell stories through the products I create, my goal is to make smart digital experiences people enjoy using.`,
-    author: `Janel Lucia`,
-  },
+    title: `Janel Lucia – Product Designer`,
+    description: `Hey 👋🏼 I'm Janel – a Product (UX/UI) Designer. I aim to create design that makes a difference—to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.`,
+    author: `Janel Lucia`,},
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -13,9 +12,19 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: `${__dirname}/src/images` // See below to configure properly
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-slug`,
 
     {
       resolve: `gatsby-plugin-manifest`,

@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const Easy = (props) => (
-  <Layout>
+  <Layout name="project-page">
     <SEO title="Project | The Next Step Forward" />
     <section className="title next-step-title">
       <div className="wrapper">

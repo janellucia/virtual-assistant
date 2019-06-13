@@ -4,41 +4,33 @@
 //   height: 100vh;
 // }
 
+
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 15px;
   right: 30px;
-  top: 30px;
+  top: 30%;
   padding: 8px 10px 10px 10px;
+  display: none;
 
   &:hover, &:focus {
     // background: $grey;
   }
 
   .bm-burger-bars {
-    background: $black;
+    background: $mainColor;
     height: 5px !important;
     width: 80% !important;
     margin: 0 auto !important;
   }
 
-  @media (min-width: 701px) and (max-width: 1125px) {
-    width: 31px;
-    height: 12px;
-    right: 20px;
-    top: 20px;
 
-    .bm-burger-bars {
-      height: 4px !important;
-    }
-  }
-
-  @media (max-width: 700px) {
-    width: 18px;
+  @media (max-width: 768px) {
+    width: 25px;
     height: 10px;
     right: 20px;
-    top: 20px;
+    top: 40px;
 
     .bm-burger-bars {
       height: 3px !important;
@@ -51,6 +43,11 @@
   //   width: 80% !important;
   //   margin: 0 auto !important;
   // }
+
+
+  @media (max-width: 768px) {
+    display: inline;
+  }
 
 }
 
@@ -77,7 +74,18 @@
   
     &:hover, &:focus, &:active {
       color: white;
-      background: $black;
+      background: $mainColor;
+    }
+  }
+
+  .case-studies {
+    margin-left: 2px;
+    padding-right: 20px;
+    opacity: 0.5;
+
+    &:hover, &:focus, &:active {
+      color: $black;
+      background: none;
     }
   }
 }

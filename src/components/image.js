@@ -20,7 +20,7 @@ const Image = () => (
         placeholderImage: file(relativePath: { eq: "icons/menu-2.png" }) {
           childImageSharp {
             fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid_noBase64
+              ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }

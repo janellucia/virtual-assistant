@@ -1,33 +1,189 @@
 header {
-  // background: green !important;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    position: relative;
+    font-family: $mainFont;
 
-    .icon {
-      height: 26px;
-      width: 26px;
-      transition: all 5s;
-      img {
-        width: 100%;
-        height: 100%;
+    h1 {
+
+      a {
+        font-size: 1.4rem;
+        &:hover, &:focus, &:active {
+          color: $mainColor;
+          background: none;
+          text-decoration: none;
+        }
       }
     }
 
-    @keyframes rotation {
-      from {
-          transform: rotate(0deg);
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      right: 20px;
+      top: 30%;
+
+      li {
+        list-style: none;
+        margin-left: 20px;
+
+        a, p {
+          font-weight: 600;
+          font-size: 0.9rem;
+          letter-spacing: 1px;
+
+          &:hover, &:focus, &:active {
+            text-decoration: none;
+          }
+        }
+        .contact-menu-item {
+          color: $secondColor;
+
+          &:hover, &:active, &:focus {
+            color: white;
+          }
+        }
       }
-      to {
-          transform: rotate(359deg);
+
+      .drop-down-wrap {
+        display: relative;
+        transition: all 0.5s ease;
+
+        .drop-down-item {
+          padding: 3px;
+          margin: 0;
+        }
+
+        .drop-down-menu {
+          padding: 0;
+          display: absolute;
+          top: 50px;
+          left: 195px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          opacity: 0;
+          transition: all 0.5s ease;
+          background: $white;
+          
+
+          &:hover, &:focus, &:active {
+            opacity: 1;
+            top: 35px;
+          }
+
+          li {
+            margin: 0;
+            padding: 5px;
+            a{
+              display: block;
+            }
+          }
+        }
+        
+        &:hover, &:focus, &:active {
+          background: $mainColor;
+          .drop-down-item {
+            color: $white;
+          }
+          .drop-down-menu {
+            opacity: 1;
+            top: 35px;
+          }
+        }
+      }
+      @media (max-width: 768px) {
+        display: none;
       }
     }
+  }
+}
 
-    .icon:hover, .icon:focus {
-      animation: rotation 5s infinite linear;
-      background: transparent;
+
+
+
+
+
+.bm-icon {
+  .gatsby-image-wrapper:nth-child(1) {
+    display: block;
+  }
+  .gatsby-image-wrapper:nth-child(2) {
+    display: none;
+  }
+}
+
+.project-page {
+
+  .bm-icon {
+    .gatsby-image-wrapper:nth-child(1) {
+      display: none;
+    }
+    .gatsby-image-wrapper:nth-child(2) {
+      display: block;
     }
   }
 
+  header {
+    h1 {
+      a {
+        color: white;
+        &:hover, &:focus, &:active, &:focus-within {
+          color: black;
+          background: none;
+          text-decoration: none;
+        }
+      }
+    }
+
+    ul {
+      li {
+        a, p, .contact-menu-item {
+          color: white;
+    
+          &:hover, &:active, &:focus {
+          //   color: black;
+            background: black !important;
+          }
+        }
+
+        .drop-down-wrap {
+
+          .drop-down-item {
+
+            &:hover, &:focus, &:active {
+              background: black;
+  
+            }
+          }
+        }
+        .drop-down-menu {
+          a {
+            color: black;
+    
+            &:hover, &:active, &:focus {
+              color: white;
+              background: black;
+            }
+          }
+        }
+
+
+      }
+    }
+  }
 }
+
+
+
+
+
+

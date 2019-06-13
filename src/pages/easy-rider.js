@@ -1,3 +1,7 @@
+// ---
+// slug: easy-rider
+// ---
+
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from "gatsby-image"
@@ -6,7 +10,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const Easy = (props) => (
-  <Layout>
+  <Layout name="project-page">
     <SEO title="Project | Easy Rider" />
     <section className="title">
       <div className="wrapper">

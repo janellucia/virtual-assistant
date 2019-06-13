@@ -15,7 +15,9 @@
     "gatsby-plugin-react-svg": "^2.1.1",
     "gatsby-plugin-sass": "^2.0.7",
     "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-slug": "^1.0.1",
     "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.8",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
@@ -25,7 +27,9 @@
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-modal-image": "^2.3.2",
-    "react-scroll": "^1.7.10"
+    "react-router-dom": "^5.0.1",
+    "react-scroll": "^1.7.10",
+    "yarn": "^1.16.0"
   },
   "keywords": [
     "gatsby"
