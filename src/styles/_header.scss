@@ -5,6 +5,11 @@ header {
   left: 0;
   width: 100%;
 
+  // .wrapper {
+  //   padding-top: 0;
+  //   padding-bottom: 0;
+  // }
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -13,6 +18,7 @@ header {
     font-family: $mainFont;
 
     h1 {
+      margin: 0;
 
       a {
         font-size: 1.4rem;
@@ -30,6 +36,7 @@ header {
       position: absolute;
       right: 20px;
       top: 30%;
+      margin: 0;
 
       li {
         list-style: none;

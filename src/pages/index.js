@@ -10,31 +10,35 @@ const IndexPage = (props) => (
   <Layout>
     <SEO title="Home" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
+      <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
       <section className="landing-about">
         <div className="about-wrap">
           <p>Hey, I'm Janel – a Product (UX/UI) Designer in Toronto. I aim to create design that makes a difference —to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.</p>
           <p>Right now I'm learning new research and facilitation techniques as a Side x Side mentee.</p>
         </div>
-        <div className="image-wrap">
-          <div className="image image-one">
-            <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="gradient" />
-          </div>
-          <div className="image image-two">
-            <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Janel Lucia Headshot" />
+        <div className="image-outer-wrap">
+          <div className="image-wrap">
+            <div className="image image-one">
+              <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="gradient"/>
+            </div>
+            <div className="image image-two">
+              <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Janel Lucia Headshot" />
+            </div>
           </div>
         </div>
       </section>
+      </ScrollAnimation>
       <section className="portfolio">
         <div className="project-wrap" tabIndex="0">
-          {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
+
             <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="3 screen shots from the good ones academy mobile site" />
             <div className="project-info good-info">
             <p className="category">UX | UI | user research | design | prototype</p>
               <h3>The Good Ones</h3>
-              <p className="description">The good ones academy started as a group of artists collaborating to bring hair workshops to beauty industry professionals looking to level up their skills. They quickly became industry leaders teaching high end, quality workshops to some of Toronto’s top talent. Looking to create an online platform I set out to solve this design problem using the 5 Planes of UX Methodology.</p>
+              <p className="description">The good ones academy started as a group of artists collaborating to bring hair workshops to beauty professionals looking to level up their skills. After having great success they wanted to create an online educational platform, I set out to solve this design challenge using the 5 Planes of UX Methodology.</p>
               <Link to="/good-ones-academy/" className="button">case study</Link>
             </div>
-          {/* </ScrollAnimation> */}
+          
         </div>
         <div className="project-wrap" tabIndex="0">
           {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
@@ -42,7 +46,7 @@ const IndexPage = (props) => (
             <div className="project-info next-step-info">
               <p className="category">UX | UI | user research | HTML | SCSS | JS</p>
               <h3>Next Step Forward</h3>
-              <p className="description">The Next Step Forward will help you organize, downsize and stage your home. I was immediately aware of the empathy and compassion the stakeholders had for their clients so I made sure that came through in the end product – I relied heavily on user research in order to create a safe place where one can make difficult decisions with a team who cares.</p>
+              <p className="description">The Next Step Forward helps you declutter, organize, downsize and stage your home. Targeted towards the aging population, the stakeholders expressed so much compassion for their clients and I wanted to make sure that came through in the end product. I approached this challenge using the 5 day design sprint.</p>
               <Link to="/next-step-forward/" className="button">case study</Link>
             </div>
           {/* </ScrollAnimation> */}
@@ -53,7 +57,7 @@ const IndexPage = (props) => (
             <div className="project-info easy-info">
               <p className="category">UX | UI | user research | design | prototype</p>
               <h3>Easy Rider</h3>
-              <p className="description">I was tasked to come up with an app that would help public transit and the people using the service interact in a more positive way. My vision was to address the need for interactive traveling on public transit. Easy Rider is meant to empower users to get the most up to date information about traffic from a reliable source. This will help users plan ahead and act in an informed way when riding transit to avoid any sudden delays.</p>
+              <p className="description">I was tasked to come up with an app idea that helps public transit and the people using the service. I wanted to address the need for interactive traveling on public transit, something like WAZE for public transit. The goal is to empower users to get the most up to date information about transit from a reliable source, themselves.</p>
               <Link to="/easy-rider/" className="button">case study</Link>
             </div>
           {/* </ScrollAnimation> */}
@@ -62,9 +66,9 @@ const IndexPage = (props) => (
           {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
             <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="child with paint brushes getting ready to paint" />
             <div className="project-info wicked-info">
-              <p className="category">UX | UI | user research | design | presentation</p>
+              <p className="category">UX | UI | user research | design </p>
               <h3>Kindred Academy</h3>
-              <p className="description">In Hacker You’s advanced UX course we were asked to define a wicked problem and deliver a solution using research, divergence and convergence. I chose to focus my project on the impact of healthy emotional development for kids. Youth today face so many obstacles when it comes to self-love and acceptance than ever before, so I wanted to find out how might we promote a healthy sense of belonging for kids today.</p>
+              <p className="description">I was asked to define a wicked problem and deliver a solution using research, divergence &amp; transformation, and convergence. I chose to focus my project on the impact of healthy emotional development in kids. I see a real need for more reliable resources for families when it comes to self-love and acceptance.</p>
               <Link to="/kindred-academy/" className="button">case study</Link>
             </div>
           {/* </ScrollAnimation> */}
@@ -73,7 +77,7 @@ const IndexPage = (props) => (
       <section className="process">
         <div className="step-title">
           <h2>Defining the <i>process</i> is key!</h2>
-          <p>I'm pretty flexible when defining my process, I like to tackle every design challenge in a unique way. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons.</p>
+          <p>I'm pretty flexible when defining my process, I tackle every design challenge in a way unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons.</p>
         </div>
         <div className="step step-1">
           <h3>Define the challenges</h3>
@@ -81,7 +85,7 @@ const IndexPage = (props) => (
         </div>
         <div className="step step-2">
           <h3>Research &amp; Validate</h3>
-          <p>I conduct both quantitative and qualitative research with user interviews, surveys, industry research, and competitive analysis and use that information to build user personas and journeys. This way I can make informed design decisions once the sketching begins.</p>
+          <p>Conduct both quantitative and qualitative research with user interviews, surveys, industry research, and competitive analysis and use that information to build user personas and journeys. This way we can make informed design decisions once the sketching begins.</p>
         </div>
         <div className="step step-3">
           <h3>Sketch competing solutions</h3>
@@ -89,11 +93,11 @@ const IndexPage = (props) => (
         </div>
         <div className="step step-4">
           <h3>Vote &amp; Storyboard</h3>
-          <p>A structured critique with discussion and weighted voting to select the best solutions. I take the winning sketches and ideas and string them together into a storyboard. Storytelling is who we are as a UX designers and the most impactful way of communicating our ideas.</p>
+          <p>Now that we have multiple sketches to choose from we need to facilitate a structured critique with a discussion and weighted voting to select the best solutions. We then take the winning sketches and ideas and string them together into a storyboard.</p>
         </div>
         <div className="step step-5">
           <h3>Prototype &amp; Test</h3>
-          <p>Now, we transform our artboards into active prototypes, giving us the opportunity to showcase product features and animations for user testing. <br></br>The test phase is critical to the process, as it allows me to observe user behaviour in real time, and analyse insights pertaining to functionality and usability.</p>
+          <p>Now, we take our storyboards and create active prototypes, giving us the opportunity to showcase product features and animations for user testing. The test phase is critical to the process, as it allows us to observe user behaviour in real time, and analyse insights for better functionality and usability.</p>
         </div>
         <div className="step step-6">
           <h3>Evaluate &amp; Iterate</h3>

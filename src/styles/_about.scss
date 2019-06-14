@@ -1,42 +1,96 @@
-.background-shape-8 {
-    top: 200px;
-    right: 0;
-    transform: rotate(45deg);
-  }
-  
-  .background-shape-9 {
-    top: 130vh;
-    right: 200px;
-    transform: rotate(25deg);
-  }
-  
-  .background-shape-10 {
-    top: 270vh;
-    right: 100px;
-    transform: rotate(25deg);
-  }
-
 .about-page {
     font-family: $mainFont;
     line-height: 1.45;
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
 
-    padding-top: 100px;
     .image-wrap {
         width: 100%;
         margin: 0 auto;
+        margin-bottom: 40px;
+
+        @media (max-width: 768px)  {
+            order: 1;
+            margin-bottom: 0;
+        }
+    }
+    .panel {
+        width: 25%;
+        background: rgba($grey, 0.5);
+        padding: 20px;
+
+        @media (max-width: 768px)  {
+            width: 100%;
+            order: 3;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .category {
+            width: 100%;
+
+            @media (min-width: 501px) and (max-width: 768px)  {
+                width: 50%;
+            }
+
+            @media (max-width: 500px)  {
+                width: 100%;
+            }
+
+            h3 {
+                font-weight: 700;
+                margin: 0;
+                color: $mainColor;
+                font-size: 1.5rem;
+            }
+    
+            ul {
+                padding: 0;
+                margin-top: 7px;
+                li {
+                    padding: 0 0 10px 0;
+                    list-style: none;
+                    a {
+                        margin: 0;
+                        font-weight: 600;
+    
+                        &:hover, &:focus, &:active {
+                            background: none;
+                            color: $mainColor;
+                            text-decoration: underline;
+                        }
+                    }
+                    p {
+                        display: block;
+                        margin: 0;
+                        padding: 0 2px;
+                        opacity: 0.7;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+
     }
     .about-wrap {
-        width: 100%;
-        margin: 40px auto;
+        width: 64%;
+        margin-left: 40px;
+
+        @media (max-width: 768px)  {
+            width: 100%;
+            order: 2;
+            margin-left: 0;
+        }
         
         h2 {
             width: 100%;
         }
         
         .text {
-            // max-width: 660px;
-            font-size: 1.2rem;
-            // column-count: 2;
+            font-size: 1.1rem;
             max-width: 700px;
 
             p:first-of-type {
@@ -57,6 +111,10 @@
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 40px 0;
+
+        @media (max-width: 768px)  {
+            order: 4;
+        }
 
         .each-section {
             width: 30%;
