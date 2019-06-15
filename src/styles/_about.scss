@@ -10,9 +10,21 @@
         margin: 0 auto;
         margin-bottom: 40px;
 
+        .gatsby-image-wrapper:nth-child(2) {
+            display: none;
+        }
+
         @media (max-width: 768px)  {
             order: 1;
             margin-bottom: 0;
+
+            .gatsby-image-wrapper:nth-child(1) {
+                display: none;
+            }
+
+            .gatsby-image-wrapper:nth-child(2) {
+                display: block;
+            }
         }
     }
     .panel {
@@ -87,6 +99,12 @@
         
         h2 {
             width: 100%;
+
+            @media (max-width: 550px)  {
+                br {
+                    display: none;
+                }
+            }
         }
         
         .text {
