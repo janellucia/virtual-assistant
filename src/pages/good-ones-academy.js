@@ -41,9 +41,9 @@ const Easy = (props) => (
               <li>High Fidelity Prototype</li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h3>Deliverables</h3>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="project-info">
