@@ -36,7 +36,7 @@ const IndexPage = (props) => (
             <p className="category">UX | UI | user research | design | prototype</p>
               <h3>The Good Ones</h3>
               <p className="description">The good ones academy started as a group of artists collaborating to bring hair workshops to beauty professionals looking to level up their skills. After having great success they wanted to create an online educational platform, I set out to solve this design challenge using the 5 Planes of UX Methodology.</p>
-              <Link to="/good-ones-academy/" className="button">case study</Link>
+              <Link to="/good-ones-academy/" className="button">view case study</Link>
             </div>
           
         </div>
@@ -47,7 +47,7 @@ const IndexPage = (props) => (
               <p className="category">UX | UI | user research | HTML | SCSS | JS</p>
               <h3>Next Step Forward</h3>
               <p className="description">The Next Step Forward helps you declutter, organize, downsize and stage your home. Targeted towards the aging population, the stakeholders expressed so much compassion for their clients and I wanted to make sure that came through in the end product. I approached this challenge using the 5 day design sprint.</p>
-              <Link to="/next-step-forward/" className="button">case study</Link>
+              <Link to="/next-step-forward/" className="button">view case study</Link>
             </div>
           {/* </ScrollAnimation> */}
         </div>
@@ -58,7 +58,7 @@ const IndexPage = (props) => (
               <p className="category">UX | UI | user research | design | prototype</p>
               <h3>Easy Rider</h3>
               <p className="description">I was tasked to come up with an app idea that helps public transit and the people using the service. I wanted to address the need for interactive traveling on public transit, something like WAZE for public transit. The goal is to empower users to get the most up to date information about transit from a reliable source, themselves.</p>
-              <Link to="/easy-rider/" className="button">case study</Link>
+              <Link to="/easy-rider/" className="button">view case study</Link>
             </div>
           {/* </ScrollAnimation> */}
         </div>
@@ -69,7 +69,7 @@ const IndexPage = (props) => (
               <p className="category">UX | UI | user research | design </p>
               <h3>Kindred Academy</h3>
               <p className="description">I was asked to define a wicked problem and deliver a solution using research, divergence &amp; transformation, and convergence. I chose to focus my project on the impact of healthy emotional development in kids. I see a real need for more reliable resources for families when it comes to self-love and acceptance.</p>
-              <Link to="/kindred-academy/" className="button">case study</Link>
+              <Link to="/kindred-academy/" className="button">view case study</Link>
             </div>
           {/* </ScrollAnimation> */}
         </div>
@@ -185,6 +185,13 @@ export const pageQuery = graphql`
       }
     }
     imageTen: file(relativePath: { eq: "home/octo-shape.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEleven: file(relativePath: { eq: "good-ones/good-page-layout-mobile-2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
