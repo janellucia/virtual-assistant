@@ -18,35 +18,116 @@ const Easy = (props) => (
       </div>
     </section>
     <div className="wrapper">
-      <section className="image-right">
-          <div className="text-wrap">
-            <h2>Design Thinking</h2>
-            <p>The Next Step Forward is dedicated to creating a compassionate experience for their clients. They offer help decluttering your home, downsizing your belongings, staging your home for the market along with moving and new home set up. Their target audience is people in the 55+ range and those helping their parents or loved ones. The Next Step Forward is a great source for anyone who requires these services and may not have the capability or time to accomplish everything involved themselves.</p>
-            <p className="large-text">I started to define the target audience by creating user personas based on the previous clients the stakeholders had already helped. From there I reached out to my parents, friends parents and friends who have elderly parents who may need this type of service for user research. I wanted to find out how these users are currently finding these services and what they look for when making a decision, understand their pains when outsourcing a full service company like The Next Step Forward.</p>
-            <p>Many users in the 55+ range shared some really compelling stories of how they <span className="italic">“felt overlooked, misunderstood or invisible”</span> when considering major decisions into the next chapter of their life. Users who would use this for their parents shared feelings that they want to make sure their parents are <span className="italic">“being taken care of in a compassionate way”</span>, so they don’t have to be so hands on and keep the relationship they share with their parents dignified and in tact.</p>
-            {/* <p>When thinking about design I wanted to create a clean and simplified layout that offered a confident and reliable feeling to the user. There are many navigation apps like Google Maps and Apple Maps that have already established a trusted way of navigating on our phones, I wanted to take this approach with the interactivity of Waze to create a solution that offers users a way to have an informed ride on transit. Users also have extra accessibility options available.</p> */}
+    <section className="project-info intro">
+        <div className="project-copy">
+          <h2>Creating a website and presence for a growing brand and business</h2>
+          <p>The Next Step Forward offers help decluttering, downsizing, staging your home along with moving and new home set up. Their target audience is people in the 55+ range and those helping their parents or loved ones organize and move.</p>
+          <p>I wanted to solve this design challenge using the Sprint Method for answering tough questions through prototyping and testing ideas with users. The Sprint Method allows me to merge business strategy, design, and innovation.</p>
+          <h3>Role</h3>
+          <p>I was the lead designer &amp; developer on this project. I created The Next Step Forward's online design system and developed a fully responsive website.</p>
+          <h3>The Challenge</h3>
+          <p>The challenge of this project was to come up with an informed and researched online strategy and design system for a growing brand and business.</p>
+          <h3>The Solution</h3>
+          <p>The solution is to use design thinking to design and build a website, capturing the brands' compassion and value in an online platform and help The Next Step Forward gain new clients.</p>
+        </div>
+        <div className="sidebar-intro">
+          <div>
+            <h3>Services</h3>
+            <ul>
+              <li>Facilitate Discussions</li>
+              <li>User Research</li>
+              <li>Design Strategy</li>
+              <li>Website Assets</li>
+              <li>High Fidelity Prototype</li>
+              <li>Functioning Website</li>
+            </ul>
           </div>
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="the next step forward landing and about page view" />
-      </section>
-      <section className="image-left">
-      <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="the next step forward user personas" />
-        <div className="text-wrap">
-          <p>When organizing all of my findings during the research phase it was instantly clear that these users of mainly 55+ wanted so much to be valued and were vary weary of being taken advantage of, due to past experiences. They wanted to find information immediately and not feel like they had to sift through countless pages in order to get that. Another pain I found was having an easy way to contact these services and have a transparent pricing page - not having pricing available online sent the message to these users that there could be an element of dishonestly they are trying to avoid.</p>
-          <p className="large-text">Jobs to be done in this project centre around giving clear information of the services offered, the team their clients would be working with and an easy way to find out contact information and service pricing along with past client experiences. I wanted to find out how to offer this information in the most supportive way to land clients for The Next Step Forward.</p>
         </div>
       </section>
-      <section className="image-right">
-        <div className="text-wrap">
-          <p>Companies who already offer this type of service include Miracle Movers and Red Coats Moving, while the site aesthetic did not appeal to either myself or the stakeholder we did find out that these companies are showcasing themselves on sites like Alignable, Homestars and teaming up with services like Resolved. We took that information and put it into our strategy to showcase the business. The Next Step Forward also had a desire to give back to the community by donating unsold items from their clients to the Covenants House along with a percentage of sales to help provide safe shelter, food, clothes and life-changing programs for homeless youth.</p>
-          <p>The goal was to make all information readily available to users in a breathable webpage that is interesting to look at as opposed to paragraphs upon paragraphs of information that some of their competition offers. We explored different types of layouts with a rounded feel - one thing the stakeholders requested was that we have more information on the homepage including more calls to action allowing the user to get started right away, along with service descriptions and more information about each team member.</p>
-          <p className="large-text">On the homepage users have access to information like team, services, a meaningful mission statement and many easy ways to contact The Next Step Forward. For pricing the stakeholders and I decided to keep that on an independent services & pricing page so the homepage doesn’t come off as too cluttered. This gives users the tools needed to make an informed decision they can feel good about.</p>
-          {/* <p> Take a look at the live website linked below to see how I compiled all of my findings into the final product.</p> */}
+      <section className="project-info">
+          <h2>Map</h2>
+        <div className="project-copy project-steps">
+          <p>To start things off I want to map the problem and pick a place of focus, set the projects long term goal and the questions that will need to be answered.</p>
+          <p>I met with the stakeholders and facilitated a discussion where we defined the main goal–an informative site that gives users information about services, pricing and easy contact information. We also started to define the user personas and an extremely rough journey map.</p>
+          <p>With a good idea who my user is I reached out to friends and family who have elderly parents who may need this type of service for user interviews. I wanted to find out how users are currently finding these services and what they look for when making a decision, understand their pains when outsourcing a full-service company like TNSF.</p>
+          <p>Many users in the 55+ range shared stories of how they felt <span className="italic">“overlooked, misunderstood or invisible”</span> when considering major life decisions like moving from their family home. Users who would use this for their parents shared feelings that they want to make sure their parents are <span className="italic">“being taken care of in a compassionate way”</span>.</p>
+          <ul className="informative-list">
+            <h3>With the help of the stakeholders and users, I was able to define the main project goals</h3>
+            <li>An informative tool for clients looking for contact and general information.</li>
+            <li>The product must have a calm and inclusive look and feel to it.</li>
+            <li>Easy to use and navigate. The style must be consistent throughout the website to meet accessibility guidelines.</li>
+          </ul>
         </div>
-        <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="the next step forward wireframes" />
+        <div className="two-images">
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        </div>
       </section>
-      <div className="stand-alone-image">
-        <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="the next step forward home, about and services full page view" />
-      </div>
+      <section className="project-info intro">
+        <h2>Research</h2>
+        <div className="project-copy project-steps">
+          <p>I got so much information from our stakeholders and users and now I want to spend time understanding the market’s vulnerabilities and opportunities for differentiation by looking into the competitive landscape. </p>
+          <p>Companies who already offer this type of service include Miracle Movers and Red Coats Moving, while the site aesthetic did not appeal to either myself or the stakeholder we did find out that these companies are showcasing themselves on sites like Alignable, Homestars and teaming up with services like Resolved.</p> 
+          <p>We took that information and put it into our business strategy to explore more ideas in the sketch phase.</p>
+        </div>
+      </section>
+      <section className="project-info">
+        <h2>Sketch</h2>
+        <div className="project-copy project-steps">
+          <p>I sketched out a few three-panel storyboards drawn on a piece of paper that shows what users will see as they interact with the website. I chose to focus on Home, About, Services and Contact because it’s important to target a specific area of the map and this also allows me to be mindful of any unconscious bias I may have when designing for the ageing population.</p>
+          <p>My main focus is to create a peaceful atmosphere with easily accessible information and clear calls to action. The main takeaway I got when speaking to users is there is a huge demand for easy to navigate websites, having information hard to find gives these users the impression of dishonesty or that there is something to hide.</p>
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+        </div>
+      </section>
+      <section className="project-info">
+        <h2>Decide</h2>
+        <div className="project-copy project-steps">
+          <p>With the sketches created in the last phase, I need to work with the stakeholders to make some decisions so there is a clear design vision for the website, in my opinion, the best way to arrive at a solution is through dot-voting.</p>
+          <p>We explored different types of layouts with a rounded feel - one thing the stakeholders requested was that we have more information on the homepage including more calls to action allowing the user to get started right away, along with service descriptions and more information about each team member.</p>
+          <p>Once the group decided, I took the winning sketches and ideas and strung them together into a storyboard, all tightly connected to form a cohesive story for the user.</p>
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+        </div>
+      </section>
+      <section className="project-info">
+        <h2>Prototype</h2>
+        <div className="project-copy project-steps">
+          <p>Now it's time to focus on creating a realistic prototype, In order to be prepared for the prototype, I need to first cover all bases with some Colour Theory and Typography. The surface of the website is what users will notice right away: the visual language of the brand.</p>
+          <p>I'm going to reference the storyboard I created in the last step and turn that into a working prototype, this will allow me to do one last round of testing on the design before investing significant energy and effort by building the entire website.</p>
+          <p></p>
+        </div>
+        <div className="two-images">
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        </div>
+      </section>
+      <section className="project-info intro">
+        <h2>Test</h2>
+        <div className="project-copy project-steps">
+          <p>User testing is the final step of the Sprint Method. So far I’ve created some great viable candidates, chosen the best and left out the rest, and built a realistic prototype. Now I need to finalize how the final product will look with input from real people.</p>
+          <p>I introduced 5 users to the prototype asking open-ended questions like how would you perform this action along with tasks to see if the user is able to find information at ease.</p>
+          <p>During the testing phase, I learned that our users like having obvious calls to action, with many options to find contact and pricing information, so I needed to make these features more prominent. More feedback I recieved is users would like the menu to be sticky at the top of the screen. When users completed the tasks I debriefed with the user to get overall thoughts and impressions of the site designs.</p>
+        </div>
+      </section>
+      <section className="project-info">
+        <h2>Solution</h2>
+        <div className="project-copy project-steps">
+          <p>The goal was to make all information readily available to users in a breathable webpage that is interesting to look at. The homepage allows users to access information about the team, services, a meaningful mission statement and many easy ways to contact TNSF. With an independent Services & Pricing page, the homepage doesn’t come off as too cluttered. This gives users the tools needed to make an informed decision they can feel good about.</p>
+          <p>It was a pleasure and inspiration working with TNSF, they are a compassionate group of people dedicated to giving back to the community by donating unsold items from their clients to the Covenants House along with a percentage of sales to help provide safe shelter, food, clothes and life-changing programs for homeless youth.</p>
+          <p>Take a look at the final product, a fully functioning website designed and created by yours truly.</p>
+          <a href="http://thenextstepforward.ca/" className="button" target="_blank" rel="noopener noreferrer" >View Live Website</a>
+        </div>
+        <div className="three-images">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+        </div>
+      </section>
     </div>
     <section className="project-links next-step-links">
       <div className="wrapper">
@@ -64,28 +145,77 @@ export default Easy
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "next-step/next-welcome.png" }) {
+    imageOne: file(relativePath: { eq: "next-step/next-user-personas.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "next-step/next-user-personas.png" }) {
+    imageTwo: file(relativePath: { eq: "next-step/nexttwo-rough-user-flow.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "next-step/next-wireframes.png" }) {
+    imageThree: file(relativePath: { eq: "next-step/next-sketch-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "next-step/next-page-macbooks.png" }) {
+    imageFour: file(relativePath: { eq: "next-step/next-sketch-mobile.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFive: file(relativePath: { eq: "next-step/next-wireframes-desktop.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSix: file(relativePath: { eq: "next-step/next-wireframes-mobile.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSeven: file(relativePath: { eq: "next-step/next-typography.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEight: file(relativePath: { eq: "next-step/next-colour-guide.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageNine: file(relativePath: { eq: "next-step/next-solution-desktop.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTen: file(relativePath: { eq: "next-step/next-solution-mobile-1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEleven: file(relativePath: { eq: "next-step/next-solution-mobile-2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
