@@ -18,7 +18,7 @@ const Easy = (props) => (
       </div>
     </section>
     <div className="wrapper">
-    <section className="project-info intro">
+      <section className="project-info intro">
         <div className="project-copy">
           <h2>Creating a website and presence for a growing brand and business</h2>
           <p>The Next Step Forward offers help decluttering, downsizing, staging your home along with moving and new home set up. Their target audience is people in the 55+ range and those helping their parents or loved ones organize and move.</p>
@@ -47,15 +47,17 @@ const Easy = (props) => (
       <section className="project-info">
           <h2>Map</h2>
         <div className="project-copy project-steps">
-          <p>To start things off I want to map the problem and pick a place of focus, set the projects long term goal and the questions that will need to be answered.</p>
-          <p>I met with the stakeholders and facilitated a discussion where we defined the main goal–an informative site that gives users information about services, pricing and easy contact information. We also started to define the user personas and an extremely rough journey map.</p>
-          <p>With a good idea who my user is I reached out to friends and family who have elderly parents who may need this type of service for user interviews. I wanted to find out how users are currently finding these services and what they look for when making a decision, understand their pains when outsourcing a full-service company like TNSF.</p>
-          <p>Many users in the 55+ range shared stories of how they felt <span className="italic">“overlooked, misunderstood or invisible”</span> when considering major life decisions like moving from their family home. Users who would use this for their parents shared feelings that they want to make sure their parents are <span className="italic">“being taken care of in a compassionate way”</span>.</p>
+          <p>To start things off I want to map the problem and pick a place of focus, set the projects long term goals and the questions that will need to be answered.</p>
+          <p>I met with the stakeholders and facilitated a discussion where we defined the main goals and user personas. The stakeholders are looking for an informative site that gives users information about services, pricing and easy contact information.</p>
+          <p>I reached out to friends and family who may need this type of service for interviews. I wanted to find out how users are currently finding these services and what they look for when making a decision, understand their pains when outsourcing a full-service company like TNSF.</p>
+          <p>Many users aged 55+ shared stories of how they felt unsupported when considering major life decisions like moving from their family home and are looking for someone experienced to inform the process. </p>
+          <p>Users who would use this for their parents or loved ones shared feelings that they want to make sure their parents are <span className="italic">“being taken care of in a compassionate way”</span>.</p>
           <ul className="informative-list">
             <h3>With the help of the stakeholders and users, I was able to define the main project goals</h3>
-            <li>An informative tool for clients looking for contact and general information.</li>
-            <li>The product must have a calm and inclusive look and feel to it.</li>
-            <li>Easy to use and navigate. The style must be consistent throughout the website to meet accessibility guidelines.</li>
+            <li>How might we showcase information to clients like contact, about, and services?</li>
+            <li>How might we get clients to book services?</li>
+            <li>How might we promote a calm and inclusive look and feel to the product?</li>
+            <li>How might we create consistent styles throughout the website to meet accessibility guidelines?</li>
           </ul>
         </div>
         <div className="two-images">
@@ -98,7 +100,7 @@ const Easy = (props) => (
         <h2>Prototype</h2>
         <div className="project-copy project-steps">
           <p>Now it's time to focus on creating a realistic prototype, In order to be prepared for the prototype, I need to first cover all bases with some Colour Theory and Typography. The surface of the website is what users will notice right away: the visual language of the brand.</p>
-          <p>I'm going to reference the storyboard I created in the last step and turn that into a working prototype, this will allow me to do one last round of testing on the design before investing significant energy and effort by building the entire website.</p>
+          <p>Once I finalized the brand colour's and typography I referenced the storyboard I created in the last step and created a working prototype, this allowed me to do one last round of testing on the design before investing significant energy and effort by building the entire website.</p>
           <p></p>
         </div>
         <div className="two-images">
@@ -109,16 +111,17 @@ const Easy = (props) => (
       <section className="project-info intro">
         <h2>Test</h2>
         <div className="project-copy project-steps">
-          <p>User testing is the final step of the Sprint Method. So far I’ve created some great viable candidates, chosen the best and left out the rest, and built a realistic prototype. Now I need to finalize how the final product will look with input from real people.</p>
+          <p>User testing is the final step of the Sprint Method. So far I sketched mulitple ideas, chose the best option with the stakeholders, and built a realistic prototype. Now I need to finalize how the final product will look with input from real people.</p>
           <p>I introduced 5 users to the prototype asking open-ended questions like how would you perform this action along with tasks to see if the user is able to find information at ease.</p>
-          <p>During the testing phase, I learned that our users like having obvious calls to action, with many options to find contact and pricing information, so I needed to make these features more prominent. More feedback I recieved is users would like the menu to be sticky at the top of the screen. When users completed the tasks I debriefed with the user to get overall thoughts and impressions of the site designs.</p>
+          <p>During the testing phase, I learned that users like having obvious calls to action, with many options to find contact and pricing information, so I needed to make these features more prominent. Users also stated they would like a sticky menu at the top of the screen. When users completed the tasks I debriefed with the user to get overall thoughts and impressions of the site designs before going into production.</p>
         </div>
       </section>
       <section className="project-info">
         <h2>Solution</h2>
         <div className="project-copy project-steps">
-          <p>The goal was to make all information readily available to users in a breathable webpage that is interesting to look at. The homepage allows users to access information about the team, services, a meaningful mission statement and many easy ways to contact TNSF. With an independent Services & Pricing page, the homepage doesn’t come off as too cluttered. This gives users the tools needed to make an informed decision they can feel good about.</p>
-          <p>It was a pleasure and inspiration working with TNSF, they are a compassionate group of people dedicated to giving back to the community by donating unsold items from their clients to the Covenants House along with a percentage of sales to help provide safe shelter, food, clothes and life-changing programs for homeless youth.</p>
+          <p>Once designs were finalized and tested I started building the site right away. The stakeholders and I felt confident that information is readily available to users in a breathable webpage that is interesting to look at.</p>
+          <p> The homepage allows users to access information about the team, services, a meaningful mission statement and many easy ways to contact TNSF. With an independent Services & Pricing page, the homepage doesn’t come off as too cluttered. This gives users the tools needed to make an informed decision they can feel good about.</p>
+          <p>It was a pleasure and inspiration working with TNSF, they are a compassionate group of people dedicated to giving back to the community, they donate unsold items from their clients to the Covenants House along with a percentage of sales to help provide safe shelter, food, clothes and life-changing programs for homeless youth.</p>
           <p>Take a look at the final product, a fully functioning website designed and created by yours truly.</p>
           <a href="http://thenextstepforward.ca/" className="button" target="_blank" rel="noopener noreferrer" >View Live Website</a>
         </div>

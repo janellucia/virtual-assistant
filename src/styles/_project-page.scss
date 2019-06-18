@@ -2,7 +2,6 @@
   background: $easy-rider;
   position: relative;
   min-height: 60vh;
-  max-height: 350px;
   width: 100%;
 
   &:after {
@@ -21,7 +20,6 @@
 
   .wrapper {
     min-height: 60vh;
-    max-height: 350px;
     padding: 60px auto;
     display: flex;
     flex-direction: column;
@@ -89,6 +87,14 @@
 
     }
 
+  }
+}
+
+.project-links {
+  min-height: 40vh;
+
+  &:after {
+    display: none;
   }
 }
 

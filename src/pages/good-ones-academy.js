@@ -21,7 +21,7 @@ const Easy = (props) => (
       <section className="project-info intro">
         <div className="project-copy">
           <h2>Creating an online platform for an evolving brand and business</h2>
-          <p>The good ones academy started as a group of artists collaborating to bring hair in-person workshops to beauty professionals looking to level up their skills. The workshops were a hit and the good ones academy quickly became industry leaders teaching high end, quality workshops to some of Toronto’s top talent.</p>
+          <p>The good ones academy started as a group of artists collaborating to bring in-person hair workshops to beauty professionals looking to level up their skills. Their workshops were a hit and the good ones academy quickly became industry leaders teaching high end, quality workshops to some of Toronto’s top talent.</p>
           <p>When The Good Ones came to me with the desire to move their workshops online I set out to solve this design problem using the 5 Planes of UX Methodology.</p>
           <h3>Role</h3>
           <p>I was the lead designer on this project. I created an online strategy and design system for the good ones academy.</p>
@@ -50,13 +50,14 @@ const Easy = (props) => (
           <h2>Strategy</h2>
         <div className="project-copy project-steps">
           <p>Strategy concerns the 5Ws – the who, what, where, when and the why behind things and defining the business goals, user goals, and where they overlap. </p>
-          <p>I gathered the stakeholders for a facilitated discussion to better understand their goals, what they view as barriers, questions they would like answered with their platform, user assumptions and questions we need to be answered and who are already offering this type of service in an interesting way. This helped me better define the challenge to create a strategy tailored to the unique needs of The Good Ones Academy.</p>
-          <p>When it was time to talk to users and The Good Ones have a great following on instagram and suggested we use instagram stories to ask meaningful questions and reach a larger portion of their audience who may live in different cities and towns.</p>
+          <p>I gathered the stakeholders for a facilitated discussion to better understand their goals, what they view as barriers, questions they would like answered with their platform, user assumptions, and who are already offering this type of service in an interesting way. This helped me better define the challenge and create a strategy tailored to the unique needs of The Good Ones Academy.</p>
+          <p className="column-break">When it was time to talk to users and The Good Ones have a great following on instagram and suggested we use instagram stories to ask meaningful questions and reach a larger portion of their audience who may live in different cities and towns.</p>
           <ul className="informative-list">
-            <h3>I learned that the users needed the app to be</h3>
-            <li>Easy to use in quick digestible segments.</li>
-            <li>A learning tool to access anywhere at any time.</li>
-            <li>Something that has an editorial look and feel to it.</li>
+            <h3>The products main goals are:</h3>
+            <li>To get users to purchase education.</li>
+            <li>Provide education that is easy to use in quick digestible segments.</li>
+            <li>Give users access anywhere, any time.</li>
+            <li>Provide and intimate look at the instructor backgrounds and history.</li>
           </ul>
         </div>
         <div className="full-width-images">
@@ -67,23 +68,20 @@ const Easy = (props) => (
       <section className="project-info intro">
         <h2>Scope</h2>
         <div className="project-copy project-steps">
-          <p>Scope is about defining requirements based on the goals established in strategy and research &amp; analysis of the competitive landscape when thinking about features and functionality.</p>
-          <p>I found there are many direct competitors offering online hair education. I quickly went into research mode to find out what these platforms are offering, how they define their pricing and access process, what mistakes they are making and what are they doing right. </p>
-          <p>Many platforms came off as outdated or unorganized offering subscription services without access to a single video for a user to test out the platform. The good ones have stated from the start they want their platform to be personal with access to the instructors' history and objectives, I failed to see that in similar platforms in the hair industry. I also took notes from hairstylists offering video content on youtube who offer a more personalized approach, they have well-defined brand's and they authenticly engage with their audience.</p>
-          <p>The competitive landscape was a valuable piece of the process to understand the platform's objectives and provide insight into how others are accomplishing similar goals to The Good Ones.</p>
+          <p>Scope is about defining requirements based on the goals established in strategy with research &amp; analysis of the competitive landscape when thinking about features and functionality.</p>
+          <p>I found there are many direct competitors offering online hair education. I went into research mode to find out what these platforms are offering, how they define their pricing and access process, what mistakes they are making and what are they doing right. </p>
+          <p>Many platforms came off as outdated or unorganized offering subscription services without access to a single video for a user to test out the platform. When considering the goal of making the platform personal with access to the instructors' history and objectives, and failing to see that in similar platforms in the hair industry I saw a real opportunity to differentiate ourselves in the market. </p>
+          <p>I also took notes from hairstylists offering video content on youtube who offer a more personalized approach, they have well-defined brand's and they authenticly engage with their audience.</p>
+          <p>The competitive landscape was a valuable piece of the process to understand the platform's objectives and provide insight into how others are accomplishing goals similar to The Good Ones.</p>
         </div>
-        {/* <div className="full-width-images">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-        </div> */}
       </section>
       <section className="project-info">
         <h2>Structure</h2>
         <div className="project-copy project-steps">
           <p>Building off strategy and scope, the experience now needs a conceptual structure. Structure defines the patterns and sequences in which experiences are presented to users.</p>
           <p>I then listed all possible features and ran them through a feature filter and I was able to choose the key features the app needed to have to be a successful solution for its users.</p>
-          <p className="column-break">The features helped define what screens I would need to design as well as a user’s journey throughout the platform.</p>
-          <ul className="informative-list">
+          <p>The features helped define what screens I would need to design as well as a user’s journey throughout the platform.</p>
+          <ul className="informative-list column-break">
             <h3>Key Features</h3>
             <li>An education area for users to search for specific tutorials/instructors and purchase videos.</li>
             <li>About the team and instructor's in an intimate look into their journey through the hair and beauty industry</li>
