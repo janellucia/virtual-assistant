@@ -125,10 +125,12 @@ const Easy = (props) => (
           <p>Take a look at the final product, a fully functioning website designed and created by yours truly.</p>
           <a href="http://thenextstepforward.ca/" className="button" target="_blank" rel="noopener noreferrer" >View Live Website</a>
         </div>
-        <div className="three-images">
+        <div className="five-images">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
           <Img fluid={props.data.imageTen.childImageSharp.fluid} />
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
         </div>
       </section>
     </div>
@@ -219,6 +221,20 @@ export const pageQuery = graphql`
       }
     }
     imageEleven: file(relativePath: { eq: "next-step/next-solution-mobile-2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwelve: file(relativePath: { eq: "next-step/next-solution-mobile-3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageThirteen: file(relativePath: { eq: "next-step/next-solution-mobile-4.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

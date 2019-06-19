@@ -67,14 +67,6 @@ const Easy = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
         </div>
       </section>
-      {/* <section className="project-info intro">
-        <h2>Research</h2>
-        <div className="project-copy project-steps">
-          <p>I got so much information from our stakeholders and users and now I want to spend time understanding the market’s vulnerabilities and opportunities for differentiation by looking into the competitive landscape. </p>
-          <p>Companies who already offer this type of service include Miracle Movers and Red Coats Moving, while the site aesthetic did not appeal to either myself or the stakeholder we did find out that these companies are showcasing themselves on sites like Alignable, Homestars and teaming up with services like Resolved.</p> 
-          <p>We took that information and put it into our business strategy to explore more ideas in the sketch phase.</p>
-        </div>
-      </section> */}
       <section className="project-info">
         <h2>Sketch</h2>
         <div className="project-copy project-steps">
