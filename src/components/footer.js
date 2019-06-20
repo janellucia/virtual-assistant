@@ -7,6 +7,7 @@ const Footer = ({ siteTitle }) => (
     <div className="wrapper">
       <section className="credits">
         <p>&copy; {(new Date().getFullYear())} janel lucia. all rights reserved.</p>
+        <p>this site was designed and created by yours truly.</p>
       </section>
       <section className="social">
         <a href="mailto:thejanellucia@gmail.com">email</a>

@@ -13,7 +13,7 @@ const IndexPage = (props) => (
       <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Hey, I'm Janel – a Product (UX/UI) Designer in Toronto. I aim to create design that makes a difference —to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.</p>
+          <p>Hello, I'm Janel – a Product (UX/UI) Designer in Toronto. I aim to create design that makes a difference —to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.</p>
           <p>Right now I'm learning new research and facilitation techniques as a Side x Side mentee.</p>
         </div>
         <div className="image-outer-wrap">

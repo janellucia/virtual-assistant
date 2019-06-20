@@ -13,27 +13,41 @@ footer {
     align-items: center;
 
 
-    @media (max-width: 549px) {
+    @media (max-width: 650px) {
       flex-direction: column-reverse;
     }
 
     .credits {
+      margin-top: 5px;
       p {
         font-size: 0.7rem;
         font-weight: 400;
+        margin: 0;
+
+        @media (max-width: 650px) {
+          text-align: center;
+        }
       }
     }
 
     .social {
-      @media (max-width: 549px) {
-        margin-bottom: 20px;
-      }
       a {
         margin-right: 10px;
-        font-size: 0.8rem;
+        font-size: 1rem;
       }
       a:last-of-type {
         margin-right: 0;
+      }
+
+      @media (max-width: 650px) {
+        margin-bottom: 20px;
+        a {
+          margin-right: 10px;
+          font-size: 0.8rem;
+        }
+        a:last-of-type {
+          margin-right: 0;
+        }
       }
     }
   }
