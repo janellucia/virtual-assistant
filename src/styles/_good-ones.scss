@@ -41,7 +41,6 @@
 
     .informative-list {
         padding-left: 17px;
-        // break-after: column;
         h3 {
             margin-left: -17px;
         }
@@ -223,6 +222,11 @@
 
 .column-break {
     break-before: column;
+
+    @media (max-width: 768px) {
+        break-before: avoid;
+
+    }
 }
 
 .intro {

@@ -82,7 +82,7 @@ const Easy = (props) => (
           <p>Building off strategy and scope, the experience now needs a conceptual structure. Structure defines the patterns and sequences in which experiences are presented to users.</p>
           <p>I then listed all possible features and ran them through a feature filter and I was able to choose the key features the app needed to have to be a successful solution for its users.</p>
           <p>The features helped define what screens I would need to design as well as a user’s journey throughout the platform.</p>
-          <ul className="informative-list column-break">
+          <ul className="informative-list">
             <h3>Key Features</h3>
             <li>An education area for users to search for specific tutorials/instructors and purchase videos.</li>
             <li>About the team and instructor's in an intimate look into their journey through the hair and beauty industry</li>

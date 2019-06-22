@@ -57,14 +57,15 @@ const Easy = (props) => (
           <ul className="informative-list">
             <h3>After running through idea's, talking to users, and scoping the market I was able to define my app's goals:</h3>
             <li>How might we give reliable travel times?</li>
+            <li>How might we encourage users to add feedback?</li>
             <li>How might we offer tips to travel smarter?</li>
-            <li>How might we get users to add feedback?</li>
             <li>How might we save trips and addresses for customized travel information?</li>
           </ul>
         </div>
-        <div className="two-images">
+        <div className="full-width-images">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info">
@@ -82,8 +83,8 @@ const Easy = (props) => (
           </ul>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info">
@@ -93,9 +94,10 @@ const Easy = (props) => (
           <p>Once the group decided, I took the winning sketches and ideas and put them together into a storyboard, all tightly connected to form a cohesive story from the users point-of-view.</p>
           <p>The user story detailed below shows how a user would interact with the app during the morning commute, entering location &amp; destination, finding out best travel times, reporting incidents, checking out best travel times, and rating rides.</p>
         </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+        <div className="full-width-images">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info">
@@ -117,9 +119,10 @@ const Easy = (props) => (
             <li>Create a prototype with Invision</li>
           </ul>
         </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        <div className="full-width-images">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info intro">
@@ -147,10 +150,17 @@ const Easy = (props) => (
           <p>Take a look at the Invision prototype to see how app interactions are intended to work, designed for an iPhone XS.</p>
           <a href="https://invis.io/CDRGBNLJEFK#/357131010_1_-_Welcome" className="button" target="_blank" rel="noopener noreferrer">view Invision Prototype</a>
         </div>
-        <div className="three-images">
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
-          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+        <div className="good-final-images">
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSixteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeventeen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEighteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageNineteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwenty.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwentyone.childImageSharp.fluid} />
         </div>
       </section>
     </div>
@@ -170,77 +180,147 @@ export default Easy
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "easy-rider/easy-map.png" }) {
+    imageOne: file(relativePath: { eq: "easy-rider/easy-flow-map-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "easy-rider/easy-user-personas.png" }) {
+    imageTwo: file(relativePath: { eq: "easy-rider/easy-flow-map-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "easy-rider/easy-sketch-1.png" }) {
+    imageThree: file(relativePath: { eq: "easy-rider/easy-user-personas.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "easy-rider/easy-sketch-2.png" }) {
+    imageFour: file(relativePath: { eq: "easy-rider/easy-sketch-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "easy-rider/easy-storyboard-1.png" }) {
+    imageFive: file(relativePath: { eq: "easy-rider/easy-sketch-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "easy-rider/easy-storyboard-2.png" }) {
+    imageSix: file(relativePath: { eq: "easy-rider/easy-storyboard-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "easy-rider/easy-colour-palette.png" }) {
+    imageSeven: file(relativePath: { eq: "easy-rider/easy-storyboard-mobile-1.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEight: file(relativePath: { eq: "easy-rider/easy-typography.png" }) {
+    imageEight: file(relativePath: { eq: "easy-rider/easy-storyboard-mobile-2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "easy-rider/easy-solution-desktop.png" }) {
+    imageNine: file(relativePath: { eq: "easy-rider/easy-type-colour.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTen: file(relativePath: { eq: "easy-rider/easy-solution-mobile.png" }) {
+    imageTen: file(relativePath: { eq: "easy-rider/easy-colour-palette.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEleven: file(relativePath: { eq: "easy-rider/easy-solution-mobile-2.png" }) {
+    imageEleven: file(relativePath: { eq: "easy-rider/easy-typography.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwelve: file(relativePath: { eq: "easy-rider/easy-screens-desktop-1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageThirteen: file(relativePath: { eq: "easy-rider/easy-screens-desktop-2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFourteen: file(relativePath: { eq: "easy-rider/easy-screens-desktop-3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFifteen: file(relativePath: { eq: "easy-rider/easy-screens-desktop-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSixteen: file(relativePath: { eq: "easy-rider/easy-screens-desktop-5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSeventeen: file(relativePath: { eq: "easy-rider/easy-screens-mobile-1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEighteen: file(relativePath: { eq: "easy-rider/easy-screens-mobile-2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageNineteen: file(relativePath: { eq: "easy-rider/easy-screens-mobile-3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwenty: file(relativePath: { eq: "easy-rider/easy-screens-mobile-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwentyone: file(relativePath: { eq: "easy-rider/easy-screens-mobile-5.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

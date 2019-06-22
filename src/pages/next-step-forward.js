@@ -60,9 +60,10 @@ const Easy = (props) => (
             <li>How might we create consistent styles throughout the website to meet accessibility guidelines?</li>
           </ul>
         </div>
-        <div className="two-images">
+        <div className="full-width-images">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info intro">
@@ -80,8 +81,8 @@ const Easy = (props) => (
           <p>My main focus is to create a peaceful atmosphere with easily accessible information and clear calls to action. The main takeaway I got when speaking to users is there is a huge demand for easy to navigate websites, having information hard to find gives these users the impression of dishonesty or that there is something to hide.</p>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info">
@@ -92,8 +93,8 @@ const Easy = (props) => (
           <p>Once the group decided, I took the winning sketches and ideas and strung them together into a storyboard, all tightly connected to form a cohesive story for the user.</p>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info">
@@ -103,9 +104,10 @@ const Easy = (props) => (
           <p>Once I finalized the brand colour's and typography I referenced the storyboard I created in the last step and created a working prototype, this allowed me to do one last round of testing on the design before investing significant energy and effort by building the entire website.</p>
           <p></p>
         </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+        <div className="full-width-images">
           <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info intro">
@@ -125,12 +127,17 @@ const Easy = (props) => (
           <p>Take a look at the final product, a fully functioning website designed and created by yours truly.</p>
           <a href="http://thenextstepforward.ca/" className="button" target="_blank" rel="noopener noreferrer" >View Live Website</a>
         </div>
-        <div className="five-images">
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+        <div className="good-final-images">
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSixteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeventeen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEighteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageNineteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwenty.childImageSharp.fluid} />
         </div>
       </section>
     </div>
@@ -150,96 +157,146 @@ export default Easy
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "next-step/next-user-personas.png" }) {
+    imageOne: file(relativePath: { eq: "next-step/next-personas-flow-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "next-step/nexttwo-rough-user-flow.png" }) {
+    imageTwo: file(relativePath: { eq: "next-step/next-user-flow.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "next-step/next-sketch-desktop.png" }) {
+    imageThree: file(relativePath: { eq: "next-step/next-user-personas.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "next-step/next-sketch-mobile.png" }) {
+    imageFour: file(relativePath: { eq: "next-step/next-sketch-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "next-step/next-wireframes-desktop.png" }) {
+    imageFive: file(relativePath: { eq: "next-step/next-sketch-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "next-step/next-wireframes-mobile.png" }) {
+    imageSix: file(relativePath: { eq: "next-step/next-wireframes-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "next-step/next-typography.png" }) {
+    imageSeven: file(relativePath: { eq: "next-step/next-wireframes-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEight: file(relativePath: { eq: "next-step/next-colour-guide.png" }) {
+    imageEight: file(relativePath: { eq: "next-step/next-type-colour.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "next-step/next-solution-desktop.png" }) {
+    imageNine: file(relativePath: { eq: "next-step/next-colour-palette.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTen: file(relativePath: { eq: "next-step/next-solution-mobile-1.png" }) {
+    imageTen: file(relativePath: { eq: "next-step/next-typography.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEleven: file(relativePath: { eq: "next-step/next-solution-mobile-2.png" }) {
+    imageEleven: file(relativePath: { eq: "next-step/next-screens-desktop-1.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwelve: file(relativePath: { eq: "next-step/next-solution-mobile-3.png" }) {
+    imageTwelve: file(relativePath: { eq: "next-step/next-screens-desktop-2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThirteen: file(relativePath: { eq: "next-step/next-solution-mobile-4.png" }) {
+    imageThirteen: file(relativePath: { eq: "next-step/next-screens-desktop-3.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
+    imageFourteen: file(relativePath: { eq: "next-step/next-screens-desktop-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFifteen: file(relativePath: { eq: "next-step/next-screens-desktop-5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSixteen: file(relativePath: { eq: "next-step/next-screens-mobile-1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSeventeen: file(relativePath: { eq: "next-step/next-screens-mobile-2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEighteen: file(relativePath: { eq: "next-step/next-screens-mobile-3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageNineteen: file(relativePath: { eq: "next-step/next-screens-mobile-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwenty: file(relativePath: { eq: "next-step/next-screens-mobile-5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    
   }
 `
