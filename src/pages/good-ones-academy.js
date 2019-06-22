@@ -60,9 +60,10 @@ const Easy = (props) => (
             <li>Provide and intimate look at the instructor backgrounds and history.</li>
           </ul>
         </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="two user personas created to help inform design decisions later in the process"/>
+        <div className="full-width-images">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="image showing sticky notes used to conduct stakeholders brainstorming session"/>
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="two user personas created to help inform design decisions later in the process"/>
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="image showing sticky notes used to conduct stakeholders brainstorming session"/>
         </div>
       </section>
       <section className="project-info intro">
@@ -90,8 +91,8 @@ const Easy = (props) => (
           </ul>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app"/>
           <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app"/>
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app"/>
         </div>
       </section>
       <section className="project-info">
@@ -103,8 +104,8 @@ const Easy = (props) => (
           <p>This piece of the process is valuable to address user pain points before heading into wireframes. And allows quick iteration and refinement before solidifying the final design.</p>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype"/>
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype"/>
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype"/>
         </div>
       </section>
       <section className="project-info">
@@ -119,9 +120,10 @@ const Easy = (props) => (
             <li>Gilroy was the main font used throughout the platform because I felt the rounded font lent to a friendly non-clinical atmosphere.</li>
           </ul>
         </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="the good ones academy colour scheme"/>
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="the good ones academy branding font - gilroy sans"/>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="the good ones academy colour scheme"/>
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="the good ones academy colour scheme"/>
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="the good ones academy branding font - gilroy sans"/>
         </div>
       </section>
       <section className="project-info">
@@ -132,14 +134,16 @@ const Easy = (props) => (
           <a href="https://invis.io/SGS36PZCEY9#/364068922_loading_Screen" className="button" target="_blank" rel="noopener noreferrer">view Invision Prototype</a>
         </div>
         <div className="good-final-images">
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
           <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
           <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
           <Img fluid={props.data.imageSixteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeventeen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEighteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageNineteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwenty.childImageSharp.fluid} />
         </div>
       </section>
     </div>
@@ -159,112 +163,140 @@ export default Easy
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "good-ones/good-stickies-mobile.png" }) {
+    imageOne: file(relativePath: { eq: "good-ones/good-stickies-user-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "good-ones/good-user-personas.jpg" }) {
+    imageTwo: file(relativePath: { eq: "good-ones/good-stickies.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "good-ones/good-user-journey-desktop.png" }) {
+    imageThree: file(relativePath: { eq: "good-ones/good-user-personas.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "good-ones/good-user-journey-mobile.png" }) {
+    imageFour: file(relativePath: { eq: "good-ones/good-user-journey-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "good-ones/good-ones-wireframes.png" }) {
+    imageFive: file(relativePath: { eq: "good-ones/good-user-journey-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "good-ones/good-ones-wireframes-mobile.png" }) {
+    imageSix: file(relativePath: { eq: "good-ones/good-ones-wireframes.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "good-ones/good-colour-palette.png" }) {
+    imageSeven: file(relativePath: { eq: "good-ones/good-ones-wireframes-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEight: file(relativePath: { eq: "good-ones/good-typography.png" }) {
+    imageEight: file(relativePath: { eq: "good-ones/good-colour-type-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "good-ones/good-screens-desktop-1.png" }) {
+    imageNine: file(relativePath: { eq: "good-ones/good-colour-palette.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTen: file(relativePath: { eq: "good-ones/good-screens-desktop-2.png" }) {
+    imageTen: file(relativePath: { eq: "good-ones/good-typography.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEleven: file(relativePath: { eq: "good-ones/good-logo-desktop.png" }) {
+    imageEleven: file(relativePath: { eq: "good-ones/good-screens-desktop-1.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwelve: file(relativePath: { eq: "good-ones/good-screens-desktop-3.png" }) {
+    imageTwelve: file(relativePath: { eq: "good-ones/good-screens-desktop-2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThirteen: file(relativePath: { eq: "good-ones/good-screens-mobile-1.png" }) {
+    imageThirteen: file(relativePath: { eq: "good-ones/good-logo-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFourteen: file(relativePath: { eq: "good-ones/good-screens-mobile-2.png" }) {
+    imageFourteen: file(relativePath: { eq: "good-ones/good-screens-desktop-3.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFifteen: file(relativePath: { eq: "good-ones/good-logo-mobile.png" }) {
+    imageFifteen: file(relativePath: { eq: "good-ones/good-screens-desktop-4.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSixteen: file(relativePath: { eq: "good-ones/good-screens-mobile-3.png" }) {
+    imageSixteen: file(relativePath: { eq: "good-ones/good-screens-mobile-1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSeventeen: file(relativePath: { eq: "good-ones/good-screens-mobile-2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEighteen: file(relativePath: { eq: "good-ones/good-logo-mobile.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageNineteen: file(relativePath: { eq: "good-ones/good-screens-mobile-3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwenty: file(relativePath: { eq: "good-ones/good-screens-mobile-4.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
