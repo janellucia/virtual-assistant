@@ -42,7 +42,7 @@ const IndexPage = (props) => (
         </div>
         <div className="project-wrap" tabIndex="0">
           {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
-            <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="interior of a living room beautifully designed" />
+            <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="screenshot od desktop landing page shacasing logo and image of home interiors" />
             <div className="project-info next-step-info">
               <p className="category">UX | UI | user research | HTML | SCSS | JS</p>
               <h3>Next Step Forward</h3>
@@ -53,7 +53,7 @@ const IndexPage = (props) => (
         </div>
         <div className="project-wrap" tabIndex="0">
           {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' > */}
-            <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="Toronto streetcar stpped at a stoplight" />
+            <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="4 screenshots of easy rider app" />
             <div className="project-info easy-info">
               <p className="category">UX | UI | user research | design | prototype</p>
               <h3>Easy Rider</h3>
@@ -64,7 +64,7 @@ const IndexPage = (props) => (
         </div>
         <div className="project-wrap" tabIndex="0">
           {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
-            <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="child with paint brushes getting ready to paint" />
+            <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="colourful display of kindred academy logo's" />
             <div className="project-info wicked-info">
               <p className="category">UX | UI | user research | design </p>
               <h3>Kindred Academy</h3>

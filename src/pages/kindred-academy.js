@@ -106,7 +106,6 @@ const Easy = (props) => (
       <section className="project-info">
         <h2>Solution – Kindred Academy</h2>
         <div className="project-copy project-steps">
-          <h3></h3>
           <p>Kindred Academy offers after school and Saturday programs, counselling services, and online options offering curriculum would allow schools or families to implement the program in their own environment. Kindred Academy hope’s to encourage imagination and team building.</p>
           <p>The program will have a strong focus on outdoor learning, creative arts therapy and team building, creating a community that leads by example and shows children to not give up easily, to be resilient, determined and to see things through. </p>
           <p>Programs like this currently exist such as Forest Schools, Montessori Schools and many other private schools specializing creativity. The goal I have in this project is to make Kindred Academy as accessible for all families from different backgrounds as possible.</p>
