@@ -187,7 +187,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "easy-rider/easy-flow-map-desktop.png" }) {
+    imageTwo: file(relativePath: { eq: "easy-rider/easy-user-flow.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
