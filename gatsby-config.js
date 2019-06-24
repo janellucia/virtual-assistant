@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Janel Lucia – Product Designer`,
-    description: `Hey 👋🏼 I'm Janel – a Product (UX/UI) Designer. I aim to create design that makes a difference—to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.`,
+    title: `Janel Lucia | Product Designer`,
+    description: `I'm a Product (UX/UI) Designer in Toronto. I aim to create design that makes a difference—to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.`,
     author: `Janel Lucia`,},
   plugins: [
     `gatsby-plugin-react-helmet`,

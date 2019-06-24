@@ -20,9 +20,9 @@ const IndexPage = (props) => (
             <h3>Podcasts</h3>
             <ul>
               <li><a href="https://podcasts.apple.com/ca/podcast/framework/id1373741352">Framework</a> <p>Rob Hayes &amp; Tom Creighton</p></li>
+              <li><a href="https://podcasts.apple.com/ca/podcast/dollars-to-donuts/id956673263">Dollars to Donuts</a> <p>Steve Portigal</p></li>
+              <li><a href="https://podcasts.apple.com/ca/podcast/design-details/id947191070">Design Details</a> <p>Spec</p></li>
               <li><a href="https://podcasts.apple.com/ca/podcast/hidden-brain/id1028908750">Hidden Brain</a> <p>NPR</p></li>
-              <li><a href="https://podcasts.apple.com/ca/podcast/oprahs-master-class-the-podcast/id1401057414">Master Class</a> <p>Oprah</p></li>
-              <li><a href="https://podcasts.apple.com/ca/podcast/never-before-with-janet-mock/id1240900423">Never Before</a> <p>Janet Mock</p></li>
             </ul>
           </div>
           <div className="category">
@@ -30,8 +30,8 @@ const IndexPage = (props) => (
             <ul>
               <li><a href="https://www.amazon.ca/UX-Strategy-Innovative-Digital-Products/dp/1449372864/ref=sr_1_1?gclid=Cj0KCQjwi43oBRDBARIsAExSRQEAiXUVTbdLqhLrKwMow5Q2qWZ0jeasLpCFzkEQHIYBRZQu9pgrzSUaAjezEALw_wcB&hvadid=229988316235&hvdev=c&hvlocphy=9061009&hvnetw=g&hvpos=1t1&hvqmt=b&hvrand=13822767144517731540&hvtargid=kwd-297141217425&hydadcr=16925_10237806&keywords=ux+strategy&qid=1560550223&s=gateway&sr=8-1">UX Strategy</a> <p>Jaime Levy</p></li>
               <li><a href="https://www.amazon.ca/Discussing-Design-Improving-Communication-Collaboration/dp/149190240X/ref=sr_1_1?keywords=discussing+design&qid=1560550281&s=gateway&sr=8-1">Discussing Design</a> <p>Adam Conor &amp; Aaron Irizarry</p></li>
-              <li><a href="https://www.amazon.ca/Ruined-Design-Designers-Destroyed-World/dp/1090532083/ref=sr_1_1?keywords=ruined+by+design&qid=1560550343&s=gateway&sr=8-1">Ruined by Design</a> <p>Mike Monteiro</p></li>
               <li><a href="https://www.amazon.ca/Sprint-Solve-Problems-Test-Ideas/dp/150112174X/ref=sr_1_1?crid=2X9OJ9K18S2VA&keywords=sprint&qid=1560550391&s=gateway&sprefix=sprint%2Caps%2C155&sr=8-1">Sprint</a> <p>Jake Knapp</p></li>
+              <li><a href="https://www.amazon.ca/Ruined-Design-Designers-Destroyed-World/dp/1090532083/ref=sr_1_1?keywords=ruined+by+design&qid=1560550343&s=gateway&sr=8-1">Ruined by Design</a> <p>Mike Monteiro</p></li>
             </ul>
           </div>
           <div className="category">
@@ -51,8 +51,10 @@ const IndexPage = (props) => (
                 <p>I have been practicing as a UX designer for three years, but before that I was working in the hair and beauty industry as a business manager to various studios across the city. During my time there a huge part of my role was to curate an online and social media presence for the studios I worked with. I grew a huge passion for understanding the customer needs and creating well informed marketing campaigns. As much as I loved it, I was ready to switch careers and it was clear that my next move would be in tech.</p>
                 <p>Originally self-taught I was eager to gain the neccessary skills to get started in tech. I started by completing Hacker You’s full time front-end bootcamp and then their UX course. I also read books, articles and listen to podcasts (Check out my list of reco's) but my most reliable tool for growth has always been working with other amazing designers – I learn so much by working with others and seeing how they approach design challenges.</p> 
                 <p>Right now I'm learning new research &amp; facilitation techniques as a Side x Side mentee. All these experiences have only propelled my love for UX, I can't wait to continue to learn and grow from my projects and peers.</p>
-                <p>I’m an all around chill girl powered by the soft tones of Solange and Blood Orange. I love surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p>
+                {/* <p>I’m an all around chill girl powered by the soft tones of Solange and Blood Orange. I love surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p> */}
+                <p>When I'm not working I'm ususally surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p>
                 <p>Feel free to contact me if you have an idea you want to explore. I love hearing from new people and exploring new ideas.</p>
+                <a href="">Download my Resumé</a>
             </div>
         </div>
         <div className="resume">
@@ -79,8 +81,8 @@ const IndexPage = (props) => (
             <div className="each-section professional">
                 <h3>Professional Skills</h3>
                 <div>
-                    <p><strong>Experience Design</strong></p>
-                    <p>Methodologies: Design Thinking, 5 Planes of UX, Lean UX. Emotional Design, User Research, Content Strategy, Information Architecture, Prototyping</p>
+                    <p><strong>UX Methodologies</strong></p>
+                    <p>Design Thinking, Design Sprint, 5 Planes of UX, Lean UX. Emotional Design, User Research, Content Strategy, Information Architecture, Prototyping, Usability Testing, A/B Testing</p>
                 </div>
                 <div>
                     <p><strong>Creative Tools</strong></p>

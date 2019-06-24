@@ -30,7 +30,6 @@ const IndexPage = (props) => (
       </ScrollAnimation>
       <section className="portfolio">
         <div className="project-wrap" tabIndex="0">
-
             <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="3 screen shots from the good ones academy mobile site" />
             <div className="project-info good-info">
             <p className="category">UX | UI | user research | design | prototype</p>
@@ -38,10 +37,8 @@ const IndexPage = (props) => (
               <p className="description">The good ones academy started as a group of artists collaborating to bring hair workshops to beauty professionals looking to level up their skills. After having great success they wanted to create an online educational platform, I set out to solve this design challenge using the 5 Planes of UX Methodology.</p>
               <Link to="/good-ones-academy/" className="button">view case study</Link>
             </div>
-          
         </div>
         <div className="project-wrap" tabIndex="0">
-          {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
             <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="screenshot od desktop landing page shacasing logo and image of home interiors" />
             <div className="project-info next-step-info">
               <p className="category">UX | UI | user research | HTML | SCSS | JS</p>
@@ -49,10 +46,8 @@ const IndexPage = (props) => (
               <p className="description">The Next Step Forward helps you declutter, organize, downsize and stage your home. Targeted towards the aging population, the stakeholders expressed so much compassion for their clients and I wanted to make sure that came through in the end product. I approached this challenge using the 5 day design sprint.</p>
               <Link to="/next-step-forward/" className="button">view case study</Link>
             </div>
-          {/* </ScrollAnimation> */}
         </div>
         <div className="project-wrap" tabIndex="0">
-          {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' > */}
             <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="4 screenshots of easy rider app" />
             <div className="project-info easy-info">
               <p className="category">UX | UI | user research | design | prototype</p>
@@ -60,10 +55,8 @@ const IndexPage = (props) => (
               <p className="description">I was tasked to come up with an app idea that helps public transit and the people using the service. I wanted to address the need for interactive traveling on public transit, something like WAZE for public transit. The goal is to empower users to get the most up to date information about transit from a reliable source, themselves.</p>
               <Link to="/easy-rider/" className="button">view case study</Link>
             </div>
-          {/* </ScrollAnimation> */}
         </div>
         <div className="project-wrap" tabIndex="0">
-          {/* <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'> */}
             <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="colourful display of kindred academy logo's" />
             <div className="project-info wicked-info">
               <p className="category">UX | UI | user research | design </p>
@@ -71,13 +64,12 @@ const IndexPage = (props) => (
               <p className="description">I was asked to define a wicked problem and deliver a solution using research, divergence &amp; transformation, and convergence. I chose to focus my project on the impact of healthy emotional development in kids. I see a real need for more reliable resources for families when it comes to self-love and acceptance.</p>
               <Link to="/kindred-academy/" className="button">view case study</Link>
             </div>
-          {/* </ScrollAnimation> */}
         </div>
       </section>
       <section className="process">
         <div className="step-title">
           <h2>Defining the <i>process</i> is key!</h2>
-          <p>I'm pretty flexible when defining my process, I tackle every design challenge in a way unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons.</p>
+          <p>I think it's important to be flexible when defining process, I tackle each design challenge unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons. <br></br>This is how I usually approach UX design challenges:</p>
         </div>
         <div className="step step-1">
           <h3>Define the challenges</h3>
