@@ -6,12 +6,12 @@
 
   &:after {
     content: '';
-    width: 2px;
+    width: 1px;
     height: 130px;
     background: $white;
     position: absolute;
     bottom: 0;
-    right: 20%;
+    right: 25%;
     
     @media (max-width: 500px) {
       height: 100px;

@@ -170,7 +170,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "good-ones/good-stickies.png" }) {
+    imageTwo: file(relativePath: { eq: "good-ones/good-stickies-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

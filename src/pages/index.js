@@ -69,7 +69,7 @@ const IndexPage = (props) => (
       <section className="process">
         <div className="step-title">
           <h2>Defining the <i>process</i> is key!</h2>
-          <p>I think it's important to be flexible when defining process, I tackle each design challenge unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons. <br></br>This is how I usually approach UX design challenges:</p>
+          <p>I think it's important to be flexible when defining process, I tackle each design challenge unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons. <br></br>This is how I typically approach UX design challenges:</p>
         </div>
         <div className="step step-1">
           <h3>Define the challenges</h3>
