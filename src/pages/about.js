@@ -54,7 +54,7 @@ const IndexPage = (props) => (
                 {/* <p>I’m an all around chill girl powered by the soft tones of Solange and Blood Orange. I love surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p> */}
                 <p>When I'm not working I'm ususally surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p>
                 <p>Feel free to contact me if you have an idea you want to explore. I love hearing from new people and exploring new ideas.</p>
-                <a href="">Download my Resumé</a>
+                {/* <a href="">Download my Resumé</a> */}
             </div>
         </div>
         <div className="resume">
