@@ -1,3 +1,13 @@
+
+  .error-page-wrap {
+    color: black;
+    footer {
+      .contact {
+        display: none;
+      }
+    }
+  }
+
 .four-oh-four {
     min-height: calc(100vh - 150px);
     display: flex;
@@ -12,7 +22,9 @@
   
     h1 {
       font-size: 5rem;
-      text-transform: lowercase;
+      text-transform: capitalize;
+      font-family: $accentLight;
+      font-style: italic;
       font-weight: 900;
       width: 100%;
       margin: -40px 0 0 0;
@@ -27,37 +39,15 @@
       }
     }
     .sub-title {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
 
-        @media (min-width: 621px) and (max-width: 1125px) {
-            font-size: 1.2rem;
-        }
-    
-        @media (max-width: 620px) {
-        font-size: 1rem;
-        margin-bottom: 0;
-        }
-    }
-
-    .button {
-        margin-right: 20px;
-        border: 3px solid $black;
-        color: $black;
-        font-weight: 800;
-        padding: 7px 35px;
-        font-size: 1.5rem;
-        max-width: 200px;
-        margin: 0 auto;
-
-        &:hover, &:focus {
-          background: $mainColor;
-          border: 3px solid $mainColor;
-          color: $white;
-        }
-
-        @media (max-width: 1025px) {
-          font-size: 1rem;
-          margin-bottom:  20px;
-        }
+      @media (min-width: 621px) and (max-width: 1125px) {
+          font-size: 1.2rem;
       }
+  
+      @media (max-width: 620px) {
+      font-size: 1rem;
+      margin-bottom: 0;
+      }
+    }
   }

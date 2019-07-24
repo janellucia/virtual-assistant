@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const Easy = (props) => (
   <Layout name="project-page">
-    <SEO title="Project | The Next Step Forward" />
+    <SEO title="Next Step Forward" />
     <section className="title next-step-title">
       <div className="wrapper">
         <h1>Next Step Forward</h1>
@@ -141,13 +141,9 @@ const Easy = (props) => (
         </div>
       </section>
     </div>
-    <section className="project-links next-step-links">
+    <section className="project-links">
       <div className="wrapper">
-        <p className="category">UX | UI | user research | HTML | SCSS | JS</p>
-        <p className="subtitle">Whether it is for you or a loved one, moving can be stressful and overwhelming. Let The Next Step Forward help, they can assist with decluttering, managing your move, and setting up your new home with experience and compassion.</p>
-        <div className="button-wrap">
-          <a href="http://thenextstepforward.ca/" className="button" target="_blank" rel="noopener noreferrer" >View Live Website</a>
-        </div>
+        <p className="thank-you">—Thank you </p>
       </div>
     </section>
   </Layout>

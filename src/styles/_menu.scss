@@ -4,12 +4,8 @@
   height: 15px;
   right: 30px;
   top: 0;
-  padding: 8px 10px 10px 10px;
   display: none;
 
-  &:hover, &:focus {
-    // background: $grey;
-  }
 
   .bm-burger-bars {
     background: $mainColor;
@@ -46,9 +42,9 @@
 }
 
 .bm-menu {
-  background: white;
+  background: $grey;
   padding: 2.5em 1.5em 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 
   .bm-item {
     display: inline-block;
@@ -58,7 +54,7 @@
     transition: color 0.2s;
   
     &:hover, &:focus, &:active {
-      color: white;
+      color: $black;
       background: $mainColor;
     }
   }
@@ -66,7 +62,12 @@
   .case-studies {
     margin-left: 2px;
     padding-right: 20px;
-    opacity: 0.5;
+    font-family: $mainFont;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    opacity: 0.2;
 
     &:hover, &:focus, &:active {
       color: $black;

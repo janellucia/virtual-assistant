@@ -1,12 +1,10 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import Image from './image'
-import ImageWhite from './image-white'
-// import Image from "./menu-2.svg";
 
 export default props => {
   return (
-    <Menu right disableAutoFocus customBurgerIcon={ (<span><Image className="black"/><ImageWhite className="white"/></span>) } className="menu-icon" >
+    <Menu right disableAutoFocus customBurgerIcon={ (<Image className="black"/>) } className="menu-icon" >
       <a className="menu-item" href="/">
         home
       </a>
@@ -20,7 +18,7 @@ export default props => {
       </a>
 
       <p className="case-studies">
-        case studies
+        work
       </p>
 
       <a className="menu-item" href="/good-ones-academy">
@@ -29,6 +27,10 @@ export default props => {
 
       <a className="menu-item" href="/next-step-forward">
         next step forward
+      </a>
+
+      <a className="menu-item" href="/type-design">
+        type design
       </a>
 
       <a className="menu-item" href="/easy-rider">

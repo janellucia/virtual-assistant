@@ -7,13 +7,13 @@ import SEO from '../components/seo'
 
 const Easy = (props) => (
   <Layout name="project-page good-ones">
-    <SEO title="Project | Good Ones" />
+    <SEO title="Good Ones" />
     <section className="title good-title">
       <div className="wrapper">
         <h1>Good Ones Academy</h1>
         <p className="subtitle">A group of artists bringing technical education for the contemporary forward thinking beauty professionals.</p>
         <div className="button-wrap">
-          <a href="https://invis.io/SGS36PZCEY9#/364068922_loading_Screen" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
+          <a href="https://invis.io/SGS36PZCEY9#/364068922_loading_Screen" className="button" target="_blank" rel="noopener noreferrer">view Invision Prototype</a>
         </div>
       </div>
     </section>
@@ -147,13 +147,9 @@ const Easy = (props) => (
         </div>
       </section>
     </div>
-    <section className="project-links good-links">
+    <section className="project-links">
       <div className="wrapper">
-        <p className="category">UX | UI | user research | design | invision</p>
-        <p className="subtitle">The Good Ones Academy offers accessible hair and makeup classes to the masses.</p>
-        <div className="button-wrap">
-          <a href="https://invis.io/SGS36PZCEY9#/364068922_loading_Screen" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
-        </div>
+        <p className="thank-you">—Thank you </p>
       </div>
     </section>
   </Layout>

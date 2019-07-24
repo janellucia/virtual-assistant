@@ -14,11 +14,16 @@ header {
 
     h1 {
       margin: 0;
+      font-family: $accentFont;
+      text-transform: uppercase;
+      letter-spacing: -1.5px;
 
       a {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        padding: 0;
+        line-height: 0.9;
         &:hover, &:focus, &:active {
-          color: $mainColor;
+          color: $seventhColor;
           background: none;
           text-decoration: none;
         }
@@ -32,30 +37,34 @@ header {
       right: 20px;
       top: 30%;
       margin: 0;
+      // font-family: $accentFont;
+      text-transform: uppercase;
+      // text-transform: capitalize;
 
       li {
         list-style: none;
         margin-left: 20px;
 
         a, p {
-          font-weight: 600;
-          font-size: 0.9rem;
+          font-weight: 500;
+          font-size: 0.8rem;
           letter-spacing: 1px;
 
 
           &:hover, &:focus, &:active {
             text-decoration: none;
-            color: $mainColor;
+            // color: $fourthColor;
+            color: $thirdColor;
             background: transparent;
           }
         }
-        .contact-menu-item {
-          color: $secondColor;
+        // .contact-menu-item {
+        //   color: $thirdColor;
 
-          &:hover, &:active, &:focus {
-            color: $mainColor;
-          }
-        }
+        //   &:hover, &:active, &:focus {
+        //     color: $fourthColor;
+        //   }
+        // }
       }
 
       .drop-down-wrap {
@@ -92,9 +101,6 @@ header {
         }
         
         &:hover, &:focus, &:active {
-          .drop-down-item {
-            // color: $mainColor;
-          }
           .drop-down-menu {
             opacity: 1;
             top: 35px;
@@ -109,87 +115,6 @@ header {
 }
 
 
-
-
-
-
-.bm-icon {
-  .gatsby-image-wrapper:nth-child(1) {
-    display: block;
-  }
-  .gatsby-image-wrapper:nth-child(2) {
-    display: none;
-  }
-}
-
-.project-page {
-
-  .bm-icon {
-    .gatsby-image-wrapper:nth-child(1) {
-      display: none;
-    }
-    .gatsby-image-wrapper:nth-child(2) {
-      display: block;
-    }
-  }
-
-  header {
-    h1 {
-      a {
-        color: white;
-        &:hover, &:focus, &:active {
-          color: black;
-          background: none;
-          text-decoration: none;
-        }
-      }
-    }
-
-    ul {
-      li {
-        a, p, .contact-menu-item {
-          color: white;
-    
-          &:hover, &:active, &:focus {
-            color: $black;
-
-          }
-        }
-        .drop-down-wrap {
-
-          &:hover, &:focus, &:active {
-            .drop-down-item {
-              color: $black;
-            }
-          }
-        }
-        .drop-down-menu {
-          a {
-            color: $black;
-
-            &:after {
-              content: '';
-              width: 100%;
-              height: 2px;
-              background: transparent;
-              display: block;
-            }
-    
-            &:hover, &:active, &:focus {
-              color: $black;
-
-              &:after {
-                background: $black;
-              }
-            }
-          }
-        }
-
-
-      }
-    }
-  }
-}
 
 
 

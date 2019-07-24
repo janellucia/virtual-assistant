@@ -11,7 +11,7 @@ import SEO from '../components/seo'
 const Easy = (props) => (
 
   <Layout name="project-page">
-    <SEO title="Project | Wicked Problem" />
+    <SEO title="Kindred Academy" />
     <section className="title wicked-title">
       <div className="wrapper">
         <h1>Kindred Academy</h1>
@@ -134,13 +134,9 @@ const Easy = (props) => (
         </div>
       </section>
     </div>
-    <section className="project-links wicked-links">
+    <section className="project-links">
       <div className="wrapper">
-        <p className="category">UX | UI | user research | design | presentation</p>
-        <p className="subtitle">Kindred Academy offers after school and Saturday programs to support youth into a more confident and compassionate future.</p>
-        <div className="button-wrap">
-          <a href="https://drive.google.com/file/d/1Z0o78m80WI0TZSK1xX2-Zu3RdLTSxMiW/view?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">view presentation</a>
-        </div>
+        <p className="thank-you">—Thank you </p>
       </div>
     </section>
   </Layout>

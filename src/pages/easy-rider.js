@@ -11,13 +11,13 @@ import SEO from '../components/seo'
 
 const Easy = (props) => (
   <Layout name="project-page">
-    <SEO title="Project | Easy Rider" />
+    <SEO title="Easy Rider" />
     <section className="title">
       <div className="wrapper">
-        <h1>Easy Rider</h1>
+        <h1>Easy Rider — Transit App</h1>
         <p className="subtitle">People helping people have an easy ride.</p>
         <div className="button-wrap">
-          <a href="https://invis.io/CDRGBNLJEFK#/357131010_1_-_Welcome" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
+          <a href="https://invis.io/CDRGBNLJEFK#/357131010_1_-_Welcome" className="button" target="_blank" rel="noopener noreferrer">View Invision Prototype</a>
         </div>
       </div>
     </section>
@@ -166,11 +166,7 @@ const Easy = (props) => (
     </div>
     <section className="project-links">
       <div className="wrapper">
-        <p className="category">UX | UI | user research | design | prototype</p>
-        <p className="subtitle">Easy rider is powered by users all over the city, transit riders connect to one another and work together to improve each other's transit experience.</p>
-        <div className="button-wrap">
-          <a href="https://invis.io/CDRGBNLJEFK#/357131010_1_-_Welcome" className="button" target="_blank" rel="noopener noreferrer">Invision Prototype</a>
-        </div>
+        <p className="thank-you">—Thank you </p>
       </div>
     </section>
   </Layout>

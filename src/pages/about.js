@@ -1,23 +1,22 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import Layout from '../components/layout'
 import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
 const IndexPage = (props) => (
-  <Layout>
+  <Layout name="about-page-wrap">
     <SEO title="About" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
         <section className="about-page">
         <div className="image-wrap">
-            <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="image of yayoi kusama infinity room" />
-            <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="image of yayoi kusama infinity room" />
+            <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="janel lucia headshot" />
+            <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="janel lucia headshot" />
         </div>
         <div className="panel">
           <div className="category">
-            <h3>Podcasts</h3>
+            <h3>Podcasts —</h3>
             <ul>
               <li><a href="https://podcasts.apple.com/ca/podcast/framework/id1373741352">Framework</a> <p>Rob Hayes &amp; Tom Creighton</p></li>
               <li><a href="https://podcasts.apple.com/ca/podcast/dollars-to-donuts/id956673263">Dollars to Donuts</a> <p>Steve Portigal</p></li>
@@ -26,7 +25,7 @@ const IndexPage = (props) => (
             </ul>
           </div>
           <div className="category">
-            <h3>Books</h3>
+            <h3>Books —</h3>
             <ul>
               <li><a href="https://www.amazon.ca/UX-Strategy-Innovative-Digital-Products/dp/1449372864/ref=sr_1_1?gclid=Cj0KCQjwi43oBRDBARIsAExSRQEAiXUVTbdLqhLrKwMow5Q2qWZ0jeasLpCFzkEQHIYBRZQu9pgrzSUaAjezEALw_wcB&hvadid=229988316235&hvdev=c&hvlocphy=9061009&hvnetw=g&hvpos=1t1&hvqmt=b&hvrand=13822767144517731540&hvtargid=kwd-297141217425&hydadcr=16925_10237806&keywords=ux+strategy&qid=1560550223&s=gateway&sr=8-1">UX Strategy</a> <p>Jaime Levy</p></li>
               <li><a href="https://www.amazon.ca/Discussing-Design-Improving-Communication-Collaboration/dp/149190240X/ref=sr_1_1?keywords=discussing+design&qid=1560550281&s=gateway&sr=8-1">Discussing Design</a> <p>Adam Conor &amp; Aaron Irizarry</p></li>
@@ -35,7 +34,7 @@ const IndexPage = (props) => (
             </ul>
           </div>
           <div className="category">
-            <h3>Articles</h3>
+            <h3>Articles —</h3>
             <ul>
               <li><a href="https://www.ideou.com/pages/design-thinking-resources">Design Thinking resources</a> <p>IDEO</p></li>
               <li><a href="https://rangle.io/blog/facilitating-design-getting-to-the-why-on-your-projects/">Facilitating Design: Getting to the 'Why' on Your Projects</a> <p>Naomi Bower</p></li>
@@ -52,14 +51,14 @@ const IndexPage = (props) => (
                 <p>Originally self-taught I was eager to gain the neccessary skills to get started in tech. I started by completing Hacker You’s full time front-end bootcamp and then their UX course. I also read books, articles and listen to podcasts (Check out my list of reco's) but my most reliable tool for growth has always been working with other amazing designers – I learn so much by working with others and seeing how they approach design challenges.</p> 
                 <p>Right now I'm learning new research &amp; facilitation techniques as a Side x Side mentee. All these experiences have only propelled my love for UX, I can't wait to continue to learn and grow from my projects and peers.</p>
                 {/* <p>I’m an all around chill girl powered by the soft tones of Solange and Blood Orange. I love surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p> */}
-                <p>When I'm not working I'm ususally surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. On the weekends I struggle to keep my plants alive and frequent local coffee shops.</p>
-                <p>Feel free to contact me if you have an idea you want to explore. I love hearing from new people and exploring new ideas.</p>
+                <p>When I'm not working I'm ususally surrounding myself with friends and family, going to art galleries, and taking my dog Marvin Gaye for walks at Trinity Bellwoods. Aside from that I struggle to keep my plants alive and frequent local coffee shops.</p>
+                {/* <p>Feel free to contact me if you have an idea you want to explore. I love hearing from new people and exploring new ideas.</p> */}
                 {/* <a href="">Download my Resumé</a> */}
             </div>
         </div>
         <div className="resume">
             <div className="each-section experience">
-                <h3>Experience</h3>
+                <h3>Experience —</h3>
                 <div>
                     <p><strong>Product Designer @ the good ones academy</strong></p>
                     <p>Jan 2019 - Present</p>
@@ -79,7 +78,7 @@ const IndexPage = (props) => (
             </div>
 
             <div className="each-section professional">
-                <h3>Professional Skills</h3>
+                <h3>Professional Skills —</h3>
                 <div>
                     <p><strong>UX Methodologies</strong></p>
                     <p>Design Thinking, Design Sprint, 5 Planes of UX, Lean UX. Emotional Design, User Research, Content Strategy, Information Architecture, Prototyping, Usability Testing, A/B Testing</p>
@@ -95,7 +94,7 @@ const IndexPage = (props) => (
             </div>
 
             <div className="each-section education">
-                <h3>Education</h3>
+                <h3>Education —</h3>
                 <div>
                     <p><strong>Intro &amp; Advanced UX Design</strong></p>
                     <p>Hacker You – 2018</p>
@@ -113,16 +112,6 @@ const IndexPage = (props) => (
 
         </div>
       </section>
-
-        <section className="contact">
-        <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
-          <h2>get in touch.</h2>
-          {/* <p>Have a cool idea you want to explore? Want to collaborate, brainstorm or just want to say hey…<br></br>
-            Drop me a line and let’s talk!</p> */}
-            <p>Feel free to reach out for collaborations or just a friendly hello <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="smiley face" /></p>
-          <a href="mailto:thejanellucia@gmail.com">thejanellucia@gmail.com</a>
-        </ScrollAnimation>
-      </section>
     </div>
   </Layout>
 )
@@ -138,14 +127,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "happy.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageThree: file(relativePath: { eq: "about/about-mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "about/about-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

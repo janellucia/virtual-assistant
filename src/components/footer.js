@@ -5,12 +5,16 @@ import React from 'react'
 const Footer = ({ siteTitle }) => (
   <footer id="footer">
     <div className="wrapper">
+      <section className="contact">
+        <h2>get in touch.</h2>
+          <p>Feel free to reach out for collaborations or <br></br>a friendly hello</p>
+        <a href="mailto:thejanellucia@gmail.com">thejanellucia@gmail.com</a>
+      </section>
       <section className="credits">
-        <p>&copy; {(new Date().getFullYear())} janel lucia. all rights reserved.</p>
-        <p>this site was designed and created by yours truly.</p>
+        <p>&copy; 2016 – {(new Date().getFullYear())} janel lucia.</p>
+        {/* <p>this site was designed and created by yours truly.</p> */}
       </section>
       <section className="social">
-        <a href="mailto:thejanellucia@gmail.com">email</a>
         <a href="https://dribbble.com/janellucia" target="blank" rel="noopener noreferrer">dribbble</a>
         <a href="https://www.instagram.com/janellucia/" target="blank" rel="noopener noreferrer">insta</a>
         <a href="https://twitter.com/janellucia" target="blank" rel="noopener noreferrer">twitter</a>

@@ -1,14 +1,43 @@
+.about-page-wrap {
+    background: $mainColor;
+    ::selection {
+        background: $sixthColor; 
+      }
+
+    header, footer {
+        background: $mainColor;
+
+        a {
+            &:hover, &:focus, &:active {
+                color: $sixthColor;
+            }
+        }
+    }
+    header {
+
+        p {
+            &:hover, &:focus, &:active {
+                color: $sixthColor;
+            }
+        }
+    }
+}
+
 .about-page {
-    font-family: $mainFont;
     line-height: 1.45;
-    padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
 
     .image-wrap {
         width: 100%;
         margin: 0 auto;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        padding-top: 40px;
+        
+        img {
+            width: 100%;
+            height: auto;;
+        }
 
         .gatsby-image-wrapper:nth-child(2) {
             display: none;
@@ -27,15 +56,16 @@
             }
         }
     }
+
     .panel {
         width: 25%;
-        background: rgba($grey, 0.5);
         padding: 20px;
 
         @media (max-width: 768px)  {
             width: 100%;
             order: 3;
             display: flex;
+            padding: 20px 0;
             justify-content: space-between;
             flex-wrap: wrap;
 
@@ -53,34 +83,35 @@
             }
 
             h3 {
-                font-weight: 700;
+                font-weight: 800;
                 margin: 0;
-                color: $mainColor;
-                font-size: 1.5rem;
+                font-size: 1rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
             }
     
             ul {
                 padding: 0;
                 margin-top: 7px;
                 li {
-                    padding: 0 0 10px 0;
+                    padding: 0 0 15px 0;
                     list-style: none;
                     a {
                         margin: 0;
-                        font-weight: 600;
+                        font-size: 1.1rem;
+                        padding-bottom: 0;
+                        font-family: $accentMedium;
     
                         &:hover, &:focus, &:active {
-                            background: none;
-                            color: $mainColor;
-                            text-decoration: underline;
+                            color: $sixthColor;
                         }
                     }
                     p {
+                        font-family: $accentLight;
                         display: block;
                         margin: 0;
                         padding: 0 2px;
-                        opacity: 0.7;
-                        font-size: 0.8rem;
+                        font-size: 1rem;
                     }
                 }
             }
@@ -99,8 +130,16 @@
         
         h2 {
             width: 100%;
+            font-family: $accentLight;
+            font-size: 2.5rem;
+            margin: 20px 0;
 
-            @media (max-width: 550px)  {
+            @media (min-width: 701px) and (max-width: 1125px)  {
+                font-size: 2rem;
+            }
+
+            @media (max-width: 700px)  {
+                font-size: 1.8rem;
                 br {
                     display: none;
                 }
@@ -108,7 +147,7 @@
         }
         
         .text {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             max-width: 700px;
 
             p:first-of-type {
@@ -129,6 +168,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 40px 0;
+        border-top: 1px solid black;
 
         @media (max-width: 768px)  {
             order: 4;
@@ -143,14 +183,19 @@
             }
 
             h3 {
-                color: rgba($mainColor, 0.4);
-                font-size: 2rem;
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
             }
 
             div {
                 margin: 25px 0;
                 p {
-                    margin: 5px 0;
+                    margin: 0;
+                    font-size: 1.1rem;
+                    strong {
+                        font-family: $accentBold;
+                    }
                 }
             }
         }

@@ -1,28 +1,29 @@
 footer {
-  background: $black;
-  color: $white;
+  background: $grey;
   min-height: 150px;
-
-  a {
-    color: $white;
-  }
-
+  
   .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    
     @media (max-width: 650px) {
       flex-direction: column-reverse;
+      align-items: flex-start;
     }
-
+    
+    .contact {
+      width: 100%;
+    }
     .credits {
       margin-top: 5px;
       p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         font-weight: 400;
         margin: 0;
+        font-family: $mainFont;
 
         @media (max-width: 650px) {
           text-align: center;
@@ -33,7 +34,9 @@ footer {
     .social {
       a {
         margin-right: 10px;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        font-family: $mainFont;
+        letter-spacing: 1px;
       }
       a:last-of-type {
         margin-right: 0;
@@ -43,7 +46,7 @@ footer {
         margin-bottom: 20px;
         a {
           margin-right: 10px;
-          font-size: 0.8rem;
+          font-size: 1rem;
         }
         a:last-of-type {
           margin-right: 0;
@@ -51,4 +54,64 @@ footer {
       }
     }
   }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 70px auto;
+  margin-left: 10%;
+
+  @media (max-width: 650px) {
+    margin-left: 0px; 
+    order: 1;
+  }
+
+  br {
+    display: none;
+
+    @media (max-width: 650px) {
+      display: inline;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    @media (min-width: 550px) and (max-width: 1125px) {
+      font-size: 1.8rem;
+    }
+
+    @media (max-width: 549px) {
+      font-size: 1.6rem;
+    }
+
+  }
+  p {
+    font-size: 1.5rem;
+    display: flex;
+    margin: 5px 0 0 0;
+
+    @media (max-width: 549px) {
+      font-size: 1.2rem;
+    }
+
+  }
+  a {
+    color: $fourthColor;
+    font-size: 1.5rem;
+    font-weight: 600;
+    align-self: flex-start;
+
+    @media (max-width: 549px) {
+      font-size: 1.2rem;
+    }
+
+  }
+
 }
