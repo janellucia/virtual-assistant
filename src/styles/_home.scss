@@ -188,11 +188,37 @@
 
   .project-wrap:nth-child(2), .project-wrap:nth-child(3) {
     width: 23.7%;
+
+    .gatsby-image-wrapper {
+
+      &:nth-child(1) {
+          width: 100%;
+      }
+
+      &:nth-child(2) {
+          display: none;
+      }
+
+      @media (max-width: 600px) {
+          width: 100%;
+
+          &:nth-child(1) {
+              display: none;
+          }
+          &:nth-child(2) {
+              display: block;
+          }
+
+      }
+  }
+
     @media (max-width: 768px) {
+      width: 49%;
       margin-top: 0;
     }
-    @media (max-width: 700px) {
-      width: 49%;
+
+    @media (max-width: 600px) {
+      width: 100%;
     }
   }
 

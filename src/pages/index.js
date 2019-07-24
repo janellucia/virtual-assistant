@@ -24,27 +24,29 @@ const IndexPage = (props) => (
         </div>
         <div className="project-wrap" tabIndex="0">
             <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
+            <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
             <Link to="/next-step-forward/" className="home-project-info next-step-info">
               <h3>Next Step Forward</h3>
               <p className="category">— UX/UI, Branding, Research, Front End Build</p>
             </Link>
         </div>
         <div className="project-wrap" tabIndex="0">
-            <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="screenshot od desktop landing page shacasing logo and image of home interiors" />
+            <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="sneek peek of type design" />
+            <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="sneek peek of type design" />
             <Link to="/type-design/" className="home-project-info type-info">
               <h3>Type Design</h3>
               <p className="category">— Typography</p>
             </Link>
         </div>
         <div className="project-wrap" tabIndex="0">
-            <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="colourful display of kindred academy logo's" />
+            <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek of kindred academy" />
             <Link to="/kindred-academy/" className="home-project-info wicked-info">
               <h3>Kindred Academy</h3>
               <p className="category">— UX/UI, Branding, Research, Presentation</p>
             </Link>
         </div>
         <div className="project-wrap" tabIndex="0">
-            <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="4 screenshots of easy rider app" />
+            <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek of easy rider app" />
             <Link to="/easy-rider/" className="home-project-info easy-info">
               <h3>Easy Rider</h3>
               <p className="category">— UX/UI, Branding, Research, App Design</p>
@@ -104,28 +106,42 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/next-step-home-2.png" }) {
+    imageThree: file(relativePath: { eq: "home/next-step-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "home/type-home-3.png" }) {
+    imageFour: file(relativePath: { eq: "home/next-step-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/easy-home.png" }) {
+    imageFive: file(relativePath: { eq: "home/type-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "home/kindred-home.png" }) {
+    imageSix: file(relativePath: { eq: "home/type-home-mobile.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSeven: file(relativePath: { eq: "home/easy-home.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEight: file(relativePath: { eq: "home/kindred-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
