@@ -12,6 +12,7 @@
   @media (max-width: 768px)  {
     flex-direction: column-reverse;
     padding: 60px 0;
+    margin: 40px 0 0 0;
   }
 
   .about-wrap {
@@ -39,11 +40,10 @@
 
       @media (min-width: 550px) and (max-width: 1125px) {
         font-size: 1.8rem;
-        // max-width: 520px;
       }
   
       @media (max-width: 549px) {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
       }
 
       
@@ -74,6 +74,7 @@
     @media (max-width: 768px) {
       width: 100%;
       flex-direction: column;
+      margin-top: 20px;
     }
 
     .gatsby-image-wrapper {
@@ -214,7 +215,7 @@
 
     @media (max-width: 768px) {
       width: 49%;
-      margin-top: 0;
+      margin-top: 20px;
     }
 
     @media (max-width: 600px) {
@@ -235,8 +236,6 @@
   .project-wrap:hover, .project-wrap:focus, .project-wrap:active {
     cursor: pointer;
     img {
-      // filter: blur(4px);
-
       @media (max-width: 1125px) {
         // filter: blur(0px);
       }

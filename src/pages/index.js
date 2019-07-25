@@ -39,14 +39,14 @@ const IndexPage = (props) => (
             </Link>
         </div>
         <div className="project-wrap" tabIndex="0">
-            <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek of kindred academy" />
+            <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek of kindred academy" />
             <Link to="/kindred-academy/" className="home-project-info wicked-info">
               <h3>Kindred Academy</h3>
               <p className="category">— UX/UI, Branding, Research, Presentation</p>
             </Link>
         </div>
         <div className="project-wrap" tabIndex="0">
-            <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek of easy rider app" />
+            <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek of easy rider app" />
             <Link to="/easy-rider/" className="home-project-info easy-info">
               <h3>Easy Rider</h3>
               <p className="category">— UX/UI, Branding, Research, App Design</p>
