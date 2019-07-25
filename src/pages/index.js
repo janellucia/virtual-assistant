@@ -106,14 +106,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/next-step-home.png" }) {
+    imageThree: file(relativePath: { eq: "home/next-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "home/next-step-home-mobile.png" }) {
+    imageFour: file(relativePath: { eq: "home/next-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
