@@ -11,7 +11,7 @@ import SEO from '../components/seo'
 const Easy = (props) => (
 
   <Layout name="project-page">
-    <SEO title="Kindred Academy" />
+    <SEO title="Typography design" />
     <section className="title">
       <div className="wrapper">
         <h1>Typography Design</h1>
@@ -25,7 +25,9 @@ const Easy = (props) => (
         <Img fluid={props.data.imageFour.childImageSharp.fluid} />
         <Img fluid={props.data.imageFive.childImageSharp.fluid} />
         <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-        <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+        {/* <Img fluid={props.data.imageSeven.childImageSharp.fluid} /> */}
+        <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        <Img fluid={props.data.imageNine.childImageSharp.fluid} />
     </div>
     <section className="project-links">
       <div className="wrapper">
@@ -60,28 +62,42 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFour: file(relativePath: { eq: "type/jl-type.png" }) {
+    imageFour: file(relativePath: { eq: "type/lafontaine-type.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "type/kind-type.png" }) {
+    imageFive: file(relativePath: { eq: "type/jl-type.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "type/d-type.png" }) {
+    imageSix: file(relativePath: { eq: "type/circle-type.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "type/pace-type.png" }) {
+    imageSeven: file(relativePath: { eq: "type/perfume-type.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEight: file(relativePath: { eq: "type/d-type.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageNine: file(relativePath: { eq: "type/pace-type.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
