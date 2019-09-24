@@ -22,7 +22,7 @@ const Easy = (props) => (
       </div>
     </section>
     <div id="wicked-problem" className="wrapper">
-    <section className="project-info intro">
+      <section className="project-info intro">
         <div className="project-copy">
           <h2>Solving the wicked problem of youth mental health</h2>
           <p>In the advanced portion of Hacker You’s UX course we were asked to define a wicked problem and use research to explore solutions, which is no easy task and often found there are wicked problems within wicked problems, this expanded my creativity and helped me embrace discomfort in an analytical way.</p>
@@ -137,6 +137,19 @@ const Easy = (props) => (
     <section className="project-links">
       <div className="wrapper">
         <p className="thank-you">—Thank you </p>
+      </div>
+    </section>
+    <section className="more-projects">
+      <div className="wrapper">
+        <h2 className="thank-you">Other Projects</h2>
+        <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
+        <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
+        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
+        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
+        <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
+        <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>
     </section>
   </Layout>

@@ -10,18 +10,8 @@ const Header = ({ siteTitle }) => (
     <nav className="wrapper">
       <h1 className="logo"><a href="/">janel lucia</a></h1>
       <ul>
-        <li><a href="/">home</a></li>
+        <li><a href="/">work</a></li>
         <li><a href="/about">about</a></li>
-        <li className="drop-down-wrap" tabIndex="0">
-          <p className="drop-down-item">work</p>
-          <ul className="drop-down-menu">
-            <li><a href="/good-ones-academy">the good ones</a></li>
-            <li><a href="/next-step-forward">next step forward</a></li>
-            <li><a href="/type-design">type design</a></li>
-            <li><a className="menu-item" href="/easy-rider">easy rider</a></li>
-            <li><a className="menu-item" href="/kindred-academy">kindred academy</a></li>
-          </ul>
-        </li>
         <li><a href="mailto:thejanellucia@gmail.com" className="contact-menu-item">contact</a></li>
       </ul>
     </nav>

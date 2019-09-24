@@ -6,7 +6,7 @@ export default props => {
   return (
     <Menu right disableAutoFocus customBurgerIcon={ (<Image className="black"/>) } className="menu-icon" >
       <a className="menu-item" href="/">
-        home
+        work
       </a>
 
       <a className="menu-item" href="/about">
@@ -15,30 +15,6 @@ export default props => {
 
       <a className="menu-item" href="mailto:thejanellucia@gmail.com">
         contact
-      </a>
-
-      <p className="case-studies">
-        work
-      </p>
-
-      <a className="menu-item" href="/good-ones-academy">
-        the good ones
-      </a>
-
-      <a className="menu-item" href="/next-step-forward">
-        next step forward
-      </a>
-
-      <a className="menu-item" href="/type-design">
-        type design
-      </a>
-
-      <a className="menu-item" href="/easy-rider">
-        easy rider
-      </a>
-
-      <a className="menu-item" href="/kindred-academy">
-        kindred academy
       </a>
 
       <p className="case-studies">

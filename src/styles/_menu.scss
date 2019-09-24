@@ -37,7 +37,7 @@
   width: 24px;
 
   .bm-cross {
-    background: black;
+    background: $black;
   }
 }
 
@@ -50,7 +50,7 @@
     display: inline-block;
     text-decoration: none;
     margin-bottom: 10px;
-    color: black;
+    color: $black;
     transition: color 0.2s;
   
     &:hover, &:focus, &:active {

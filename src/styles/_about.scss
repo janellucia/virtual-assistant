@@ -168,7 +168,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 40px 0;
-        border-top: 1px solid black;
+        border-top: 1px solid $black;
 
         @media (max-width: 768px)  {
             order: 4;
