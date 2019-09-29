@@ -13,7 +13,7 @@ export default props => {
         about
       </a>
 
-      <a className="menu-item" href="mailto:thejanellucia@gmail.com">
+      <a className="menu-item" href="mailto:hello@janellucia.com">
         contact
       </a>
 

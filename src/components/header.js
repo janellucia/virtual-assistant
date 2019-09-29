@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       <ul>
         <li><a href="/">work</a></li>
         <li><a href="/about">about</a></li>
-        <li><a href="mailto:thejanellucia@gmail.com" className="contact-menu-item">contact</a></li>
+        <li><a href="mailto:hello@janellucia.com" className="contact-menu-item">contact</a></li>
       </ul>
     </nav>
   </header>

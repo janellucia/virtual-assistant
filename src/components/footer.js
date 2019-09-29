@@ -8,7 +8,7 @@ const Footer = ({ siteTitle }) => (
       <section className="contact">
         <h2>get in touch.</h2>
           <p>Feel free to reach out for collaborations or <br></br>a friendly hello</p>
-        <a href="mailto:thejanellucia@gmail.com">thejanellucia@gmail.com</a>
+        <a href="mailto:hello@janellucia.com">hello@janellucia.com</a>
       </section>
       <section className="credits">
         <p>&copy; 2016 – {(new Date().getFullYear())} janel lucia.</p>
