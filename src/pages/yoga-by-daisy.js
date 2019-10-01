@@ -19,7 +19,7 @@ const Daisy = (props) => (
       </div>
     </section>
     <div id="lettering-archive" className="wrapper">
-    <section className="project-info intro">
+    <section className="project-info">
         <div className="project-copy">
           <h2>Creating a brand identity for an independent yoga instructor</h2>
           <p>In modern times where peak performance is expected and work-life balance nonexistent, never slowing down has become the norm. Daisy has used her training to curate a unique flow to help us slow the mind, connect to sensation, and feel calmer and more settled, this is something we could all benefit from every now and then. The goal here is to create a brand to reflect those values.</p>
@@ -68,7 +68,7 @@ const Daisy = (props) => (
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
         </div>
       </section>
-      <section className="project-info intro">
+      <section className="project-info">
           <h2>Defining the Brand</h2>
         <div className="project-copy project-steps-full">
           <p>Through a series of exercises in the strategy session, we were able to extract and refine the key pillars of the brand. This defined the brand’s personality: how it should look, sound, act, and feel.</p>

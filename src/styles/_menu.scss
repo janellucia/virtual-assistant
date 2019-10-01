@@ -1,15 +1,14 @@
 .bm-burger-button {
   position: absolute;
   width: 36px;
-  height: 15px;
   right: 30px;
   top: 0;
   display: none;
+  // border: 1px solid red;
 
 
   .bm-burger-bars {
     background: $mainColor;
-    height: 5px !important;
     width: 80% !important;
     margin: 0 auto !important;
   }
@@ -17,13 +16,9 @@
 
   @media (max-width: 768px) {
     width: 25px;
-    height: 10px;
     right: 20px;
     top: 25px;
 
-    .bm-burger-bars {
-      height: 3px !important;
-    }
   }
 
   @media (max-width: 768px) {
