@@ -15,22 +15,23 @@ const Type = (props) => (
     <section className="title">
       <div className="wrapper">
         <h1>Lettering Archive</h1>
-        <p className="subtitle">A recent personal project I've been passionate about lately is the Lettering Archive instagram account. This all started with conversations with friends who think social media can be extremely negative at times and while I agree that can be true I think it doesn't have to be.</p> <p className="subtitle">We curate our social media following like we curate our lives, we can choose to pay attention to and debate those who have different outlooks or we can curate our surroundings to be full of people that uplift us and encourage us to think in a more empathetic way. Here is an example of some of the content I post and below is a link to my instagram account if you want to fill your feed with uplifting quotes.</p>
+        <p className="subtitle">A recent personal project I've been passionate about is the Lettering Archive instagram account. This all started with conversations with friends and acquaintances who hold a strong case that social media can be negative and while I agree that can be true I think it doesn't have to be.</p>
+        <p className="subtitle">We curate our social media following like we curate our lives, we can choose to pay attention to and debate those who have different outlooks or we can curate our surroundings to be full of people that uplift us and encourage us to think in a more empathetic way. Here is an example of some of the content I post and below is a link to my instagram account if you want to fill your feed with uplifting quotes.</p>
         <div className="button-wrap">
           <a href="https://www.instagram.com/letteringarchive/" className="button" target="_blank" rel="noopener noreferrer">View Instagram</a>
         </div>
       </div>
     </section>
     <div id="lettering-archive" className="wrapper">
-        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-        <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-        <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-        <Img fluid={props.data.imageFive.childImageSharp.fluid} />
-        <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-        {/* <Img fluid={props.data.imageSeven.childImageSharp.fluid} /> */}
-        <Img fluid={props.data.imageEight.childImageSharp.fluid} />
-        <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+      <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+      <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+      <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+      <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+      <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+      <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+      {/* <Img fluid={props.data.imageSeven.childImageSharp.fluid} /> */}
+      <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+      <Img fluid={props.data.imageNine.childImageSharp.fluid} />
     </div>
     <section className="project-links">
       <div className="wrapper">
