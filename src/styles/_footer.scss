@@ -11,7 +11,7 @@ footer {
     
     @media (max-width: 650px) {
       flex-direction: column-reverse;
-      align-items: flex-start;
+      align-items: center;
     }
     
     .contact {
@@ -74,18 +74,18 @@ footer {
     margin: 5px 0 0 0;
 
     @media (max-width: 549px) {
-      font-size: 1.2rem;
+      font-size: 1.7rem;
     }
 
   }
   a {
     font-style: italic;
     font-size: 2rem;
-    font-weight: 500;
     align-self: flex-start;
+    font-family: $accentItalic;
 
     @media (max-width: 549px) {
-      font-size: 1.4rem;
+      font-size: 1.7rem;
     }
 
   }

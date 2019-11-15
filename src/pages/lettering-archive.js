@@ -15,7 +15,7 @@ const Type = (props) => (
     <section className="title">
       <div className="wrapper">
         <h1>Lettering Archive</h1>
-        <p className="subtitle">We curate our social media following like we curate our lives, we can choose to pay attention to and aggresively debate those who have different outlooks or we can curate our surroundings to be full of people that uplift us and encourage us to think and act in a more empathetic way. I created the Lettering Archive as a way to explore type, research interesting people, and express myself creatively without boundaries. Here is an example of some of the content I post.</p>
+        <p className="subtitle">We curate our social media following like we curate our lives, we can choose to pay attention to and aggresively debate those who have different outlooks or we can curate our surroundings to be full of people that uplift us and encourage us to think and act in a more empathetic way. I created Lettering Archive as a way to explore type, research interesting people, and express myself creatively without boundaries. Below is an example of some of the content I post.</p>
         <div className="button-wrap">
           <a href="https://www.instagram.com/letteringarchive/" className="button" target="_blank" rel="noopener noreferrer">View Insta</a>
           <a href="https://society6.com/letteringarchive" className="button" target="_blank" rel="noopener noreferrer">View Shop</a>

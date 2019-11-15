@@ -73,6 +73,8 @@ $good-ones: #AB9662;
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i&display=swap');
+
 
 
 $accentUltraLight: 'Butler-UltraLight', serif;
@@ -82,6 +84,7 @@ $accentMedium: 'Butler-Medium', serif;
 $accentBold: 'Butler-Bold', serif;
 $accentExtraBold: 'Butler-ExtraBold', serif;
 $accentBlack: 'Butler-Black', serif;
+$accentItalic: 'Playfair Display', 'Butler-Light', serif;
 
 $mainFont: 'Poppins', sans-serif;
 
