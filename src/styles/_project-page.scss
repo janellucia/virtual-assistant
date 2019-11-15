@@ -52,6 +52,7 @@
         font-weight: 600;
         font-size: 1.2rem;
         font-family: $mainFont;
+        margin-right: 20px;
   
         @media (max-width: 1025px) {
           font-size: 1rem;
@@ -373,6 +374,17 @@
             }
         }
 
+    }
+}
+
+
+.lettering-archive-page {
+
+    .title {
+
+        .wrapper {
+      min-height: 55vh;
+        }
     }
 }
 

@@ -10,15 +10,15 @@ import SEO from '../components/seo'
 
 const Type = (props) => (
 
-  <Layout name="project-page">
+  <Layout name="project-page lettering-archive-page">
     <SEO title="Lettering Archive" />
     <section className="title">
       <div className="wrapper">
         <h1>Lettering Archive</h1>
-        <p className="subtitle">A recent personal project I've been passionate about is the Lettering Archive instagram account. This all started with conversations with friends and acquaintances who hold a strong case that social media can be negative and while I agree that can be true I think it doesn't have to be.</p>
-        <p className="subtitle">We curate our social media following like we curate our lives, we can choose to pay attention to and debate those who have different outlooks or we can curate our surroundings to be full of people that uplift us and encourage us to think in a more empathetic way. Here is an example of some of the content I post and below is a link to my instagram account if you want to fill your feed with uplifting quotes.</p>
+        <p className="subtitle">We curate our social media following like we curate our lives, we can choose to pay attention to and aggresively debate those who have different outlooks or we can curate our surroundings to be full of people that uplift us and encourage us to think and act in a more empathetic way. I created the Lettering Archive as a way to explore type, research interesting people, and express myself creatively without boundaries. Here is an example of some of the content I post.</p>
         <div className="button-wrap">
-          <a href="https://www.instagram.com/letteringarchive/" className="button" target="_blank" rel="noopener noreferrer">View Instagram</a>
+          <a href="https://www.instagram.com/letteringarchive/" className="button" target="_blank" rel="noopener noreferrer">View Insta</a>
+          <a href="https://society6.com/letteringarchive" className="button" target="_blank" rel="noopener noreferrer">View Shop</a>
         </div>
       </div>
     </section>
