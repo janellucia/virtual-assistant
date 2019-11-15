@@ -6,9 +6,8 @@ const Footer = ({ siteTitle }) => (
   <footer id="footer">
     <div className="wrapper">
       <section className="contact">
-        <h2>get in touch.</h2>
-          <p>Feel free to reach out for collaborations or <br></br>a friendly hello</p>
-        <a href="mailto:hello@janellucia.com">hello@janellucia.com</a>
+        <p>Interested in working together?</p>
+        <a href="mailto:hello@janellucia.com">Inquire Here</a>
       </section>
       <section className="credits">
         <p>&copy; 2016 – {(new Date().getFullYear())} janel lucia.</p>

@@ -7,11 +7,11 @@ import SEO from '../components/seo'
 
 const IndexPage = (props) => (
   <Layout name="home-page">
-    <SEO title="Product Designer" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="UX/UI Designer" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Hello, I'm a Product Designer (UX/UI) in Toronto crafting meaningful and strategic design with a clear voice and vision. Specializing in human centered design, brand identity &amp; research.</p>
+          <p>Hi, I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. Specializing in human centered design, brand identity &amp; graphic design.</p>
         </div>
       </section>
       <section className="portfolio">
@@ -78,8 +78,7 @@ const IndexPage = (props) => (
       </section>
       <section className="process">
         <div className="step-title">
-          {/* <h2>Defining the <i>process</i> is key!</h2> */}
-          <p>It's important to be flexible when defining process, I tackle each design challenge unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons. <br></br>This is how I typically approach UX design challenges:</p>
+          <p>It's important to be flexible when defining process, I tackle each design challenge unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons. <br></br>This is how I typically approach design challenges:</p>
         </div>
         <div className="step step-1">
           <h3>Define the challenges —</h3>
