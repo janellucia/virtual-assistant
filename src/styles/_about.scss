@@ -2,7 +2,13 @@
     background: $mainColor;
     ::selection {
         background: $sixthColor; 
-      }
+    }
+
+    a {
+        &:hover, &:focus, &:active {
+            color: $sixthColor;
+        }
+    }
 
     header, footer {
         background: $mainColor;
@@ -152,6 +158,10 @@
         .text {
             font-size: 1.3rem;
             max-width: 700px;
+
+            a {
+                text-decoration: underline;
+            }
 
             p:first-of-type {
                 margin-top: 0;

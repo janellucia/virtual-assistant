@@ -78,27 +78,23 @@ const IndexPage = (props) => (
       </section>
       <section className="process">
         <div className="step-title">
-          <p>It's important to be flexible when defining process, I tackle each design challenge unique to the project needs. I use empathy, preparedness, research, collaboration, and feedback as my secret weapons. <br></br>This is how I typically approach design challenges:</p>
+          <p>My work is rooted in research, collaboration and feedback. I stay curious, use history as my superpower, and I obsess over small details. Here's a quick example of my process:</p>
         </div>
         <div className="step step-1">
           <h3>Define the challenges —</h3>
-          <p>Gain an empathetic understanding of the goals, aspirations, and intentions for the product at large by engaging with users and stakeholders to understand their experiences.</p>
+          <p>Before starting any project I like to gain an empathetic understanding of the goals, values, and intentions for the project by working with stakeholders to understand their experiences, pains and needs.</p>
         </div>
         <div className="step step-2">
           <h3>Research &amp; Validate —</h3>
-          <p>Conduct both quantitative and qualitative research with user interviews, surveys, industry research, and competitive analysis and use that information to build user personas and journeys. This way we can make informed design decisions once the sketching begins.</p>
+          <p>Next I jump right into quantitative and qualitative research by conducting user interviews, surveys, industry research, and competitive analysis and use that information to build user personas and journeys.</p>
         </div>
         <div className="step step-3">
-          <h3>Sketch competing solutions —</h3>
-          <p>Using all the data from earlier steps (including research, personas, sitemap, and user flows) it's time to design multiple solutions to the site architecture, content structure, user flows, and interactions.</p>
-        </div>
-        <div className="step step-4">
-          <h3>Vote &amp; Storyboard —</h3>
-          <p>Now that we have multiple sketches to choose from we need to facilitate a structured critique with a discussion and weighted voting to select the best solutions. We then take the winning sketches and ideas and string them together into a storyboard.</p>
+          <h3>Sketch, Vote &amp; Storyboard —</h3>
+          <p>Using the data gathered I design multiple solutions, facilitate a structured critique with stakeholders and use dot voting to select the best solution. From there I take the winning idea and turn it into a user storyboard.</p>
         </div>
         <div className="step step-5">
           <h3>Prototype &amp; Test —</h3>
-          <p>Now, we take our storyboards and create active prototypes, giving us the opportunity to showcase product features and animations for user testing. The test phase is critical to the process, as it allows us to observe user behaviour in real time, and analyse insights for better functionality and usability.</p>
+          <p>From there I create an active prototype, giving the team an opportunity to showcase product features and animations for user testing. This allows us to observe user behaviour for better functionality and usability.</p>
         </div>
         <div className="step step-6">
           <h3>Evaluate &amp; Iterate —</h3>
