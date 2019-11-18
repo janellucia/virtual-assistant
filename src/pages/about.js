@@ -27,10 +27,10 @@ const IndexPage = (props) => (
           <div className="category">
             <h3>Books &mdash;</h3>
             <ul>
-              <li><a href="https://www.amazon.ca/UX-Strategy-Innovative-Digital-Products/dp/1449372864/ref=sr_1_1?gclid=Cj0KCQjwi43oBRDBARIsAExSRQEAiXUVTbdLqhLrKwMow5Q2qWZ0jeasLpCFzkEQHIYBRZQu9pgrzSUaAjezEALw_wcB&hvadid=229988316235&hvdev=c&hvlocphy=9061009&hvnetw=g&hvpos=1t1&hvqmt=b&hvrand=13822767144517731540&hvtargid=kwd-297141217425&hydadcr=16925_10237806&keywords=ux+strategy&qid=1560550223&s=gateway&sr=8-1">UX Strategy</a> <p>Jaime Levy</p></li>
+              <li><a href="https://www.amazon.ca/Design-People-Stories-Together-Things/dp/1938922859/ref=sr_1_2?keywords=design+for+people&qid=1574038662&sr=8-2">Design for People</a> <p>Scott Stowell</p></li>
               <li><a href="https://www.amazon.ca/Discussing-Design-Improving-Communication-Collaboration/dp/149190240X/ref=sr_1_1?keywords=discussing+design&qid=1560550281&s=gateway&sr=8-1">Discussing Design</a> <p>Adam Conor &amp; Aaron Irizarry</p></li>
-              <li><a href="https://www.amazon.ca/Sprint-Solve-Problems-Test-Ideas/dp/150112174X/ref=sr_1_1?crid=2X9OJ9K18S2VA&keywords=sprint&qid=1560550391&s=gateway&sprefix=sprint%2Caps%2C155&sr=8-1">Sprint</a> <p>Jake Knapp</p></li>
               <li><a href="https://www.amazon.ca/Ruined-Design-Designers-Destroyed-World/dp/1090532083/ref=sr_1_1?keywords=ruined+by+design&qid=1560550343&s=gateway&sr=8-1">Ruined by Design</a> <p>Mike Monteiro</p></li>
+              <li><a href="https://www.amazon.ca/Secret-Lives-Colour-Kassia-Clair/dp/1473630819/ref=sr_1_1?crid=3O21D45DI2L6R&keywords=secret+lives+of+colour&qid=1574038805&sprefix=secret+lives+of+colo%2Caps%2C164&sr=8-1">Secret Lives of Colour</a> <p>Kassia St Clair</p></li>
             </ul>
           </div>
           <div className="category">
