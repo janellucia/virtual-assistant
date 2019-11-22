@@ -45,7 +45,7 @@ const Easy = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Map</h2>
+        <h2>Map</h2>
         <div className="project-copy project-steps">
           <p>To start things off I want to map the problem and pick a place of focus, set the projects long term goals and the questions that will need to be answered.</p>
           <p>I met with the stakeholders and facilitated a discussion where we defined the main goals and user personas. The stakeholders are looking for an informative site that gives users information about services, pricing and easy contact information.</p>
@@ -70,7 +70,7 @@ const Easy = (props) => (
         <h2>Research</h2>
         <div className="project-copy project-steps">
           <p>I got so much information from our stakeholders and users and now I want to spend time understanding the market’s vulnerabilities and opportunities for differentiation by looking into the competitive landscape. </p>
-          <p>Companies who already offer this type of service include Miracle Movers and Red Coats Moving, while the site aesthetic did not appeal to either myself or the stakeholder we did find out that these companies are showcasing themselves on sites like Alignable, Homestars and teaming up with services like Resolved.</p> 
+          <p>Companies who already offer this type of service include Miracle Movers and Red Coats Moving, while the site aesthetic did not appeal to either myself or the stakeholder we did find out that these companies are showcasing themselves on sites like Alignable, Homestars and teaming up with services like Resolved.</p>
           <p>We took that information and put it into our business strategy to explore more ideas in the sketch phase.</p>
         </div>
       </section>
@@ -150,11 +150,11 @@ const Easy = (props) => (
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
-        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
+        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
         <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
         <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>

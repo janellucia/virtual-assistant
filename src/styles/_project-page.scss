@@ -1,12 +1,11 @@
 .title, .project-links {
   position: relative;
-//   min-height: 50vh;
   width: 100%;
   
   .wrapper {
     border-bottom: 1px solid $black;
-    min-height: 45vh;
-    padding-top: 12vh;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -374,17 +373,6 @@
             }
         }
 
-    }
-}
-
-
-.lettering-archive-page {
-
-    .title {
-
-        .wrapper {
-      min-height: 55vh;
-        }
     }
 }
 

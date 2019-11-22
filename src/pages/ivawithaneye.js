@@ -19,7 +19,7 @@ const Iva = (props) => (
       </div>
     </section>
     <div id="lettering-archive" className="wrapper">
-    <section className="project-info intro">
+      <section className="project-info intro">
         <div className="project-copy">
           <h2>Creating a brand identity for an evolving brand and business</h2>
           <p>Iva is an intuitive soul coach and consultant in life, health & business. Iva delivers illuminating insight on your current state with precise instruction on how to most excellently proceed. Clients experience instant openings, opportunities and consistent results. This work is intended for all those who are ready to ignite their highest potential.</p>
@@ -34,13 +34,13 @@ const Iva = (props) => (
           <div>
             <h3>Services</h3>
             <ul>
-                <li>Brand Research</li>
-                <li>Brand Strategy</li>
+              <li>Brand Research</li>
+              <li>Brand Strategy</li>
               <li>Brand Identity</li>
               <li>Logo Design</li>
               <li>Instagram Assets</li>
               <li>Marketing Assets</li>
-           </ul>
+            </ul>
           </div>
         </div>
       </section>
@@ -58,7 +58,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Understanding the Users</h2>
+        <h2>Understanding the Users</h2>
         <div className="project-copy project-steps-full">
           <p>Iva with an eye is all about helping people make their dreams come true through personalized body readings and energetic tune-ups. To understand the needs of these clients, we created unique user profiles to represent the range of our users. This painted a clear picture of their demographics, needs and wants.</p>
           <p> </p>
@@ -70,7 +70,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Defining the Brand</h2>
+        <h2>Defining the Brand</h2>
         <div className="project-copy project-steps-full">
           <p>Through a series of exercises in the strategy session, we were able to extract and refine the key pillars of the brand. This defined the brand’s personality: how it should look, sound, act, and feel.</p>
         </div>
@@ -80,7 +80,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info intro">
-          <h2>Positioning</h2>
+        <h2>Positioning</h2>
         <div className="project-copy project-steps-full">
           <p>Understanding what Iva with an eye's brand is and who she is a champion for, helped define the positioning statement of the brand. This set the tone for everything created for the brand.</p>
         </div>
@@ -90,8 +90,8 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info intro">
-          <h2>Brand Identity System</h2>
-          <p>Iva with an eye's brand is made up of 4 core elements.</p>
+        <h2>Brand Identity System</h2>
+        <p>Iva with an eye's brand is made up of 4 core elements.</p>
         <div className="brand-elements">
           <a href="#logo">
             <Img fluid={props.data.imageNine.childImageSharp.fluid} />
@@ -112,7 +112,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info" id="logo">
-          <h2>01 Logo</h2>
+        <h2>01 Logo</h2>
         <div className="project-copy project-steps-full">
           <p>The primary logo for Iva with an eye is a combination of minimal, light and natural elements as defined in the brand values. Together, these elements create a visual balance that is pleasing and uplifting to the user. The logo is simple, energetic and unique. </p>
         </div>
@@ -138,7 +138,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info" id="colour">
-          <h2>02 Colour</h2>
+        <h2>02 Colour</h2>
         <div className="project-copy project-steps-full">
           <p>Iva's brand colours are earthy and pull from the natural elements all around us, more specifically warm concrete as Iva states as one of her main sources for inspiration at the moment. This stays true to Iva's main message of staying grounded and connecting to the earth.</p>
         </div>
@@ -164,7 +164,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info" id="type">
-          <h2>03 Typography</h2>
+        <h2>03 Typography</h2>
         <div className="project-copy project-steps">
           <p>When defining fonts for your Iva with an eye I ran through countless sans serif’s before arriving at Pangram as the final decision, I chose this as the main font because it gives off the vibe we were looking for, it’s minimal, approachable, high end, and most importantly it has a few quirks to keep it modern (we were especially attracted to the lower case a, g, and j). </p>
           <p>I added in a secondary font for titles used in the web or in marketing, in Iva's final logo I used the main fron Pangram, however, I did widen the font slightly to get the appeal we were looking for. When Iva's team is creating marketing content in ouse I wanted them to still have access to that effect without having to know how to manipulate fonts on their own, that's why I added Pier as an option. Both Pangram and Pier are fonts created in Montreal by a creative company called Pangram Pangram. </p>
@@ -175,7 +175,7 @@ const Iva = (props) => (
         </div>
       </section>
       <section className="project-info" id="imagery">
-          <h2>04 Imagery</h2>
+        <h2>04 Imagery</h2>
         <div className="project-copy project-steps-full">
           <p>When establishing a imagery style for Iva with an eye I wanted to have an easily recognizabile pattern that users would be able to instantly know where the image came from. We used light as the main source for choosing images, Iva has said it herself, her users are more attracted to images with strong lighting contrasts, so for images we wanted to stick with light and natural tones.</p>
         </div>
@@ -202,12 +202,12 @@ const Iva = (props) => (
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
-        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
-        <a className="menu-item" href="/lettering-archive">Lettering archive</a>
+        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
         <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>
     </section>
@@ -316,7 +316,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      imageFifteen: file(relativePath: { eq: "iva/iva-logo-explorations.jpg" }) {
+      imageFifteen: file(relativePath: { eq: "iva/iva-logo-explorations.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_noBase64

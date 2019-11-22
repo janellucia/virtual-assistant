@@ -11,7 +11,7 @@ const IndexPage = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Hi, I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. Specializing in human centered design, brand identity &amp; graphic design.</p>
+          <p>Hi, I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. I specialize in human centered design, brand identity &amp; graphic design.</p>
         </div>
       </section>
       <section className="portfolio">
@@ -22,17 +22,17 @@ const IndexPage = (props) => (
             <p className="category">— UX/UI, Branding, Research, App Design</p>
           </div>
         </Link>
-        <Link to="/ivawithaneye/" className="project-wrap">
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
+        <Link to="/daniela-bosco/" className="project-wrap">
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="sneek peek at Daniela Bosco" />
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="sneek peek at Daniela Bosco" />
           <div className="home-project-info iva-info">
-            <h3>Iva with an eye</h3>
-            <p className="category">— Branding, Graphic Design</p>
+            <h3>Daniela Bosco</h3>
+            <p className="category">— Web Design, Squarespace Build</p>
           </div>
         </Link>
         <Link to="/yoga-by-daisy/" className="project-wrap">
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="sneek peek of type design" />
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="sneek peek of type design" />
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="sneek peek of this project" />
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="sneek peek of this project" />
           <div className="home-project-info daisy-info">
             <h3>Pace yourself yoga by Daisy</h3>
             <p className="category">— Branding, Web Design</p>
@@ -45,19 +45,19 @@ const IndexPage = (props) => (
             <p className="category">— Branding, Web Design</p>
           </div>
         </Link>
-        <Link to="/next-step-forward/" className="project-wrap">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
+        <Link to="/girls-twenty/" className="project-wrap">
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek at Girls 20 project" />
           <div className="home-project-info next-step-info">
-            <h3>Next Step Forward</h3>
-            <p className="category">— UX/UI, Branding, Research, Front End Build</p>
+            <h3>Girls 20</h3>
+            <p className="category">— Branding, Web Design, Squarespace Build</p>
           </div>
         </Link>
-        <Link to="/kindred-academy/" className="project-wrap">
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek of type design" />
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="sneek peek of type design" />
-          <div className="home-project-info wicked-info">
-            <h3>Kindred Academy</h3>
-            <p className="category">— UX/UI, Branding, Research, Presentation</p>
+        <Link to="/ivawithaneye/" className="project-wrap">
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
+          <div className="home-project-info iva-info">
+            <h3>Iva with an eye</h3>
+            <p className="category">— Branding, Graphic Design</p>
           </div>
         </Link>
         <Link to="/lettering-archive/" className="project-wrap">
@@ -117,14 +117,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "home/iva-home.png" }) {
+    imageTwo: file(relativePath: { eq: "home/daniela-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/iva-home-mobile.png" }) {
+    imageThree: file(relativePath: { eq: "home/daniela-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
@@ -152,21 +152,21 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "home/next-home.png" }) {
+    imageSeven: file(relativePath: { eq: "home/girls-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEight: file(relativePath: { eq: "home/kindred-home.png" }) {
+    imageEight: file(relativePath: { eq: "home/iva-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "home/kindred-home-mobile.png" }) {
+    imageNine: file(relativePath: { eq: "home/iva-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

@@ -48,7 +48,7 @@ const Easy = (props) => (
         </div>
       </section>
       <section className="project-info intro">
-          <h2>Definition</h2>
+        <h2>Definition</h2>
         <div className="project-copy project-steps">
           <p>In the definition stage, I worked on clearly understanding the situation and context of youth mental health. I started off with some high-level research to prove that the state of youth mental health is a significant problem.</p>
           <p>I found a growing body of scientific evidence showing that emotional development begins early in life, that it is a critical aspect of the development of overall brain architecture, and that it has enormous consequences over the course of a lifetime.</p>
@@ -74,7 +74,7 @@ const Easy = (props) => (
       <section className="project-info">
         <h2>Divergence</h2>
         <div className="project-copy project-steps">
-          <p>At the beginning of the divergence stage I asked myself two questions:</p> 
+          <p>At the beginning of the divergence stage I asked myself two questions:</p>
           <ul className="informative-list">
             <li>How do organizations empower youth in their communities?</li>
             <li>How do caregivers encourage a positive mindset?</li>
@@ -143,11 +143,11 @@ const Easy = (props) => (
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
-        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
+        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
         <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
         <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>

@@ -48,7 +48,7 @@ const Easy = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Map</h2>
+        <h2>Map</h2>
         <div className="project-copy project-steps">
           <p>To start I need to map the problem and pick a place of focus, set the projects goals and the questions that will need to be answered. I did this by talking to users and looking into the competitive landscape.</p>
           <p>During user interviews, I found that the 85% of riders interviewed would like to avoid crowds and are “frustrated” with the number of delays that occur and an overall feeling of being uninformed when riding transit.</p>
@@ -173,11 +173,11 @@ const Easy = (props) => (
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
-        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
+        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
         <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
         <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>

@@ -18,7 +18,7 @@ const Easy = (props) => (
       </div>
     </section>
     <div className="wrapper">
-      <section className="project-info intro">
+      <section className="project-info">
         <div className="project-copy">
           <h2>Creating an online platform for an evolving brand and business</h2>
           <p>The good ones academy started as a group of artists collaborating to bring in-person hair workshops to beauty professionals looking to level up their skills. Their workshops were a hit and the good ones academy quickly became industry leaders teaching high end, quality workshops to some of Toronto’s top talent.</p>
@@ -41,13 +41,14 @@ const Easy = (props) => (
               <li>High Fidelity Prototype</li>
             </ul>
           </div>
-          {/* <div>
-            <h3>Deliverables</h3>
-          </div> */}
         </div>
       </section>
       <section className="project-info">
-          <h2>Strategy</h2>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+        </div>
+        <h2>Strategy</h2>
         <div className="project-copy project-steps">
           <p>Strategy concerns the 5Ws – the who, what, where, when and the why behind things and defining the business goals, user goals, and where they overlap. </p>
           <p>I gathered the stakeholders for a facilitated discussion to better understand their goals, what they view as barriers, questions they would like answered with their platform, user assumptions, and who are already offering this type of service in an interesting way. This helped me better define the challenge and create a strategy tailored to the unique needs of The Good Ones Academy.</p>
@@ -61,9 +62,9 @@ const Easy = (props) => (
           </ul>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="image showing sticky notes used to conduct stakeholders brainstorming session"/>
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="two user personas created to help inform design decisions later in the process"/>
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="image showing sticky notes used to conduct stakeholders brainstorming session"/>
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="image showing sticky notes used to conduct stakeholders brainstorming session" />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="two user personas created to help inform design decisions later in the process" />
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="image showing sticky notes used to conduct stakeholders brainstorming session" />
         </div>
       </section>
       <section className="project-info intro">
@@ -91,8 +92,8 @@ const Easy = (props) => (
           </ul>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app"/>
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app"/>
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app" />
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="image showing the user journey throughout the good ones education app" />
         </div>
       </section>
       <section className="project-info">
@@ -104,8 +105,8 @@ const Easy = (props) => (
           <p>This piece of the process is valuable to address user pain points before heading into wireframes. And allows quick iteration and refinement before solidifying the final design.</p>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype"/>
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype"/>
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype" />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="rough sketches created to look through design ideas before creating final designs for the prototype" />
         </div>
       </section>
       <section className="project-info">
@@ -121,9 +122,9 @@ const Easy = (props) => (
           </ul>
         </div>
         <div className="full-width-images">
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="the good ones academy colour scheme"/>
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="the good ones academy colour scheme"/>
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="the good ones academy branding font - gilroy sans"/>
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="the good ones academy colour scheme" />
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="the good ones academy colour scheme" />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="the good ones academy branding font - gilroy sans" />
         </div>
       </section>
       <section className="project-info">
@@ -156,11 +157,11 @@ const Easy = (props) => (
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
-        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
+        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
         <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
         <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>

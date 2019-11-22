@@ -18,8 +18,8 @@ const Daisy = (props) => (
         <p className="subtitle">Daisy is an independent yoga instructor, one of the incredible benefits of her practice is its ability to help us feel more connected to our physical body.</p>
       </div>
     </section>
-    <div id="lettering-archive" className="wrapper">
-    <section className="project-info">
+    <div id="yoga-by-daisy" className="wrapper">
+      <section className="project-info">
         <div className="project-copy">
           <h2>Creating a brand identity for an independent yoga instructor</h2>
           <p>In modern times where peak performance is expected and work-life balance nonexistent, never slowing down has become the norm. Daisy has used her training to curate a unique flow to help us slow the mind, connect to sensation, and feel calmer and more settled, this is something we could all benefit from every now and then. The goal here is to create a brand to reflect those values.</p>
@@ -34,13 +34,13 @@ const Daisy = (props) => (
           <div>
             <h3>Services</h3>
             <ul>
-                <li>Brand Research</li>
-                <li>Brand Strategy</li>
+              <li>Brand Research</li>
+              <li>Brand Strategy</li>
               <li>Brand Identity</li>
               <li>Logo Design</li>
               <li>Instagram Assets</li>
               <li>Marketing Assets</li>
-           </ul>
+            </ul>
           </div>
         </div>
       </section>
@@ -57,7 +57,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Understanding the Users</h2>
+        <h2>Understanding the Users</h2>
         <div className="project-copy project-steps-full">
           <p>Pace yourself yoga by Daisy is all about helping people relax, let go and bring their focus within. To understand the needs of these clients, we created unique user profiles to represent the range of our users. This painted a clear picture of their demographics, needs and wants.</p>
           <p> </p>
@@ -69,7 +69,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Defining the Brand</h2>
+        <h2>Defining the Brand</h2>
         <div className="project-copy project-steps-full">
           <p>Through a series of exercises in the strategy session, we were able to extract and refine the key pillars of the brand. This defined the brand’s personality: how it should look, sound, act, and feel.</p>
         </div>
@@ -79,7 +79,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info intro">
-          <h2>Positioning</h2>
+        <h2>Positioning</h2>
         <div className="project-copy project-steps-full">
           <p>Understanding what Pace yourself yoga by Daisy's brand is and who she is a champion for, helped define the positioning statement of the brand. This set the tone for everything created for the brand.</p>
         </div>
@@ -89,8 +89,8 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info intro">
-          <h2>Brand Identity System</h2>
-          <p>Pace yourself yoga by Daisy's brand is made up of 4 core elements.</p>
+        <h2>Brand Identity System</h2>
+        <p>Pace yourself yoga by Daisy's brand is made up of 4 core elements.</p>
         <div className="brand-elements">
           <a href="#logo">
             <Img fluid={props.data.imageNine.childImageSharp.fluid} />
@@ -111,7 +111,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info" id="logo">
-          <h2>01 Logo</h2>
+        <h2>01 Logo</h2>
         <div className="project-copy project-steps-full">
           <p>For the primary logo for Pace yourself yoga by Daisy we chose to go for non-conventional font unlike what we defined for general copy and marketing purposes called Digestive. Digestive's unpredictable curves represent what one goes through on their path to self-care. The logo is simple, bold and unique. </p>
         </div>
@@ -138,7 +138,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info" id="colour">
-          <h2>02 Colour</h2>
+        <h2>02 Colour</h2>
         <div className="project-copy project-steps-full">
           <p>Daisy's brand colours are bright and bold, bringing inspiration from both East and Western cultures. This stays true to Daisy's roots and message of staying grounded and connecting to the earth and one's self.</p>
         </div>
@@ -156,7 +156,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info" id="type">
-          <h2>03 Typography</h2>
+        <h2>03 Typography</h2>
         <div className="project-copy project-steps">
           <p>When exploring fonts for Daisy we knew that we wanted an interesting font pairing that remains minimal for general copy and marketing purposes. Our first defined font is Bluu Next Bold, which is sharp and precise, a totally good choice to replace any boring serif font we've all seen before.</p>
           <p>Syne was imagined with Bonjour Monde and designed for the art center Synesthésie, based in Saint-Denis in the very close suburb of Paris, France. Closely based on the art center’s team’s will to gather diverse artistic personalities to create fresh and enriching situations, the type family is an exploration into atypical associations in weights and styles.</p>
@@ -167,7 +167,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info" id="imagery">
-          <h2>04 Imagery</h2>
+        <h2>04 Imagery</h2>
         <div className="project-copy project-steps">
           <p>When establishing a imagery style for Daisy we wanted to have an easily recognizabile pattern that users would be to identify with. Daisy spends most of her time outside in nature and even conducts yoga classes in the park and by the water. We have some amazing shots of her by the water doing all those amazing yoga poses most of us only wish we could pull off.</p> <p>Daisy is an incredibly beautiful human and has some equally beautiful things to say, I will show you some marketing material later but when she is sharing her journey we thought it best to show herself along with it, and since Daisy is so inspired by the outdoors and has many great opportunities to travel having beautiful landscapes part of the brand allows Daisy to stay authentic to her audience.</p>
         </div>
@@ -177,7 +177,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Events</h2>
+        <h2>Events</h2>
         <div className="project-copy project-steps-full">
           <p>As an independant yoga instructor Daisy is continuously offering yoga classes and events to her audience, we wanted to define some beautiful templates that Daisy can post on social media to entice her current yogi's and attract new yogi's.</p>
         </div>
@@ -187,7 +187,7 @@ const Daisy = (props) => (
         </div>
       </section>
       <section className="project-info">
-          <h2>Quotes</h2>
+        <h2>Quotes</h2>
         <div className="project-copy project-steps-full">
           <p>With the social media look and feel mostly defined in imagery a huge part of the brand is offering inspirational quotes to their users. This is meant to uplift her fellow yogi's and connect with them on a spiritual level.</p>
         </div>
@@ -206,11 +206,11 @@ const Daisy = (props) => (
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
+        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/next-step-forward">The Next Step Forward</a>
-        <a className="menu-item" href="/kindred-academy">Kindred Academy</a>
+        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
         <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
         <a className="menu-item" href="/easy-rider">Easy Rider</a>
       </div>
