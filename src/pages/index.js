@@ -78,27 +78,27 @@ const IndexPage = (props) => (
       </section>
       <section className="process">
         <div className="step-title">
-          <p>My work is rooted in research, collaboration and feedback. I stay curious, use history as my superpower, and obsess over small details. Here's an example of my work flow:</p>
+          <p>My work is rooted in research, collaboration and feedback. I stay curious, obsess over small details, and think communication is important. Here's an example of my typical work flow:</p>
         </div>
         <div className="step step-1">
-          <h3>Define the challenges —</h3>
-          <p>Before starting any project I like to gain an empathetic understanding of the goals, values, and intentions for the project by working with stakeholders to understand their experiences, pains and needs.</p>
+          <h3>Discovery&mdash;</h3>
+          <p>First phase for me is defining the project, I want to get a deep understanding of the goals, values, and intentions of the stakeholders. We want a clear definition of what we know, what we don't know, and what we need to know.</p>
         </div>
         <div className="step step-2">
-          <h3>Research &amp; Validate —</h3>
-          <p>Then, I dive deeper with quantitative and qualitative research; user interviews, surveys, industry research, and competitive analysis and use that info to build personas and journey maps.</p>
+          <h3>Research&mdash;</h3>
+          <p>Second step is research &mdash; user interviews, surveys, industry research, and competitive analysis. We want to learn about who the users are, what their pains are, how the industry functions, and what makes this product unique.</p>
         </div>
         <div className="step step-3">
-          <h3>Sketch, Vote &amp; Storyboard —</h3>
-          <p>Design/sketch multiple solutions, facilitate a critique session with stakeholders and use dot voting to select the best solution. Then, take the winning idea and turn it into a user storyboard.</p>
+          <h3>Sketch &amp; Storyboard&mdash;</h3>
+          <p>During the third phase we sketch out competing solutions, facilitate a group critique session and vote for the best solution. We expand on the winning idea with fairly detailed wireframes while deciding on key factors together.</p>
         </div>
         <div className="step step-5">
-          <h3>Prototype &amp; Test —</h3>
-          <p>With the winning design, create an active prototype, showcase product features and animations for user testing. This allows us to observe user behaviour for better functionality and usability.</p>
+          <h3>Prototype&mdash;</h3>
+          <p>When we create the prototype, we want to showcase main product features for testing, start with the team, iron out any kinks then take it to the users, observe their behaviour, notice their ease (or lack thereof) when navigating the product.</p>
         </div>
         <div className="step step-6">
-          <h3>Evaluate &amp; Iterate —</h3>
-          <p>Once the test phase has been completed and insights collected, necessary iterations can be implemented (and re-tested) and the next phase of the design life cycle can begin.</p>
+          <h3>Evaluate &amp; Iterate&mdash;</h3>
+          <p>Once the test phase is complete and insights collected, necessary iterations can be implemented (and re-tested) and the next phase of the design life cycle begins (:</p>
         </div>
       </section>
 
@@ -152,7 +152,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "home/girls-home.png" }) {
+    imageSeven: file(relativePath: { eq: "home/girls20-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

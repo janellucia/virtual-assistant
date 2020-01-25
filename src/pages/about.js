@@ -44,24 +44,24 @@ const IndexPage = (props) => (
           </div>
         </div>
         <div className="about-wrap">
-          <h2>Hi, I’m Janel &mdash; a UX/UI Designer</h2>
+          <h2>Hello 👋🏼 I’m Janel &mdash; a UX/UI Designer</h2>
           <div className="text">
-            <p>I aim to create design people feel connected to, I specialize in human-centred design, branding, website design, editorial design (books &amp; magazines), and type-led graphic design. I follow emotional design principles to put users at ease and understand their needs, my values are “Love More” and “Lead with Simplicity” these provide a motivational foundation for all the work I produce.</p>
-            <p>I’ve been designing since 2016, I started creating logos and websites for people in my network and after designing for a year, I became interested in coding, I completed Hacker You’s full-time front-end boot camp and then their UX course. After that, I got some great opportunities to work under some amazing designers where I learned so much about simplicity, elegance, and telling a story through design. Now, my clients and I work as a team to deliver compelling brands & products through collaboration and storytelling.</p>
-            <p>I love connecting with other designers&mdash;I find that speaking with others in my field can be enlightening. I'm always looking to collaborate, specifically on brand and product-related work. My most positive past relationships have been born out of honest collaboration. My ideal client has a love for what they are doing—and is excited to create a brand that inspires.</p>
-            <p>When I'm not designing, I'm usually with friends and family, going to art galleries, restaurants and taking my dog Marvin for walks at Trinity Bellwoods. <br></br>Send me an email if you're interested in working together. If you're in Toronto, let's get coffee <a href="mailto:hello@janellucia.com">hello@janellucia.com</a>.</p>
+            <p>I aim to create design people feel connected to, I specialize in human-centred design, branding, website design, editorial design (books & magazines), and type-led graphic design. I follow emotional design principles to put users at ease and understand their needs, my values are “Love More” and “Lead with Simplicity” these provide the foundation for all the work I produce.</p>
+            <p>I’ve been designing since 2016, I started by creating logos and websites for people in my network and when I was ready to take it to the next level, and I completed Juno’s (formerly Hacker You) full-time front-end boot camp &amp; UX course. Along the way I’ve had some great opportunities to work under some very smart/talented designers where I learned about simplicity, elegance, and how to effectively tell a story through design. I wouldn't be where I am today without the support of my community filled with both designers and non-designers.</p>
+            <p>I love connecting with people who are passionate about what they do—I find hearing their stories to be enlightening. I’m always looking to collaborate, specifically on brand and product-related work, my most positive past relationships have been born out of honest collaboration. My ideal client has a love for what they are doing—and is excited to create a brand that inspires.</p>
+            <p>When I'm not pushing the boundaries of how big an Adobe file can be, I like to spend time with people I love, go to art galleries, restaurants, binge my fave series (right now it's The Politician), and take my dog Marvin for walks. <br></br>Send me an email if you're interested in working together. If you're in Toronto, let's grab a coffee (or tea) <a href="mailto:hello@janellucia.com">hello@janellucia.com</a></p>
           </div>
         </div>
         <div className="resume">
           <div className="each-section experience">
             <h3>Experience —</h3>
             <div>
-              <p><strong>Product Designer @ the good ones academy</strong></p>
-              <p>Jan 2019 - Present</p>
-            </div>
-            <div>
               <p><strong>UX Designer &amp; Developer @ Janel Lucia</strong></p>
               <p>Feb 2016 - Present</p>
+            </div>
+            <div>
+              <p><strong>Product Designer @ the good ones academy</strong></p>
+              <p>Jan 2019 - June 2019</p>
             </div>
             <div>
               <p><strong>UX Designer &amp; Developer @ ITRG</strong></p>
@@ -93,11 +93,11 @@ const IndexPage = (props) => (
             <h3>Education —</h3>
             <div>
               <p><strong>Intro &amp; Advanced UX Design</strong></p>
-              <p>Hacker You – 2018</p>
+              <p>Juno – 2018</p>
             </div>
             <div>
               <p><strong>Front End Development Bootcamp</strong></p>
-              <p>Hacker You – 2016</p>
+              <p>Juno – 2016</p>
             </div>
             <div>
               <p><strong>BA Business Administration</strong></p>
