@@ -78,7 +78,7 @@ const IndexPage = (props) => (
       </section>
       <section className="process">
         <div className="step-title">
-          <p>My work is rooted in research, collaboration and feedback. I stay curious, obsess over small details, and think communication is important. Here's an example of my typical work flow:</p>
+          <p>My work is rooted in research, collaboration and feedback. I stay curious, use inclusivity as my super power, and obsess over small details. Here's an example of my typical work flow:</p>
         </div>
         <div className="step step-1">
           <h3>Discovery&mdash;</h3>
@@ -98,7 +98,7 @@ const IndexPage = (props) => (
         </div>
         <div className="step step-6">
           <h3>Evaluate &amp; Iterate&mdash;</h3>
-          <p>Once the test phase is complete and insights collected, necessary iterations can be implemented (and re-tested) and the next phase of the design life cycle begins (:</p>
+          <p>Once the test phase is complete and insights collected, necessary iterations can be implemented (and re-tested) and the next phase of the design life cycle begins.</p>
         </div>
       </section>
 
@@ -152,7 +152,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "home/girls20-home.png" }) {
+    imageSeven: file(relativePath: { eq: "home/girls-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
