@@ -164,38 +164,44 @@
         background: transparent;
       }
     }
-    .iva-info {
-      background: rgba(#E8E6E2, 0.9);
+    .daniela-info {
+      background: rgba($seventhColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
     }
     .daisy-info {
-      background: rgba(#EEDBC9, 0.9);
+      background: rgba($secondColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
     }
     .livie-info {
-      background: rgba(#DCD0C0, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .next-step-info {
-      background: rgba($thirdColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .type-info {
       background: rgba($sixthColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
     }
+    .iva-info {
+      background: rgba($secondColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+    .type-info {
+      background: rgba($seventhColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
     .easy-info {
-      background: rgba($darkGrey, 0.9);
+      background: rgba($thirdColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+    .next-step-info {
+      background: rgba($mainColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }

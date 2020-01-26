@@ -25,7 +25,7 @@ const IndexPage = (props) => (
         <Link to="/daniela-bosco/" className="project-wrap">
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="sneek peek at Daniela Bosco" />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="sneek peek at Daniela Bosco" />
-          <div className="home-project-info iva-info">
+          <div className="home-project-info daniela-info">
             <h3>Daniela Bosco</h3>
             <p className="category">— Web Design, Squarespace Build</p>
           </div>
