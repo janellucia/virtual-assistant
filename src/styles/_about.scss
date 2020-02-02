@@ -1,21 +1,21 @@
 .about-page-wrap {
-    background: $mainColor;
+    background: $seventhColor;
     ::selection {
-        background: $sixthColor; 
+        background: $secondColor; 
     }
 
     a {
         &:hover, &:focus, &:active {
-            color: $sixthColor;
+            color: $secondColor;
         }
     }
 
     header, footer {
-        background: $mainColor;
+        background: $seventhColor;
 
         a {
             &:hover, &:focus, &:active {
-                color: $sixthColor;
+                color: $secondColor;
             }
         }
     }
@@ -23,7 +23,7 @@
 
         p {
             &:hover, &:focus, &:active {
-                color: $sixthColor;
+                color: $secondColor;
             }
         }
     }
@@ -109,7 +109,7 @@
                         font-family: $accentMedium;
     
                         &:hover, &:focus, &:active {
-                            color: $sixthColor;
+                            color: $secondColor;
                         }
                     }
                     p {
