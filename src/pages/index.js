@@ -30,11 +30,11 @@ const IndexPage = (props) => (
             <p className="category">— Web Design, Squarespace Build</p>
           </div>
         </Link>
-        <Link to="/yoga-by-daisy/" className="project-wrap">
+        <Link to="/atria-coaching/" className="project-wrap">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="sneek peek of this project" />
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="sneek peek of this project" />
-          <div className="home-project-info daisy-info">
-            <h3>Pace yourself yoga by Daisy</h3>
+          <div className="home-project-info atria-info">
+            <h3>Atria Coaching</h3>
             <p className="category">— Branding, Graphic Design</p>
           </div>
         </Link>
@@ -131,14 +131,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFour: file(relativePath: { eq: "home/daisy-home.png" }) {
+    imageFour: file(relativePath: { eq: "home/atria-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/daisy-home-mobile.png" }) {
+    imageFive: file(relativePath: { eq: "home/atria-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
