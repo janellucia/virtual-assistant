@@ -59,7 +59,7 @@ const Type = (props) => (
         <h2 className="thank-you">Other Projects</h2>
         <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
         <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
-        <a className="menu-item" href="/yoga-by-daisy">Pace yourself yoga by Daisy</a>
+        <a className="menu-item" href="/atria-coaching">Atria Coaching</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
         <a className="menu-item" href="/girls-twenty">Girls20</a>
         <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>

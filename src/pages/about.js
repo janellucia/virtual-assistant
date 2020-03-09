@@ -116,14 +116,14 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "about/about.png" }) {
+    imageOne: file(relativePath: { eq: "about/about-peach.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "about/about-mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "about/about-mobile-peach.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
