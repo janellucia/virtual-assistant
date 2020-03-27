@@ -52,5 +52,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "engines": {
+    "node": ">=0.10.3 <0.12"
   }
 }
