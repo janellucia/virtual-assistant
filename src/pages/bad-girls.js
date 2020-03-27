@@ -22,7 +22,7 @@ const BadGirls = (props) => (
     <div id="bad-girls" className="wrapper">
       <section className="project-info">
         <div className="project-copy">
-          <h2>Shopify sitebuilt for a the Bad Girls Collective.</h2>
+          <h2>Shopify site built for a the Bad Girls Collective.</h2>
           <p>Founded in 2014, Bad Girls Collective is a network of badass women on that intellectual tip – a mega book club. Originally born as a New Years resolution to read more, it has become our mission to bring well-read women together to share the power of reading and revel in each other’s stories.</p>
           <h3>Role</h3>
           <p>I was the lead developer on this project. I worked with Stakeholders to create an online experience based off their designs.</p>

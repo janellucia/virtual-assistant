@@ -408,11 +408,11 @@
     flex-wrap: wrap;
 
      .gatsby-image-wrapper {
-        width: calc(33.3% - 20px;
+        width: calc(33.3% - 20px);
         margin-bottom: 30px;
 
         @media (max-width: 768px) {
-            width: calc(50% - 10px;
+            width: calc(50% - 10px);
             margin-bottom: 20px;
         }
     }
