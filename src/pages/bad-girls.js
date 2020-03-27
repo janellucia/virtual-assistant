@@ -40,7 +40,7 @@ const BadGirls = (props) => (
               <li>Custom Sections</li>
               <li>Custom Products</li>
               <li>Custom Blogs</li>
-              <li>Site Instructions</li>
+              <li>Site Guide</li>
             </ul>
           </div>
         </div>
