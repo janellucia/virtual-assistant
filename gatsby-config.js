@@ -13,12 +13,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-instagram-all`,
-      options: {
-        access_token: "16598031891.2a46ab3.01bff035c30c4c1081fb98b6814c32b3"
-      }
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
