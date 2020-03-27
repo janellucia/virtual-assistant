@@ -1,5 +1,5 @@
 .about-page-wrap {
-    background: $mainColor;
+    // background: $mainColor;
     ::selection {
         background: $sixthColor; 
     }
@@ -11,7 +11,7 @@
     }
 
     header, footer {
-        background: $mainColor;
+        // background: $mainColor;
 
         a {
             &:hover, &:focus, &:active {

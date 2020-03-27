@@ -38,41 +38,41 @@ const IndexPage = (props) => (
             <p className="category">— Branding, Graphic Design</p>
           </div>
         </Link>
-        <Link to="/livie-jewelry/" className="project-wrap">
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="sneek peek at The Good Ones Academy" />
+        <Link to="/bad-girls/" className="project-wrap">
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="sneek peek at Bad Girls Collective" />
           <div className="home-project-info livie-info">
-            <h3>Livie Jewelry</h3>
-            <p className="category">— Branding, Web Design</p>
+            <h3>Bad Girls Collective</h3>
+            <p className="category">— Shopify Website Build</p>
           </div>
         </Link>
-        <Link to="/girls-twenty/" className="project-wrap">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek at Girls 20 project" />
+        <Link to="/livie-jewelry/" className="project-wrap">
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek at Livie Jewelry" />
           <div className="home-project-info next-step-info">
-            <h3>Girls 20</h3>
-            <p className="category">— Branding, Web Design, Squarespace Build</p>
+            <h3>Livie Jewelry</h3>
+            <p className="category">— Branding, Shopify Site Design</p>
           </div>
         </Link>
         <Link to="/ivawithaneye/" className="project-wrap">
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="sneek peek at The Next Step Forward" />
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="sneek peek at Iva with an Eye" />
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="sneek peek at Iva with an Eye" />
           <div className="home-project-info iva-info">
             <h3>Iva with an eye</h3>
             <p className="category">— Branding, Graphic Design</p>
           </div>
         </Link>
         <Link to="/lettering-archive/" className="project-wrap">
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="sneek peek of kindred academy" />
-          <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="sneek peek of kindred academy" />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="sneek peek of lettering archive" />
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="sneek peek of lettering archive" />
           <div className="home-project-info type-info">
             <h3>Lettering Archive</h3>
             <p className="category">— Lettering, Instagram</p>
           </div>
         </Link>
-        <Link to="/easy-rider/" className="project-wrap">
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="sneek peek of easy rider app" />
+        <Link to="/girls-twenty/" className="project-wrap">
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="sneek peek of Girls 20" />
           <div className="home-project-info easy-info">
-            <h3>Easy Rider</h3>
-            <p className="category">— UX/UI, Branding, Research, App Design</p>
+            <h3>Girls 20</h3>
+            <p className="category">— Branding, Web Design, Squarespace Build</p>
           </div>
         </Link>
       </section>
@@ -145,14 +145,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSix: file(relativePath: { eq: "home/livie-home.png" }) {
+    imageSix: file(relativePath: { eq: "home/bgc-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "home/girls-home.png" }) {
+    imageSeven: file(relativePath: { eq: "home/livie-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
@@ -187,7 +187,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwelve: file(relativePath: { eq: "home/easy-home.png" }) {
+    imageTwelve: file(relativePath: { eq: "home/girls-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

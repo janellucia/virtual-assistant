@@ -57,14 +57,14 @@ const Type = (props) => (
     <section className="more-projects">
       <div className="wrapper">
         <h2 className="thank-you">Other Projects</h2>
-        <a className="menu-item" href="/good-ones-academy">The Good Ones Academy</a>
+        <a className="menu-item" href="/good-ones-academy">Good Ones Academy</a>
         <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
         <a className="menu-item" href="/atria-coaching">Atria Coaching</a>
-        <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/girls-twenty">Girls20</a>
+        <a className="menu-item" href="/bad-girls">Bad Girls Collective</a>
+        <a className="menu-item" href="/girls-twenty">Livie Jewelry</a>
         <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
         <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
-        <a className="menu-item" href="/easy-rider">Easy Rider</a>
+        <a className="menu-item" href="/easy-rider">Girls 20</a>
       </div>
     </section>
   </Layout>
