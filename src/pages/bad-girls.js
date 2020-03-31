@@ -46,10 +46,12 @@ const BadGirls = (props) => (
         </div>
       </section>
       <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-      <img src={GIF} alt="" />
+      <img src={GIF} alt="" class="site-gif" />
       <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
       <Img fluid={props.data.imageThree.childImageSharp.fluid} />
       <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+      <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+      <Img fluid={props.data.imageSix.childImageSharp.fluid} />
     </div>
     <section className="project-links">
       <div className="wrapper">
@@ -104,14 +106,14 @@ export const pageQuery = graphql`
     }
     }
   }
-    imageFive: file(relativePath: {eq: "livie/livie-three.png" }) {
+    imageFive: file(relativePath: {eq: "bad-girls/bgc-four.png" }) {
       childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
     }
     }
   }
-    imageSix: file(relativePath: {eq: "livie/livie-four.png" }) {
+    imageSix: file(relativePath: {eq: "bad-girls/bgc-five.png" }) {
       childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
