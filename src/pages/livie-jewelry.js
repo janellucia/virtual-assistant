@@ -16,6 +16,9 @@ const Type = (props) => (
       <div className="wrapper">
         <h1>Livie Jewelry</h1>
         <p className="subtitle">Branding and web design for online jewelry shop Livie Jewelry.</p>
+        <div className="button-wrap">
+          <a href="https://www.liviejewelry.com/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
       </div>
     </section>
 

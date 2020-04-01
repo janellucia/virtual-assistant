@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const Easy = (props) => (
   <Layout name="project-page good-ones">
-    <SEO title="Good Ones" />
+    <SEO title="Good Ones Academy" />
     <section className="title good-title">
       <div className="wrapper">
         <h1>Good Ones Academy</h1>

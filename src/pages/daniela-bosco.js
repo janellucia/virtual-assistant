@@ -17,6 +17,9 @@ const Type = (props) => (
       <div className="wrapper">
         <h1>Daniela Bosco</h1>
         <p className="subtitle">Designing and creating a portfolio website for an Art Director on Squarespace</p>
+        <div className="button-wrap">
+          <a href="https://www.danielabosco.com/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
       </div>
     </section>
 

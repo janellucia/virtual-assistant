@@ -13,8 +13,11 @@ const GirlsTwenty = (props) => (
     <SEO title="Girls 20" />
     <section className="title">
       <div className="wrapper">
-        <h1>G(irls)20</h1>
+        <h1>Girls20</h1>
         <p className="subtitle">Transforming tomorrow by building a generation of female leaders.</p>
+        <div className="button-wrap">
+          <a href="https://girls20.org/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
       </div>
     </section>
 

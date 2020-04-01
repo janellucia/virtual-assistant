@@ -11,11 +11,14 @@ import GIF from '../images/bad-girls/bad-girls.gif'
 const BadGirls = (props) => (
 
   <Layout name="project-page">
-    <SEO title="Daniela Bosco" />
+    <SEO title="Bad Girls Collective" />
     <section className="title">
       <div className="wrapper">
         <h1>Bad Girls Collective</h1>
         <p className="subtitle">Building a Shopify site for the Bad Girls Collective</p>
+        <div className="button-wrap">
+          <a href="https://www.badgirlscollective.ca/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
       </div>
     </section>
 

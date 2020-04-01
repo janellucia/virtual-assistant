@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const IndexPage = (props) => (
   <Layout name="home-page">
-    <SEO title="UX/UI Designer" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="Designer" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Graphic Design`, `Brand Identity`, `Brand Designer`, `Typography`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
