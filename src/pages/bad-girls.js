@@ -52,6 +52,8 @@ const BadGirls = (props) => (
       <Img fluid={props.data.imageFour.childImageSharp.fluid} />
       <Img fluid={props.data.imageFive.childImageSharp.fluid} />
       <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+      <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+      <Img fluid={props.data.imageEight.childImageSharp.fluid} />
     </div>
     <section className="project-links">
       <div className="wrapper">
@@ -78,46 +80,60 @@ export default BadGirls
 
 export const pageQuery = graphql`
   query {
-      imageOne: file(relativePath: {eq: "bad-girls/bad-girls-home.png" }) {
-      childImageSharp {
+  imageOne: file(relativePath: {eq: "bad-girls/bad-girls-home.png" }) {
+    childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
-    }
+      }
     }
   }
-    imageTwo: file(relativePath: {eq: "bad-girls/bgc-one.png" }) {
-      childImageSharp {
+  imageTwo: file(relativePath: {eq: "bad-girls/bgc-one.png" }) {
+    childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
-    }
+      }
     }
   }
-    imageThree: file(relativePath: {eq: "bad-girls/bgc-two.png" }) {
-      childImageSharp {
+  imageThree: file(relativePath: {eq: "bad-girls/bgc-two.png" }) {
+    childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
-    }
+      }
     }
   }
-    imageFour: file(relativePath: {eq: "bad-girls/bgc-three.png" }) {
-      childImageSharp {
+  imageFour: file(relativePath: {eq: "bad-girls/bgc-three.png" }) {
+    childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
-    }
+      }
     }
   }
-    imageFive: file(relativePath: {eq: "bad-girls/bgc-four.png" }) {
-      childImageSharp {
+  imageFive: file(relativePath: {eq: "bad-girls/bgc-four.png" }) {
+    childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
-    }
+      }
     }
   }
-    imageSix: file(relativePath: {eq: "bad-girls/bgc-five.png" }) {
-      childImageSharp {
+  imageSix: file(relativePath: {eq: "bad-girls/bgc-five.png" }) {
+    childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
+      }
     }
+  }
+  imageSeven: file(relativePath: {eq: "bad-girls/bgc-six.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageEight: file(relativePath: {eq: "bad-girls/bgc-seven.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
     }
   }
 }
