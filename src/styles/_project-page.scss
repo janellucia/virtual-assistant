@@ -398,6 +398,10 @@
 #bad-girls {
     img {
         margin: 50px 0;
+
+        @media (max-width: 768px) {
+            margin: 25px 0;
+        }
     }
 }
 
@@ -409,11 +413,11 @@
 
      .gatsby-image-wrapper, .site-gif {
         width: calc(33.3% - 20px);
-        // margin-bottom: 30px;
+        margin-bottom: 30px;
 
         @media (max-width: 768px) {
             width: calc(50% - 10px);
-            // margin-bottom: 20px;
+            margin-bottom: 20px;
         }
     }
 }
