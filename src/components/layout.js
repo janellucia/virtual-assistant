@@ -25,9 +25,12 @@ const Layout = ({ children, name }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Menu pageWrapId={"main"} outerContainerId={"App"} />
         <main id="main">
-           {children}
+          {children}
         </main>
         <Footer />
+        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101250402);</script>
+        <script async src="//static.getclicky.com/js"></script>
+        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101250402ns.gif" /></p></noscript>
       </div>
     )}
   />
