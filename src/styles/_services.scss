@@ -139,7 +139,7 @@
         .tabs {
           overflow: hidden;
           border: 1px solid $darkGrey;
-          margin-bottom: 40px;
+          margin: 40px 0;
 
           .tab {
             width: 100%;
@@ -176,7 +176,7 @@
               max-height: 0;
               padding: 0 1em;
               transition: all .5s ease-in-out;
-              width: 100%;
+              // width: 93%;
               max-width: 650px;
 
               p {

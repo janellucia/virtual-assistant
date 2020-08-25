@@ -44,7 +44,7 @@ const Services = (props) => (
         </div>
 
         <div className="about-wrap">
-          <h2>Design Services</h2>
+          {/* <h2>Design Services</h2> */}
           <div className="tabs">
             <div className="tab">
               <input type="checkbox" id="chck1" />
