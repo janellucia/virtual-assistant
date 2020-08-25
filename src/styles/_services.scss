@@ -141,6 +141,10 @@
           border: 1px solid $darkGrey;
           margin: 40px 0;
 
+        @media (max-width: 768px)  {
+            margin: -20px 0 40px;
+        }
+
           .tab {
             width: 100%;
             overflow: hidden;

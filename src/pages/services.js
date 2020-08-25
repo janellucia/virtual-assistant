@@ -13,7 +13,7 @@ const Services = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Hello, I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Let’s make something together.</p>
+          <p>Hello, I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Check out my services below &amp; let’s make something together.</p>
         </div>
       </section>
       <section className="about-page">
