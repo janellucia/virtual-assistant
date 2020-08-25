@@ -11,13 +11,17 @@
 
 body {
   margin: 0;
-  font-family: $accentFont;
+  font-family: $accentLight;
   line-height: 1.45;
   background: $grey;
   color: $black;
 
   ::selection {
     background: $mainColor; 
+  }
+
+  @media (max-width: 768px)  {
+      font-family: $accentFont;
   }
 }
 
