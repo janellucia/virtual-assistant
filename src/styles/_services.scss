@@ -78,6 +78,9 @@
 
         h3 {
           width: 100%;
+          @media (max-width: 768px)  {
+              font-size: 1.7rem;
+          }
         }
 
         .category {
@@ -94,13 +97,20 @@
             h4 {
                 font-weight: 800;
                 margin: 0;
-                font-size: 0.9rem;
+                font-size: 1rem;
                 text-transform: uppercase;
                 letter-spacing: 1px;
+
+                @media (max-width: 768px)  {
+                    font-size: 1.3rem;
+                }
             }
     
             p {
               margin: 5px 0 25px;
+              @media (max-width: 768px)  {
+                  font-size: 1.4rem;
+              }
             }
         }
 
@@ -161,6 +171,10 @@
               font-weight: bold;
               cursor: pointer;
               font-family: $mainFont;
+
+              @media (max-width: 768px)  {
+                  font-size: 1.3rem;
+              }
             
               &:hover, &:focus, &:active {
                 background: darken($grey, 3%);
@@ -187,16 +201,27 @@
                 margin: 0;
                 padding: 10px 0;
                 font-size: 1.2rem;
+
+                @media (max-width: 768px)  {
+                    font-size: 1.4rem;
+                }
               }
               .bold {
                 font-family: $accentMedium;
               }
 
               ul {
+                @media (max-width: 768px)  {
+                    padding: 0;
+                }
                 li {
                   list-style: none;
                   margin: 5px 0;
                   font-size: 1.2rem;
+
+                  @media (max-width: 768px)  {
+                      font-size: 1.4rem;
+                  }
                 }
               }
 
@@ -204,6 +229,10 @@
                 font-family: $accentBold;
                 text-decoration: underline;
                 margin-bottom: 20px;
+
+                @media (max-width: 768px)  {
+                    font-size: 1.4rem;
+                }
               }
             }
             
@@ -212,8 +241,8 @@
                       transform: rotate(90deg);
             }
             input:checked ~ .tab-content {
-              max-height: 100vh;
-              padding: 0 1em;
+              max-height: 150vh;
+              padding: 1em;
             }
 
             input:checked ~ .tab-label {
@@ -265,7 +294,7 @@
         }
 
         @media (max-width: 600px) {
-          font-size: 18px;
+          // font-size: 18px;
           width: 70%;
         }
       }
