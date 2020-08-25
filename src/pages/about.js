@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
+
 const IndexPage = (props) => (
   <Layout name="about-page-wrap">
     <SEO title="About" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
@@ -92,6 +93,10 @@ const IndexPage = (props) => (
           <div className="each-section education">
             <h3>Education —</h3>
             <div>
+              <p><strong>Product Design</strong></p>
+              <p>Bridge School – 2020</p>
+            </div>
+            <div>
               <p><strong>Intro &amp; Advanced UX Design</strong></p>
               <p>Juno – 2018</p>
             </div>
@@ -104,8 +109,6 @@ const IndexPage = (props) => (
               <p>Durham College – 2009</p>
             </div>
           </div>
-
-
         </div>
       </section>
     </div>

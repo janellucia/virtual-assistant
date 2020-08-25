@@ -10,8 +10,9 @@ const Header = ({ siteTitle }) => (
     <nav className="wrapper">
       <h1 className="logo"><a href="/">janel lucia</a></h1>
       <ul>
-        <li><a href="/">work</a></li>
         <li><a href="/about">about</a></li>
+        <li><a href="/services">services</a></li>
+        <li><a href="/">portfolio</a></li>
         <li><a href="mailto:hello@janellucia.com" className="contact-menu-item">contact</a></li>
       </ul>
     </nav>

@@ -1,9 +1,10 @@
 header {
-  position: absolute;
+  position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
+  background: $grey;
 
   nav {
     display: flex;

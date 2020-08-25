@@ -257,7 +257,9 @@
   }
   
   .project-wrap:last-of-type {
-    margin-bottom: 120px;
+    @media (max-width: 768px) {
+      // margin-bottom: 120px;
+    }
   }
 
   .project-wrap:hover, .project-wrap:focus, .project-wrap:active {
@@ -282,19 +284,12 @@
   @media (max-width: 650px)  {
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  h2, h3 {
-    font-family: $mainFont;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-
-
+  }  
+  
   .step-title {
     max-width: 750px;
-
-    p {
+    
+    h2 {
       margin: 10px 0;
       font-family: $accentLight;
       font-size: 1.6rem;
@@ -303,6 +298,12 @@
         font-size: 1.5rem;
       }
     }
+  }
+
+  h3 {
+    font-family: $mainFont;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
   .step {
@@ -327,6 +328,19 @@
       font-family: $accentLight;
     }
 
+  }
+}
+
+
+.subscribe {
+    h2 {
+    margin: 10px 0;
+    font-family: $accentLight;
+    font-size: 1.6rem;
+
+    @media (max-width: 768px)  {
+      font-size: 1.5rem;
+    }
   }
 }
 

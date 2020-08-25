@@ -4,13 +4,17 @@ import Image from './image'
 
 export default props => {
   return (
-    <Menu right disableAutoFocus customBurgerIcon={ (<Image className="black"/>) } className="menu-icon" >
+    <Menu right disableAutoFocus customBurgerIcon={(<Image className="black" />)} className="menu-icon" >
       <a className="menu-item" href="/">
         work
       </a>
 
       <a className="menu-item" href="/about">
         about
+      </a>
+
+      <a className="menu-item" href="/services">
+        services
       </a>
 
       <a className="menu-item" href="mailto:hello@janellucia.com">

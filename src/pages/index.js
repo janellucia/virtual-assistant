@@ -72,35 +72,38 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="sneek peek of Girls 20" />
           <div className="home-project-info easy-info">
             <h3>Girls 20</h3>
-            <p className="category">— Branding, Web Design, Squarespace Build</p>
+            <p className="category">— Branding, Sub-Branding, Web Design, Squarespace Build</p>
           </div>
         </Link>
       </section>
-      <section className="process">
+      {/* <section className="process">
         <div className="step-title">
-          <p>My work is rooted in research, collaboration and feedback. I stay curious, use inclusivity as my super power, and obsess over small details. Here's an example of my typical work flow:</p>
+          <h2>My work is rooted in research, collaboration and feedback. I stay curious, use inclusivity as my super power, and obsess over small details. Here's an example of my typical work flow:</h2>
         </div>
         <div className="step step-1">
           <h3>Discovery&mdash;</h3>
-          <p>First phase for me is defining the project, I want to get a deep understanding of the goals, values, and intentions of the stakeholders. We want a clear definition of what we know, what we don't know, and what we need to know.</p>
+          <p>First step is defining the project, I want to get a deep understanding of the goals, values, and intentions of the project. The objective is to get a clear definition of what we know, what we don't know, and what we need to know.</p>
         </div>
         <div className="step step-2">
           <h3>Research&mdash;</h3>
-          <p>Second step is research &mdash; user interviews, surveys, industry research, and competitive analysis. We want to learn about who the users are, what their pains are, how the industry functions, and what makes this product unique.</p>
+          <p>Second step is research &mdash; user interviews, surveys, industry research, and competitive analysis. I want to learn about who the users are, what their pains/goals are, how the industry functions, and what makes this product unique.</p>
         </div>
         <div className="step step-3">
           <h3>Sketch &amp; Storyboard&mdash;</h3>
-          <p>During the third phase we sketch out competing solutions, facilitate a group critique session and vote for the best solution. We expand on the winning idea with fairly detailed wireframes while deciding on key factors together.</p>
+          <p>Third step is sketching out multiple solutions, facilitating critique sessions with project owners and voting for the best solution. We expand on the winning idea while deciding on key factors together.</p>
         </div>
         <div className="step step-5">
           <h3>Prototype&mdash;</h3>
-          <p>When we create the prototype, we want to showcase main product features for testing, start with the team, iron out any kinks then take it to the users, observe their behaviour, notice their ease (or lack thereof) when navigating the product.</p>
+          <p>Fourth step is creating a working prototype, we want to showcase main product features for user testing, observe their behaviour, notice their ease (or lack thereof) when navigating the product.</p>
         </div>
         <div className="step step-6">
           <h3>Evaluate &amp; Iterate&mdash;</h3>
-          <p>Once the test phase is complete and insights collected, necessary iterations can be implemented (and re-tested) and the next phase of the design life cycle begins.</p>
+          <p>Final stage is implementing any necessary feedback gathered during the testing phase, reflecting on what we learned from the project so we can update project goals and move on to the next phase of the design cycle with new discovery.</p>
         </div>
-      </section>
+      </section> */}
+      {/* <section className="subscribe">
+        <h2>Subscribe</h2>
+      </section> */}
 
     </div>
   </Layout>
