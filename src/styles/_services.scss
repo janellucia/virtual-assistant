@@ -199,6 +199,12 @@
                   font-size: 1.2rem;
                 }
               }
+
+              .get-started-link {
+                font-family: $accentBold;
+                text-decoration: underline;
+                margin-bottom: 20px;
+              }
             }
             
             input:checked + .tab-label::after {
