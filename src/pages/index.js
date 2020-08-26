@@ -40,14 +40,14 @@ const IndexPage = (props) => (
         </Link>
         <Link to="/bad-girls/" className="project-wrap">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="sneek peek at Bad Girls Collective" />
-          <div className="home-project-info livie-info">
+          <div className="home-project-info bad-girls-info">
             <h3>Bad Girls Collective</h3>
             <p className="category">— Shopify Website Build</p>
           </div>
         </Link>
         <Link to="/livie-jewelry/" className="project-wrap">
           <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="sneek peek at Livie Jewelry" />
-          <div className="home-project-info next-step-info">
+          <div className="home-project-info livie-info">
             <h3>Livie Jewelry</h3>
             <p className="category">— Branding, Shopify Site Design</p>
           </div>

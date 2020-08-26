@@ -144,7 +144,7 @@
         margin-top: 0;
         display: block;
         width: 100%;
-        color: lighten($black, 20%);
+        color: black;
         font-family: $accentItalic;
         font-size: 1.1rem;
 
@@ -176,14 +176,20 @@
         background: transparent;
       }
     }
-    .livie-info {
+    .bad-girls-info {
       background: rgba($sixthColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
     }
+    .livie-info {
+      background: rgba($fourthColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
     .iva-info {
-      background: rgba($secondColor, 0.9);
+      background: lighten(rgba($fifthColor, 0.9), 5%);
       @media (max-width: 768px) {
         background: transparent;
       }

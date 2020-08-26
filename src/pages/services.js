@@ -13,7 +13,7 @@ const Services = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Hello, I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Check out my services below &amp; let’s make something together.</p>
+          <p>Hello, I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Check out my services below &amp; let’s build something together.</p>
         </div>
       </section>
       <section className="about-page">
@@ -44,7 +44,7 @@ const Services = (props) => (
         </div>
 
         <div className="about-wrap">
-          {/* <h2>Design Services</h2> */}
+          <h2>My Services</h2>
           <div className="tabs">
             <div className="tab">
               <input type="checkbox" id="chck1" />
@@ -82,7 +82,7 @@ const Services = (props) => (
             </div>
             <div className="tab">
               <input type="checkbox" id="chck4" />
-              <label class="tab-label" for="chck4">Site Design</label>
+              <label class="tab-label" for="chck4">Web Design</label>
               <div class="tab-content">
                 <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience (hopefully) gets that feeling that they finally found the solutions they've been looking for.</p>
                 <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in successful site design. Success looks different for every business, and that's why it's important to make sure your message is coming through crystal clear.</p>
@@ -91,7 +91,7 @@ const Services = (props) => (
             </div>
             <div className="tab">
               <input type="checkbox" id="chck5" />
-              <label class="tab-label" for="chck5">Site Build</label>
+              <label class="tab-label" for="chck5">Web Development</label>
               <div class="tab-content">
                 {/* <p>Get your website up and running, with options ranging from basic theme setup (Wordpress/Shopify/Squarespace) to completely custom web solutions, I will work with you to ensure your site acheives all your business goals.</p> */}
                 <p>Whether you’re launching a new site, need an site/ecommerce audit to learn how you can grow your business, are looking to migrate from one platform to another, or need a bespoke site with unique functionality, I will work with you to ensure your site acheives all your business goals and meets WCAG sccessibility standards.</p>

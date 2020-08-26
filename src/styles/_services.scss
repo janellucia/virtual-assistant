@@ -1,21 +1,21 @@
 .services-page-wrap {
-    // background: $mainColor;
+    background: $mainColor;
     ::selection {
-        background: $seventhColor; 
+        background: $sixthColor; 
     }
 
     a {
         &:hover, &:focus, &:active {
-            color: $seventhColor;
+            color: $sixthColor;
         }
     }
 
     header, footer {
-        // background: $mainColor;
+        background: $mainColor;
 
         a {
             &:hover, &:focus, &:active {
-                color: $seventhColor;
+                color: $sixthColor;
             }
         }
     }
@@ -23,11 +23,11 @@
 
         p {
             &:hover, &:focus, &:active {
-                color: $seventhColor;
+                color: $sixthColor;
             }
         }
     }
-}
+
 
 .about-page {
     line-height: 1.45;
@@ -102,12 +102,13 @@
                 letter-spacing: 1px;
 
                 @media (max-width: 768px)  {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                 }
             }
     
             p {
               margin: 5px 0 25px;
+              font-size: 1.3rem;
               @media (max-width: 768px)  {
                   font-size: 1.4rem;
               }
@@ -128,28 +129,23 @@
         
         h2 {
             width: 100%;
-            font-family: $accentLight;
-            font-size: 2.5rem;
-            margin: 20px 0 5px;
+            font-family: $mainFont;
+            font-size: 1.5rem;
+            margin: 1em 0 5px;
 
-            @media (min-width: 701px) and (max-width: 1125px)  {
-                font-size: 2rem;
+            @media (max-width: 1125px)  {
+                font-size: 1.3rem;
             }
 
-            @media (max-width: 700px)  {
-                font-size: 1.8rem;
+            @media (max-width: 768px)  {
+                display: none;
             }
         }
 
-        .sub-heading {
-          font-size: 1.5rem;
-          margin-top: 5px;
-        }
-        
         .tabs {
           overflow: hidden;
-          border: 1px solid $darkGrey;
-          margin: 40px 0;
+          border: 1px solid rgba(black, 0.5);
+          margin: 20px 0 40px 0;
 
         @media (max-width: 768px)  {
             margin: -20px 0 40px;
@@ -158,7 +154,7 @@
           .tab {
             width: 100%;
             overflow: hidden;
-            border-bottom: 1px solid $darkGrey;
+            border-bottom: 1px solid rgba(black, 0.5);
           
             &:last-child {
               border-bottom: none;
@@ -169,15 +165,14 @@
               justify-content: space-between;
               padding: 1em;
               font-weight: bold;
+              font-size: 1.1rem;
               cursor: pointer;
               font-family: $mainFont;
+              transition: all 0.3s ease-in-out;
 
-              @media (max-width: 768px)  {
-                  font-size: 1.3rem;
-              }
             
               &:hover, &:focus, &:active {
-                background: darken($grey, 3%);
+                background: darken($mainColor, 8%);
               }
             
               &::after {
@@ -200,11 +195,8 @@
               p {
                 margin: 0;
                 padding: 10px 0;
-                font-size: 1.2rem;
+                font-size: 1.4rem;
 
-                @media (max-width: 768px)  {
-                    font-size: 1.4rem;
-                }
               }
               .bold {
                 font-family: $accentMedium;
@@ -217,11 +209,8 @@
                 li {
                   list-style: none;
                   margin: 5px 0;
-                  font-size: 1.2rem;
+                  font-size: 1.4rem;
 
-                  @media (max-width: 768px)  {
-                      font-size: 1.4rem;
-                  }
                 }
               }
 
@@ -229,10 +218,7 @@
                 font-family: $accentBold;
                 text-decoration: underline;
                 margin-bottom: 20px;
-
-                @media (max-width: 768px)  {
-                    font-size: 1.4rem;
-                }
+                font-size: 1.3rem;
               }
             }
             
@@ -246,7 +232,7 @@
             }
 
             input:checked ~ .tab-label {
-              background: darken($grey, 3%);
+              background: darken($mainColor, 8%);
             }
             
             input {
@@ -309,3 +295,4 @@
   }
 }
 
+}
