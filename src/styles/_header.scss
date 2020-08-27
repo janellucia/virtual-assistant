@@ -24,7 +24,6 @@ header {
         padding: 0;
         line-height: 0.9;
         &:hover, &:focus, &:active {
-          color: $seventhColor;
           background: none;
           text-decoration: none;
         }
@@ -38,9 +37,7 @@ header {
       right: 20px;
       top: 30%;
       margin: 0;
-      // font-family: $accentFont;
       text-transform: uppercase;
-      // text-transform: capitalize;
 
       li {
         list-style: none;
@@ -54,17 +51,9 @@ header {
 
           &:hover, &:focus, &:active {
             text-decoration: none;
-            color: $seventhColor;
             background: transparent;
           }
         }
-        // .contact-menu-item {
-        //   color: $thirdColor;
-
-        //   &:hover, &:active, &:focus {
-        //     color: $fourthColor;
-        //   }
-        // }
       }
 
       .drop-down-wrap {

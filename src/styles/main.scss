@@ -39,7 +39,7 @@ a {
   padding: 3px;
 }
 a:hover, a:focus {
-  color: $thirdColor;
+  color: $sixthColor;
 }
 
 main {
@@ -83,7 +83,7 @@ a.hidden:focus, a.hidden:active {
 .links-page-wrap {
   background: $grey;
   ::selection {
-      background: $seventhColor; 
+      background: $mainColor; 
   }
 
   header, footer {
