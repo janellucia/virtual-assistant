@@ -172,7 +172,7 @@
 
             
               &:hover, &:focus, &:active {
-                background: darken($mainColor, 5%);
+                background: darken($mainColor, 3%);
               }
             
               &::after {
@@ -232,7 +232,7 @@
             }
 
             input:checked ~ .tab-label {
-              background: darken($mainColor, 5%);
+              background: darken($mainColor, 3%);
             }
             
             input {
