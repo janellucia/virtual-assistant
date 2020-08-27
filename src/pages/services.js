@@ -54,7 +54,7 @@ const Services = (props) => (
                 <ul>
                   <li><span className="bold">User Persona(s)</span> — Define your audience, who are you talking to?</li>
                   <li><span className="bold">Design Principles</span> — Define a set of 5+ values that will help create a consistent brand across all platforms.</li>
-                  <li><span className="bold">Positioning</span> — Defining your brand positioning is very similar to creating a mission statement.</li>
+                  <li><span className="bold">Positioning</span> — Defining your brand positioning is very similar to creating a mission statement, it's where we check in to ensure authenticity.</li>
                 </ul>
                 <p>We refer to these values throughout the design process and beyond to ensure clear and informed design and decisions. Defining your values is the core to all of my services, I believe in creating informed design with a clear message and goal.</p>
                 <a href="mailto:hello@janellucia?subject=Building Design Values" className="get-started-link">Get Started Today</a>
@@ -84,8 +84,8 @@ const Services = (props) => (
               <input type="checkbox" id="chck4" />
               <label class="tab-label" for="chck4">Web Design</label>
               <div class="tab-content">
-                <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience (hopefully) gets that feeling that they finally found the solutions they've been looking for.</p>
-                <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in successful site design. Success looks different for every business, and that's why it's important to make sure your message is coming through crystal clear.</p>
+                <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience gets that feeling that they finally found the solutions they've been looking for.</p>
+                <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in satisfying site design. Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users.</p>
                 <a href="mailto:hello@janellucia?subject=Website Design" className="get-started-link">Get Started Today</a>
               </div>
             </div>
