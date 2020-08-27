@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Janel Lucia`,
-    description: `I'm a UX/UI Designer in Toronto. I aim to create design that makes a difference—to propel brands with soul and substance who are passionate about what they do. My work is rooted in research, iteration, and collaboration.`,
+    description: `I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. I specialize in human-centred design, brand identity & graphic design.`,
     author: `Janel Lucia`,
   },
   plugins: [
