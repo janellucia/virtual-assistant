@@ -115,7 +115,7 @@ const Services = (props) => (
             </div>
             <div className="tab">
               <input type="checkbox" id="chck7" />
-              <label class="tab-label" for="chck7">Social Media Design</label>
+              <label class="tab-label" for="chck7">Social Media Marketing</label>
               <div class="tab-content">
                 <p>Your customers are meeting each other, sharing ideas, and talking about your brand online. Give them a great first impression. I will work with you to create strong social media designs, we will take the look and feel of your website/brand to every social part of the web and get you interacting online in style.</p>
                 <p>Good social media marketing is all about high quality content and consistent branding. Neither is possible without proper design work, simply because social media is a visual platform for your company.</p>
