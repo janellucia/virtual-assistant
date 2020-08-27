@@ -14,7 +14,7 @@ const Links = (props) => (
       <section className="landing-about">
         <div className="about-wrap">
           {/* <p>Today and every day, I stand in solidarity with the movement for Black lives. I’ve curated these resources to help the community take action and make long-term commitments to anti-racism.</p> */}
-          <p>Establish diversity &amp; inclusion values in your business today, check out my services and together we can define ethical standards at the core of your brands values, design, messaging &amp; beyond.</p>
+          <p>Establish diversity &amp; inclusion values in your business today, check out my services and together we can define ethical standards at the core of your brands values, design &amp; messaging.</p>
         </div>
       </section>
       <section className="about-page">
