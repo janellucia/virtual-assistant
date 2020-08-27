@@ -76,3 +76,38 @@ a.hidden:focus, a.hidden:active {
   font-size:1.2em;
   z-index:999;
 }
+
+
+
+.insta-links {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: $mainFont;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 20px 0;
+}
+
+.links-wrap {
+  margin: 100px auto !important;
+  h2 {
+    text-align: center;
+
+    @media (max-width: 768px)  {
+      display: block !important;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .tabs {
+    @media (max-width: 768px)  {
+      margin: 20px 0 !important;
+    }
+  }
+}
