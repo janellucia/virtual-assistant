@@ -11,7 +11,7 @@ const IndexPage = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Hi, I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. I specialize in human-centred design, brand identity &amp; graphic design.</p>
+          <p>Hi, I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. I specialize in user-experience design, brand identity &amp; graphic design.</p>
         </div>
       </section>
       <section className="portfolio">
