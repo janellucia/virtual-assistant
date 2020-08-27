@@ -79,6 +79,17 @@ a.hidden:focus, a.hidden:active {
 
 
 
+
+.links-page-wrap {
+  background: $secondColor;
+
+  header, footer {
+    background: $secondColor;
+  }
+}
+
+
+
 .insta-links {
   display: block;
   width: 100%;
