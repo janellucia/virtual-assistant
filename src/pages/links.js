@@ -11,16 +11,14 @@ const Links = (props) => (
   <Layout name="about-page-wrap services-page-wrap links-page-wrap">
     <SEO title="Links" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
-      {/* <section className="landing-about">
+      <section className="landing-about">
         <div className="about-wrap">
-          <p>Hello, I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Check out my services below &amp; let’s build something together.</p>
-        </div>
-      </section> */}
-      <section className="about-page">
-        <div className="about-wrap links-wrap">
-          <h2>@janellucia link directory</h2>
           <p>Today and every day, I stand in solidarity with the movement for Black lives. I’ve curated these resources to help the community take action and make long-term commitments to anti-racism.</p>
           <p>Establish diversity &amp; inclusion values into your business today, check out my service Brand Values and together we can define ethical, human standards at the core of your brands design, messaging &amp; beyond.</p>
+        </div>
+      </section>
+      <section className="about-page">
+        <div className="about-wrap links-wrap">
           <div className="tabs">
             <div className="tab">
               <a href="https://petitions.whitehouse.gov/petition/justice-breonna-taylor-5" target="new" class="insta-links">Justice for Breonna Taylor</a>

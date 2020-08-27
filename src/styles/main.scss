@@ -81,10 +81,13 @@ a.hidden:focus, a.hidden:active {
 
 
 .links-page-wrap {
-  background: $secondColor;
+  background: $grey;
+  ::selection {
+      background: $seventhColor; 
+  }
 
   header, footer {
-    background: $secondColor;
+    background: $grey;
   }
 }
 
@@ -98,27 +101,14 @@ a.hidden:focus, a.hidden:active {
   font-weight: 700;
   font-size: 1.3rem;
   padding: 20px 0;
+
+  &:active, &:hover, &:focus {
+    background: $fifthColor;
+    color: $mainColor !important;
+  }
 }
 
 .links-wrap {
-  margin: 60px auto !important;
-  h2 {
-    text-align: center;
+  margin: 0 auto !important;
 
-    @media (max-width: 768px)  {
-      display: block !important;
-    }
-  }
-  p {
-    font-size: 1.4rem;
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
-  }
-
-  .tabs {
-    @media (max-width: 768px)  {
-      margin: 20px 0 !important;
-    }
-  }
 }
