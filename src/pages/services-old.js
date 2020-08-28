@@ -16,15 +16,7 @@ const Services = (props) => (
           <p>I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Check out my services below &amp; let’s make something together.</p>
         </div>
       </section>
-      {/* <section className="services-navigation">
-        <div className="about-wrap">
-          <a href="#brand-values" className="">Brand Values </a>
-        </div>
-      </section> */}
       <section className="about-page">
-        <div id="brand-values" >
-
-        </div>
 
         <div className="about-wrap">
           <h2>My Services</h2>
@@ -109,8 +101,6 @@ const Services = (props) => (
 
 
         </div>
-
-
         <div className="panel">
           <h3>My Values</h3>
           <div className="category">

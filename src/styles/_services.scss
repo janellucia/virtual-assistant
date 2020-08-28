@@ -4,28 +4,8 @@
         background: $sixthColor; 
     }
 
-    a {
-        &:hover, &:focus, &:active {
-            color: $sixthColor;
-        }
-    }
-
     header, footer {
         background: $mainColor;
-
-        a {
-            &:hover, &:focus, &:active {
-                color: $sixthColor;
-            }
-        }
-    }
-    header {
-
-        p {
-            &:hover, &:focus, &:active {
-                color: $sixthColor;
-            }
-        }
     }
 
 
