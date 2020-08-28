@@ -17,31 +17,6 @@ const Services = (props) => (
         </div>
       </section>
       <section className="about-page">
-        <div className="panel">
-          <h3>My Values</h3>
-          <div className="category">
-            <h4>Know the Goals</h4>
-            <p>When designing at any level the work should always reflect the product goals. Design Thinking begins with ‘why’ and creates the process for innovation.</p>
-          </div>
-          <div className="category">
-            <h4>Promote Empathy</h4>
-            <p>Use research to better understand the user, such as their behaviors, expectations, values, motivations, and needs. Design for friendliness, be sensitive to the context a design lives. Aim for approachable and respectful.</p>
-          </div>
-          <div className="category">
-            <h4>Keep it Simple</h4>
-            <p>Design purposeful interfaces that favor usability, while also infusing delight through color, animation and language.</p>
-          </div>
-
-          <div className="category">
-            <h4>Reduce Risks</h4>
-            <p>Do not be afraid of risks, but find a way to minimize potential failures. Identify elements in the development ecosystem, such as technology, the market, competitors, and customers.</p>
-          </div>
-          <div className="category">
-            <h4>Learn & learn again</h4>
-            <p>Know the data surrounding your product well enough to discuss, describe and deeply inform your design work. Grow from each experience.</p>
-          </div>
-
-        </div>
 
         <div className="about-wrap">
           <h2>My Services</h2>
@@ -126,6 +101,32 @@ const Services = (props) => (
 
 
         </div>
+        <div className="panel">
+          <h3>My Values</h3>
+          <div className="category">
+            <h4>Know the Goals</h4>
+            <p>When designing at any level the work should always reflect the product goals. Design Thinking begins with ‘why’ and creates the process for innovation.</p>
+          </div>
+          <div className="category">
+            <h4>Promote Empathy</h4>
+            <p>Use research to better understand the user, such as their behaviors, expectations, values, motivations, and needs. Design for friendliness, be sensitive to the context a design lives. Aim for approachable and respectful.</p>
+          </div>
+          <div className="category">
+            <h4>Keep it Simple</h4>
+            <p>Design purposeful interfaces that favor usability, while also infusing delight through color, animation and language.</p>
+          </div>
+
+          <div className="category">
+            <h4>Reduce Risks</h4>
+            <p>Do not be afraid of risks, but find a way to minimize potential failures. Identify elements in the development ecosystem, such as technology, the market, competitors, and customers.</p>
+          </div>
+          <div className="category">
+            <h4>Learn & learn again</h4>
+            <p>Know the data surrounding your product well enough to discuss, describe and deeply inform your design work. Grow from each experience.</p>
+          </div>
+
+        </div>
+
       </section>
       <Testimonials />
     </div>

@@ -4,28 +4,9 @@
         background: $sixthColor; 
     }
 
-    a {
-        &:hover, &:focus, &:active {
-            color: $sixthColor;
-        }
-    }
-
     header, footer {
         background: $mainColor;
 
-        a {
-            &:hover, &:focus, &:active {
-                color: $sixthColor;
-            }
-        }
-    }
-    header {
-
-        p {
-            &:hover, &:focus, &:active {
-                color: $sixthColor;
-            }
-        }
     }
 }
 
@@ -134,12 +115,12 @@
     }
     .about-wrap {
         width: 64%;
-        margin-left: 40px;
+        margin-right: 40px;
 
         @media (max-width: 768px)  {
             width: 100%;
             order: 2;
-            margin-left: 0;
+            margin-right: initial;
         }
         
         h2 {

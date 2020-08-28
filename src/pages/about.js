@@ -15,6 +15,15 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="janel lucia headshot" />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="janel lucia headshot" />
         </div>
+        <div className="about-wrap">
+          <h2>Hi, I’m Janel &mdash; a UX/UI Designer</h2>
+          <div className="text">
+            <p>I specialize in human-centred design, branding, website design, and type-led graphic design. I aim to create design people feel connected to and I follow emotional design principles to put users at ease and understand their needs. My values are “Love More” and “Lead with Simplicity” these provide the foundation for all the work I produce.</p>
+            <p>I’ve been designing since 2016, I started by creating logos and websites for people in my network and when I was ready to go full time, I completed Juno’s (formerly Hacker You) full-time front-end boot camp &amp; UX course. Along the way, I’ve had amazing opportunities to work with some great designers where I learned so much about simplicity, elegance, and how to effectively tell a story through design.</p>
+            <p>I love connecting with people who are passionate about what they do—I find hearing their stories to be enlightening. I’m always looking to collaborate, my most positive past relationships have been born out of honest collaboration. My ideal client has a love for what they are doing—and is excited to create a something that inspires and connects.</p>
+            <p>When I'm not designing, I like to spend time with people I love, go to art galleries, restaurants, binge my fave series (right now it's The Politician), and take my dog Marvin out for walks.</p> <p>Send me an email if you're interested in working together. If you're in Toronto, let's grab coffee <a href="mailto:hello@janellucia.com">hello@janellucia.com</a></p>
+          </div>
+        </div>
         <div className="panel">
           <div className="category">
             <h3>Podcasts &mdash;</h3>
@@ -44,15 +53,7 @@ const IndexPage = (props) => (
             </ul>
           </div>
         </div>
-        <div className="about-wrap">
-          <h2>Hi, I’m Janel &mdash; a UX/UI Designer</h2>
-          <div className="text">
-            <p>I specialize in human-centred design, branding, website design, editorial design (books & magazines), and type-led graphic design. I aim to create design people feel connected to and follow emotional design principles to put users at ease and understand their needs. My values are “Love More” and “Lead with Simplicity” these provide the foundation for all the work I produce.</p>
-            <p>I’ve been designing since 2016, I started by creating logos and websites for people in my network and when I was ready to go full time, I completed Juno’s (formerly Hacker You) full-time front-end boot camp &amp; UX course. Along the way, I’ve had amazing opportunities to work with some great designers where I learned so much about simplicity, elegance, and how to effectively tell a story through design.</p>
-            <p>I love connecting with people who are passionate about what they do—I find hearing their stories to be enlightening. I’m always looking to collaborate, my most positive past relationships have been born out of honest collaboration. My ideal client has a love for what they are doing—and is excited to create a something that inspires and connects.</p>
-            <p>When I'm not designing, I like to spend time with people I love, go to art galleries, restaurants, binge my fave series (right now it's The Politician), and take my dog Marvin out for walks.</p> <p>Send me an email if you're interested in working together. If you're in Toronto, let's grab coffee <a href="mailto:hello@janellucia.com">hello@janellucia.com</a></p>
-          </div>
-        </div>
+
         <div className="resume">
           <div className="each-section experience">
             <h3>Experience —</h3>

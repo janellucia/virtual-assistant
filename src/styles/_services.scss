@@ -119,12 +119,12 @@
 
     .about-wrap {
         width: 64%;
-        margin-left: 40px;
+        margin-right: 40px;
 
         @media (max-width: 768px)  {
             width: 100%;
             order: 2;
-            margin-left: 0;
+            margin-right: 0;
         }
         
         h2 {
