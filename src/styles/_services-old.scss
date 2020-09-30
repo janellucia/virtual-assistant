@@ -1,0 +1,278 @@
+.services-page-wrap {
+    background: $mainColor;
+    ::selection {
+        background: $sixthColor; 
+    }
+
+    header, footer {
+        background: $mainColor;
+    }
+
+
+.about-page {
+    line-height: 1.45;
+    display: flex;
+    flex-wrap: wrap;
+
+    .image-wrap {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-top: 40px;
+        
+        img {
+            width: 100%;
+            height: auto;;
+        }
+
+        .gatsby-image-wrapper:nth-child(2) {
+            display: none;
+        }
+
+        @media (max-width: 768px)  {
+            order: 1;
+            margin-bottom: 0;
+
+            .gatsby-image-wrapper:nth-child(1) {
+                display: none;
+            }
+
+            .gatsby-image-wrapper:nth-child(2) {
+                display: block;
+            }
+        }
+    }
+
+    .panel {
+        width: 25%;
+        padding: 20px;
+
+        @media (max-width: 768px)  {
+            width: 100%;
+            order: 3;
+            display: flex;
+            padding: 20px 0;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        h3 {
+          width: 100%;
+          @media (max-width: 768px)  {
+              font-size: 1.7rem;
+          }
+        }
+
+        .category {
+            width: 100%;
+
+            @media (min-width: 501px) and (max-width: 768px)  {
+                width: 47%;
+            }
+
+            @media (max-width: 500px)  {
+                width: 100%;
+            }
+
+            h4 {
+                font-weight: 800;
+                margin: 0;
+                font-size: 1rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+
+                @media (max-width: 768px)  {
+                    font-size: 1.1rem;
+                }
+            }
+    
+            p {
+              margin: 5px 0 25px;
+              font-size: 1.3rem;
+              @media (max-width: 768px)  {
+                  font-size: 1.4rem;
+              }
+            }
+        }
+
+    }
+
+    .about-wrap {
+        width: 64%;
+        margin-right: 40px;
+
+        @media (max-width: 768px)  {
+            width: 100%;
+            order: 2;
+            margin-right: 0;
+        }
+        
+        h2 {
+            width: 100%;
+            font-family: $mainFont;
+            font-size: 1.5rem;
+            margin: 1em 0 5px;
+
+            @media (max-width: 1125px)  {
+                font-size: 1.3rem;
+            }
+
+            @media (max-width: 768px)  {
+                display: none;
+            }
+        }
+
+        .tabs {
+          overflow: hidden;
+          border: 1px solid rgba(black, 0.5);
+          margin: 20px 0 40px 0;
+
+        @media (max-width: 768px)  {
+            margin: -20px 0 40px;
+        }
+
+          .tab {
+            width: 100%;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(black, 0.5);
+          
+            &:last-child {
+              border-bottom: none;
+            }
+
+            .tab-label {
+              display: flex;
+              justify-content: space-between;
+              padding: 1em;
+              font-weight: bold;
+              font-size: 1.1rem;
+              cursor: pointer;
+              font-family: $mainFont;
+              transition: all 0.3s ease-in-out;
+
+            
+              &:hover, &:focus, &:active {
+                background: darken($mainColor, 3%);
+              }
+            
+              &::after {
+                content: "\276F";
+                width: 1em;
+                height: 1em;
+                text-align: center;
+                -webkit-transition: all .35s;
+                transition: all .35s;
+              }
+            }
+            
+            .tab-content {
+              max-height: 0;
+              padding: 0 1em;
+              transition: all .5s ease-in-out;
+              // width: 93%;
+              max-width: 650px;
+
+              p {
+                margin: 0;
+                padding: 10px 0;
+                font-size: 1.4rem;
+
+              }
+              .bold {
+                font-family: $accentMedium;
+              }
+
+              ul {
+                @media (max-width: 768px)  {
+                    padding: 0;
+                }
+                li {
+                  list-style: none;
+                  margin: 5px 0;
+                  font-size: 1.4rem;
+
+                }
+              }
+
+              .get-started-link {
+                font-family: $accentBold;
+                text-decoration: underline;
+                margin-bottom: 20px;
+                font-size: 1.3rem;
+              }
+            }
+            
+            input:checked + .tab-label::after {
+              -webkit-transform: rotate(90deg);
+                      transform: rotate(90deg);
+            }
+            input:checked ~ .tab-content {
+              max-height: 150vh;
+              padding: 1em;
+            }
+
+            input:checked ~ .tab-label {
+              background: darken($mainColor, 3%);
+            }
+            
+            input {
+              position: absolute;
+              opacity: 0;
+              z-index: -1;
+            }
+          }
+        }
+
+    }
+
+    
+}
+
+.testimonials {
+  border-top: 1px solid black;
+
+  .slider {
+
+    a.previousButton {
+      left: 0 !important;
+    }
+
+    a.nextButton {
+      right: 0 !important;
+    }
+
+    .slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+
+      p {
+        width: 80%;
+        max-width: 700px;
+        font-size: 25px;
+        margin-bottom: 10px;
+
+        @media (max-width: 768px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 600px) {
+          // font-size: 18px;
+          width: 70%;
+        }
+      }
+
+      h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 0;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+}

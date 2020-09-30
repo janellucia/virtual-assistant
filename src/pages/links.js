@@ -22,13 +22,19 @@ const Links = (props) => (
         <div className="about-wrap links-wrap">
           <div className="tabs">
             <div className="tab">
-              <a href="https://petitions.whitehouse.gov/petition/justice-breonna-taylor-5" target="new" class="insta-links">Justice for Breonna Taylor</a>
+              <a href="https://www.forbreonna.com/" target="new" class="insta-links">ForBreonna.com</a>
             </div>
             <div className="tab">
-              <a href="https://humanitariancoalition.akaraisin.com/ui/crisisinlebanonfundraising/participant/6117594?Lang=en-CA" target="new" class="insta-links">Donate to Canadians for Lebanon</a>
+              <a href="https://cheatsheetforthevotingbooth.com/?utm_source=ogpr&utm_medium=ig&utm_campaign=cs" target="new" class="insta-links">Vote in America</a>
             </div>
             <div className="tab">
-              <a href="https://blacklivesmatter-canada.carrd.co/#english" target="new" class="insta-links">Black Lives Matter Canada — Sign Petitions/Protest/Donate</a>
+              <a href="https://www.elections.ca/content.aspx?dir=reg&document=index&lang=e&section=vot" target="new" class="insta-links">Vote in Canada</a>
+            </div>
+            <div className="tab">
+              <a href="https://humanitariancoalition.akaraisin.com/ui/crisisinlebanonfundraising/participant/6117594?Lang=en-CA" target="new" class="insta-links">Canadians for Lebanon</a>
+            </div>
+            <div className="tab">
+              <a href="https://blacklivesmatter-canada.carrd.co/#english" target="new" class="insta-links">BLM Canada</a>
             </div>
             <div className="tab">
               <a href="https://docs.google.com/spreadsheets/d/1LHBfN_ceCMgBNYRMvFv_vw2NL8s72LRSUd9TYfIwZ24/edit#gid=0" target="new" class="insta-links">Anti-Racism Guide</a>

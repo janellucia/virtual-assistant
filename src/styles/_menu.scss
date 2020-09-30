@@ -53,8 +53,6 @@
   
     &:hover, &:focus, &:active, &::selection {
       color: $black;
-      // text-decoration: underline;
-      // background: $seventhColor;
       text-decoration: line-through;
     }
   }
