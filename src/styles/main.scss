@@ -89,6 +89,13 @@ a.hidden:focus, a.hidden:active {
   header, footer {
     background: $grey;
   }
+
+  .landing-about {
+    @media (max-width: 768px) {
+        padding: 60px 0 20px 0;
+    }
+
+  }
 }
 
 
