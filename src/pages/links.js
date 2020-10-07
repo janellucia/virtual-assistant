@@ -22,6 +22,12 @@ const Links = (props) => (
         <div className="about-wrap links-wrap">
           <div className="tabs">
             <div className="tab">
+              <a href="https://www.instagram.com/armeniasupportfund/" target="new" class="insta-links">@armeniasupportfund</a>
+            </div>
+            <div className="tab">
+              <a href="https://www.gofundme.com/f/justice-pour-joycejustice-for-joyce?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" target="new" class="insta-links">GoFundMe for Joyce Echaquan</a>
+            </div>
+            <div className="tab">
               <a href="https://www.forbreonna.com/" target="new" class="insta-links">ForBreonna.com</a>
             </div>
             <div className="tab">
