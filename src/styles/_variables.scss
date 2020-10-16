@@ -18,76 +18,11 @@ $good-ones: #AB9662;
 
 
 
+@import url("https://use.typekit.net/yri4mff.css");
 
-@font-face {
-  font-family: 'Butler-UltraLight';
-  src: url('../fonts/Butler-UltraLight.woff2') format('woff2'),
-      url('../fonts/Butler-UltraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-}
+$titleFont: freight-big-pro, serif;
+$bodyFont: freight-big-pro, sans-serif;
+$accentFont: poppins, sans-serif;
 
-@font-face {
-  font-family: 'Butler-Light';
-  src: url('../fonts/Butler-Light.woff2') format('woff2'),
-      url('../fonts/Butler-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler';
-  src: url('../fonts/Butler.woff2') format('woff2'),
-      url('../fonts/Butler.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler-Medium';
-  src: url('../fonts/Butler-Medium.woff2') format('woff2'),
-      url('../fonts/Butler-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler-Bold';
-  src: url('../fonts/Butler-Bold.woff2') format('woff2'),
-      url('../fonts/Butler-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler-ExtraBold';
-  src: url('../fonts/Butler-ExtraBold.woff2') format('woff2'),
-      url('../fonts/Butler-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Butler-Black';
-  src: url('../fonts/Butler-Black.woff2') format('woff2'),
-      url('../fonts/Butler-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i&display=swap');
-
-
-
-$accentUltraLight: 'Butler-UltraLight', serif;
-$accentLight: 'Butler-Light', serif;
-$accentFont: 'Butler', serif;
-$accentMedium: 'Butler-Medium', serif;
-$accentBold: 'Butler-Bold', serif;
-$accentExtraBold: 'Butler-ExtraBold', serif;
-$accentBlack: 'Butler-Black', serif;
-$accentItalic: 'Playfair Display', 'Butler-Light', serif;
-
-$mainFont: 'Poppins', sans-serif;
 
 

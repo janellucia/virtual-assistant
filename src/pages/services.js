@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
 import Testimonials from '../components/testimonials'
@@ -13,13 +12,13 @@ const Services = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>I design digital products and experiences that are beautifully simple, reassuringly smart and full of brand personality. Check out my services below &amp; let’s make something together.</p>
+          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality with my inclusive design system.</p>
         </div>
       </section>
       <section className="about-page">
 
         <div className="about-wrap">
-          <h2>My Services</h2>
+          <h2>My Services &mdash;</h2>
           <div className="tabs">
             <div className="tab">
               <input type="checkbox" id="chck1" />
@@ -102,7 +101,7 @@ const Services = (props) => (
 
         </div>
         <div className="panel">
-          <h3>My Values</h3>
+          <h3>My Values &mdash;</h3>
           <div className="category">
             <h4>Know the Goals</h4>
             <p>When designing at any level the work should always reflect the product goals. Design Thinking begins with ‘why’ and creates the process for innovation.</p>

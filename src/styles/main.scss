@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: $accentLight;
+  font-family: $bodyFont;
   line-height: 1.45;
   background: $grey;
   color: $black;
@@ -20,13 +20,11 @@ body {
     background: $mainColor; 
   }
 
-  @media (max-width: 768px)  {
-      font-family: $accentFont;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $mainFont;
+  font-family: $titleFont;
+  font-weight: 300;
 }
 
 
@@ -104,9 +102,10 @@ a.hidden:focus, a.hidden:active {
   display: block;
   width: 100%;
   text-align: center;
-  font-family: $mainFont;
-  font-weight: 700;
-  font-size: 1.3rem;
+  font-family: $accentFont;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
   padding: 20px 0;
 
   &:active, &:hover, &:focus {

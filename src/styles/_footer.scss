@@ -23,7 +23,7 @@ footer {
         font-size: 0.9rem;
         font-weight: 400;
         margin: 0;
-        font-family: $mainFont;
+        font-family: $accentFont;
 
         @media (max-width: 650px) {
           text-align: center;
@@ -35,8 +35,10 @@ footer {
       a {
         margin-right: 10px;
         font-size: 0.9rem;
-        font-family: $mainFont;
-        letter-spacing: 1px;
+        font-family: $accentFont;
+        letter-spacing: 1.5px;
+        // text-transform: uppercase;
+        font-weight: 400;
       }
       a:last-of-type {
         margin-right: 0;
@@ -69,9 +71,10 @@ footer {
   }
 
   p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     margin: 5px 0 0 0;
+    font-weight: 300;
 
     @media (max-width: 549px) {
       font-size: 1.7rem;
@@ -80,9 +83,12 @@ footer {
   }
   a {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
     align-self: flex-start;
-    font-family: $accentItalic;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1;
+    padding: 0;
 
     @media (max-width: 549px) {
       font-size: 1.7rem;

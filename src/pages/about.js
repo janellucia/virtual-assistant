@@ -16,7 +16,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="janel lucia headshot" />
         </div>
         <div className="about-wrap">
-          <h2>Hi, I’m Janel &mdash; a UX/UI Designer</h2>
+          <h2>Hi, I’m Janel &mdash; <br></br>a UX/UI Designer</h2>
           <div className="text">
             <p>I specialize in human-centred design, branding, website design, and type-led graphic design. I aim to create design people feel connected to and I follow emotional design principles to put users at ease and understand their needs. My values are “Love More” and “Lead with Simplicity” these provide the foundation for all the work I produce.</p>
             <p>I’ve been designing since 2016, I started by creating logos and websites for people in my network and when I was ready to go full time, I completed Juno’s (formerly Hacker You) full-time front-end boot camp &amp; UX course. Along the way, I’ve had amazing opportunities to work with some great designers where I learned so much about simplicity, elegance, and how to effectively tell a story through design.</p>

@@ -13,7 +13,7 @@ const Easy = (props) => (
         <h1>Good Ones Academy</h1>
         <p className="subtitle">A group of artists bringing technical education for the contemporary forward thinking beauty professionals.</p>
         <div className="button-wrap">
-          <a href="https://invis.io/SGS36PZCEY9#/364068922_loading_Screen" className="button" target="_blank" rel="noopener noreferrer">view Invision Prototype</a>
+          <a href="https://invis.io/SGS36PZCEY9#/364068922_loading_Screen" className="button" target="_blank" rel="noopener noreferrer">View Invision Prototype</a>
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ const IndexPage = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. I specialize in human-centred design, brand identity &amp; graphic design.</p>
+          <p>I'm a UX/UI Designer in Toronto crafting meaningful and strategic design with a clear voice and vision. I specialize in human-centred design, brand identity <span className="amp">&amp;</span> graphic design.</p>
         </div>
       </section>
       <section className="portfolio">
@@ -70,7 +70,7 @@ const IndexPage = (props) => (
         </Link>
         <Link to="/girls-twenty/" className="project-wrap">
           <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="sneek peek of Girls 20" />
-          <div className="home-project-info easy-info">
+          <div className="home-project-info girls-info">
             <h3>Girls 20</h3>
             <p className="category">— Branding, Sub-Branding, Web Design, Squarespace Build</p>
           </div>

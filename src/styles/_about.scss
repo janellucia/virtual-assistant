@@ -45,9 +45,9 @@
     }
 
     .panel {
-        width: calc(25% - 100px);
+        width: calc(30% - 100px);
         padding: 20px 0 20px 50px;
-        // border-left: 1px solid black;
+        border-left: 1px solid black;
 
         @media (max-width: 768px)  {
             width: 100%;
@@ -71,11 +71,12 @@
             }
 
             h3 {
-                font-weight: 800;
+                font-weight: 700;
                 margin: 0;
-                font-size: 1rem;
+                font-size: 0.9rem;
                 text-transform: uppercase;
                 letter-spacing: 2px;
+                font-family: $accentFont;
             }
     
             ul {
@@ -86,24 +87,25 @@
                     list-style: none;
                     a {
                         margin: 0;
-                        font-size: 1.1rem;
-                        padding-bottom: 0;
-                        font-family: $accentMedium;
+                        font-size: 1.5rem;
+                        padding: 0;
+                        font-weight: 500;
     
                         &:hover, &:focus, &:active {
                             color: $sixthColor;
                         }
 
                         @media (max-width: 768px)  {
-                            font-size: 1.4rem;
+                            font-size: 1.3rem;
                         }
                     }
                     p {
-                        font-family: $accentLight;
                         display: block;
                         margin: 0;
-                        padding: 0 2px;
-                        font-size: 1rem;
+                        padding: 0;
+                        font-size: 1.1rem;
+                        font-style: italic;
+                        line-height: 1;
 
                         @media (max-width: 768px)  {
                             font-size: 1.3rem;
@@ -115,7 +117,7 @@
 
     }
     .about-wrap {
-        width: 64%;
+        width: 65%;
         margin-right: 40px;
 
         @media (max-width: 768px)  {
@@ -126,19 +128,20 @@
         
         h2 {
             width: 100%;
-            font-family: $accentLight;
-            font-size: 2.5rem;
-            margin: 20px 0;
+            // font-family: $accentLight;
+            font-size: 3rem;
+            margin: 15px 0 7px;
+            line-height: 1.1;
             br {
                 display: none;
             }
 
             @media (min-width: 701px) and (max-width: 1125px)  {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
 
             @media (max-width: 700px)  {
-                font-size: 1.8rem;
+                font-size: 2.2rem;
                 br {
                     display: inline-block;
                 }
@@ -146,7 +149,9 @@
         }
         
         .text {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.3px;
+            font-weight: 300;
             max-width: 700px;
 
             a {
@@ -190,22 +195,25 @@
             }
 
             h3 {
-                font-size: 1.1rem;
+                font-size: 0.9rem;
                 text-transform: uppercase;
                 letter-spacing: 2px;
+                font-family: $accentFont;
+                font-weight: 700;
             }
 
             div {
                 margin: 25px 0;
                 p {
                     margin: 0;
-                    font-size: 1.1rem;
+                    line-height: 1.25;
+                    font-size: 1.3rem;
                     strong {
-                        font-family: $accentBold;
+                        font-weight: 700;
                     }
 
                     @media (max-width: 768px)  {
-                        font-size: 1.4rem;
+                        font-size: 1rem;
                     }
                 }
             }
