@@ -143,8 +143,8 @@
         font-style: italic;
         font-size: 1.6rem;
 
-        @media (min-width: 701px) and (max-width: 1125px) {
-          font-size: 1.3rem;
+        @media (max-width: 1125px) {
+          font-size: 1.4rem;
         }
         
       }
