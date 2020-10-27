@@ -14,34 +14,6 @@
     display: flex;
     flex-wrap: wrap;
 
-    .image-wrap {
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        padding-top: 40px;
-        
-        img {
-            width: 100%;
-            height: auto;;
-        }
-
-        .gatsby-image-wrapper:nth-child(2) {
-            display: none;
-        }
-
-        @media (max-width: 768px)  {
-            order: 1;
-            margin-bottom: 0;
-
-            .gatsby-image-wrapper:nth-child(1) {
-                display: none;
-            }
-
-            .gatsby-image-wrapper:nth-child(2) {
-                display: block;
-            }
-        }
-    }
 
     .panel {
         width: 25%;
