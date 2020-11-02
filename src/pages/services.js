@@ -12,7 +12,7 @@ const Services = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality with my lean and collaborative design process.</p>
+          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality with my Lean & Collaborative Design System.</p>
         </div>
       </section>
       <section className="about-page">
@@ -22,16 +22,11 @@ const Services = (props) => (
           <div className="tabs">
             <div className="tab">
               <input type="checkbox" id="chck1" />
-              <label class="tab-label" for="chck1">Brand Values</label>
+              <label class="tab-label" for="chck1">Logo Design</label>
               <div class="tab-content">
-                <p>Brand values are the foundations that shape every aspect of your brand. They’re placed at the very core of decision making and are there to dictate your brand message, identity and personality. They inform the choices you make and the actions you take and are the main reason customers will connect with your brand.</p>
-                <ul>
-                  <li><span className="bold">User Persona(s)</span> — Define your audience, who are you talking to?</li>
-                  <li><span className="bold">Design Principles</span> — Define a set of 5+ values that will help create a consistent brand across all platforms.</li>
-                  <li><span className="bold">Positioning</span> — Defining your brand positioning is very similar to creating a mission statement, it's where we check in to ensure authenticity.</li>
-                </ul>
-                <p>We refer to these values throughout the design process and beyond to ensure clear and informed design and decisions. Defining your values is the core to all of my services, I believe in creating informed design with a clear message and goal.</p>
-                <a href="mailto:hello@janellucia?subject=Building Design Values" className="get-started-link">Get Started Today</a>
+                <p>Your logo design identifies your business in its simplest form using a logo mark, typographic solution, or a combination of both. That’s all there is to it. A logo is used as a signifier. It communicates something; a message, a feeling, or a story. It resonates with something in your brain and tells a story.</p>
+                <p>People recognise logos. And that’s one of the major things your logo design should do for you. Build recognition and trust. In my opinion, your logo should be five key things, it should be memorable, simple, versatile, appropriate & timeless.</p>
+                <p>Let's work together today and make your brand recognisable.</p>
               </div>
             </div>
             <div className="tab">
@@ -42,16 +37,14 @@ const Services = (props) => (
                 <p>Brand identity includes logos, typography, colors, packaging, and messaging, and it complements and establishes or reinforces the reputation of a brand. Brand identity attracts new customers to a brand while making existing customers feel at home. It's both outward- and inward-facing.</p>
                 <p>It's vital that brand identity be consistent because it's representing and reinforcing the emotions of a brand, the message portrayed by brand identity components needs to be clear, and it needs to be the same no matter where it's displayed.</p>
                 <p>Invest in a brand identity that helps you stay consistent while still having the flexibility and speed necessary to succeed in today's market.</p>
-                <a href="mailto:hello@janellucia?subject=Building a Brand Identity" className="get-started-link">Get Started Today</a>
               </div>
             </div>
             <div className="tab">
               <input type="checkbox" id="chck3" />
-              <label class="tab-label" for="chck3">User Experience Design</label>
+              <label class="tab-label" for="chck3">UX Design</label>
               <div class="tab-content">
                 <p>Using best practices and techniques, with a thorough understanding of all the latest technology tools, my UX strategy can create solutions that are both intuitive to use, and tailored to match specific user tasks and business goals.</p>
                 <p>I ensure that the end user is at the heart of design considerations, offering  a range of design services from UX research to interaction design, as well as full usability audits. </p><p>My UX design approach is rooted in collaborative and iterative design, coupled with an open communication approach. I believe that the key to success rests upon data-driven user insights, clearly defined goals, and solid validation.</p>
-                <a href="mailto:hello@janellucia?subject=User Experience Design Inquiry" className="get-started-link">Get Started Today</a>
               </div>
             </div>
             <div className="tab">
@@ -60,7 +53,6 @@ const Services = (props) => (
               <div class="tab-content">
                 <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience gets that feeling that they finally found the solutions they've been looking for.</p>
                 <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in satisfying site design. Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users.</p>
-                <a href="mailto:hello@janellucia?subject=Website Design" className="get-started-link">Get Started Today</a>
               </div>
             </div>
             <div className="tab">
@@ -74,7 +66,6 @@ const Services = (props) => (
                   <li><span className="bold">Squarespace</span> — Basic theme set up or fully custom theme</li>
                   <li><span className="bold">Wordpress</span> — Basic theme set up or fully custom theme, woocommerce setup</li>
                 </ul>
-                <a href="mailto:hello@janellucia?subject=Website Build" className="get-started-link">Get Started Today</a>
               </div>
             </div>
             <div className="tab">
@@ -84,7 +75,6 @@ const Services = (props) => (
                 <p>An audit is a complete and in-depth analysis of your website's conversion factors. Is your brand story clear and shining through? Do prospective customers know instantly what you can do for them? Is your necessary above-the-fold content maximizing its potential? Is your site accessible according to WCAG 2.0 standards?</p>
                 <p>I will analyze your site's first impressions on users, connect with potential customers who have never been exposed to your brand before, and get real insights — the make-or-break insights from the people that matter.</p>
                 <p>Detailed and actionable recommendations to improve your website immediately, as well as suggested long-term strategies for continued success, including content and promotional planning.</p>
-                <a href="mailto:hello@janellucia?subject=Website Audit" className="get-started-link">Get Started Today</a>
               </div>
             </div>
             <div className="tab">
@@ -93,7 +83,6 @@ const Services = (props) => (
               <div class="tab-content">
                 <p>Your customers are meeting each other, sharing ideas, and talking about your brand online. Give them a great first impression. I will work with you to create strong social media designs, we will take the look and feel of your website/brand to every social part of the web and get you interacting online in style.</p>
                 <p>Good social media marketing is all about high quality content and consistent branding. Neither is possible without proper design work, simply because social media is a visual platform for your company.</p>
-                <a href="mailto:hello@janellucia?subject=Social Media Design" className="get-started-link">Get Started Today</a>
               </div>
             </div>
           </div>

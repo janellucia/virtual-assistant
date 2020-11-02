@@ -26,6 +26,16 @@ const Services = (props) => (
           <p><a href="#site-audit" className="">Design/Website Audit</a></p>
           <p><a href="#social-media" className="">Social Media Marketing</a></p>
         </div>
+        <div class="tab-content">
+          <p>Brand values are the foundations that shape every aspect of your brand. They’re placed at the very core of decision making and are there to dictate your brand message, identity and personality. They inform the choices you make and the actions you take and are the main reason customers will connect with your brand.</p>
+          <ul>
+            <li><span className="bold">User Persona(s)</span> — Define your audience, who are you talking to?</li>
+            <li><span className="bold">Design Principles</span> — Define a set of 5+ values that will help create a consistent brand across all platforms.</li>
+            <li><span className="bold">Positioning</span> — Defining your brand positioning is very similar to creating a mission statement, it's where we check in to ensure authenticity.</li>
+          </ul>
+          <p>We refer to these values throughout the design process and beyond to ensure clear and informed design and decisions. Defining your values is the core to all of my services, I believe in creating informed design with a clear message and goal.</p>
+          <a href="mailto:hello@janellucia?subject=Building Design Values" className="get-started-link">Get Started Today</a>
+        </div>
       </section>
       <section className="about-page">
 
