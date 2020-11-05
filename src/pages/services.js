@@ -20,7 +20,7 @@ const Services = (props) => (
         <div className="wrapper service-nav-wrap">
           <p><a href="#logo-design" className="">Logo Design</a></p>
           <p><a href="#brand-identity" className="">Brand Identity</a></p>
-          <p><a href="#web-design" className="">Web Design</a></p>
+          <p><a href="#web-design" className="">Website Design</a></p>
           <p><a href="#editorial-design" className="">Editorial Design</a></p>
           <p><a href="#social-media" className="">Social Media Design</a></p>
           <p><a href="#web-development" className="">Website Build</a></p>
@@ -38,7 +38,7 @@ const Services = (props) => (
             <p className="sticky-service-title">Service List</p>
             <p><a href="#logo-design" className="">Logo Design</a></p>
             <p><a href="#brand-identity" className="">Brand Identity</a></p>
-            <p><a href="#web-design" className="">Web Design</a></p>
+            <p><a href="#web-design" className="">Website Design</a></p>
             <p><a href="#editorial-design" className="">Editorial Design</a></p>
             <p><a href="#social-media" className="">Social Media Design</a></p>
             <p><a href="#web-development" className="">Website Build</a></p>
