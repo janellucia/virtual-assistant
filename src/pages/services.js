@@ -24,7 +24,6 @@ const Services = (props) => (
           <p><a href="#editorial-design" className="">Editorial Design</a></p>
           <p><a href="#social-media" className="">Social Media Design</a></p>
           <p><a href="#web-development" className="">Website Build</a></p>
-          <p><a href="#site-audit" className="">Design/Website Audit</a></p>
         </div>
       </section>
 
@@ -40,7 +39,6 @@ const Services = (props) => (
               <p><a href="#editorial-design" className="">Editorial Design</a></p>
               <p><a href="#social-media" className="">Social Media Design</a></p>
               <p><a href="#web-development" className="">Website Build</a></p>
-              <p><a href="#site-audit" className="">Design/Website Audit</a></p>
             </div>
           </label>
         </div>
@@ -77,14 +75,6 @@ const Services = (props) => (
           </div>
         </div>
 
-        <div id="editorial-design" className="services-block">
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="image of site wireframes" />
-          <div className="service-info">
-            <h2>Editorial Design <br></br>(Books & Magazines)</h2>
-            <p>Editorial design is the layout and visual aesthetics of books, newspapers, magazines, reports, online publications and other media. Good design has a big impact on how written information is understood. My goal is to make publications attractive, visually interesting, and easy to read.</p> <p>Good design is cohesive, clear, and draws readers in. Ultimately, good design increases your business' value, boosts sales, and puts your business in a better growth trend. Through building trust, making strong first impressions, building customer relationships, and even executing successful campaigns, good design helps make your business more profitable.</p>
-          </div>
-        </div>
-
       </section>
 
       <section className="services-navigation">
@@ -94,6 +84,14 @@ const Services = (props) => (
       </section>
 
       <section className="service-descriptions-wrap">
+
+        <div id="editorial-design" className="services-block">
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="image of site wireframes" />
+          <div className="service-info">
+            <h2>Editorial Design <br></br>(Books & Magazines)</h2>
+            <p>Editorial design is the layout and visual aesthetics of books, newspapers, magazines, reports, online publications and other media. Good design has a big impact on how written information is understood. My goal is to make publications attractive, visually interesting, and easy to read.</p> <p>Good design is cohesive, clear, and draws readers in. Ultimately, good design increases your business' value, boosts sales, and puts your business in a better growth trend. Through building trust, making strong first impressions, building customer relationships, and even executing successful campaigns, good design helps make your business more profitable.</p>
+          </div>
+        </div>
 
         <div id="social-media" className="services-block">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="social media tiles collage" />
@@ -117,7 +115,7 @@ const Services = (props) => (
           </div>
         </div>
 
-        <div id="site-audit" className="services-block services-reverse">
+        {/* <div id="site-audit" className="services-block services-reverse">
           <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="janel lucia headshot" />
           <div className="service-info">
             <h2>Design/Site Audit</h2>
@@ -125,7 +123,7 @@ const Services = (props) => (
             <p>I will analyze your site's first impressions on users, connect with potential customers who have never been exposed to your brand before, and get real insights — the make-or-break insights from the people that matter.</p>
             <p>Detailed and actionable recommendations to improve your website immediately, as well as suggested long-term strategies for continued success, including content and promotional planning.</p>
           </div>
-        </div>
+        </div> */}
 
       </section>
 

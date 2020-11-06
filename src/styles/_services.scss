@@ -15,7 +15,7 @@
       border-top: 1px solid $black;
       border-bottom: 1px solid $black;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       max-width: 800px;
 
@@ -67,7 +67,7 @@
     z-index: 998;
     box-shadow: 1px 1px 15px rgba(#000, 0.3) ;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1100px) {
       top: initial;
       bottom: 0;
       left: 0;
@@ -82,10 +82,10 @@
 
       .open {
         position: absolute;
-        top: 55%;
+        top: 48%;
         left: 0;
         margin: 0;
-        transform: rotate(90deg) translateY(125px);
+        transform: rotate(90deg) translateY(133px);
         width: 300px;
         z-index: -1;
         font-family: 'poppins';
@@ -95,7 +95,7 @@
         letter-spacing: 2px;
         text-align: center;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1100px) {
           top: 17px;
           left: 0;
           width: 100%;
@@ -103,23 +103,60 @@
         }
       }
 
+      .trigger {
+        cursor: pointer;
+
+        input {
+          opacity: 0;
+          z-index: -1;
+          position: absolute;
+        }
+      
+        input[type="checkbox"] {
+          & + .service-nav-wrap {
+            visibility: hidden;
+            opacity: 0;
+            margin-right: -225px;
+            transition: all 1s ease-in-out;
+
+            @media (max-width: 1100px) {
+              margin-right: initial;
+              margin-bottom: -370px;
+            }
+          }
+          // Show if checkbox is clicked
+          &:checked + .service-nav-wrap {
+            visibility: visible;
+            opacity: 1;
+            margin-right: 0;
+
+            @media (max-width: 1100px) {
+              margin-right: initial;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
       .service-nav-wrap {
         margin-top: 50px;
         z-index: -1;
+        height: 100%;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1100px) {
           margin-top: 0;
           padding-top: 50px;
+          height: initial;
+          width: 100%;
         }
 
         p {
           margin-left: 30px;
 
-              
-              @media (max-width: 768px) {
+              @media (max-width:1100px) {
                 display: flex;
                 justify-content: center;
-                margin-left: initial;
+                margin-left: 0;
               }
     
           a {
@@ -135,42 +172,6 @@
     }
 
 
-    .trigger {
-      cursor: pointer;
-
-      input {
-        opacity: 0;
-        z-index: -1;
-        position: absolute;
-      }
-      
-      input[type="checkbox"] {
-    
-        & + .service-nav-wrap {
-          visibility: hidden;
-          opacity: 0;
-          margin-right: -220px;
-          transition: all 1s ease-in-out;
-
-          @media (max-width: 768px) {
-            margin-right: initial;
-            margin-bottom: -430px;
-          }
-        }
-        
-        // Show if checkbox is clicked
-        &:checked + .service-nav-wrap {
-          visibility: visible;
-          opacity: 1;
-          margin-right: 0;
-
-          @media (max-width: 768px) {
-            margin-right: initial;
-            margin-bottom: 0;
-          }
-        }
-      }
-    }
   }
 
   .service-descriptions-wrap {
