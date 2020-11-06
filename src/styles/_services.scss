@@ -105,6 +105,7 @@
 
       .service-nav-wrap {
         margin-top: 50px;
+        z-index: -1;
 
         @media (max-width: 768px) {
           margin-top: 0;
@@ -118,6 +119,7 @@
               @media (max-width: 768px) {
                 display: flex;
                 justify-content: center;
+                margin-left: initial;
               }
     
           a {
