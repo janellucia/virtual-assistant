@@ -14,17 +14,18 @@ const IndexPage = (props) => (
         <div className="about-panel">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality with my Lean & Collaborative Design System.</p>
+          <p>I aim to create design people feel connected to, my values are “Love More” and “Lead with Simplicity” these provide the foundation for all the work I produce.</p>
         </div>
 
         <div className="about-wrap">
           <h2>Hi, I’m Janel &mdash; <br></br>a UX/UI Designer</h2>
           <div className="text">
-            <p>I specialize in logo design, brand identity, type-led graphic design and web design. I work with businesses to design unique experiences that connects to their audience with my Lean & Collaborative Design System (LCDS).</p>
+            <p>I specialize in logo design, brand identity, type-led graphic design and web design. I work with businesses to design unique experiences that connect to their audience with my Lean & Collaborative Design System (LCDS).</p>
             <p>Your content should be original and fulfil a need and LCDS focuses on your business goals and objectives while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations. My intentions are to improve the quality of the user’s interactions and perceptions of your business through design.</p>
             <p>At the core of LCDS is ensuring that users find value in what you’re providing them. In order for there to be a meaningful and valuable user experience, information must be useful, usable, desirable, findable, accessible, credible & valuable. Each facet of LCDS can transform how we see what we do and enabling us to explore beyond conventional boundaries.</p>
             <p>LCDS hits the sweet spot by serving several purposes at once. It’s a great tool for advancing the conversation beyond usability and for helping you and your team understand the need to define priorities. Is it more important for your design to be desirable or accessible? How about usable or credible? The truth is, it depends on your unique balance of values, goals and user needs, and the required tradeoffs are better made explicitly than unconsciously. For me, design is a big hive: a dynamic, multi-dimensional space where there’s still plenty of room to build new boxes and draw new arrows.</p>
-            <p>I love connecting with people who are passionate about what they do, my ideal client has a love for what they are doing—and is excited to create a something that inspires and connects. For business inquiries, collaborations, press features or to simply say hi, please email <a href="mailto:hello@janellucia.com">hello@janellucia.com</a></p>
+            <p>I love connecting with people who are passionate about what they do, my ideal client has a love for what they are doing—and is excited to create something that inspires and connects. For business inquiries, collaborations, press features or to simply say hi, please email <a href="mailto:hello@janellucia.com">hello@janellucia.com</a></p>
+            <p>Based in Toronto, Canada</p>
           </div>
         </div>
 
