@@ -121,7 +121,7 @@
 
             @media (max-width: 1100px) {
               margin-right: initial;
-              margin-bottom: -370px;
+              margin-bottom: -460px;
             }
           }
           // Show if checkbox is clicked
@@ -147,7 +147,6 @@
           margin-top: 0;
           padding-top: 50px;
           height: initial;
-          width: 100%;
         }
 
         p {
@@ -157,11 +156,11 @@
                 display: flex;
                 justify-content: center;
                 margin-left: 0;
+                text-align: center;
               }
     
           a {
               font-size: 1.5rem;
-              margin-right: 10px;
               &:hover, &:focus, &:active {
                   color: $black;
                   text-decoration: line-through;
@@ -230,8 +229,32 @@
     }
   }
 
+  .lcds-wrap {
+    text-align: left;
+
+    .wrapper {
+      justify-content: flex-start;
+    }
+
+    h2, p {
+      text-align: left !important;
+      margin-left: 0 !important;
+    }
+
+    h2 {
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: 22px;
+      margin: 10px 0;
+      max-width: 640px;
+    }
+
+  }
+
   .testimonials {
-    border-top: 1px solid black;
+    // border-top: 1px solid black;
 
     .slider {
 
@@ -268,10 +291,12 @@
         }
 
         h2 {
-          font-size: 16px;
+          font-size: 14px;
           text-transform: uppercase;
           margin-top: 0;
           letter-spacing: 1px;
+          font-family: $accentFont;
+          font-weight: 700;
         }
       }
     }

@@ -39,6 +39,7 @@ const Services = (props) => (
               <p><a href="#editorial-design" className="">Editorial Design</a></p>
               <p><a href="#social-media" className="">Social Media Design</a></p>
               <p><a href="#web-development" className="">Website Build</a></p>
+              <p><a href="#lcds" className="">Lean & Collaborative <br></br>Design System</a></p>
             </div>
           </label>
         </div>
@@ -69,7 +70,7 @@ const Services = (props) => (
         <div id="web-design" className="services-block services-reverse">
           <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
-            <h2>Web Design</h2>
+            <h2>Website Design</h2>
             <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience gets that feeling that they finally found the solutions they've been looking for.</p>
             <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in satisfying site design. Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users.</p>
           </div>
@@ -79,7 +80,7 @@ const Services = (props) => (
 
       <section className="services-navigation">
         <div className="wrapper service-nav-wrap pull-quote">
-          <h2>For a look at my design work, please take a look at my <a href="/">portfilio page</a></h2>
+          <h2>For a peak at my design work, please take a look at my <a href="/">portfilio page</a></h2>
         </div>
       </section>
 
@@ -125,6 +126,16 @@ const Services = (props) => (
           </div>
         </div> */}
 
+      </section>
+
+      <section id="lcds" className="services-navigation lcds-wrap">
+        <div className="wrapper service-nav-wrap pull-quote">
+          <h2>So what is my Lean & <br></br>Collaborative Design System?</h2>
+          <p>My Lean & Collaborative Design System (LCDS) focuses on your business goals and objectives while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations — my intentions are to improve the quality of the user’s interactions and perceptions of your business through beautiful design.</p>
+          <p>In order for there to be a meaningful and valuable user experience, information must be useful, usable, desirable, findable, accessible, credible & valuable. Each facet of LCDS can transform how we see what we do and enabling us to explore beyond conventional boundaries.</p>
+          <p>It’s a great tool for advancing the conversation beyond usability and for helping you and your team understand the need to define priorities. Is it more important for your design to be desirable or accessible? How about usable or credible? The truth is, it depends on your unique balance of values, goals and user needs, and the required tradeoffs are better made explicitly than unconsciously. </p>
+          <p>For me, design is a big hive: a dynamic, multi-dimensional space where there’s still plenty of room to build new boxes and draw new arrows.</p>
+        </div>
       </section>
 
       {/* <section className="values">
