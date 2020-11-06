@@ -29,22 +29,21 @@ const Services = (props) => (
       </section>
 
       <section className="sticky-services-navigation">
-        {/* <span class="open">Open</span>
-        <span class="close">close</span> */}
-        <label class="trigger" for="stickyNav">
-          <span class="open">=</span>
-          <input type="checkbox" class="checkbox checkbox--red" id="stickyNav" />
-          <div className="wrapper service-nav-wrap">
-            <p className="sticky-service-title">Service List</p>
-            <p><a href="#logo-design" className="">Logo Design</a></p>
-            <p><a href="#brand-identity" className="">Brand Identity</a></p>
-            <p><a href="#web-design" className="">Website Design</a></p>
-            <p><a href="#editorial-design" className="">Editorial Design</a></p>
-            <p><a href="#social-media" className="">Social Media Design</a></p>
-            <p><a href="#web-development" className="">Website Build</a></p>
-            <p><a href="#site-audit" className="">Design/Website Audit</a></p>
-          </div>
-        </label>
+        <div className="sticky-nav-wrap">
+          <h3 class="open">Service List</h3>
+          <label class="trigger" for="stickyNav">
+            <input type="checkbox" class="checkbox checkbox--red" id="stickyNav" />
+            <div className="wrapper service-nav-wrap">
+              <p><a href="#logo-design" className="">Logo Design</a></p>
+              <p><a href="#brand-identity" className="">Brand Identity</a></p>
+              <p><a href="#web-design" className="">Website Design</a></p>
+              <p><a href="#editorial-design" className="">Editorial Design</a></p>
+              <p><a href="#social-media" className="">Social Media Design</a></p>
+              <p><a href="#web-development" className="">Website Build</a></p>
+              <p><a href="#site-audit" className="">Design/Website Audit</a></p>
+            </div>
+          </label>
+        </div>
       </section>
 
       <section className="service-descriptions-wrap">

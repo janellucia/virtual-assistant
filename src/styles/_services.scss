@@ -20,12 +20,7 @@
       max-width: 800px;
 
       p {
-        // width: 25%;
         text-align: center;
-
-        &:nth-child(5), &:nth-child(6), &:nth-child(7) {
-          // width: 33%;
-        }
 
         a {
             font-size: 1.6rem;
@@ -65,38 +60,78 @@
 
   .sticky-services-navigation {
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
     right: 0;
+    height: 100%;
     background: $mainColor;
-    z-index: 999;
+    z-index: 998;
     box-shadow: 1px 1px 15px rgba(#000, 0.3) ;
 
-    .sticky-service-title {
-      font-size: 1.8rem;
-      text-decoration: underline;
-      font-style: italic;
-      margin-top: 0;
+    @media (max-width: 768px) {
+      top: initial;
+      bottom: 0;
+      left: 0;
+      height: initial;
+      width: 100%;
     }
 
-    p {
-      margin-left: 5px;
+    .sticky-nav-wrap {
+      position: relative;
+      width: 100%;
+      height: 100%;
 
-      a {
-          font-size: 1.5rem;
-          margin-right: 10px;
-          &:hover, &:focus, &:active {
-              color: $black;
-              text-decoration: line-through;
-          }
+      .open {
+        position: absolute;
+        top: 55%;
+        left: 0;
+        margin: 0;
+        transform: rotate(90deg) translateY(125px);
+        width: 300px;
+        z-index: -1;
+        font-family: 'poppins';
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center;
 
-          @media (max-width: 768px) {
-              font-size: 1.4rem;
-              display: block;
-        
+        @media (max-width: 768px) {
+          top: 17px;
+          left: 0;
+          width: 100%;
+          transform: initial;
+        }
+      }
+
+      .service-nav-wrap {
+        margin-top: 50px;
+
+        @media (max-width: 768px) {
+          margin-top: 0;
+          padding-top: 50px;
+        }
+
+        p {
+          margin-left: 30px;
+
+              
+              @media (max-width: 768px) {
+                display: flex;
+                justify-content: center;
+              }
+    
+          a {
+              font-size: 1.5rem;
+              margin-right: 10px;
+              &:hover, &:focus, &:active {
+                  color: $black;
+                  text-decoration: line-through;
+              }
           }
+        }
       }
     }
+
 
     .trigger {
       cursor: pointer;
@@ -104,15 +139,7 @@
       input {
         opacity: 0;
         z-index: -1;
-      }
-
-      .open {
-        font-size: 42px;
-        transform: rotate(90deg);
-        display: block;
         position: absolute;
-        top: 40%;
-        left: 7px;
       }
       
       input[type="checkbox"] {
@@ -122,6 +149,11 @@
           opacity: 0;
           margin-right: -220px;
           transition: all 1s ease-in-out;
+
+          @media (max-width: 768px) {
+            margin-right: initial;
+            margin-bottom: -430px;
+          }
         }
         
         // Show if checkbox is clicked
@@ -129,19 +161,14 @@
           visibility: visible;
           opacity: 1;
           margin-right: 0;
+
+          @media (max-width: 768px) {
+            margin-right: initial;
+            margin-bottom: 0;
+          }
         }
       }
     }
-
-// Simple styling for message.
-.msg {
-  display: block;
-  margin-top: 8px;
-  padding: 8px 12px;
-  
-  border: 1px solid #ddd;
-  border-radius: 3px;
-}
   }
 
   .service-descriptions-wrap {
