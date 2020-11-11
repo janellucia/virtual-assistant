@@ -38,7 +38,7 @@ export default props => {
         twitter
       </a>
 
-      <a href="https://www.linkedin.com/in/janel-lucia-b7425b9a/" target="blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/janel-lucia-designer-b7425b9a/" target="blank" rel="noopener noreferrer">
         linked-in
       </a>
 
