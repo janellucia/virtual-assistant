@@ -21,47 +21,27 @@ const Links = (props) => (
       <section className="about-page">
         <div className="about-wrap links-wrap">
           <div className="tabs">
+
             <div className="tab">
-              <a href="https://www.instagram.com/armeniasupportfund/" target="new" class="insta-links">@armeniasupportfund</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.gofundme.com/f/justice-pour-joycejustice-for-joyce?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" target="new" class="insta-links">GoFundMe for Joyce Echaquan</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.forbreonna.com/" target="new" class="insta-links">ForBreonna.com</a>
-            </div>
-            <div className="tab">
-              <a href="https://cheatsheetforthevotingbooth.com/?utm_source=ogpr&utm_medium=ig&utm_campaign=cs" target="new" class="insta-links">Vote in America</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.elections.ca/content.aspx?dir=reg&document=index&lang=e&section=vot" target="new" class="insta-links">Vote in Canada</a>
-            </div>
-            <div className="tab">
-              <a href="https://humanitariancoalition.akaraisin.com/ui/crisisinlebanonfundraising/participant/6117594?Lang=en-CA" target="new" class="insta-links">Canadians for Lebanon</a>
-            </div>
-            <div className="tab">
-              <a href="https://blacklivesmatter-canada.carrd.co/#english" target="new" class="insta-links">BLM Canada</a>
-            </div>
-            <div className="tab">
-              <a href="https://docs.google.com/spreadsheets/d/1LHBfN_ceCMgBNYRMvFv_vw2NL8s72LRSUd9TYfIwZ24/edit#gid=0" target="new" class="insta-links">Anti-Racism Guide</a>
+              <a href="https://www.space.com/great-conjunction-jupiter-saturn-christmas-star-2020-nasa-tips" target="new" class="insta-links">viewing the great conjunction</a>
             </div>
             <div className="tab">
               <a href="/" class="insta-links">janellucia.com</a>
             </div>
             <div className="tab">
-              <a href="/about" class="insta-links">About</a>
+              <a href="/about" class="insta-links">about</a>
             </div>
             <div className="tab">
-              <a href="/services" class="insta-links">Services</a>
+              <a href="/services" class="insta-links">services</a>
             </div>
             <div className="tab">
-              <a href="https://society6.com/letteringarchive" target="new" class="insta-links">Shop</a>
+              <a href="https://society6.com/letteringarchive" target="new" class="insta-links">shop</a>
             </div>
             <div className="tab">
               <a href="https://www.instagram.com/letteringarchive/" target="new" class="insta-links">@letteringarchive</a>
             </div>
             <div className="tab">
-              <a href="https://music.apple.com/profile/janellucia" target="new" class="insta-links">Apple Music Playlists</a>
+              <a href="https://music.apple.com/profile/janellucia" target="new" class="insta-links">apple music playlists</a>
             </div>
           </div>
 

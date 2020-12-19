@@ -95,6 +95,17 @@ a.hidden:focus, a.hidden:active {
     }
 
   }
+
+  .tabs {
+    border: 1px solid black;
+  }
+  .tab {
+    border-bottom: 1px solid black;
+  }
+
+  .tab:last-child {
+    border-bottom: none;
+  }
 }
 
 
