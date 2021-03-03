@@ -23,7 +23,7 @@ const Links = (props) => (
           <div className="tabs">
 
             <div className="tab">
-              <a href="https://www.space.com/great-conjunction-jupiter-saturn-christmas-star-2020-nasa-tips" target="new" class="insta-links">viewing the great conjunction</a>
+              <a href="https://www.conceivedspace.com/digital-nature" target="new" class="insta-links">CS Feature - Digital Nature</a>
             </div>
             <div className="tab">
               <a href="/" class="insta-links">janellucia.com</a>
@@ -35,13 +35,13 @@ const Links = (props) => (
               <a href="/services" class="insta-links">services</a>
             </div>
             <div className="tab">
-              <a href="https://society6.com/letteringarchive" target="new" class="insta-links">shop</a>
+              <a href="https://www.instagram.com/conceived_space/" target="new" class="insta-links">@conceivedspace</a>
             </div>
             <div className="tab">
               <a href="https://www.instagram.com/letteringarchive/" target="new" class="insta-links">@letteringarchive</a>
             </div>
             <div className="tab">
-              <a href="https://music.apple.com/profile/janellucia" target="new" class="insta-links">apple music playlists</a>
+              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">spotify playlists</a>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ const Links = (props) => (
         </div>
       </section>
     </div>
-  </Layout>
+  </Layout >
 )
 
 export default Links
