@@ -29,10 +29,10 @@ const Links = (props) => (
               <a href="/" class="insta-links">janellucia.com</a>
             </div>
             <div className="tab">
-              <a href="/about" class="insta-links">about</a>
+              <a href="/services" class="insta-links">Design Services</a>
             </div>
             <div className="tab">
-              <a href="/services" class="insta-links">services</a>
+              <a href="https://www.patreon.com/CONCEIVED_SPACE" target="new" class="insta-links">Join Conceived Space Patreon</a>
             </div>
             <div className="tab">
               <a href="https://www.instagram.com/conceived_space/" target="new" class="insta-links">@conceivedspace</a>
