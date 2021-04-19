@@ -42,6 +42,7 @@
   
       @media (max-width: 549px) {
         font-size: 1.8rem;
+        text-align: initial;
       }
 
       
@@ -235,7 +236,7 @@
     }
   }
 
-  .project-wrap:nth-child(2), .project-wrap:nth-child(3), .project-wrap:nth-child(6), .project-wrap:nth-child(7) {
+  .project-wrap:nth-child(2), .project-wrap:nth-child(3), .project-wrap:nth-child(6), .project-wrap:nth-child(7), .project-wrap:nth-child(12), .project-wrap:nth-child(13)  {
     width: 23.7%;
 
     .gatsby-image-wrapper {

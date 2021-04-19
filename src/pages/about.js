@@ -46,11 +46,11 @@ const IndexPage = (props) => (
             <h3>Professional Skills —</h3>
             <div>
               <p><strong>UX Methodologies</strong></p>
-              <p>Design Thinking, Design Sprint, 5 Planes of UX, Lean UX. Emotional Design, User Research, Content Strategy, Information Architecture, Prototyping, Usability Testing, A/B Testing</p>
+              <p>Design Thinking, Design Sprint, Emotional Design, Content Strategy, Information Architecture, Prototyping</p>
             </div>
             <div>
               <p><strong>Creative Tools</strong></p>
-              <p>Sketch, InVision, Studio, Figma, Abode Creative Suite</p>
+              <p>Abode Creative Suite, Sketch, InVision, Figma, Canva, Blender</p>
             </div>
             <div>
               <p><strong>Development</strong></p>
