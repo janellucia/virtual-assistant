@@ -21,27 +21,23 @@ const Links = (props) => (
       <section className="about-page">
         <div className="about-wrap links-wrap">
           <div className="tabs">
-
-            <div className="tab">
-              <a href="https://www.conceivedspace.com/digital-nature" target="new" class="insta-links">CS Feature - Digital Nature</a>
-            </div>
-            <div className="tab">
-              <a href="/" class="insta-links">janellucia.com</a>
-            </div>
             <div className="tab">
               <a href="/services" class="insta-links">Design Services</a>
             </div>
             <div className="tab">
-              <a href="https://www.patreon.com/CONCEIVED_SPACE" target="new" class="insta-links">Join Conceived Space Patreon</a>
+              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify</a>
+            </div>
+            <div className="tab">
+              <a href="https://www.conceivedspace.com/digital-nature" target="new" class="insta-links">Digital Nature</a>
             </div>
             <div className="tab">
               <a href="https://www.instagram.com/conceived_space/" target="new" class="insta-links">@conceivedspace</a>
             </div>
             <div className="tab">
-              <a href="https://www.instagram.com/letteringarchive/" target="new" class="insta-links">@letteringarchive</a>
+              <a href="https://www.patreon.com/CONCEIVED_SPACE" target="new" class="insta-links">Conceived Space Patreon</a>
             </div>
             <div className="tab">
-              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">spotify playlists</a>
+              <a href="/" class="insta-links">Website</a>
             </div>
           </div>
 
