@@ -13,17 +13,18 @@ const Services = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality with my Lean & Collaborative Design System.</p>
+          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality with my Conscious Design System.</p>
         </div>
       </section>
       <section className="services-navigation">
         <div className="wrapper service-nav-wrap">
-          <p><a href="#logo-design" className="">Logo Design</a></p>
           <p><a href="#brand-identity" className="">Brand Identity</a></p>
+          <p><a href="#logo-design" className="">Logo Design</a></p>
           <p><a href="#web-design" className="">Website Design</a></p>
           <p><a href="#editorial-design" className="">Editorial Design</a></p>
           <p><a href="#social-media" className="">Social Media Design</a></p>
           <p><a href="#web-development" className="">Website Build</a></p>
+          <p><a href="#cds" className="">Concious Design System</a></p>
         </div>
       </section>
 
@@ -33,29 +34,19 @@ const Services = (props) => (
           <label class="trigger" for="stickyNav">
             <input type="checkbox" class="checkbox checkbox--red" id="stickyNav" />
             <div className="wrapper service-nav-wrap">
-              <p><a href="#logo-design" className="">Logo Design</a></p>
               <p><a href="#brand-identity" className="">Brand Identity</a></p>
+              <p><a href="#logo-design" className="">Logo Design</a></p>
               <p><a href="#web-design" className="">Website Design</a></p>
               <p><a href="#editorial-design" className="">Editorial Design</a></p>
               <p><a href="#social-media" className="">Social Media Design</a></p>
               <p><a href="#web-development" className="">Website Build</a></p>
-              <p><a href="#lcds" className="">Lean & Collaborative <br></br>Design System</a></p>
+              <p><a href="#cds" className="">Concious Design System</a></p>
             </div>
           </label>
         </div>
       </section>
 
       <section className="service-descriptions-wrap">
-
-        <div id="logo-design" className="services-block">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="logo collage" />
-          <div className="service-info">
-            <h2>Logo Design</h2>
-            <p>Your logo identifies your business in its simplest form using a logo mark, typographic solution, or a combination of both. That’s all there is to it. A logo is used as a signifier. It communicates something; a message, a feeling, or a story. It resonates with something in your brain and tells a story.</p>
-            <p>People recognise logos. And that’s one of the major things your logo design should do for you. Build recognition and trust. In my opinion, your logo should be five key things, it should be memorable, simple, versatile, appropriate & timeless.</p>
-            <p>Let's work together today and make your brand recognisable.</p>
-          </div>
-        </div>
 
         <div id="brand-identity" className="services-block services-reverse">
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="brandidentity collage" />
@@ -64,6 +55,16 @@ const Services = (props) => (
             <p>Brand identity includes logos, typography, colors, packaging, and messaging, and it complements and establishes or reinforces the reputation of a brand. Brand identity attracts new customers to a brand while making existing customers feel at home. It's both outward- and inward-facing.</p>
             <p>It's vital that brand identity be consistent because it's representing and reinforcing the emotions of a brand, the message portrayed by brand identity components needs to be clear, and it needs to be the same no matter where it's displayed.</p>
             <p>Invest in a brand identity that helps you stay consistent while still having the flexibility and speed necessary to succeed in today's market.</p>
+          </div>
+        </div>
+
+        <div id="logo-design" className="services-block">
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="logo collage" />
+          <div className="service-info">
+            <h2>Logo Design</h2>
+            <p>Your logo identifies your business in its simplest form using a logo mark, typographic solution, or a combination of both. That’s all there is to it. A logo is used as a signifier. It communicates something; a message, a feeling, or a story. It resonates with something in your brain and tells a story.</p>
+            <p>People recognise logos. And that’s one of the major things your logo design should do for you. Build recognition and trust. In my opinion, your logo should be five key things, it should be memorable, simple, versatile, appropriate & timeless.</p>
+            <p>Let's work together today and make your brand recognisable.</p>
           </div>
         </div>
 
@@ -128,39 +129,16 @@ const Services = (props) => (
 
       </section>
 
-      <section id="lcds" className="services-navigation lcds-wrap">
+      <section id="cds" className="services-navigation lcds-wrap">
         <div className="wrapper service-nav-wrap pull-quote">
-          <h2>So what is my Lean & <br></br>Collaborative Design System?</h2>
-          <p>My Lean & Collaborative Design System (LCDS) focuses on your business goals and objectives while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations — my intentions are to improve the quality of the user’s interactions and perceptions of your business through beautiful design.</p>
-          <p>In order for there to be a meaningful and valuable user experience, information must be useful, usable, desirable, findable, accessible, credible & valuable. Each facet of LCDS can transform how we see what we do and enabling us to explore beyond conventional boundaries.</p>
-          <p>It’s a great tool for advancing the conversation beyond usability and for helping you and your team understand the need to define priorities. Is it more important for your design to be desirable or accessible? How about usable or credible? The truth is, it depends on your unique balance of values, goals and user needs, and the required tradeoffs are better made explicitly than unconsciously. </p>
-          <p>For me, design is a big hive: a dynamic, multi-dimensional space where there’s still plenty of room to build new boxes and draw new arrows.</p>
+          <h2>So what is my <br></br>Conscious Design System?</h2>
+          <p>My Conscious Design System (CDS) focuses on your business goals and personality while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations — my intentions are to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
+          <p>In order for there to be a meaningful and valuable user experience, information must be authentic, useful, usable, desirable, findable, accessible, credible & valuable. Each facet of CDS can transform how we see what we do and enabling us to explore our brand beyond conventional boundaries.</p>
+          <p>It’s a great tool for advancing the conversation beyond usability and for helping you and your team understand the need to define priorities. Is it more important for your design to be desirable or accessible? How about usable or credible? This all depends on your unique balance of values, goals and user needs, and the required tradeoffs are better made explicitly than unconsciously. </p>
+          <p>For me, design is a big hive: a dynamic, multi-dimensional space where there’s still plenty of room to build new boxes and draw new arrows and create a new space for your brand.</p>
         </div>
       </section>
 
-      {/* <section className="values">
-        <h2>My Values</h2>
-        <div className="category">
-          <h3>Know the Goals</h3>
-          <p>When designing at any level the work should always reflect the product goals. Design Thinking begins with ‘why’ and creates the process for innovation.</p>
-        </div>
-        <div className="category">
-          <h3>Promote Empathy</h3>
-          <p>Use research to better understand the user, such as their behaviors, expectations, values, motivations, and needs. Design for friendliness, be sensitive to the context a design lives. Aim for approachable and respectful.</p>
-        </div>
-        <div className="category">
-          <h3>Keep it Simple</h3>
-          <p>Design purposeful interfaces that favor usability, while also infusing delight through color, animation and language.</p>
-        </div>
-        <div className="category">
-          <h3>Reduce Risks</h3>
-          <p>Do not be afraid of risks, but find a way to minimize potential failures. Identify elements in the development ecosystem, such as technology, the market, competitors, and customers.</p>
-        </div>
-        <div className="category">
-          <h3>Learn & learn again</h3>
-          <p>Know the data surrounding your product well enough to discuss, describe and deeply inform your design work. Grow from each experience.</p>
-        </div>
-      </section> */}
 
       <Testimonials />
     </div>
