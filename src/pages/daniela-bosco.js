@@ -6,6 +6,7 @@ import GIF from '../images/daniela/daniela.gif'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Projectfooter from '../components/project-footer'
 
 
 
@@ -29,11 +30,11 @@ const Type = (props) => (
           <h2>Website designed and built for a talented Art Director.</h2>
           <p>Daniela is an extremely talented Art Director from Toronto, her work ranges from creative direction, styling &amp; commercial work. </p>
           <h3>Role</h3>
-          <p>I was the lead designer/developer on this project. I worked with Daniela to create an online portfolio to suite her needs.</p>
+          <p>Lead web designer/developer — I worked with Daniela to create an online portfolio to suite her needs.</p>
           <h3>The Challenge</h3>
-          <p>The challenge was to take an established Art Director (Daniela Bosco) and create a portfolio website to grow with her brand.</p>
+          <p>Take an established Art Director (Daniela Bosco) and create a portfolio website to grow with her brand.</p>
           <h3>The Solution</h3>
-          <p>The solution was to deliver a well strategized online presence for real results. Success in this project will be measured by growth in editorial projects booked.</p>
+          <p>Deliver a well strategized online presence for real results. Success in this project will be measured by growth in editorial projects booked.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -41,7 +42,7 @@ const Type = (props) => (
             <ul>
               <li>Website Design</li>
               <li>Squarespace Build</li>
-              <li>Brand Strategy</li>
+              {/* <li>Brand Strategy</li> */}
             </ul>
           </div>
         </div>
@@ -54,24 +55,7 @@ const Type = (props) => (
       <Img fluid={props.data.imageFive.childImageSharp.fluid} />
       <Img fluid={props.data.imageSix.childImageSharp.fluid} /> */}
     </div>
-    <section className="project-links">
-      <div className="wrapper">
-        <p className="thank-you">—Thank you </p>
-      </div>
-    </section>
-    <section className="more-projects">
-      <div className="wrapper">
-        <h2 className="thank-you">Other Projects</h2>
-        <a className="menu-item" href="/good-ones-academy">Good Ones Academy</a>
-        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
-        <a className="menu-item" href="/atria-coaching">Atria Coaching</a>
-        <a className="menu-item" href="/bad-girls">Bad Girls Collective</a>
-        <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
-        <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
-        <a className="menu-item" href="/girls-twenty">Girls 20</a>
-      </div>
-    </section>
+    <Projectfooter />
   </Layout>
 )
 

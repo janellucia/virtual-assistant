@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Projectfooter from '../components/project-footer'
 
 
 
@@ -46,43 +47,6 @@ const Atria = (props) => (
         <div className="full-width-images">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-        </div>
-        <h2>Developing a Strategy</h2>
-        <div className="project-copy project-steps-full">
-          <p>When developing the strategy we surfaced the challenges the Atria Coaching faces as an up and coming Master Coach & NLP Practitioner. In the process, we prioritized the needs and goals of the business and its clients. This became the foundation for the branding and marketing plans for Atria Coaching.</p>
-          <p className="large-text">So, how might we create a meaningful brand identity to uplift and engage users?</p>
-        </div>
-      </section>
-      <section className="project-info">
-        <h2>Understanding the Users</h2>
-        <div className="project-copy project-steps-full">
-          <p>Atria Coaching is all about helping people access the best version of themselves, gain confidence and become clear on their goals. To understand the needs of Atria's clients I worked with stakeholders to create unique user profiles to represent the range of our users. This painted a clear picture of their demographics, needs and wants.</p>
-          <p> </p>
-          <p> </p>
-        </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-        </div>
-      </section>
-      <section className="project-info">
-        <h2>Defining the Brand</h2>
-        <div className="project-copy project-steps-full">
-          <p>Through a series of exercises in the strategy session, we were able to extract and refine the key pillars of the brand. This defined the brand’s personality: how it should look, sound, act, and feel.</p>
-        </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-        </div>
-      </section>
-      <section className="project-info intro">
-        <h2>Positioning</h2>
-        <div className="project-copy project-steps-full">
-          <p>Understanding what Atria's brand is and who they are a champion for, helped define the positioning statement of the brand. This set the tone for everything created for the brand.</p>
-        </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
         </div>
       </section>
       <section className="project-info intro">
@@ -180,24 +144,7 @@ const Atria = (props) => (
         </div>
       </section>
     </div>
-    <section className="project-links">
-      <div className="wrapper">
-        <p className="thank-you">—Thank you </p>
-      </div>
-    </section>
-    <section className="more-projects">
-      <div className="wrapper">
-        <h2 className="thank-you">Other Projects</h2>
-        <a className="menu-item" href="/good-ones-academy">Good Ones Academy</a>
-        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
-        <a className="menu-item" href="/atria-coaching">Atria Coaching</a>
-        <a className="menu-item" href="/bad-girls">Bad Girls Collective</a>
-        <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
-        <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
-        <a className="menu-item" href="/girls-twenty">Girls 20</a>
-      </div>
-    </section>
+    <Projectfooter />
   </Layout>
 )
 

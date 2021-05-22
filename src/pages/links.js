@@ -1,11 +1,8 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
-import Testimonials from '../components/testimonials'
 
 const Links = (props) => (
   <Layout name="about-page-wrap services-page-wrap links-page-wrap">

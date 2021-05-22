@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Projectfooter from '../components/project-footer'
 
 
 
@@ -14,7 +15,7 @@ const GirlsTwenty = (props) => (
     <section className="title">
       <div className="wrapper">
         <h1>Girls20</h1>
-        <p className="subtitle">Transforming tomorrow by building a generation of female leaders.</p>
+        <p className="subtitle">Creating a Squarespace site for an org building a generation of female leaders.</p>
         <div className="button-wrap">
           <a href="https://girls20.org/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
         </div>
@@ -24,24 +25,24 @@ const GirlsTwenty = (props) => (
     <div id="lettering-archive" className="wrapper">
       <section className="project-info">
         <div className="project-copy">
-          <h2>Creating a web presence for a non-profit organization with a great cause</h2>
+          <h2>Squarespace site for a growing non-profit organization</h2>
           <p>Launched in 2009 at the Clinton Global Initiative, G(irls)20 places young women at the centre of decision-making processes through their signature programs, Global Summit and Girls on Boards, they make strategic investments in young women through education and training, building networks, and access to unparalleled opportunities at home and abroad.</p>
           <h3>Role</h3>
-          <p>I was the lead designer/developer on this project. I worked with stakeholders to create G(irls)20's style guide &amp; website.</p>
+          <p>Lead designer/developer — I worked with stakeholders to create G(irls)20's style guide &amp; website.</p>
           <h3>The Challenge</h3>
-          <p>The challenge was to take an existing non-profit brand and update their online presence and platform and create marketing materials to grow with the brand over the next few years.</p>
+          <p>Take an existing non-profit brand and update their online presence and platform and create marketing materials to grow with the brand over the next few years.</p>
           <h3>The Solution</h3>
-          <p>The solution was to deliver a well strategized website &amp; style guide. Success in this project will be measured by growth in program participants, and a new market of sponsors.</p>
+          <p>Deliver a well strategized website &amp; style guide. Success in this project will be measured by growth in program participants, and a new market of sponsors.</p>
         </div>
         <div className="sidebar-intro">
           <div>
             <h3>Services</h3>
             <ul>
-              <li>Brand Strategy</li>
-              <li>Style Guide</li>
+              <li>Brand Visual Strategy</li>
+              <li>Brand Style Guide</li>
               <li>Web Design</li>
-              <li>Marketing Assets</li>
               <li>Squarespace Build</li>
+              <li>Marketing Assets</li>
             </ul>
           </div>
         </div>
@@ -186,24 +187,7 @@ const GirlsTwenty = (props) => (
         </div>
       </section>
     </div>
-    <section className="project-links">
-      <div className="wrapper">
-        <p className="thank-you">—Thank you </p>
-      </div>
-    </section>
-    <section className="more-projects">
-      <div className="wrapper">
-        <h2 className="thank-you">Other Projects</h2>
-        <a className="menu-item" href="/good-ones-academy">Good Ones Academy</a>
-        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
-        <a className="menu-item" href="/atria-coaching">Atria Coaching</a>
-        <a className="menu-item" href="/bad-girls">Bad Girls Collective</a>
-        <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
-        <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
-        <a className="menu-item" href="/girls-twenty">Girls 20</a>
-      </div>
-    </section>
+    <Projectfooter />
   </Layout>
 )
 

@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Projectfooter from '../components/project-footer'
 
 
 
@@ -193,24 +194,7 @@ const Iva = (props) => (
         </div>
       </section>
     </div>
-    <section className="project-links">
-      <div className="wrapper">
-        <p className="thank-you">—Thank you </p>
-      </div>
-    </section>
-    <section className="more-projects">
-      <div className="wrapper">
-        <h2 className="thank-you">Other Projects</h2>
-        <a className="menu-item" href="/good-ones-academy">Good Ones Academy</a>
-        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
-        <a className="menu-item" href="/atria-coaching">Atria Coaching</a>
-        <a className="menu-item" href="/bad-girls">Bad Girls Collective</a>
-        <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
-        <a className="menu-item" href="/ivawithaneye">Iva with an eye</a>
-        <a className="menu-item" href="/lettering-archive">Lettering Archive</a>
-        <a className="menu-item" href="/girls-twenty">Girls 20</a>
-      </div>
-    </section>
+    <Projectfooter />
   </Layout>
 )
 

@@ -17,7 +17,7 @@
 
   .about-wrap {
     width: 68.1%;
-    margin: 10% 0 5% 0;
+    margin: 9% 0 4% 0;
 
     @media (min-width:501px) and (max-width: 768px)  {
       width: 85%;
@@ -49,6 +49,9 @@
     }
     p:nth-child(1) {
       margin-top: 0;
+    }
+    .text-center {
+      text-align: center;
     }
   }
 
@@ -150,10 +153,16 @@
         
       }
     }
-    .good-info {
+    .girls-info {
       background: rgba($mainColor, 0.9);
+      h3, .category {
+        // color: $grey;
+      }
       @media (max-width: 768px) {
         background: transparent;
+        h3, .category {
+          color: $black;
+        }
       }
     }
     .daniela-info {
@@ -162,10 +171,46 @@
         background: transparent;
       }
     }
-    .atria-info {
+    .spirit-info {
       background: rgba($seventhColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
+      }
+    }
+    .qube-info {
+      background: rgba($eighthColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+    .conceived-info {
+      background: rgba($ninethColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+    .perceived-info {
+      background: rgba($mainColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+    .good-info {
+      background: rgba($seventhColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+    .jo-info {
+      background: rgba($fourthColor, 0.9);
+      h3, .category {
+        color: $grey;
+      }
+      @media (max-width: 768px) {
+        background: transparent;
+        h3, .category {
+          color: $black;
+        }
       }
     }
     .bad-girls-info {
@@ -181,36 +226,6 @@
       }
     }
     .livie-info {
-      background: rgba($fourthColor, 0.9);
-      h3, .category {
-        color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
-        h3, .category {
-          color: $black;
-        }
-      }
-    }
-    .iva-info {
-      background: lighten(rgba($fifthColor, 0.6), 5%);
-      h3, .category {
-        color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
-        h3, .category {
-          color: $black;
-        }
-      }
-    }
-    .type-info {
-      background: rgba($seventhColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .girls-info {
       background: rgba($thirdColor, 0.9);
       h3, .category {
         color: $grey;
@@ -222,18 +237,25 @@
         }
       }
     }
-    .next-step-info {
+    .atria-info {
       background: rgba($mainColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
     }
-    .wicked-info {
+    .type-info {
       background: rgba($seventhColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
     }
+    .essential-info {
+      background: rgba($secondColor, 0.9);
+      @media (max-width: 768px) {
+        background: transparent;
+      }
+    }
+
   }
 
   .project-wrap:nth-child(2), .project-wrap:nth-child(3), .project-wrap:nth-child(6), .project-wrap:nth-child(7), .project-wrap:nth-child(12), .project-wrap:nth-child(13)  {

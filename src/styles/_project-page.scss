@@ -69,9 +69,9 @@
   h2, h3 {
     font-family: $accentFont;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.35rem;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
@@ -191,6 +191,10 @@
       margin: 30px 0;
       .gatsby-image-wrapper {
           width: 100%;
+          
+          div {
+                padding-bottom: 45.4%;
+          }
       }
       .gatsby-image-wrapper:nth-child(1) {
           @media (max-width: 768px) {
@@ -205,6 +209,7 @@
           }
       }
   }
+
 
   .two-images {
       width: 100%;
@@ -236,6 +241,19 @@
               width: 49%;
               &:nth-child(1) {
                   margin-bottom: 3%;
+              }
+          }
+      }
+  }
+
+  .three-image-tiles {
+            .gatsby-image-wrapper {
+          width: 33%;
+          margin-bottom: 0.5%;
+          @media (max-width: 768px) {
+            //   width: 49%;
+              &:nth-child(1) {
+                //   margin-bottom: 3%;
               }
           }
       }
@@ -386,7 +404,7 @@
 
 
 #bad-girls {
-    img {
+    .gatsby-image-wrapper {
         margin: 50px 0;
 
         @media (max-width: 768px) {

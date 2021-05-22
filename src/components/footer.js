@@ -6,7 +6,7 @@ const Footer = ({ siteTitle }) => (
   <footer id="footer">
     <div className="wrapper">
       <section className="contact">
-        <p>Let’s make something together</p>
+        <p>Let’s create something together</p>
         <a href="mailto:hello@janellucia.com">Get in touch</a>
       </section>
       <section className="credits">
@@ -14,7 +14,6 @@ const Footer = ({ siteTitle }) => (
         {/* <p>this site was designed and created by yours truly.</p> */}
       </section>
       <section className="social">
-        <a href="https://dribbble.com/janellucia" target="blank" rel="noopener noreferrer">dribbble</a>
         <a href="https://www.instagram.com/janellucia/" target="blank" rel="noopener noreferrer">insta</a>
         <a href="https://twitter.com/janellucia" target="blank" rel="noopener noreferrer">twitter</a>
         <a href="https://www.linkedin.com/in/janel-lucia-designer-b7425b9a/" target="blank" rel="noopener noreferrer">linked-in</a>
