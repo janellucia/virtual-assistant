@@ -178,13 +178,19 @@
       }
     }
     .qube-info {
-      background: rgba($eighthColor, 0.9);
+      background: rgba($fifthColor, 0.9);
+      h3, .category {
+        color: $grey;
+      }
       @media (max-width: 768px) {
         background: transparent;
+        h3, .category {
+          color: $black;
+        }
       }
     }
     .conceived-info {
-      background: rgba($ninethColor, 0.9);
+      background: rgba($eighthColor, 0.9);
       @media (max-width: 768px) {
         background: transparent;
       }
