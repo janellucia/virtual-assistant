@@ -178,7 +178,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSix: file(relativePath: { eq: "conceived/print-mobile.png" }) {
+    imageSix: file(relativePath: { eq: "conceived/print-mobile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
@@ -269,7 +269,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      imageNineteen: file(relativePath: { eq: "conceived/print-cover.png" }) {
+      imageNineteen: file(relativePath: { eq: "conceived/print-cover.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_noBase64
