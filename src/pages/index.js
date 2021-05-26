@@ -20,7 +20,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="Girls 20 logo" />
           <div className="home-project-info girls-info">
             <h3>Girls 20</h3>
-            <p className="category">— Branding, Sub-Branding, Web Design, Squarespace Build</p>
+            <p className="category">— Branding, Sub-Branding, Squarespace Build</p>
           </div>
         </Link>
         <Link to="/daniela-bosco/" className="project-wrap">
@@ -36,7 +36,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="spirit luxe logo" />
           <div className="home-project-info spirit-info">
             <h3>Spirit Luxe</h3>
-            <p className="category">— Branding, Graphic Design, Website Design, Wordpress Build, Social Media Design</p>
+            <p className="category">— Branding, Graphic Design, Wordpress Build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/qube-properties/" className="project-wrap">
@@ -50,15 +50,15 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="conceived space logo" />
           <div className="home-project-info conceived-info">
             <h3>Conceived Space</h3>
-            <p className="category">— Branding, Graphic Design, Web Design, Squarespace build</p>
+            <p className="category">— Branding, Graphic Design, Squarespace build</p>
           </div>
         </Link>
         <Link to="/perceived-space/" className="project-wrap">
           <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="perceived space logo" />
           <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="perceived space logo" />
           <div className="home-project-info perceived-info">
-            <h3>Perceived Space</h3>
-            <p className="category">— Typography, illustration, NFT, collaborations</p>
+            <h3>Iva with an Eye</h3>
+            <p className="category">— Branding, Graphic Design</p>
           </div>
         </Link>
         <Link to="/good-ones-academy/" className="project-wrap">
@@ -73,7 +73,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="Jo Rodrigues logo" />
           <div className="home-project-info jo-info">
             <h3>Jo Rodrigues</h3>
-            <p className="category">— Branding, Graphic Design, Web Design + Wordpress build</p>
+            <p className="category">— Branding, Graphic Design, Wordpress build</p>
           </div>
         </Link>
         <Link to="/bad-girls/" className="project-wrap">
@@ -87,7 +87,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} alt="Livie Jewelry logo" />
           <div className="home-project-info livie-info">
             <h3>Livie Jewelry</h3>
-            <p className="category">— Branding, Graphic Design, Web Design, Shopify Build</p>
+            <p className="category">— Branding, Graphic Design, Shopify Build</p>
           </div>
         </Link>
         <Link to="/atria-coaching/" className="project-wrap">
@@ -172,14 +172,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageEight: file(relativePath: { eq: "home/ps-home.jpg" }) {
+    imageEight: file(relativePath: { eq: "home/iva-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "home/ps-home-mobile.jpg" }) {
+    imageNine: file(relativePath: { eq: "home/iva-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
