@@ -53,7 +53,7 @@ const IndexPage = (props) => (
             <p className="category">— Branding, Graphic Design, Squarespace build</p>
           </div>
         </Link>
-        <Link to="/perceived-space/" className="project-wrap">
+        <Link to="/ivawithaneye/" className="project-wrap">
           <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="perceived space logo" />
           <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="perceived space logo" />
           <div className="home-project-info perceived-info">
