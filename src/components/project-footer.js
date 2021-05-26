@@ -17,7 +17,7 @@ const Projectfooter = () => (
         <a className="menu-item" href="/spirit-luxe">Spirit Luxe</a>
         <a className="menu-item" href="/qube-properties">Qube Properties</a>
         <a className="menu-item" href="/conceived-space">Conceived Space</a>
-        <a className="menu-item" href="/perceived-space">Perceived Space</a>
+        <a className="menu-item" href="/ivawithaneye">Iva with an Eye</a>
         <a className="menu-item" href="/good-ones-academy">Good Ones Academy</a>
         <a className="menu-item" href="/jo-rodrigues">Jo Rodrigues Life & Career Coach</a>
         <a className="menu-item" href="/bad-girls">Bad Girls Collective</a>
