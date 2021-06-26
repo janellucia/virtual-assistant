@@ -101,16 +101,8 @@ a.hidden:focus, a.hidden:active {
   }
   .tab {
     border-bottom: 1px solid black;
-  }
 
-  .tab:last-child {
-    border-bottom: none;
-  }
-}
-
-
-
-.insta-links {
+    .insta-links {
   display: block;
   width: 100%;
   text-align: center;
@@ -125,8 +117,31 @@ a.hidden:focus, a.hidden:active {
     color: black !important;
   }
 }
+  }
+
+  .tab-paragraph {
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .tab:last-child {
+    border-bottom: none;
+  }
+}
+
+
 
 .links-wrap {
   margin: 0 auto !important;
+
+  .fine-print {
+    p {
+      margin: 0;
+    }
+  }
 
 }

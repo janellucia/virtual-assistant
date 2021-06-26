@@ -22,6 +22,12 @@ const Links = (props) => (
               <a href="/services" class="insta-links">Design Services</a>
             </div>
             <div className="tab">
+              <a href="https://tab.gladly.io/?u=janellucia" target="new" class="insta-links">Tab for a Cause — Chrome extension</a>
+            </div>
+            <div className="tab tab-paragraph">
+              <a href="/links-activism/" class="insta-links">Support your Community <p>(opens to another link list)</p></a>
+            </div>
+            <div className="tab">
               <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify playlists</a>
             </div>
             <div className="tab">
