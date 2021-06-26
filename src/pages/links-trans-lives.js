@@ -16,7 +16,7 @@ const Trans = (props) => (
       <section className="about-page">
         <div className="about-wrap links-wrap">
           <div className="fine-print">
-            <p>As a warning, most of these links open to other link lists. </p>
+            <p>As a warning, many of these links open to other link lists. </p>
             <p>The order of this list is of no importance, all of these causes are in need of our support.</p>
           </div>
           <div className="tabs">
