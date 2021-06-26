@@ -4,9 +4,9 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 
-const Activism = (props) => (
+const Trans = (props) => (
   <Layout name="about-page-wrap services-page-wrap links-page-wrap">
-    <SEO title="Links" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="Links ➞ Activism ➞ Trans Lives" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
@@ -41,5 +41,5 @@ const Activism = (props) => (
   </Layout >
 )
 
-export default Activism
+export default Trans
 

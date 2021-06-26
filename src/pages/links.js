@@ -27,17 +27,14 @@ const Links = (props) => (
             <div className="tab tab-paragraph">
               <a href="/links-activism/" class="insta-links">Support your Community <p>(opens to another link list)</p></a>
             </div>
+            <div className="tab tab-paragraph">
+              <a href="/links-nurture-your-activist/" class="insta-links">Nurture your Activist <p>(opens to another link list)</p></a>
+            </div>
             <div className="tab">
               <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify playlists</a>
             </div>
             <div className="tab">
-              <a href="https://www.conceivedspace.com/digital-nature" target="new" class="insta-links">Janel Lucia + Conceived Beauty</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.instagram.com/perceived_space/" target="new" class="insta-links">@perceivedspace</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.instagram.com/conceived_space/" target="new" class="insta-links">@conceivedspace</a>
+              <a href="https://www.conceivedspace.com/digital-nature" target="new" class="insta-links">Janel Lucia x Conceived Beauty</a>
             </div>
             <div className="tab">
               <a href="https://www.instagram.com/letteringarchive/" target="new" class="insta-links">@letteringarchive</a>

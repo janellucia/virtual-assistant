@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 const Activism = (props) => (
   <Layout name="about-page-wrap services-page-wrap links-page-wrap">
-    <SEO title="Links" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="Links ➞ Activism" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
@@ -36,7 +36,7 @@ const Activism = (props) => (
               <a href="https://linktr.ee/blacklivesmatter" target="new" class="insta-links">Black Lives Matter</a>
             </div>
             <div className="tab">
-              <a href="https://www.gofundme.com/f/support-aapi-community-fund" target="new" class="insta-links">Asain Lives Matter</a>
+              <a href="https://www.gofundme.com/f/support-aapi-community-fund" target="new" class="insta-links">AAPI Community Fund</a>
             </div>
             <div className="tab">
               <a href="https://linktr.ee/isxenvironmentalist/" target="new" class="insta-links">Intersectional Environmentalism</a>

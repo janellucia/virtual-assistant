@@ -16,6 +16,18 @@ footer {
     
     .contact {
       width: 100%;
+      p {
+        font-size: 22px;
+        max-width: 900px;
+
+            @media (max-width: 650px) {
+      font-size: 17px;
+      margin: 10px 0;
+    }
+      }
+      a {
+        margin-top: 15px;
+      }
     }
     .credits {
       margin-top: 5px;
