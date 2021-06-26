@@ -56,6 +56,9 @@ const Activism = (props) => (
             <div className="tab">
               <a href="https://linktr.ee/ESN_TO" target="new" class="insta-links">Encampment Support Network</a>
             </div>
+            <div className="tab tab-paragraph">
+              <a href="https://tab.gladly.io/?u=janellucia" target="new" class="insta-links">Tab for a Cause — Chrome extension <p>(Raise money for charity with every browser tab you open, for free.)</p></a>
+            </div>
           </div>
           <div className="fine-print">
             <p>please help me make this list better by sending me your suggestions.</p>

@@ -19,10 +19,10 @@ const Links = (props) => (
         <div className="about-wrap links-wrap">
           <div className="tabs">
             <div className="tab">
-              <a href="/services" class="insta-links">Design Services</a>
+              <a href="/services" class="insta-links">Design Services — Work with me</a>
             </div>
-            <div className="tab">
-              <a href="https://tab.gladly.io/?u=janellucia" target="new" class="insta-links">Tab for a Cause — Chrome extension</a>
+            <div className="tab tab-paragraph">
+              <a href="https://tab.gladly.io/?u=janellucia" target="new" class="insta-links">Tab for a Cause — Chrome extension <p>(Raise money for charity with every browser tab you open, for free.)</p></a>
             </div>
             <div className="tab tab-paragraph">
               <a href="/links-activism/" class="insta-links">Support your Community <p>(opens to another link list)</p></a>
