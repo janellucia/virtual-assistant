@@ -17,12 +17,15 @@ footer {
     .contact {
       width: 100%;
       p {
-        font-size: 22px;
+        font-size: 16px;
         max-width: 900px;
+        font-weight: 300;
+        font-family: $accentFont !important;
+        margin: 5px 0;
 
-            @media (max-width: 650px) {
-      font-size: 17px;
-      margin: 10px 0;
+    @media (max-width: 650px) {
+      font-size: 13.5px;
+      margin: 5px 0;
     }
       }
       a {
