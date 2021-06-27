@@ -18,9 +18,21 @@ const Nurture = (props) => (
       </section>
       <section className="about-page">
         <div className="about-wrap links-wrap">
+          <div className="fine-print">
+            <p>Below is a list of resources that I found supportive, use what feels right for you.</p>
+          </div>
           <div className="tabs">
             <div className="tab tab-paragraph">
               <a href="https://www.instagram.com/tv/CQji8GFnGxp/?utm_source=ig_web_copy_link" target="new" class="insta-links">Step into your Spiritual Rainbow <p>(a talk with @jessica_lanyadoo X @hwyps)</p></a>
+            </div>
+            <div className="tab tab-paragraph">
+              <a href="https://www.youtube.com/watch?v=FipCQW10wQY" target="new" class="insta-links">Creating Joy <p>(video with @leeharrisenergy)</p></a>
+            </div>
+            <div className="tab tab-paragraph">
+              <a href="https://chopracentermeditation.com/" target="new" class="insta-links">Deepak Chopra x Alicia Keys <p>(21-Day Meditation Experience)</p></a>
+            </div>
+            <div className="tab tab-paragraph">
+              <a href="https://open.spotify.com/episode/42QpLiSXjKL75tCmzWvqwE?si=4e658ffde2d24ebf" target="new" class="insta-links">The Joy of Imperfection <p>(podcast episode with @resetnyc)</p></a>
             </div>
             <div className="tab tab-paragraph">
               <a href="https://www.miguelruiz.com/the-four-agreements" target="new" class="insta-links">The Four Agreements <p>(A Practical Guide to Personal Freedom, by Don Miguel Ruiz)</p></a>
@@ -29,10 +41,7 @@ const Nurture = (props) => (
               <a href="https://juliacameronlive.com/the-artists-way/" target="new" class="insta-links">The Artist's Way <p>(A Course in Discovering and Recovering Your Creative Self)</p></a>
             </div>
             <div className="tab tab-paragraph">
-              <a href="https://chopracentermeditation.com/" target="new" class="insta-links">Chopra Center <p>(21-Day Meditation Experience)</p></a>
-            </div>
-            <div className="tab tab-paragraph">
-              <a href="https://www.activisthandbook.org/en/home" target="new" class="insta-links">Activist Handbook <p>(exchange knowledge and experiences about activism)</p></a>
+              <a href="https://www.activisthandbook.org/en/home" target="new" class="insta-links">ActivistHandbook.org <p>(exchange knowledge and experiences about activism)</p></a>
             </div>
             <div className="tab tab-paragraph">
               <a href="https://open.spotify.com/playlist/2eW4rxbZvU2uwW7CGKAQGv?si=52643df2166e4728" target="new" class="insta-links">Chill &amp; Recover <p>(playlist by @intersectionalenvironmentalist)</p></a>
