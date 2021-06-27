@@ -46,9 +46,6 @@ const Nurture = (props) => (
             <div className="tab tab-paragraph">
               <a href="https://open.spotify.com/playlist/2eW4rxbZvU2uwW7CGKAQGv?si=52643df2166e4728" target="new" class="insta-links">Chill &amp; Recover <p>(playlist by @intersectionalenvironmentalist)</p></a>
             </div>
-            <div className="tab tab-paragraph">
-              <a href="https://www.everydayhealth.com/self-care/start-a-self-care-routine/" class="insta-links">Start a Self Care routine <p>(article in EverydayHealth.com)</p></a>
-            </div>
           </div>
 
 
