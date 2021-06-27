@@ -19,7 +19,7 @@ const Nurture = (props) => (
       <section className="about-page">
         <div className="about-wrap links-wrap">
           <div className="fine-print">
-            <p>Below is a list of resources that I found supportive, use what feels right for you.</p>
+            <p>Below is a list of resources that I found supportive, use anything feels right for you and leave the rest.</p>
           </div>
           <div className="tabs">
             <div className="tab tab-paragraph">
