@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 const Nurture = (props) => (
   <Layout name="about-page-wrap services-page-wrap links-page-wrap">
-    <SEO title="Links ➞ Nurture yoru Activist" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="Links ➞ Nurture your Activist" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">

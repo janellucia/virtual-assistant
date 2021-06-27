@@ -32,7 +32,7 @@ const Trans = (props) => (
 
           </div>
           <div className="fine-print">
-            <p>please help me make this list better by sending me your suggestions.</p>
+            <p>please help make this list better by sending suggestions.</p>
           </div>
 
         </div>
