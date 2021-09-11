@@ -3,6 +3,7 @@
     transition: all 0.5s ease-in-out;
     ::selection {
         background: $sixthColor; 
+        color: white;
     }
 
     header, footer {
@@ -63,7 +64,7 @@
     top: 0;
     right: 0;
     height: 100%;
-    background: $mainColor;
+    background: lighten($seventhColor, 3%);
     z-index: 998;
     box-shadow: 1px 1px 15px rgba(#000, 0.3) ;
 

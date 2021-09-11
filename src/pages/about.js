@@ -30,11 +30,7 @@ const IndexPage = (props) => (
 
         <div className="resume">
           <div className="each-section experience">
-            <h3>Around the web —</h3>
-            <div>
-              <p><a href="https://www.conceivedspace.com/digital-nature" target="new"><strong>Digital Nature</strong></a></p>
-              <p>Conceived Space</p>
-            </div>
+            <h3>Articles —</h3>
             <div>
               <p><a href="https://ilovecreatives.com/creative-profiles/janel-lucia?rq=janel" target="new"><strong>Designers to watch</strong></a></p>
               <p>I love Creatives</p>

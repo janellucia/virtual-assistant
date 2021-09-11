@@ -31,9 +31,6 @@ const Links = (props) => (
               <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify playlists</a>
             </div>
             <div className="tab">
-              <a href="https://www.conceivedspace.com/digital-nature" target="new" class="insta-links">Janel Lucia x Conceived Beauty</a>
-            </div>
-            <div className="tab">
               <a href="https://www.instagram.com/letteringarchive/" target="new" class="insta-links">@letteringarchive</a>
             </div>
             <div className="tab">

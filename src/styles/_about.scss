@@ -2,6 +2,7 @@
     background: $mainColor;
     ::selection {
         background: $sixthColor; 
+        color: white;
     }
 
     header, footer {
@@ -109,6 +110,7 @@
             letter-spacing: 0.3px;
             font-weight: 300;
             max-width: 700px;
+            margin-bottom: 50px;
 
             a {
                 text-decoration: underline;

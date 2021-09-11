@@ -21,6 +21,18 @@ const Activism = (props) => (
           </div>
           <div className="tabs">
             <div className="tab">
+              <a href="https://www.elections.ca/content2.aspx?section=reg&document=index&lang=e" target="new" class="insta-links">Vote in Canada</a>
+            </div>
+            <div className="tab">
+              <a href="https://www.nytimes.com/2021/08/30/us/hurricane-ida-how-to-help.html" target="new" class="insta-links">Hurricane Ida relief</a>
+            </div>
+            <div className="tab">
+              <a href="https://www.washingtonpost.com/world/2021/08/21/how-to-help-afghan-refugees/" target="new" class="insta-links">Support Afganistan</a>
+            </div>
+            <div className="tab">
+              <a href="https://www.afsc.org/blogs/news-and-commentary/5-ways-you-can-support-palestinians-gaza" target="new" class="insta-links">Support Palestine</a>
+            </div>
+            <div className="tab">
               <a href="/links-trans-lives" class="insta-links">Support Trans Lives</a>
             </div>
             <div className="tab">
@@ -54,7 +66,7 @@ const Activism = (props) => (
               <a href="https://www.forbreonna.com/" target="new" class="insta-links">Breonna Taylor</a>
             </div>
             <div className="tab">
-              <a href="https://linktr.ee/ESN_TO" target="new" class="insta-links">Encampment Support Network</a>
+              <a href="https://linktr.ee/ESN_TO" target="new" class="insta-links">Toronto Encampment Support Network</a>
             </div>
             <div className="tab tab-paragraph">
               <a href="https://tab.gladly.io/?u=janellucia" target="new" class="insta-links">Tab for a Cause — Chrome extension <p>(donate to charity with every browser tab you open, for free.)</p></a>
