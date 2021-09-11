@@ -19,7 +19,7 @@ const Nurture = (props) => (
       <section className="about-page">
         <div className="about-wrap links-wrap">
           <div className="fine-print">
-            <p>Below is a list of resources that I found supportive, use anything feels right for you and leave the rest.</p>
+            <p>Below is a list of resources that I found supportive, use anything that feels right for you and leave the rest.</p>
           </div>
           <div className="tabs">
             <div className="tab tab-paragraph">
@@ -29,7 +29,7 @@ const Nurture = (props) => (
               <a href="https://www.youtube.com/watch?v=FipCQW10wQY" target="new" class="insta-links">Creating Joy <p>(video with @leeharrisenergy)</p></a>
             </div>
             <div className="tab tab-paragraph">
-              <a href="https://chopracentermeditation.com/" target="new" class="insta-links">Deepak Chopra x Alicia Keys <p>(21-Day Meditation Experience)</p></a>
+              <a href="https://open.spotify.com/show/0LtsgWkOpLdYR7wK0senTX?si=ZfCp3yYwT-yETrMiOr2H6A&dl_branch=1" target="new" class="insta-links">Deepak Chopra — Creating Abundance<p>(21-Day Meditation Experience)</p></a>
             </div>
             <div className="tab tab-paragraph">
               <a href="https://open.spotify.com/episode/42QpLiSXjKL75tCmzWvqwE?si=4e658ffde2d24ebf" target="new" class="insta-links">The Joy of Imperfection <p>(podcast episode with @resetnyc)</p></a>
