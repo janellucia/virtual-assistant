@@ -122,7 +122,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTwentyOne.childImageSharp.fluid} alt="logo, branding, web design text-ring" className="text-ring" />
           <div className="service-info">
             <h1>Graphic Design Services</h1>
-            <p>My design approach focuses on your business goals and personality while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations — my goal is to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
+            <p>My design approach focuses on your business goals and personality while having a deep understanding of your audience, what they need and what they value — my goal is to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
             <p>In order for there to be a meaningful and valuable user experience, information must be beautiful, authentic, useful &amp; usable.</p>
             <p><a href="/services">Learn More about my Services</a></p>
           </div>

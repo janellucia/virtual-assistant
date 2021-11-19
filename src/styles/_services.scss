@@ -231,29 +231,24 @@
     }
   }
 
-  .lcds-wrap {
-    text-align: left;
+ .services-page-wrap .home-services {
+   border-top: 1px solid black;
 
-    .wrapper {
-      justify-content: flex-start;
-      border-bottom: none;
+  .home-service-wrap {
+    position: relative;
+
+    .text-ring {
+      position: absolute !important;
+      bottom: -50px;
+      left: -75px;
+      width: 222px !important;
+      animation: rotation 30s infinite linear;
+
+      @media (max-width: 1027px)  {
+        display: none;
+      }
     }
-
-    h2, p {
-      text-align: left !important;
-      margin-left: 0 !important;
-    }
-
-    h2 {
-      line-height: 1.1;
-    }
-
-    p {
-      font-size: 22px;
-      margin: 10px 0;
-      max-width: 640px;
-    }
-
   }
+}
 
 

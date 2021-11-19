@@ -116,27 +116,22 @@ const Services = (props) => (
             </ul>
           </div>
         </div>
-
-        {/* <div id="site-audit" className="services-block services-reverse">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="janel lucia headshot" />
-          <div className="service-info">
-            <h2>Design/Site Audit</h2>
-            <p>An audit is a complete and in-depth analysis of your website's conversion factors. Is your brand story clear and shining through? Do prospective customers know instantly what you can do for them? Is your necessary above-the-fold content maximizing its potential? Is your site accessible according to WCAG 2.0 standards?</p>
-            <p>I will analyze your site's first impressions on users, connect with potential customers who have never been exposed to your brand before, and get real insights — the make-or-break insights from the people that matter.</p>
-            <p>Detailed and actionable recommendations to improve your website immediately, as well as suggested long-term strategies for continued success, including content and promotional planning.</p>
-          </div>
-        </div> */}
-
       </section>
 
-      <section id="cds" className="services-navigation lcds-wrap">
-        <div className="wrapper service-nav-wrap pull-quote">
-          <h2>So what is my <br></br>Conscious Design System?</h2>
-          <p>My Conscious Design System (CDS) focuses on your business goals and personality while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations — my intentions are to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
-          <p>In order for there to be a meaningful and valuable user experience, information must be authentic, useful, usable, desirable, findable, accessible, credible & valuable. Each facet of CDS can transform how we see what we do and enabling us to explore our brand beyond conventional boundaries.</p>
-          <p>It’s a great tool for advancing the conversation beyond usability and for helping you and your team understand the need to define priorities. Is it more important for your design to be desirable or accessible? How about usable or credible? This all depends on your unique balance of values, goals and user needs, and the required tradeoffs are better made explicitly than unconsciously. </p>
-          <p>For me, design is a big hive: a dynamic, multi-dimensional space where there’s still plenty of room to build new boxes and draw new arrows and create a new space for your brand.</p>
+      <section id="cds" className="service-descriptions-wrap home-services">
+        <div className="services-block home-service-wrap">
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="janellucia headshot" />
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="logo, branding, web design text-ring" className="text-ring" />
+          <div className="service-info">
+            <h1>Lets Work Together</h1>
+            <p>Through my years I have been introduced to many design systems, some great and some not so great — I took what works and left the rest. I curated my own proven design system known as Concious Design System (CDS). My approach focuses on your business goals and personality while having a deep understanding of your audience, what they need and what they value — my goal is to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
+            <p>In order for there to be a meaningful and valuable user experience, information must be beautiful, authentic, useful &amp; usable.  Each facet of CDS can transform how we see what we do and enabling us to explore our brand beyond conventional boundaries.</p>
+            <p>It’s a great tool for advancing the conversation around usability and helps us define priorities beyond the ideal colours and typography. </p>
+
+            <p><a href="mailto:hello@janellucia.com">Get in Touch</a></p>
+          </div>
         </div>
+
       </section>
 
 
@@ -192,6 +187,20 @@ export const pageQuery = graphql`
       }
     }
     imageSeven: file(relativePath: { eq: "services/audit-service.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageEight: file(relativePath: { eq: "home/about-services.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageNine: file(relativePath: { eq: "home/text-ring.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
