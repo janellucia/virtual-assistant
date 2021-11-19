@@ -1,12 +1,12 @@
 .about-page-wrap {
-    background: $mainColor;
+    //background: $mainColor;
     ::selection {
         background: $sixthColor; 
         color: white;
     }
 
     header, footer {
-        background: $mainColor;
+        //background: $mainColor;
 
     }
 }

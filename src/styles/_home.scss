@@ -2,6 +2,30 @@
   ::selection {
     background: $mainColor; 
   }
+
+    .lcds-wrap {
+    text-align: left;
+
+    .wrapper {
+      justify-content: flex-start;
+    }
+
+    h2, p {
+      text-align: left !important;
+      margin-left: 0 !important;
+    }
+
+    h2 {
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: 22px;
+      margin: 10px 0;
+      max-width: 640px;
+    }
+
+  }
 }
 
 .landing-about {
@@ -401,4 +425,49 @@
 img {
   width: 100% !important;
   height: auto !important;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.home-services {
+  h1 {
+    font-size: 42px;
+    line-height: 1;
+    margin: 10px 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .home-service-wrap {
+    position: relative;
+
+    .text-ring {
+      position: absolute !important;
+      bottom: 0px;
+      right: -50px;
+      width: 222px !important;
+      animation: rotation 30s infinite linear;
+
+      @media (max-width: 1027px)  {
+        bottom: -50px;
+        right: 10px;
+        width: 150px !important;
+      }
+
+      @media (max-width: 850px)  {
+        display: none;
+      }
+    }
+  }
 }

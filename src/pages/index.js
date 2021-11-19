@@ -5,13 +5,15 @@ import Layout from '../components/layout'
 import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
+import Testimonials from '../components/testimonials'
+
 const IndexPage = (props) => (
   <Layout name="home-page">
     <SEO title="Designer" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Graphic Design`, `Brand Identity`, `Brand Designer`, `Typography`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>I help businesses design products and experiences that are beautifully simple, reassuringly smart and full of brand personality</p>
+          <p>I help businesses design logos, brands &amp; websites that are beautifully simple, reassuringly smart and full of personality</p>
           {/* <p>I'm a UX/UI Designer crafting meaningful and strategic design with a clear voice and vision. I specialize in logo design, brand identity <span className="amp">&amp;</span> graphic design.</p> */}
         </div>
       </section>
@@ -114,7 +116,20 @@ const IndexPage = (props) => (
           </div>
         </Link>
       </section>
+      <section className="service-descriptions-wrap home-services">
+        <div className="services-block home-service-wrap">
+          <Img fluid={props.data.imageTwenty.childImageSharp.fluid} alt="janellucia headshot" />
+          <Img fluid={props.data.imageTwentyOne.childImageSharp.fluid} alt="logo, branding, web design text-ring" className="text-ring" />
+          <div className="service-info">
+            <h1>Graphic Design Services</h1>
+            <p>My design approach focuses on your business goals and personality while having a deep understanding of your audience, what they need, what they value, their abilities, and their limitations — my goal is to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
+            <p>In order for there to be a meaningful and valuable user experience, information must be beautiful, authentic, useful &amp; usable.</p>
+            <p><a href="/services">Learn More about my Services</a></p>
+          </div>
+        </div>
 
+      </section>
+      <Testimonials />
     </div>
   </Layout>
 )
@@ -256,5 +271,22 @@ export const pageQuery = graphql`
         }
       }
     }
+    imageTwenty: file(relativePath: { eq: "home/about-services.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageTwentyOne: file(relativePath: { eq: "home/text-ring.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
   }
 `
+
+
+
