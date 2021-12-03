@@ -93,7 +93,7 @@ const Services = (props) => (
           </div>
         </div>
 
-        <div id="Illustraion" className="services-block">
+        <div id="illustraion" className="services-block">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="social media tiles collage" />
           <div className="service-info">
             <h2>Floral Illustrations</h2>
