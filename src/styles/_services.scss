@@ -192,6 +192,7 @@
 
       &:nth-child(even) {
         flex-direction: row-reverse;
+        margin: 120px 0;
       }
 
       @media (max-width: 700px) {
@@ -258,4 +259,8 @@
   }
 }
 
-
+.thank-you-msg {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 120px 0 70px 0;
+}
