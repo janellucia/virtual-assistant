@@ -19,10 +19,10 @@ const Links = (props) => (
         <div className="about-wrap links-wrap">
           <div className="tabs">
             <div className="tab">
-              <a href="/services" class="insta-links">Design Services — Work with me</a>
+              <a href="/services" class="insta-links">Graphic Design Services</a>
             </div>
             <div className="tab">
-              <a href="https://www.elections.ca/content2.aspx?section=reg&document=index&lang=e" target="new" class="insta-links">Vote in Canada</a>
+              <a href="/" class="insta-links">Portfolio</a>
             </div>
             <div className="tab tab-paragraph">
               <a href="/links-activism/" class="insta-links">Support your Community <p>(opens to another link list)</p></a>
@@ -31,10 +31,7 @@ const Links = (props) => (
               <a href="/links-nurture-your-activist/" class="insta-links">Nurture your Activist <p>(opens to another link list)</p></a>
             </div>
             <div className="tab">
-              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">My Spotify Playlists</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.instagram.com/letteringarchive/" target="new" class="insta-links">@letteringarchive</a>
+              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify Playlists</a>
             </div>
             <div className="tab">
               <a href="/" class="insta-links">Website</a>

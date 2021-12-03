@@ -23,21 +23,14 @@ const Atria = (props) => (
         <div className="project-copy">
           <h2>Creating a brand identity for an Master Coach & NLP Practitioner</h2>
           <p>Atria Coaching helps their clients listen to their inner guidance, have better direction, act from inspiration, and make an impact. As a result, their clients gain control of their lives - who they are, who they spend time with, how they spend it, and where. </p>
-          <h3>Role</h3>
-          <p>I was the lead designer/researcher on this project. I worked with stakeholders to create Atria Coaching's style guide &amp; brand identity.</p>
-          <h3>The Challenge</h3>
-          <p>The challenge was to take a new brand (Atria Coaching) and create a well-defined brand strategy as well as marketing materials to grow with the brand over the next few years.</p>
-          <h3>The Solution</h3>
-          <p>The solution was to deliver a well-strategized brand for real results. Success in this project will be measured by growth in clients and sales.</p>
         </div>
         <div className="sidebar-intro">
           <div>
             <h3>Services</h3>
             <ul>
-              <li>Brand Research</li>
-              <li>Brand Strategy</li>
               <li>Brand Identity</li>
               <li>Logo Design</li>
+              <li>Social Media Design</li>
               <li>Marketing Assets</li>
             </ul>
           </div>

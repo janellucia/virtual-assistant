@@ -218,7 +218,8 @@
       justify-content: space-between;
       flex-wrap: wrap;
       .gatsby-image-wrapper {
-          width: 49%;
+          width: 49% ;
+          height: auto;
           @media (max-width: 768px) {
               width: 100%;
               &:nth-child(1) {
@@ -406,6 +407,16 @@
 #bad-girls {
     .gatsby-image-wrapper {
         margin: 50px 0;
+
+        @media (max-width: 768px) {
+            margin: 25px 0;
+        }
+    }
+}
+
+#ash {
+    .gatsby-image-wrapper {
+        margin: 10px 0;
 
         @media (max-width: 768px) {
             margin: 25px 0;

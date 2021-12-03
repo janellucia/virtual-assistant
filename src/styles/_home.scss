@@ -86,6 +86,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 100px;
 
   .project-wrap {
     width: 49%;
@@ -127,7 +128,7 @@
 
     .home-project-info {
       opacity: 0;
-      background: rgba($wicked-problem, 0.7);
+      background: rgba($fourthColor, 0.7);
       position: absolute;
       top: 0;
       left: 0;
@@ -177,112 +178,138 @@
         
       }
     }
-    .girls-info {
-      background: rgba($mainColor, 0.9);
-      h3, .category {
-        // color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
+    &:first-child {
+      .home-project-info {
+        background: rgba($mainColor, 0.9);
         h3, .category {
-          color: $black;
+          // color: $grey;
+        }
+        @media (max-width: 768px) {
+          background: transparent;
+          h3, .category {
+            color: $black;
+          }
         }
       }
     }
-    .daniela-info {
-      background: rgba($secondColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .spirit-info {
-      background: rgba($seventhColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .qube-info {
-      background: rgba($fifthColor, 0.9);
-      h3, .category {
-        color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
-        h3, .category {
-          color: $black;
+    &:nth-child(2) {
+      .home-project-info {
+        background: rgba($secondColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
         }
       }
     }
-    .conceived-info {
-      background: rgba($eighthColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .perceived-info {
-      background: rgba($mainColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .good-info {
-      background: rgba($seventhColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
-      }
-    }
-    .jo-info {
-      background: rgba($fourthColor, 0.9);
-      h3, .category {
-        color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
-        h3, .category {
-          color: $black;
+    &:nth-child(3) {
+      .home-project-info {
+        background: rgba($seventhColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
         }
       }
     }
-    .bad-girls-info {
-      background: rgba($sixthColor, 0.9);
-      h3, .category {
-        color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
+    &:nth-child(4) {
+      .home-project-info {
+        background: rgba($fifthColor, 0.9);
         h3, .category {
-          color: $black;
+          color: $grey;
+        }
+        @media (max-width: 768px) {
+          background: transparent;
+          h3, .category {
+            color: $black;
+          }
         }
       }
     }
-    .livie-info {
-      background: rgba($thirdColor, 0.9);
-      h3, .category {
-        color: $grey;
-      }
-      @media (max-width: 768px) {
-        background: transparent;
-        h3, .category {
-          color: $black;
+    &:nth-child(5) {
+      .home-project-info {
+        background: rgba($eighthColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
         }
       }
     }
-    .atria-info {
-      background: rgba($mainColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
+    &:nth-child(6) {
+      .home-project-info {
+        background: rgba($mainColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
+        }
       }
     }
-    .type-info {
-      background: rgba($seventhColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
+    &:nth-child(7) {
+      .home-project-info {
+        background: rgba($seventhColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
+        }
       }
     }
-    .essential-info {
-      background: rgba($secondColor, 0.9);
-      @media (max-width: 768px) {
-        background: transparent;
+    &:nth-child(8) {
+      .home-project-info {
+        background: rgba($fourthColor, 0.9);
+        h3, .category {
+          color: $grey;
+        }
+        @media (max-width: 768px) {
+          background: transparent;
+          h3, .category {
+            color: $black;
+          }
+        }
+      }
+    }
+    &:nth-child(9) {
+      .home-project-info {
+        background: rgba($secondColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
+        }
+      }
+    }
+    &:nth-child(10) {
+      .home-project-info {
+        background: rgba($thirdColor, 0.9);
+        h3, .category {
+          color: $grey;
+        }
+        @media (max-width: 768px) {
+          background: transparent;
+          h3, .category {
+            color: $black;
+          }
+        }
+      }
+    }
+    &:nth-child(11) {
+      .home-project-info {
+        background: rgba($mainColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
+        }
+      }
+    }
+    &:nth-child(12) {
+      .home-project-info {
+        background: rgba($seventhColor, 0.9);
+        @media (max-width: 768px) {
+          background: transparent;
+        }
+      }
+    }
+    &:nth-child(13) {
+      .home-project-info {
+        background: rgba($fourthColor, 0.9);
+        h3, .category {
+          color: $grey;
+        }
+        @media (max-width: 768px) {
+          background: transparent;
+          h3, .category {
+            color: $black;
+          }
+        }
       }
     }
 

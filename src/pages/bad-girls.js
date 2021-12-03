@@ -28,12 +28,6 @@ const BadGirls = (props) => (
         <div className="project-copy">
           <h2>Shopify site built for a the Bad Girls Collective.</h2>
           <p>Founded in 2014, Bad Girls Collective is a network of badass women on that intellectual tip – a mega book club. Originally born as a New Years resolution to read more, it has become our mission to bring well-read women together to share the power of reading and revel in each other’s stories.</p>
-          <h3>Role</h3>
-          <p>I was the lead developer on this project. I worked with Stakeholders to create an online experience based off their designs.</p>
-          <h3>The Challenge</h3>
-          <p>This site required many specific customizations, custom pages, sections, blog types, product information and I needed to build a site that functions smoothly and empowers the client to add and edit information in the future.</p>
-          <h3>The Solution</h3>
-          <p>The solution was to build a site on Shopify and code custom pages, sections, and use custom meta feilds to customize blog pages and product types. To ensure the Bad Girls are empowered to update and add to their site in the future I gave a detailed site reference guide to maintain original designs and layout.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -42,15 +36,13 @@ const BadGirls = (props) => (
               <li>Shopify Site Build</li>
               <li>Custom Pages</li>
               <li>Custom Sections</li>
-              <li>Custom Products</li>
-              <li>Custom Blogs</li>
               <li>Site Guide</li>
             </ul>
           </div>
         </div>
       </section>
       <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-      <img src={GIF} alt="" class="site-gif" />
+      <div className="gatsby-image-wrapper"><img src={GIF} alt="" class="site-gif" /></div>
       <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
       <Img fluid={props.data.imageThree.childImageSharp.fluid} />
       <Img fluid={props.data.imageFour.childImageSharp.fluid} />

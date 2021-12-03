@@ -17,9 +17,6 @@ const Type = (props) => (
       <div className="wrapper">
         <h1>Livie Jewelry</h1>
         <p className="subtitle">Branding and web design for online jewelry shop Livie Jewelry.</p>
-        <div className="button-wrap">
-          <a href="https://www.liviejewelry.com/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
-        </div>
       </div>
     </section>
 
@@ -28,12 +25,6 @@ const Type = (props) => (
         <div className="project-copy">
           <h2>Creating an online identity for a talented jewelry designer</h2>
           <p>Livie Jewelry designed by Jules Beliavski is an exclusive Toronto brand. The line is a balance of edgy with a hint of feminine, allowing for an easy transition of your look from day to night. The Livie customer likes to stand out with her layers of jewelry and knows how to strategically add a choker to complete a look.</p>
-          <h3>Role</h3>
-          <p>I was the lead designer/researcher on this project. I worked with stakeholders and developers to create Livie Jewelry's online identity.</p>
-          <h3>The Challenge</h3>
-          <p>The challenge was to take a new brand (Livie Jewelry) and create a well defined online strategy to grow with the brand.</p>
-          <h3>The Solution</h3>
-          <p>The solution was to deliver a well strategized online presence for real results. Success in this project will be measured by growth in customers and sales, and a new market of customers.</p>
         </div>
         <div className="sidebar-intro">
           <div>

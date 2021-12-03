@@ -12,14 +12,11 @@ import Projectfooter from '../components/project-footer'
 const Type = (props) => (
 
   <Layout name="project-page lettering-archive-page">
-    <SEO title="Lettering Archive" />
+    <SEO title="Typography Posters" />
     <section className="title">
       <div className="wrapper">
-        <h1>Lettering Archive</h1>
-        <p className="subtitle">I created Lettering Archive as a way to explore type, research interesting authors & poets, and express myself creatively without boundaries. <br></br>Below is an example of some of the content I post.</p>
-        <div className="button-wrap">
-          <a href="https://www.instagram.com/letteringarchive/" className="button" target="_blank" rel="noopener noreferrer">View Insta</a>
-        </div>
+        <h1>Typography Posters</h1>
+        <p className="subtitle">A lil project to explore type, research interesting authors & poets, and express creatively with typography.</p>
       </div>
     </section>
     <div id="lettering-archive" className="wrapper lettering-image-wrap">

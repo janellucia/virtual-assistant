@@ -17,9 +17,6 @@ const JoRodrigues = (props) => (
       <div className="wrapper">
         <h1>Jo Rodrigues</h1>
         <p className="subtitle">Helping people and organizations shift from confusion to clarity with practical strategies with coaching, training and consulting services.</p>
-        <div className="button-wrap">
-          <a href="https://jorodrigues.net/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
-        </div>
       </div>
     </section>
     <div className="wrapper">
@@ -27,19 +24,15 @@ const JoRodrigues = (props) => (
         <div className="project-copy">
           <h2>BRAND IDENTITY & WORDPRESS SITE FOR Jo Rodrigues</h2>
           <p>Jo coaches humanitarian aid and international development workers. She helps her clients find clarity on how to move forward in their careers – without compromising their values.</p>
-          <h3>Role</h3>
-          <p>Lead designer and developer — I worked with Jo to create a visual brand and online experience on Wordpress.</p>
-          <h3>The Challenge</h3>
-          <p>This site required many specific customizations, custom pages, sections, blog types, custom service types. The goal was to build a site that functions smoothly and empowers the client to add and edit information independently in the future.</p>
-          <h3>The Solution</h3>
-          <p>Design a brand and online strategy from the ground up, capturing Jo's experience and value as a career coach.</p>
+          <div className="button-wrap">
+            <a href="https://jorodrigues.net/" className="button" target="_blank" rel="noopener noreferrer">View Jo's Website</a>
+          </div>
         </div>
         <div className="sidebar-intro">
           <div>
             <h3>Services</h3>
             <ul>
               <li>Brand Identity</li>
-              <li>Brand Values</li>
               <li>Logo Design</li>
               <li>Social Media</li>
               <li>Wordpress site</li>
@@ -124,7 +117,7 @@ const JoRodrigues = (props) => (
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
         </div>
-        <img src={GIF} alt="" />
+        <div className="gatsby-image-wrapper"><img src={GIF} alt="" /></div>
       </section>
       <section className="project-info" id="social">
         <h2>04 Social Media</h2>

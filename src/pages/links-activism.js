@@ -21,12 +21,6 @@ const Activism = (props) => (
           </div>
           <div className="tabs">
             <div className="tab">
-              <a href="https://www.elections.ca/content2.aspx?section=reg&document=index&lang=e" target="new" class="insta-links">Vote in Canada</a>
-            </div>
-            <div className="tab">
-              <a href="https://www.nytimes.com/2021/08/30/us/hurricane-ida-how-to-help.html" target="new" class="insta-links">Hurricane Ida relief</a>
-            </div>
-            <div className="tab">
               <a href="https://www.washingtonpost.com/world/2021/08/21/how-to-help-afghan-refugees/" target="new" class="insta-links">Support Afganistan</a>
             </div>
             <div className="tab">
@@ -34,9 +28,6 @@ const Activism = (props) => (
             </div>
             <div className="tab">
               <a href="/links-trans-lives" class="insta-links">Support Trans Lives</a>
-            </div>
-            <div className="tab">
-              <a href="https://msha.ke/freebritney/" target="new" class="insta-links">#FreeBritney</a>
             </div>
             <div className="tab">
               <a href="https://lnk.bio/oncanadaproject" target="new" class="insta-links">Support the Indigenous Community</a>

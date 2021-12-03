@@ -17,9 +17,6 @@ const SpiritLuxe = (props) => (
       <div className="wrapper">
         <h1>Spirit Luxe</h1>
         <p className="subtitle">A contemporary outlook on holistic wellness and self-care. </p>
-        <div className="button-wrap">
-          <a href="https://spiritluxelife.com/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
-        </div>
       </div>
     </section>
     <div className="wrapper">
@@ -27,19 +24,15 @@ const SpiritLuxe = (props) => (
         <div className="project-copy">
           <h2>BRAND IDENTITY & WORDPRESS SITE FOR KARYN SMILEY AND SPIRIT LUXE</h2>
           <p>SpiritLuxe helps women discover and explore their highest being while standing in truth and authenticity. A Wellness, Fashion, and Spirituality coaching & lifestyle brand.</p>
-          <h3>Role</h3>
-          <p>I was the lead designer and developer on this project. I worked with Stakeholders to create an brand experience online and social media.</p>
-          <h3>The Challenge</h3>
-          <p>This site required many specific customizations, custom pages, sections, blog types, custom service types. The goal was to build a site that functions smoothly and empowers the client to add and edit information independently in the future.</p>
-          <h3>The Solution</h3>
-          <p>Design an brand and online strategy from the ground up, capturing the brand's excitement and value in the coaching and holistic wellness space.</p>
+          <div className="button-wrap">
+            <a href="https://spiritluxelife.com/" className="button" target="_blank" rel="noopener noreferrer">View Website</a>
+          </div>
         </div>
         <div className="sidebar-intro">
           <div>
             <h3>Services</h3>
             <ul>
               <li>Brand Identity</li>
-              <li>Brand Values</li>
               <li>Logo Design</li>
               <li>Social Media</li>
               <li>Wordpress site</li>

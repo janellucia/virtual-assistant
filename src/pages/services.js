@@ -7,9 +7,11 @@ import SEO from '../components/seo'
 
 import Testimonials from '../components/testimonials'
 
+import GIF from '../images/steph/sb-logo-animation.gif';
+
 const Services = (props) => (
   <Layout name="about-page-wrap services-page-wrap">
-    <SEO title="Services" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="Design Services" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
@@ -20,11 +22,10 @@ const Services = (props) => (
         <div className="wrapper service-nav-wrap">
           <p><a href="#brand-identity" className="">Brand Identity</a></p>
           <p><a href="#logo-design" className="">Logo Design</a></p>
-          <p><a href="#web-design" className="">Website Design</a></p>
-          <p><a href="#editorial-design" className="">Editorial Design</a></p>
+          <p><a href="#web-design" className="">Website Design &amp; Build</a></p>
           <p><a href="#social-media" className="">Social Media Design</a></p>
-          <p><a href="#web-development" className="">Website Build</a></p>
-          <p><a href="#cds" className="">Concious Design System</a></p>
+          <p><a href="#illustration" className="">Floral Illustrations</a></p>
+          <p><a href="#editorial-design" className="">Editorial Design (Print)</a></p>
         </div>
       </section>
 
@@ -35,12 +36,11 @@ const Services = (props) => (
             <input type="checkbox" class="checkbox checkbox--red" id="stickyNav" />
             <div className="wrapper service-nav-wrap">
               <p><a href="#brand-identity" className="">Brand Identity</a></p>
-              <p><a href="#logo-design" className="">Logo Design</a></p>
-              <p><a href="#web-design" className="">Website Design</a></p>
+              <p><a href="#logo-design" className="">Logos</a></p>
+              <p><a href="#web-design" className="">Site Design</a></p>
+              <p><a href="#social-media" className="">Social Media</a></p>
+              <p><a href="#illustration" className="">Illustrations</a></p>
               <p><a href="#editorial-design" className="">Editorial Design</a></p>
-              <p><a href="#social-media" className="">Social Media Design</a></p>
-              <p><a href="#web-development" className="">Website Build</a></p>
-              <p><a href="#cds" className="">Concious Design System</a></p>
             </div>
           </label>
         </div>
@@ -49,7 +49,7 @@ const Services = (props) => (
       <section className="service-descriptions-wrap">
 
         <div id="brand-identity" className="services-block services-reverse">
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="brandidentity collage" />
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="brand identity collage" />
           <div className="service-info">
             <h2>Brand Identity</h2>
             <p>Brand identity includes logos, typography, colors, packaging, and messaging, and it complements and establishes or reinforces the reputation of a brand. Brand identity attracts new customers to a brand while making existing customers feel at home. It's both outward- and inward-facing.</p>
@@ -59,7 +59,7 @@ const Services = (props) => (
         </div>
 
         <div id="logo-design" className="services-block">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="logo collage" />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="brand identity collage" />
           <div className="service-info">
             <h2>Logo Design</h2>
             <p>Your logo identifies your business in its simplest form using a logo mark, typographic solution, or a combination of both. That’s all there is to it. A logo is used as a signifier. It communicates something; a message, a feeling, or a story. It resonates with something in your brain and tells a story.</p>
@@ -71,7 +71,7 @@ const Services = (props) => (
         <div id="web-design" className="services-block services-reverse">
           <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
-            <h2>Website Design</h2>
+            <h2>Website Design &amp; Build</h2>
             <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience gets that feeling that they finally found the solutions they've been looking for.</p>
             <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in satisfying site design. Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users.</p>
           </div>
@@ -87,16 +87,8 @@ const Services = (props) => (
 
       <section className="service-descriptions-wrap">
 
-        <div id="editorial-design" className="services-block">
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="image of site wireframes" />
-          <div className="service-info">
-            <h2>Editorial Design <br></br>(Books & Magazines)</h2>
-            <p>Editorial design is the layout and visual aesthetics of books, newspapers, magazines, reports, online publications and other media. Good design has a big impact on how written information is understood. My goal is to make publications attractive, visually interesting, and easy to read.</p> <p>Good design is cohesive, clear, and draws readers in. Ultimately, good design increases your business' value, boosts sales, and puts your business in a better growth trend. Through building trust, making strong first impressions, building customer relationships, and even executing successful campaigns, good design helps make your business more profitable.</p>
-          </div>
-        </div>
-
         <div id="social-media" className="services-block">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="social media tiles collage" />
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
             <h2>Social Media Design</h2>
             <p>Your customers are meeting each other, sharing ideas, and talking about your brand online. Give them a great first impression. I will work with you to create strong social media designs, we will take the look and feel of your website/brand to every social part of the web and get you interacting online in style.</p>
@@ -104,31 +96,21 @@ const Services = (props) => (
           </div>
         </div>
 
-        <div id="web-development" className="services-block">
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="janel lucia headshot" />
+        <div id="Illustraion" className="services-block">
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="social media tiles collage" />
           <div className="service-info">
-            <h2>Website Build</h2>
-            <p>Whether you’re launching a new site, need an site/ecommerce audit to learn how you can grow your business, are looking to migrate from one platform to another, or need a bespoke site with unique functionality, I will work with you to ensure your site acheives all your business goals and meets WCAG sccessibility standards.</p>
-            <ul>
-              <li><span className="bold">Shopify</span> — Basic theme set up or fully custom theme with sections</li>
-              <li><span className="bold">Squarespace</span> — Basic theme set up or fully custom theme</li>
-              <li><span className="bold">Wordpress</span> — Basic theme set up or fully custom theme, woocommerce setup</li>
-            </ul>
+            <h2>Floral Illustrations</h2>
+            <p>Your customers are meeting each other, sharing ideas, and talking about your brand online. Give them a great first impression. I will work with you to create strong social media designs, we will take the look and feel of your website/brand to every social part of the web and get you interacting online in style.</p>
           </div>
         </div>
-      </section>
 
-      <section id="cds" className="service-descriptions-wrap home-services">
-        <div className="services-block home-service-wrap">
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="janellucia headshot" />
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="logo, branding, web design text-ring" className="text-ring" />
+
+        <div id="editorial-design" className="services-block">
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
-            <h1>Lets Work Together</h1>
-            <p>Through my years I have been introduced to many design systems, some great and some not so great — I took what works and left the rest. I curated my own proven design system known as Concious Design System (CDS). My approach focuses on your business goals and personality while having a deep understanding of your audience, what they need and what they value — my goal is to improve the quality of the user’s interactions and perceptions of your business through beautiful and intuitive design.</p>
-            <p>In order for there to be a meaningful and valuable user experience, information must be beautiful, authentic, useful &amp; usable.  Each facet of CDS can transform how we see what we do and enabling us to explore our brand beyond conventional boundaries.</p>
-            <p>It’s a great tool for advancing the conversation around usability and helps us define priorities beyond the ideal colours and typography. </p>
-
-            <p><a href="mailto:hello@janellucia.com">Get in Touch</a></p>
+            <h2>Editorial Design <br></br>(Books & Magazines)</h2>
+            <p>Editorial design is the layout and visual aesthetics of books, newspapers, magazines, reports, online publications and other media. Good design has a big impact on how written information is understood. My goal is to make publications attractive, visually interesting, and easy to read.</p>
+            {/* <p>Good design is cohesive, clear, and draws readers in. Ultimately, good design increases your business' value, boosts sales, and puts your business in a better growth trend. Through building trust, making strong first impressions, building customer relationships, and even executing successful campaigns, good design helps make your business more profitable.</p> */}
           </div>
         </div>
 
@@ -144,63 +126,42 @@ export default Services
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "services/logo-service.png" }) {
+    imageOne: file(relativePath: { eq: "services/brand-identity.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "services/brand-service.png" }) {
+    imageTwo: file(relativePath: { eq: "services/logo.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "services/web-design-service.png" }) {
+    imageThree: file(relativePath: { eq: "services/site.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "services/editorial-service.png" }) {
+    imageFour: file(relativePath: { eq: "services/social-media.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "services/social-media-service.png" }) {
+    imageFive: file(relativePath: { eq: "home/floral-home.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "services/web-dev-service.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageSeven: file(relativePath: { eq: "services/audit-service.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageEight: file(relativePath: { eq: "home/about-services.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageNine: file(relativePath: { eq: "home/text-ring.png" }) {
+    imageSix: file(relativePath: { eq: "services/editorial.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

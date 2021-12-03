@@ -23,19 +23,12 @@ const Qube = (props) => (
         <div className="project-copy">
           <h2>Creating a brand identity for a Commercial Real Estate Firm</h2>
           <p>Qube Properties goal is to build long term personal relationships with their clients that promotes trust and integrity. They use their expertise to motivate, guide, and champion their clients through real estate.</p>
-          <h3>Role</h3>
-          <p>Lead designer/researcher — I worked with stakeholders to create Qube Properties style guide &amp; brand identity.</p>
-          <h3>The Challenge</h3>
-          <p>Take an existing brand (Darwin Properties) and create a new well-defined brand strategy for a new name, look and feel for Qube Properties to grow with the brand over the next few years.</p>
-          <h3>The Solution</h3>
-          <p>Deliver a well-strategized brand for real results. Success in this project will be measured by growth in clients and sales.</p>
         </div>
         <div className="sidebar-intro">
           <div>
             <h3>Services</h3>
             <ul>
               <li>Brand Identity</li>
-              <li>Brand Values</li>
               <li>Logo Design</li>
               <li>Print Design</li>
               <li>Signage</li>
