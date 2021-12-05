@@ -10,6 +10,10 @@
 
 @import 'testimonials';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: $bodyFont;

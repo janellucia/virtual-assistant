@@ -6,8 +6,9 @@
         color: white;
     }
 
-    header, footer {
-        //background: $mainColor;
+    footer {
+      padding-bottom: 150px;
+
     }
   }
 
@@ -70,46 +71,57 @@
 
   .sticky-services-navigation {
     position: fixed;
-    top: 0;
-    right: 0;
-    height: 100%;
     background: $grey;
     z-index: 998;
     box-shadow: 1px 1px 15px rgba(#000, 0.3) ;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    height: initial;
+    width: 100%;
 
-    @media (max-width: 1100px) {
-      top: initial;
-      bottom: 0;
-      left: 0;
-      height: initial;
-      width: 100%;
+
+    .book-button {
+      text-align: center;
+      a {
+        padding: 10px 0;
+        width: 80%;
+        max-width: 800px;
+        border: 2px solid black;
+        transition: all 0.5s ease-in-out;
+        font-style: italic;
+        &:hover, &:focus, &:active {
+          background: $sixthColor; 
+          color: white;
+          border: 2px solid $sixthColor;
+        }
+      }
     }
 
     .sticky-nav-wrap {
       position: relative;
       width: 100%;
       height: 100%;
+      padding-bottom: 0;
 
       .open {
         position: absolute;
-        top: 48%;
-        left: 0;
+        top: 0;
+        left: 50%;
         margin: 0;
-        transform: rotate(90deg) translateY(133px);
-        width: 300px;
         z-index: -1;
-        font-family: 'poppins';
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 15px;
-        letter-spacing: 2px;
         text-align: center;
+        border: 2px solid black;
+        transform: translateX(-50%) !important;
+        width: 80%;
+        max-width: 800px;
+        padding: 10px 0;
+        transform: initial;
 
-        @media (max-width: 1100px) {
-          top: 20px;
-          left: 0;
-          width: 100%;
-          transform: initial;
+        &:hover, &:focus, &:active {
+          background: $sixthColor; 
+          color: white;
+          border: 2px solid $sixthColor;
         }
       }
 
@@ -126,55 +138,40 @@
           & + .service-nav-wrap {
             visibility: hidden;
             opacity: 0;
-            margin-right: -180px;
             transition: all 1s ease-in-out;
+            margin-bottom: -310px;
 
-            @media (max-width: 1100px) {
-              margin-right: initial;
-              margin-bottom: -360px;
-            }
           }
           // Show if checkbox is clicked
           &:checked + .service-nav-wrap {
             visibility: visible;
             opacity: 1;
-            margin-right: 0;
-
-            @media (max-width: 1100px) {
-              margin-right: initial;
-              margin-bottom: 0;
-            }
+            margin-bottom: 0;
           }
         }
       }
 
       .service-nav-wrap {
-        margin-top: 50px;
         z-index: -1;
-        height: 100%;
-
-        @media (max-width: 1100px) {
-          margin-top: 0;
-          padding-top: 50px;
-          height: initial;
-        }
+        padding-top: 50px;
 
         p {
           margin-left: 30px;
-
-              @media (max-width:1100px) {
-                display: flex;
-                justify-content: center;
-                margin-left: 0;
-                text-align: center;
-              }
+          display: flex;
+          justify-content: center;
+          margin-left: 0;
+          text-align: center;
     
           a {
-              font-size: 1.5rem;
+              font-size: 1.2rem;
               &:hover, &:focus, &:active {
                   color: $black;
                   text-decoration: line-through;
               }
+          }
+
+          &:last-child {
+            margin-bottom: 0;
           }
         }
       }
@@ -191,21 +188,22 @@
     .services-block {
       display: flex;
       justify-content: space-between;
-      margin: 70px 0;
+      margin: -100px 0 70px 0;
+      padding-top: 170px;
 
       &:nth-child(even) {
         flex-direction: row-reverse;
-        margin: 120px 0;
       }
 
       @media (max-width: 700px) {
         flex-direction: column;
         max-width: 500px;
-        margin: 50px auto;
+        margin: 70px 0;
+        padding-top: 0;
 
-              &:nth-child(even) {
-        flex-direction: column;
-      }
+        &:nth-child(even) {
+          flex-direction: column;
+        }
       }
 
        .gatsby-image-wrapper {

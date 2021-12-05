@@ -7,7 +7,7 @@ const Footer = ({ siteTitle }) => (
     <div className="wrapper">
       <section className="contact">
         <p>I acknowledge that I, live, work and play on the unceded, ancestral territories of the Haudenosaunee, Anishinabewaki, Mississaugas of the Credit First Nation, Mississauga, and the Wendake-Nionwentsïo nations.</p>
-        <p>Graphic Design and Ethical Business Strategy in Toronto.</p>
+        <p>Graphic Design Services in Toronto.</p>
         <a href="mailto:hello@janellucia.com">Get in touch</a>
       </section>
       <section className="credits">

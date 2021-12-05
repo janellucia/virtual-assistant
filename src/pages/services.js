@@ -29,8 +29,9 @@ const Services = (props) => (
       </section>
 
       <section className="sticky-services-navigation">
+        <p className="book-button"><a href="mailto:hello@janellucia.com?subject=Let's Work Together!">Inquire Now</a></p>
         <div className="sticky-nav-wrap">
-          <h3 class="open">Service List</h3>
+          <p class="open">View Service List</p>
           <label class="trigger" for="stickyNav">
             <input type="checkbox" class="checkbox checkbox--red" id="stickyNav" />
             <div className="wrapper service-nav-wrap">
@@ -51,8 +52,7 @@ const Services = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="brand identity collage" />
           <div className="service-info">
             <h2>Brand Identity</h2>
-            <p>Brand identity establishes your brand values and includes logos, typography, colors, packaging, and messaging based on your brands needs. It complements and establishes or reinforces the look and feel of a brand. A smart brand identity attracts customers while making existing customers feel at home. It's both outward- and inward-facing.</p>
-            {/* <p>It's vital that brand identity be consistent because it's representing and reinforcing the emotions of a brand, the message portrayed by brand identity components needs to be clear, and it needs to be the same no matter where it's displayed.</p> */}
+            <p>Brand identity establishes your brand values and includes logos, typography, colours, packaging, and messaging based on your brand's needs. It complements and establishes or reinforces the look and feel of a brand. A well-designed brand identity attracts customers while making existing customers feel at home. It's both outward- and inward-facing.</p>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ const Services = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="brand identity collage" />
           <div className="service-info">
             <h2>Logo Design</h2>
-            <p>A logo identifies your brand in its simplest form using a logo mark, typographic solution, a text ring, or a combination of all three. That’s all there is to it. A logo is used as a signifier. It visually communicates who your brand is. Build recognition and trust with consistent branding and design.</p>
+            <p>A logo identifies your brand in its simplest form using a logo mark, typographic solution, a text ring, or a combination of all of the above. That’s all there is to it. A logo is used as a signifier. It visually communicates who your brand is. Build recognition and trust with consistent branding and design.</p>
           </div>
         </div>
 
@@ -68,8 +68,8 @@ const Services = (props) => (
           <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
             <h2>Website Design &amp; Build</h2>
-            <p>Your site is where your audience connects to your brand — where your brand connects to their needs. Use of clear crisp images, text spacing, color scheme, typography, and accessibility are all elements in satisfying site design. </p>
-            <p>Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users. We can build a completely custom site from scratch or we can customize a Squarespace or Shopify site to your needs.</p>
+            <p>Your site is where your audience connects to your brand — where your brand connects to their needs. The use of clear crisp images, text spacing, colour scheme, typography, and accessibility are all elements in satisfying site design.</p>
+            <p>Success looks different for every brand, and that's why it's important to make sure your message is clearly defined and coming through for your users. We can build a completely custom site from scratch or we can customize a Squarespace or Shopify site to fit your needs.</p>
           </div>
         </div>
 
@@ -106,7 +106,7 @@ const Services = (props) => (
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
             <h2>Editorial Design <br></br>(Books & Magazines)</h2>
-            <p>They say don't judge a book by it's cover but everyone does, ensure success on your next print project with a smart layout. Good design has a big impact on how written information is understood. </p>
+            <p>They say don't judge a book by its cover but everyone does, ensure success on your next print project with a smart and satisfying layout. Good design has a big impact on how written information is understood. </p>
             <p>My goal is to make publications attractive, visually interesting, and easy to read. Let's work together to bring your newspapers, magazines, reports, online publications to life. </p>
           </div>
         </div>
