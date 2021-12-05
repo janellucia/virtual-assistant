@@ -51,8 +51,8 @@ const Services = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="brand identity collage" />
           <div className="service-info">
             <h2>Brand Identity</h2>
-            <p>Brand identity includes logos, typography, colors, packaging, and messaging, and it complements and establishes or reinforces the reputation of a brand. Brand identity attracts new customers to a brand while making existing customers feel at home. It's both outward- and inward-facing.</p>
-            <p>It's vital that brand identity be consistent because it's representing and reinforcing the emotions of a brand, the message portrayed by brand identity components needs to be clear, and it needs to be the same no matter where it's displayed.</p>
+            <p>Brand identity establishes your brand values and includes logos, typography, colors, packaging, and messaging based on your brands needs. It complements and establishes or reinforces the look and feel of a brand. A smart brand identity attracts customers while making existing customers feel at home. It's both outward- and inward-facing.</p>
+            {/* <p>It's vital that brand identity be consistent because it's representing and reinforcing the emotions of a brand, the message portrayed by brand identity components needs to be clear, and it needs to be the same no matter where it's displayed.</p> */}
           </div>
         </div>
 
@@ -60,8 +60,7 @@ const Services = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="brand identity collage" />
           <div className="service-info">
             <h2>Logo Design</h2>
-            <p>Your logo identifies your business in its simplest form using a logo mark, typographic solution, or a combination of both. That’s all there is to it. A logo is used as a signifier. It communicates something; a message, a feeling, or a story. It resonates with something in your brain and tells a story.</p>
-            <p>People recognise logos. And that’s one of the major things your logo design should do for you. Build recognition and trust. In my opinion, your logo should be five key things, it should be memorable, simple, versatile, appropriate & timeless.</p>
+            <p>A logo identifies your brand in its simplest form using a logo mark, typographic solution, a text ring, or a combination of all three. That’s all there is to it. A logo is used as a signifier. It visually communicates who your brand is. Build recognition and trust with consistent branding and design.</p>
           </div>
         </div>
 
@@ -69,8 +68,8 @@ const Services = (props) => (
           <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
             <h2>Website Design &amp; Build</h2>
-            <p>Your site is where your audience connects to your brand — where your brand connects to their needs, and where your audience gets that feeling that they finally found the solutions they've been looking for.</p>
-            <p>Successful design not only means it looks good, it has to be functional, easy to navigate so users find what they need. Use of clear crisp images, text spacing, color scheme, typography, accessibility are all elements in satisfying site design. Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users.</p>
+            <p>Your site is where your audience connects to your brand — where your brand connects to their needs. Use of clear crisp images, text spacing, color scheme, typography, and accessibility are all elements in satisfying site design. </p>
+            <p>Success looks different for every business, and that's why it's important to make sure your message is clearly defined and coming through clear for users. We can build a completely custom site from scratch or we can customize a Squarespace or Shopify site to your needs.</p>
           </div>
         </div>
 
@@ -88,17 +87,17 @@ const Services = (props) => (
           <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
             <h2>Social Media Design</h2>
-            <p>Your customers are meeting each other, sharing ideas, and talking about your brand online. Give them a great first impression. I will work with you to create strong social media designs, we will take the look and feel of your website/brand to every social part of the web and get you interacting online in style.</p>
-            <p>Good social media design is all about high quality content and consistent branding. Neither is possible without proper design work, simply because social media is a visual platform for your company.</p>
+            <p>Give your customers a great first impression. I will work with you to create strong social media designs, we will take the look and feel of your brand to every social part of the web and get you interacting online in style.</p>
+            <p>Good social media design is all about high quality content and consistent branding. We can work together to create a template you can update or we can work together consistently to make ensure clean, clear design. </p>
           </div>
         </div>
 
-        <div id="illustraion" className="services-block">
+        <div id="illustration" className="services-block">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="social media tiles collage" />
           <div className="service-info">
             <h2>Floral Illustrations</h2>
-            <p>Since I’ve been illustrating my style has been pretty consistent in that I’ve always been drawing flowers. I illustrate realistically most of the time, but sometimes I create abstract floral paintings where I overlay different flowers so they’re merging together and have quite a translucent quality.</p>
-            <p>I’m still in the early stages of establishing my style and I’m happy to see how it evolves from this point. At the moment I use procreate but when I have more space I’d like to get the oils out and this might see me experiment more with my style.</p>
+            <p>Since I’ve been illustrating my style has been pretty consistent in that I’ve always been drawing flowers. I illustrate realistically most of the time, but sometimes I create abstract floral illustrations where I overlay different flowers so they’re merging together and have quite a translucent quality.</p>
+            <p>I’m still in the early stages of establishing my style and I’m happy to see how it evolves from this point. At the moment I use procreate but when I have more space I’d like to explore other avenues of digital design.</p>
           </div>
         </div>
 
@@ -107,8 +106,8 @@ const Services = (props) => (
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="a look at a web design project" />
           <div className="service-info">
             <h2>Editorial Design <br></br>(Books & Magazines)</h2>
-            <p>Editorial design is the layout and visual aesthetics of books, newspapers, magazines, reports, online publications and other media. Good design has a big impact on how written information is understood. My goal is to make publications attractive, visually interesting, and easy to read.</p>
-            {/* <p>Good design is cohesive, clear, and draws readers in. Ultimately, good design increases your business' value, boosts sales, and puts your business in a better growth trend. Through building trust, making strong first impressions, building customer relationships, and even executing successful campaigns, good design helps make your business more profitable.</p> */}
+            <p>They say don't judge a book by it's cover but everyone does, ensure success on your next print project with a smart layout. Good design has a big impact on how written information is understood. </p>
+            <p>My goal is to make publications attractive, visually interesting, and easy to read. Let's work together to bring your newspapers, magazines, reports, online publications to life. </p>
           </div>
         </div>
 
