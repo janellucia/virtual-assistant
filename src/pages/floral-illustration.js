@@ -63,7 +63,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFour: file(relativePath: { eq: "floral/rose.jpg" }) {
+    imageFour: file(relativePath: { eq: "floral/rose.JPG" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
