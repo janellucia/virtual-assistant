@@ -25,6 +25,7 @@ const Floral = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
         </div>
       </section >
@@ -63,7 +64,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFour: file(relativePath: { eq: "floral/rose.JPG" }) {
+    imageFour: file(relativePath: { eq: "floral/roses.JPG" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
