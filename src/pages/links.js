@@ -24,6 +24,9 @@ const Links = (props) => (
             <div className="tab">
               <a href="/" class="insta-links">Portfolio</a>
             </div>
+            <div className="tab">
+              <a href="https://medium.com/@janellucia/are-people-born-bad-8ac04fdfc411" class="insta-links">Article: Are People Born Bad?</a>
+            </div>
             <div className="tab tab-paragraph">
               <a href="/links-activism/" class="insta-links">Support your Community <p>(opens to another link list)</p></a>
             </div>
