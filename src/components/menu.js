@@ -26,8 +26,8 @@ export default props => {
         follow me
       </p>
 
-      <a href="https://dribbble.com/janellucia" target="blank" rel="noopener noreferrer">
-        dribbble
+      <a href="https://medium.com/@janellucia" target="blank" rel="noopener noreferrer">
+        medium
       </a>
 
       <a href="https://www.instagram.com/janellucia/" target="blank" rel="noopener noreferrer">

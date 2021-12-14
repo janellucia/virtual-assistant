@@ -25,14 +25,9 @@ const Links = (props) => (
               <a href="/" class="insta-links">Portfolio</a>
             </div>
             <div className="tab">
-              <a href="https://medium.com/@janellucia/are-people-born-bad-8ac04fdfc411" class="insta-links">Article: Are People Born Bad?</a>
+              <a href="https://medium.com/@janellucia" class="insta-links" target="new">My Healing Blog</a>
             </div>
-            <div className="tab tab-paragraph">
-              <a href="/links-activism/" class="insta-links">Support your Community <p>(opens to another link list)</p></a>
-            </div>
-            <div className="tab tab-paragraph">
-              <a href="/links-nurture-your-activist/" class="insta-links">Nurture your Activist <p>(opens to another link list)</p></a>
-            </div>
+
             <div className="tab">
               <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify Playlists</a>
             </div>
