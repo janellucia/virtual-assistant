@@ -20,15 +20,16 @@ const Floral = (props) => (
     </section>
     <div id="ash" className="wrapper">
 
-      <section className="project-info">
-        <div className="two-images">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-        </div>
-      </section >
+      {/* <section className="project-info"> */}
+      <div id="lettering-archive" className="wrapper lettering-image-wrap">
+        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+        <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+        <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+        <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+      </div>
+      {/* </section > */}
     </div>
 
 
@@ -57,14 +58,28 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageThree: file(relativePath: { eq: "floral/Daisy.jpg" }) {
+    imageThree: file(relativePath: { eq: "floral/peony.JPG" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "floral/roses.JPG" }) {
+    imageFour: file(relativePath: { eq: "floral/calla-lily.JPG" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFive: file(relativePath: { eq: "floral/Daisy.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSix: file(relativePath: { eq: "floral/roses.JPG" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

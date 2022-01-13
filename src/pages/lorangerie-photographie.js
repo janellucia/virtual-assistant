@@ -40,6 +40,8 @@ const Lorangerie = (props) => (
       <section className="project-info">
         <div className="two-images">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
@@ -63,7 +65,7 @@ export const pageQuery = graphql`
       }
     }
   }
-  imageTwo: file(relativePath: {eq: "lop/lop-logo-spread-2.jpg" }) {
+  imageTwo: file(relativePath: {eq: "lop/lop-logo-spread.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
@@ -92,6 +94,20 @@ export const pageQuery = graphql`
     }
   }
   imageSix: file(relativePath: {eq: "lop/lop-about.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageSeven: file(relativePath: {eq: "lop/lop-logo-2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageEight: file(relativePath: {eq: "lop/lop-logo-3.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
