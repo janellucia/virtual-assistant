@@ -10,27 +10,24 @@ import Projectfooter from '../components/project-footer'
 
 const Floral = (props) => (
 
-  <Layout name="project-page">
+  <Layout name="project-page lettering-archive-page">
     <SEO title="Custom Floral Illustrations" />
     <section className="title">
       <div className="wrapper">
-        <h1>Floral Illustrations</h1>
-        <p className="subtitle">"I paint flowers so they will not die." <br></br>— Frida Kahlo</p>
+        <h1>Floral Dreams</h1>
+        <p className="subtitle">Custom floral illustrations created on procreate. <br></br>Please inquire for prints or custom work.</p>
       </div>
     </section>
-    <div id="ash" className="wrapper">
-
-      {/* <section className="project-info"> */}
-      <div id="lettering-archive" className="wrapper lettering-image-wrap">
-        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-        <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-        <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-        <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-        <Img fluid={props.data.imageFive.childImageSharp.fluid} />
-        <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-      </div>
-      {/* </section > */}
+    <div id="lettering-archive" className="wrapper lettering-image-wrap">
+      <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+      <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+      <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+      <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+      <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+      <Img fluid={props.data.imageSix.childImageSharp.fluid} />
     </div>
+
+
 
 
 
