@@ -184,7 +184,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "jo-rodrigues/icons.png" }) {
+    imageSeven: file(relativePath: { eq: "jo-rodrigues/icons.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
