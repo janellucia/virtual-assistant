@@ -10,22 +10,21 @@ const Links = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          {/* <p>Today and every day, I stand in solidarity with the movement for Black lives. I’ve curated these resources to help the community take action and make long-term commitments to anti-racism.</p> */}
-          <p>“Like all explorers, we are drawn to discover what's out there without knowing yet if we have the courage to face it.” <br></br>— Pema Chödrön</p>
-          {/* <p>“True compassion does not come from wanting to help out those less fortunate than ourselves but from realizing our kinship with all beings.” <br></br>— Pema Chödrön</p> */}
+          <p>Branding + Design + Illustration</p>
+          {/* <p>“Like all explorers, we are drawn to discover what's out there without knowing yet if we have the courage to face it.” <br></br>— Pema Chödrön</p> */}
         </div>
       </section>
       <section className="about-page">
         <div className="about-wrap links-wrap">
           <div className="tabs">
             <div className="tab">
-              <a href="/services" class="insta-links">Graphic Design Services</a>
+              <a href="/services" class="insta-links">Services</a>
             </div>
             <div className="tab">
-              <a href="/" class="insta-links">Portfolio</a>
+              <a href="/" class="insta-links">See my Work</a>
             </div>
             <div className="tab">
-              <a href="https://medium.com/@janellucia" class="insta-links" target="new">My Healing Blog</a>
+              <a href="/coaching" class="insta-links" target="new">Resources for Designers</a>
             </div>
 
             <div className="tab">

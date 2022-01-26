@@ -18,6 +18,10 @@ export default props => {
         portfolio
       </a>
 
+      <a href="/coaching">
+        resources for designers
+      </a>
+
       <a className="menu-item" href="mailto:hello@janellucia.com">
         contact
       </a>
@@ -26,9 +30,6 @@ export default props => {
         follow me
       </p>
 
-      <a href="https://medium.com/@janellucia" target="blank" rel="noopener noreferrer">
-        medium
-      </a>
 
       <a href="https://www.instagram.com/janellucia/" target="blank" rel="noopener noreferrer">
         insta

@@ -12,11 +12,11 @@ import atria from '../images/home/atria-logo-mobile.gif';
 
 const IndexPage = (props) => (
   <Layout name="home-page">
-    <SEO title="Designer" keywords={[`Graphic Design`, `Brand Identity`, `Brand Designer`, `Typography`, `Empathy`, `Compassion`]} />
+    <SEO title="Graphic Designer" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design', 'typography']} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>I help businesses design logos, brands &amp; websites that are beautifully simple, reassuringly smart and full of personality</p>
+          <p>I help businesses design logos, brands &amp; websites that are beautifully simple, reassuringly smart and full of brand personality.</p>
         </div>
       </section>
       <section className="portfolio">
