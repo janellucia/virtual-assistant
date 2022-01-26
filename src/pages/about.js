@@ -47,7 +47,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "about/about-bw.jpeg" }) {
+    imageTwo: file(relativePath: { eq: "about/about-desktop.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
