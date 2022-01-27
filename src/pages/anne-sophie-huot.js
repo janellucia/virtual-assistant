@@ -26,6 +26,7 @@ const AnneSophie = (props) => (
           <h2>Custom Squarespace site</h2>
           <p>Anne-Sophie Huot is a Photographer and Art Director who specializes in Digital + Film content creation, and Commercial photography.</p>
           <p>I worked with Anne-Sophie to create a logo and brand identity with strong typography and to also build her website on Squarespace with custom coding, web accessibility and French and English site options for each side of Anne-Sophie’s users.</p>
+          <p>Please take a look at the project below, I am driven by clean design, clear typography and the challenge of a custom layout, I am at your service for any collaboration.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -34,6 +35,8 @@ const AnneSophie = (props) => (
               <li>Brand Identity</li>
               <li>Logo Design</li>
               <li>Squarespace site</li>
+              <li>Custom Coding</li>
+              <li>Web Accessibility</li>
               <li>French/English</li>
             </ul>
           </div>
