@@ -24,7 +24,7 @@ const IndexPage = (props) => (
           <img src={ash} alt="Anne-Sophie Huot logo animation" />
           <div className="home-project-info">
             <h3>Anne-Sophie Huot</h3>
-            <p className="category">— Branding, Squarespace Design &amp; Build</p>
+            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build</p>
           </div>
         </Link>
         <Link to="/conceived-space/" className="project-wrap">
@@ -32,7 +32,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Conceived Space logo" />
           <div className="home-project-info">
             <h3>Conceived Space</h3>
-            <p className="category">— Branding, Squarespace Design &amp; Build, Social Media, Print Design</p>
+            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build, Social Media, Print Design</p>
           </div>
         </Link>
         <Link to="/spirit-luxe/" className="project-wrap">
@@ -40,7 +40,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="spirit luxe logo" />
           <div className="home-project-info">
             <h3>Spirit Luxe</h3>
-            <p className="category">— Branding, Graphic Design, Wordpress Build, Social Media Design</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Wordpress Build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/floral-illustration/" className="project-wrap">
@@ -54,7 +54,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="Stephanie Boridy logo" />
           <div className="home-project-info">
             <h3>Stephanie Boridy</h3>
-            <p className="category">— Branding, Graphic Design, Shopify design & build</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Shopify design & build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/clearly-thuy-doan/" className="project-wrap">
@@ -62,7 +62,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="clearly, ThuyDoan logo" />
           <div className="home-project-info perceived-info">
             <h3>clearly, Thuy Doan</h3>
-            <p className="category">— Branding, Graphic Design, Web Design</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Web Design, Social Media Design</p>
           </div>
         </Link>
         <Link to="/livie-jewelry/" className="project-wrap">
@@ -70,21 +70,21 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="Livie Jewelry logo" />
           <div className="home-project-info">
             <h3>Livie Jewelry</h3>
-            <p className="category">— Branding, Shopify site design</p>
+            <p className="category">— Brand Identity, Logo Design, Shopify site design</p>
           </div>
         </Link>
         <Link to="/jo-rodrigues/" className="project-wrap">
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="Jo Rodrigues logo" />
           <div className="home-project-info">
             <h3>Jo Rodrigues</h3>
-            <p className="category">— Branding, Graphic Design, Wordpress build</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Wordpress build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/lorangerie-photographie/" className="project-wrap">
           <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
           <div className="home-project-info">
             <h3>L'Orangerie Photographie</h3>
-            <p className="category">— Branding, Graphic Design, Squarespace design &amp; build</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Squarespace design &amp; build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/bad-girls/" className="project-wrap">
@@ -98,7 +98,7 @@ const IndexPage = (props) => (
           <img src={atria} alt="Atria Coaching logo animation" />
           <div className="home-project-info">
             <h3>Atria Coaching</h3>
-            <p className="category">— Branding, Graphic Design, Social Media</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Social Media Design</p>
           </div>
         </Link>
         <Link to="/lettering-archive/" className="project-wrap">
@@ -114,7 +114,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageSeventeen.childImageSharp.fluid} alt="Qube logo" />
           <div className="home-project-info">
             <h3>Qube Properties</h3>
-            <p className="category">— Branding, Graphic Design, Print Design, Signage</p>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Print Design, Signage</p>
           </div>
         </Link>
       </section>
