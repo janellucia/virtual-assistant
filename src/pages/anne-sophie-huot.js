@@ -20,7 +20,7 @@ const AnneSophie = (props) => (
       </div>
     </section>
 
-    <div id="ash" className="wrapper">
+    <div className="wrapper">
       <section className="project-info">
         <div className="project-copy">
           <h2>Custom Squarespace site</h2>
@@ -44,24 +44,24 @@ const AnneSophie = (props) => (
           <div className="gatsby-image-wrapper"><img src={ash} alt="" className="gif" /></div>
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
         </div>
-        <div className="full-width-images">
+        <div className="full-width-image">
           <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
         </div>
         <div className="two-images">
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
-        <div className="full-width-images">
+        <div className="full-width-image">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
         </div>
         <div className="two-images">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageFive.childImageSharp.fluid} />
         </div>
-        <div className="full-width-images">
+        <div className="full-width-image">
           <Img fluid={props.data.imageEight.childImageSharp.fluid} />
         </div>
-        <div className="full-width-images">
+        <div className="full-width-image">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         </div>
       </section>
