@@ -97,7 +97,7 @@ const Conceived = (props) => (
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         </div>
-        <img src={GIF} alt="" />
+        <div className="gatsby-image-wrapper"><img src={GIF} alt="" /></div>
       </section>
       <section className="project-info" id="social">
         <h2>03 Social Media</h2>

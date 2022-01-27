@@ -117,7 +117,7 @@ const SpiritLuxe = (props) => (
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
           <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
         </div>
-        <img src={GIF} alt="" />
+        <div className="gatsby-image-wrapper"><img src={GIF} alt="" /></div>
       </section>
       <section className="project-info" id="social">
         <h2>04 Social Media</h2>
