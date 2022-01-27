@@ -24,7 +24,8 @@ const AnneSophie = (props) => (
       <section className="project-info">
         <div className="project-copy">
           <h2>Custom Squarespace site</h2>
-          <p>Anne-Sophie Huot is a Photographer and Art Director who specializes in Digital + Film content creation, and Commercial photography. Inspired by travel, fashion and the discovery of new cultures, Anne-Sophie loves to work on new projects and is always looking for new people to collaborate with creatively. </p>
+          <p>Anne-Sophie Huot is a Photographer and Art Director who specializes in Digital + Film content creation, and Commercial photography.</p>
+          <p>I worked with Anne-Sophie to create a logo and brand identity with strong typography and to also build her website on Squarespace with custom coding, web accessibility and French and English site options for each side of Anne-Sophie’s users.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -42,12 +43,26 @@ const AnneSophie = (props) => (
         <div className="two-images">
           <div className="gatsby-image-wrapper"><img src={ash} alt="" className="gif" /></div>
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+        </div>
+        <div className="two-images">
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+        </div>
+        <div className="two-images">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageFive.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         </div>
       </section>
 
@@ -104,7 +119,21 @@ export const pageQuery = graphql`
       }
     }
   }
-  imageSeven: file(relativePath: {eq: "ash/site-2.png" }) {
+  imageSeven: file(relativePath: {eq: "ash/ash-logo-black.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageEight: file(relativePath: {eq: "ash/site-2.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageNine: file(relativePath: {eq: "ash/site-3.png" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64

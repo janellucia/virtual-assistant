@@ -10,7 +10,7 @@ import Testimonials from '../components/testimonials'
 
 const Services = (props) => (
   <Layout name="about-page-wrap services-page-wrap">
-    <SEO title="Design Services" keywords={[` UX Designer`, `Product Designer`, `User Experience`, `User Research`, `Empathy`, `Compassion`]} />
+    <SEO title="Design Services" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design']} />
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
