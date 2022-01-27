@@ -13,9 +13,9 @@ const Projectfooter = () => (
       <div className="wrapper">
         <h2 className="thank-you">More Projects</h2>
         <a className="menu-item" href="/anne-sophie-huot">Anne-Sophie Huot Photography</a>
-        <a className="menu-item" href="/daniela-bosco">Daniela Bosco</a>
+        <a className="menu-item" href="/conceived-space">Conceived Space</a>
         <a className="menu-item" href="/spirit-luxe">Spirit Luxe</a>
-        <a className="menu-item" href="/floral-illustration">Floral Illustrations</a>
+        <a className="menu-item" href="/floral-illustration">Floral Dreams</a>
         <a className="menu-item" href="/stephanie-boridy">Stephanie Boridy Astrology</a>
         <a className="menu-item" href="/clearly-thuy-doan">clearly, THUYDOAN</a>
         <a className="menu-item" href="/livie-jewelry">Livie Jewelry</a>
