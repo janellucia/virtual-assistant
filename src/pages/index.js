@@ -27,12 +27,12 @@ const IndexPage = (props) => (
             <p className="category">— Branding, Squarespace Design &amp; Build</p>
           </div>
         </Link>
-        <Link to="/daniela-bosco/" className="project-wrap">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Daniela Bosco logo" />
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Daniela Bosco logo" />
+        <Link to="/conceived-space/" className="project-wrap">
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Conceived Space logo" />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Conceived Space logo" />
           <div className="home-project-info">
-            <h3>Daniela Bosco</h3>
-            <p className="category">— Web Design, Squarespace build</p>
+            <h3>Conceived Space</h3>
+            <p className="category">— Branding, Squarespace Design &amp; Build, Social Media, Print Design</p>
           </div>
         </Link>
         <Link to="/spirit-luxe/" className="project-wrap">
@@ -127,14 +127,14 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "home/daniela-home.png" }) {
+    imageOne: file(relativePath: { eq: "home/cs-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "home/daniela-home-mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "home/cs-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

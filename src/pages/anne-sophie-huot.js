@@ -17,6 +17,9 @@ const AnneSophie = (props) => (
       <div className="wrapper">
         <h1>Anne-Sophie Huot</h1>
         <p className="subtitle">Building a Squarespace site for a Photographer &amp; Art Director</p>
+        <div className="button-wrap">
+          <a href="https://www.annesophiehuot.com/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
       </div>
     </section>
 
