@@ -10,7 +10,8 @@ const Links = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Branding + Design + Illustration</p>
+          <p>Branding + Logos + Illustration</p>
+          <p>Beautiful & Intelligent Design for the Modern Business</p>
           {/* <p>“Like all explorers, we are drawn to discover what's out there without knowing yet if we have the courage to face it.” <br></br>— Pema Chödrön</p> */}
         </div>
       </section>
@@ -21,7 +22,7 @@ const Links = (props) => (
               <a href="/services" class="insta-links">Services</a>
             </div>
             <div className="tab">
-              <a href="/" class="insta-links">See my Work</a>
+              <a href="/" class="insta-links">Portfolio</a>
             </div>
             <div className="tab">
               <a href="/coaching" class="insta-links" target="new">Resources for Designers</a>
