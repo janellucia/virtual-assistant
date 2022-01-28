@@ -96,8 +96,8 @@ const Services = (props) => (
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="social media tiles collage" />
           <div className="service-info">
             <h2>Floral Illustrations</h2>
-            <p>Since I’ve been illustrating my style has been pretty consistent in that I’ve always been drawing flowers. I illustrate realistically most of the time, but sometimes I create abstract floral illustrations where I overlay different flowers so they’re merging together and have quite a translucent quality.</p>
-            <p>I’m still in the early stages of establishing my style and I’m happy to see how it evolves from this point. At the moment I use procreate but when I have more space I’d like to explore other avenues of digital design.</p>
+            <p>Bring your brand to life with custom illustrations, it's a great way to enrich a brand's visual language and say more nuanced things that a logo, color scheme, typeface, or even words cannot convey alone. </p>
+            <p>Illustrations have the ability to reimagine reality in a way that is familiar yet delightfully uncommon, which makes it particularly useful when an idea is difficult to explain. It’s a powerful way to cut through distractions and relate complex emotions quickly.</p>
           </div>
         </div>
 
@@ -153,7 +153,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/floral-home.jpg" }) {
+    imageFive: file(relativePath: { eq: "home/floral-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
