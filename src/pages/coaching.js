@@ -14,7 +14,7 @@ const CoachingPage = (props) => (
     <div className="wrapper">
       <section className="about-page">
         <div className="about-panel">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <p>Working together I hand over all of the tools & tricks that I wish I had when I first started as a Designer.</p>
         </div>
