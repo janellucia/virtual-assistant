@@ -125,28 +125,28 @@ export default Services
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "services/brand-identity.jpg" }) {
+    imageOne: file(relativePath: { eq: "services/brand-identity.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "services/logo.jpg" }) {
+    imageTwo: file(relativePath: { eq: "ash/ash-logo.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "services/site.png" }) {
+    imageThree: file(relativePath: { eq: "services/website-design.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "services/social-media.jpg" }) {
+    imageFour: file(relativePath: { eq: "services/social-media.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
