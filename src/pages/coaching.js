@@ -14,7 +14,7 @@ const CoachingPage = (props) => (
     <div className="wrapper">
       <section className="about-page">
         <div className="about-panel">
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <p>Working together I hand over all of the tools & tricks that I wish I had when I first started as a Designer.</p>
         </div>
@@ -41,7 +41,7 @@ export default CoachingPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "services/website-design.png" }) {
+    imageOne: file(relativePath: { eq: "services/coaching-desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
