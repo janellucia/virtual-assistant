@@ -197,7 +197,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageEleven: file(relativePath: { eq: "home/cs-home-mobile.png" }) {
+    imageEleven: file(relativePath: { eq: "home/cs-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

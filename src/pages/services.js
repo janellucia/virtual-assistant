@@ -160,7 +160,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSix: file(relativePath: { eq: "services/editorial.png" }) {
+    imageSix: file(relativePath: { eq: "home/cs-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
