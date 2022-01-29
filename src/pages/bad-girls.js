@@ -28,14 +28,17 @@ const BadGirls = (props) => (
         <div className="project-copy">
           <h2>Shopify site built for a the Bad Girls Collective.</h2>
           <p>Founded in 2014, Bad Girls Collective is a network of badass women on that intellectual tip – a mega book club. Originally born as a New Years resolution to read more, it has become our mission to bring well-read women together to share the power of reading and revel in each other’s stories.</p>
+          <p>I collaborated with The Bad Girls to bring their existing branding and web designs to life on Shopify so their community had a place to gather and grow. This site is completely cusotm and to ensure The Bad Girls could easily make updates in the future I equipped them with an instructional site guide.</p>
+          <p>Please take a look at the project below, I am driven by clean design and the challenge of a custom layout for users enjoyment, I am at your service for any collaboration.</p>
+
         </div>
         <div className="sidebar-intro">
           <div>
             <h3>Services</h3>
             <ul>
               <li>Shopify Site Build</li>
-              <li>Custom Pages</li>
-              <li>Custom Sections</li>
+              <li>Custom Coding</li>
+              <li>Web Accessibility</li>
               <li>Site Guide</li>
             </ul>
           </div>

@@ -17,6 +17,9 @@ const JoRodrigues = (props) => (
       <div className="wrapper">
         <h1>Jo Rodrigues</h1>
         <p className="subtitle">Helping people and organizations shift from confusion to clarity with practical strategies with coaching, training and consulting services.</p>
+        <div className="button-wrap">
+          <a href="https://jorodrigues.net/" className="button" target="_blank" rel="noopener noreferrer">View Website</a>
+        </div>
       </div>
     </section>
     <div className="wrapper">
@@ -24,9 +27,8 @@ const JoRodrigues = (props) => (
         <div className="project-copy">
           <h2>BRAND IDENTITY & WORDPRESS SITE FOR Jo Rodrigues</h2>
           <p>Jo coaches humanitarian aid and international development workers. She helps her clients find clarity on how to move forward in their careers – without compromising their values.</p>
-          <div className="button-wrap">
-            <a href="https://jorodrigues.net/" className="button" target="_blank" rel="noopener noreferrer">View Jo's Website</a>
-          </div>
+          <p>I worked with Jo to create a logo and brand identity with strong typography and build her website on Wordpress with custom coding, child theme, web accessibility and Dark Mode so users can feel at home.</p>
+          <p>Please take a look at the project below, I am driven by clean design, a clear message and the challenge of a custom layout, I am at your service for any collaboration.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -36,6 +38,8 @@ const JoRodrigues = (props) => (
               <li>Logo Design</li>
               <li>Social Media</li>
               <li>Wordpress site</li>
+              <li>Web Accessibility</li>
+              <li>Dark Mode</li>
             </ul>
           </div>
         </div>

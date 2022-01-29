@@ -32,7 +32,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
           <div className="home-project-info">
             <h3>L'Orangerie Photographie</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Squarespace design &amp; build, Social Media Design</p>
+            <p className="category">— Brand Identity, Logo Design, Squarespace design &amp; build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/spirit-luxe/" className="project-wrap">
@@ -40,21 +40,21 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="spirit luxe logo" />
           <div className="home-project-info">
             <h3>Spirit Luxe</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Wordpress Build, Social Media Design</p>
+            <p className="category">— Brand Identity, Logo Design, Wordpress Build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/floral-illustration/" className="project-wrap">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="Custom floral illustration" />
           <div className="home-project-info">
             <h3>Floral Dreams</h3>
-            <p className="category">— Custom Illustrations</p>
+            <p className="category">— Illustrations</p>
           </div>
         </Link>
         <Link to="/stephanie-boridy/" className="project-wrap">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="Stephanie Boridy logo" />
           <div className="home-project-info">
             <h3>Stephanie Boridy</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Shopify design & build, Social Media Design</p>
+            <p className="category">— Brand Identity, Logo Design, Shopify design & build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/clearly-thuy-doan/" className="project-wrap">
@@ -62,30 +62,15 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="clearly, ThuyDoan logo" />
           <div className="home-project-info perceived-info">
             <h3>clearly, Thuy Doan</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Web Design, Social Media Design</p>
+            <p className="category">— Brand Identity, Logo Design, Web Design, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/conceived-space/" className="project-wrap">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Conceived Space logo" />
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Conceived Space logo" />
-          <div className="home-project-info">
-            <h3>Conceived Space</h3>
-            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build, Social Media, Print Design</p>
-          </div>
-        </Link>
-
         <Link to="/jo-rodrigues/" className="project-wrap">
-          <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="Jo Rodrigues logo" />
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Jo Rodrigues logo" />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Jo Rodrigues logo" />
           <div className="home-project-info">
             <h3>Jo Rodrigues</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Wordpress build, Social Media Design</p>
-          </div>
-        </Link>
-        <Link to="/livie-jewelry/" className="project-wrap">
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="Livie Jewelry logo" />
-          <div className="home-project-info">
-            <h3>Livie Jewelry</h3>
-            <p className="category">— Brand Identity, Logo Design, Shopify site design</p>
+            <p className="category">— Brand Identity, Logo Design, Wordpress build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/bad-girls/" className="project-wrap">
@@ -99,7 +84,21 @@ const IndexPage = (props) => (
           <img src={atria} alt="Atria Coaching logo animation" />
           <div className="home-project-info">
             <h3>Atria Coaching</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Social Media Design</p>
+            <p className="category">— Brand Identity, Logo Design, Social Media Design</p>
+          </div>
+        </Link>
+        <Link to="/livie-jewelry/" className="project-wrap">
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="Livie Jewelry logo" />
+          <div className="home-project-info">
+            <h3>Livie Jewelry</h3>
+            <p className="category">— Brand Identity, Logo Design, Shopify site design</p>
+          </div>
+        </Link>
+        <Link to="/conceived-space/" className="project-wrap">
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="Conceived Space logo" />
+          <div className="home-project-info">
+            <h3>Conceived Space</h3>
+            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build, Social Media, Print Design</p>
           </div>
         </Link>
         <Link to="/lettering-archive/" className="project-wrap">
@@ -128,14 +127,14 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "home/cs-home.png" }) {
+    imageOne: file(relativePath: { eq: "home/jo-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "home/cs-home-mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "home/jo-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
@@ -198,7 +197,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageEleven: file(relativePath: { eq: "home/jo-home.png" }) {
+    imageEleven: file(relativePath: { eq: "home/cs-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

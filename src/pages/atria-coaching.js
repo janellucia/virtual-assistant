@@ -22,7 +22,9 @@ const Atria = (props) => (
       <section className="project-info">
         <div className="project-copy">
           <h2>Creating a brand identity for an Master Coach & NLP Practitioner</h2>
-          <p>Atria Coaching helps their clients listen to their inner guidance, have better direction, act from inspiration, and make an impact. As a result, their clients gain control of their lives - who they are, who they spend time with, how they spend it, and where. </p>
+          <p>Atria Coaching helps their clients listen to their inner guidance, have better direction, act from inspiration, and make an impact.</p>
+          <p>I worked with Faith to create a unique brand identity, logo & social media layout.</p>
+          <p>Please take a look at the project below, I am driven by clean design, clear typography and smart social media layout, I am at your service for any collaboration.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -31,6 +33,7 @@ const Atria = (props) => (
               <li>Brand Identity</li>
               <li>Logo Design</li>
               <li>Social Media Design</li>
+              <li>Design Accessibility</li>
               <li>Marketing Assets</li>
             </ul>
           </div>
@@ -60,7 +63,7 @@ const Atria = (props) => (
           </a>
           <a href="#marketing">
             <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
-            <p>04 Marketing</p>
+            <p>04 Social Media</p>
           </a>
         </div>
       </section>
@@ -117,7 +120,7 @@ const Atria = (props) => (
         </div>
       </section>
       <section className="project-info" id="marketing">
-        <h2>04 Marketing</h2>
+        <h2>04 Social Media</h2>
         <div className="project-copy project-steps-full">
           <p>Key to the success of this project was creating marketing materials that Atria can use around social media and in print. The marketing materials had to include tiles for the logo, events, imagery, quotes and overall brand awareness. </p>
         </div>
