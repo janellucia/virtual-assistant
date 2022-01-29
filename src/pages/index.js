@@ -27,12 +27,12 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build</p>
           </div>
         </Link>
-        <Link to="/conceived-space/" className="project-wrap">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Conceived Space logo" />
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Conceived Space logo" />
+        <Link to="/lorangerie-photographie/" className="project-wrap">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
           <div className="home-project-info">
-            <h3>Conceived Space</h3>
-            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build, Social Media, Print Design</p>
+            <h3>L'Orangerie Photographie</h3>
+            <p className="category">— Brand Identity, Logo Design, Graphic Design, Squarespace design &amp; build, Social Media Design</p>
           </div>
         </Link>
         <Link to="/spirit-luxe/" className="project-wrap">
@@ -65,14 +65,15 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Graphic Design, Web Design, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/livie-jewelry/" className="project-wrap">
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="Livie Jewelry logo" />
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="Livie Jewelry logo" />
+        <Link to="/conceived-space/" className="project-wrap">
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Conceived Space logo" />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Conceived Space logo" />
           <div className="home-project-info">
-            <h3>Livie Jewelry</h3>
-            <p className="category">— Brand Identity, Logo Design, Shopify site design</p>
+            <h3>Conceived Space</h3>
+            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build, Social Media, Print Design</p>
           </div>
         </Link>
+
         <Link to="/jo-rodrigues/" className="project-wrap">
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="Jo Rodrigues logo" />
           <div className="home-project-info">
@@ -80,11 +81,11 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Graphic Design, Wordpress build, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/lorangerie-photographie/" className="project-wrap">
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
+        <Link to="/livie-jewelry/" className="project-wrap">
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="Livie Jewelry logo" />
           <div className="home-project-info">
-            <h3>L'Orangerie Photographie</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Squarespace design &amp; build, Social Media Design</p>
+            <h3>Livie Jewelry</h3>
+            <p className="category">— Brand Identity, Logo Design, Shopify site design</p>
           </div>
         </Link>
         <Link to="/bad-girls/" className="project-wrap">
@@ -169,42 +170,42 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "home/ctd-home.jpg" }) {
+    imageSeven: file(relativePath: { eq: "home/ctd-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEight: file(relativePath: { eq: "home/ctd-home-mobile.jpg" }) {
+    imageEight: file(relativePath: { eq: "home/ctd-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "home/livie-home.jpg" }) {
+    imageNine: file(relativePath: { eq: "home/lop-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTen: file(relativePath: { eq: "home/livie-home-mobile.jpg" }) {
+    imageTen: file(relativePath: { eq: "home/lop-home-mobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEleven: file(relativePath: { eq: "home/jo-home.jpg" }) {
+    imageEleven: file(relativePath: { eq: "home/jo-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwelve: file(relativePath: { eq: "home/lop-home.jpg" }) {
+    imageTwelve: file(relativePath: { eq: "home/livie-home-mobile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
