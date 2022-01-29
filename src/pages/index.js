@@ -43,18 +43,18 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Wordpress Build, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/floral-illustration/" className="project-wrap">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="Custom floral illustration" />
-          <div className="home-project-info">
-            <h3>Floral Dreams</h3>
-            <p className="category">— Illustrations</p>
-          </div>
-        </Link>
         <Link to="/stephanie-boridy/" className="project-wrap">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="Stephanie Boridy logo" />
           <div className="home-project-info">
             <h3>Stephanie Boridy</h3>
             <p className="category">— Brand Identity, Logo Design, Shopify design & build, Social Media Design</p>
+          </div>
+        </Link>
+        <Link to="/floral-illustration/" className="project-wrap">
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="Custom floral illustration" />
+          <div className="home-project-info">
+            <h3>Floral Dreams</h3>
+            <p className="category">— Illustrations</p>
           </div>
         </Link>
         <Link to="/clearly-thuy-doan/" className="project-wrap">
