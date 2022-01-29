@@ -41,14 +41,14 @@ export default CoachingPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "services/coaching-desktop.png" }) {
+    imageOne: file(relativePath: { eq: "services/website-design.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "services/brand-identity.jpg" }) {
+    imageTwo: file(relativePath: { eq: "services/website-design.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
