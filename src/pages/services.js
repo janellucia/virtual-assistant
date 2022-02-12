@@ -153,7 +153,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/floral-home.png" }) {
+    imageFive: file(relativePath: { eq: "services/floral-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

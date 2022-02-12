@@ -35,12 +35,12 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Squarespace design &amp; build, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/spirit-luxe/" className="project-wrap">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="spirit luxe logo" />
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="spirit luxe logo" />
+        <Link to="/vintage-florals/" className="project-wrap">
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="seamless pattern design with vintage florals" />
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="seamless pattern design with vintage florals" />
           <div className="home-project-info">
-            <h3>Spirit Luxe</h3>
-            <p className="category">— Brand Identity, Logo Design, Wordpress Build, Social Media Design</p>
+            <h3>Vintage Floral Pattern</h3>
+            <p className="category">— Illustration, Seamless Pattern Design</p>
           </div>
         </Link>
         <Link to="/stephanie-boridy/" className="project-wrap">
@@ -50,11 +50,11 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Shopify design & build, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/floral-illustration/" className="project-wrap">
+        <Link to="/carnations/" className="project-wrap">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="Custom floral illustration" />
           <div className="home-project-info">
-            <h3>Floral Dreams</h3>
-            <p className="category">— Illustrations</p>
+            <h3>Blue Mondays</h3>
+            <p className="category">— Illustration, Seamless Pattern Design</p>
           </div>
         </Link>
         <Link to="/clearly-thuy-doan/" className="project-wrap">
@@ -141,21 +141,21 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/sl-home.jpg" }) {
+    imageThree: file(relativePath: { eq: "home/floral-home.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "home/sl-home-mobile.jpg" }) {
+    imageFour: file(relativePath: { eq: "home/floral-home-mobile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/floral-home.png" }) {
+    imageFive: file(relativePath: { eq: "home/carnation-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

@@ -38,15 +38,26 @@ const Lorangerie = (props) => (
         </div>
       </section>
       <section className="project-info">
-        <div className="two-images">
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+        </div>
+        <div className="two-images-one">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+        </div>
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+        </div>
+        <div className="two-images-one">
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
         </div>
       </section>
     </div>
@@ -58,56 +69,77 @@ export default Lorangerie
 
 export const pageQuery = graphql`
   query {
-  imageOne: file(relativePath: {eq: "lop/lop-logo.jpg" }) {
+  imageOne: file(relativePath: {eq: "lop/lop-1.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageTwo: file(relativePath: {eq: "lop/lop-logo-spread.jpg" }) {
+  imageTwo: file(relativePath: {eq: "lop/lop-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageThree: file(relativePath: {eq: "lop/insta.jpg" }) {
+  imageThree: file(relativePath: {eq: "lop/lop-3.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFour: file(relativePath: {eq: "lop/stories.jpg" }) {
+  imageFour: file(relativePath: {eq: "lop/lop-4.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFive: file(relativePath: {eq: "lop/lop-home.png" }) {
+  imageFive: file(relativePath: {eq: "lop/lop-05.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageSix: file(relativePath: {eq: "lop/lop-about.png" }) {
+  imageSix: file(relativePath: {eq: "lop/lop-6.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-    imageSeven: file(relativePath: {eq: "lop/lop-logo-2.jpg" }) {
+    imageSeven: file(relativePath: {eq: "lop/lop-7.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageEight: file(relativePath: {eq: "lop/lop-logo-3.jpg" }) {
+  imageEight: file(relativePath: {eq: "lop/lop-8.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageNine: file(relativePath: {eq: "lop/lop-9.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageTen: file(relativePath: {eq: "lop/lop-10.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageEleven: file(relativePath: {eq: "lop/lop-011.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
