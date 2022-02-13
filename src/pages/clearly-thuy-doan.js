@@ -40,34 +40,30 @@ const ThuyDoan = (props) => (
         </div>
       </section>
       <section className="project-info">
-        <div className="two-images">
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+        </div>
+        <div className="two-images-one">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
         </div>
-      </section>
-      <Img fluid={props.data.imageFive.childImageSharp.fluid} />
-      <section className="project-info">
-        <div className="two-images">
-          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
-        </div>
-      </section>
-
-      <section className="project-info">
-        <div className="project-copy">
-          <h2>Sub-Brand: Candid & Cringe</h2>
-          <p>A podcast breaking barriers one candid conversation at a time.</p>
-        </div>
-        <div className="two-images">
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
           <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
           <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         </div>
+        <div className="two-images-one">
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+        </div>
       </section>
-      <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+
 
     </div>
     <Projectfooter />
@@ -78,89 +74,83 @@ export default ThuyDoan
 
 export const pageQuery = graphql`
   query {
-  imageOne: file(relativePath: {eq: "ctd/ctd-logo.png" }) {
+  imageOne: file(relativePath: {eq: "ctd/ctd-1.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageTwo: file(relativePath: {eq: "ctd/ctd-logo-white.png" }) {
+  imageTwo: file(relativePath: {eq: "ctd/ctd-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageThree: file(relativePath: {eq: "ctd/ctd-icons.png" }) {
+  imageThree: file(relativePath: {eq: "ctd/ctd-3.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFour: file(relativePath: {eq: "ctd/ctd-colour.png" }) {
+  imageFour: file(relativePath: {eq: "ctd/ctd-4.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFive: file(relativePath: {eq: "ctd/ctd-socials.png" }) {
+  imageFive: file(relativePath: {eq: "ctd/ctd-5.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageSix: file(relativePath: {eq: "ctd/cc-logo.png" }) {
+  imageSix: file(relativePath: {eq: "ctd/ctd-6.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageSeven: file(relativePath: {eq: "ctd/cc-logo-white.png" }) {
+  imageSeven: file(relativePath: {eq: "ctd/ctd-7.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageEight: file(relativePath: {eq: "ctd/cc-icons.png" }) {
+  imageEight: file(relativePath: {eq: "ctd/ctd-8.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageNine: file(relativePath: {eq: "ctd/cc-colours.png" }) {
+  imageNine: file(relativePath: {eq: "ctd/ctd-9.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageTen: file(relativePath: {eq: "ctd/cc-socials.png" }) {
+  imageTen: file(relativePath: {eq: "ctd/ctd-10.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageEleven: file(relativePath: {eq: "ctd/ctd-home.png" }) {
+  imageEleven: file(relativePath: {eq: "ctd/ctd-11.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageTwelve: file(relativePath: {eq: "ctd/ctd-home-dark.png" }) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-      ...GatsbyImageSharpFluid_noBase64
-      }
-    }
-  }
+
 }
 `
