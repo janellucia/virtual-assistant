@@ -115,7 +115,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFive: file(relativePath: { eq: "conceived/cs-05.jpg" }) {
+    imageFive: file(relativePath: { eq: "conceived/cs-5.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
@@ -157,7 +157,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      imageEleven: file(relativePath: { eq: "conceived/cs-011.jpg" }) {
+      imageEleven: file(relativePath: { eq: "conceived/cs-11.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_noBase64
