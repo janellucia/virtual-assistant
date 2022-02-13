@@ -54,6 +54,7 @@ const Lorangerie = (props) => (
         </div>
         <div className="full-width-images">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         </div>
         <div className="two-images-one">
           <Img fluid={props.data.imageTen.childImageSharp.fluid} />

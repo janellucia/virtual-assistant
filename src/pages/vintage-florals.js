@@ -47,11 +47,13 @@ const Vintage = (props) => (
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
         </div>
-        <div className="full-width-image">
+        <div className="full-width-images">
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-        </div>
-        <div className="full-width-image">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
         </div>
 
       </section>
@@ -88,7 +90,21 @@ export const pageQuery = graphql`
       }
     }
   }
-  imageFour: file(relativePath: {eq: "vintage/vintage-2.jpg" }) {
+  imageFour: file(relativePath: {eq: "vintage/vintage-1-2.PNG" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageFive: file(relativePath: {eq: "vintage/vintage-2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageSix: file(relativePath: {eq: "vintage/vintage-2-2.PNG" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
