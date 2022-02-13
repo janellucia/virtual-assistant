@@ -60,8 +60,9 @@ const Stephanie = (props) => (
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
           <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
         </div>
-        <div className="full-width-image">
+        <div className="full-width-images">
           <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
         </div>
         <div className="two-images-one">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
@@ -143,6 +144,13 @@ export const pageQuery = graphql`
     }
   }
   imageTen: file(relativePath: {eq: "steph/sb-10.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageEleven: file(relativePath: {eq: "steph/sb-8-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64

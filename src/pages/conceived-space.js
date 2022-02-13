@@ -49,9 +49,13 @@ const Conceived = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
-        <div className="two-images-one">
+        <div className="two-images-one hide-on-mobile">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+        </div>
+        <div className="two-images hide-on-desktop">
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
         </div>
         <div className="three-image-tiles">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
@@ -60,11 +64,14 @@ const Conceived = (props) => (
         </div>
         <div className="full-width-images">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
         </div>
-        <div className="two-images-one">
+        <div className="two-images-one hide-on-mobile">
           <Img fluid={props.data.imageTen.childImageSharp.fluid} />
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+        </div>
+        <div className="two-images hide-on-desktop">
+          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
         </div>
 
       </section>
@@ -157,5 +164,27 @@ export const pageQuery = graphql`
           }
         }
       }
+      imageTwelve: file(relativePath: { eq: "conceived/cs-05-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageThirteen: file(relativePath: { eq: "conceived/cs-9-2.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      imageFourteen: file(relativePath: { eq: "conceived/cs-11-2.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+
   }
 `

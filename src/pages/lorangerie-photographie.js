@@ -45,9 +45,13 @@ const Lorangerie = (props) => (
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
-        <div className="two-images-one">
+        <div className="two-images-one hide-on-mobile">
           <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+        </div>
+        <div className="two-images hide-on-desktop">
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
         </div>
         <div className="three-image-tiles">
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
@@ -56,11 +60,15 @@ const Lorangerie = (props) => (
         </div>
         <div className="full-width-images">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
         </div>
-        <div className="two-images-one">
+        <div className="two-images-one hide-on-mobile">
           <Img fluid={props.data.imageTen.childImageSharp.fluid} />
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+        </div>
+        <div className="two-images hide-on-desktop">
+          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSixteen.childImageSharp.fluid} />
         </div>
       </section>
     </div>
@@ -142,12 +150,47 @@ export const pageQuery = graphql`
       }
     }
   }
-    imageEleven: file(relativePath: {eq: "lop/lop-011.jpg" }) {
+  imageEleven: file(relativePath: {eq: "lop/lop-011.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
+      imageTwelve: file(relativePath: { eq: "lop/lop-4-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageThirteen: file(relativePath: { eq: "lop/lop-05-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFourteen: file(relativePath: { eq: "lop/lop-9-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageFifteen: file(relativePath: { eq: "lop/lop-10-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    imageSixteen: file(relativePath: { eq: "lop/lop-11-2.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
 }
 `

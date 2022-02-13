@@ -540,3 +540,18 @@ margin: 20px 0;
 }
 
 
+
+.hide-on-desktop {
+    display: none !important;
+    @media (max-width: 768px) {
+    display: flex !important;
+    }
+}
+
+.hide-on-mobile {
+
+    @media (max-width: 768px) {
+    display: none !important;
+    }
+}
+
