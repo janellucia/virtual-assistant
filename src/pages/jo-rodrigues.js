@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from "gatsby-image"
-import GIF from '../images/jo-rodrigues/website.gif'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -46,97 +45,32 @@ const JoRodrigues = (props) => (
       </section>
 
       <section className="project-info">
-        <div className="full-width-images">
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-        </div>
-
-      </section>
-
-      <section className="project-info intro">
-        <h2>Brand Identity System</h2>
-        <p>Jo Rodrigues brand is made up of 4 core elements.</p>
-        <div className="brand-elements">
-          <a href="#logo">
-            <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-            <p>01 Logo</p>
-          </a>
-          <a href="#site">
-            <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-            <p>02 Colour & Typography</p>
-          </a>
-          <a href="#site">
-            <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-            <p>03 Website</p>
-          </a>
-          <a href="#social">
-            <Img fluid={props.data.imageFive.childImageSharp.fluid} />
-            <p>04 Social Media</p>
-          </a>
-        </div>
-      </section>
-      <section className="project-info" id="logo">
-        <h2>01 Logo</h2>
-        <div className="project-copy project-steps-full">
-          {/* <p>The logo is simple, bold and unique. Using the forever classic font Gotham with custom letter spacing and weights. </p> */}
-        </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
-        </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
-        </div>
-      </section>
-      <section className="project-info" id="colour-and-type">
-        <h2>02 Colour & Typography</h2>
-        <div className="project-copy project-steps-full">
-          {/* <p>When defining colours it was important to the brand that colours are inclusive and empowering to the user and that they also have a polished and professional vibe to them, to stay true to brands values.</p> */}
-        </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
-        <div className="full-width-images">
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
-        </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+        <div className="two-images-one">
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
         </div>
-      </section>
-      <section className="project-info" id="site">
-        <h2>03 Website</h2>
-        <div className="project-copy project-steps-full">
-          {/* <p>For font combinations, it was important to the brand to be classic, clean and approachable. We ran through many main fonts including Toledo, Tenez & Graced Script. So much of the inspo sent by Atria included beautiful serifs and I knew that was the direction to go in.</p> */}
-          {/* <p>For this particular pairing, we almost went with Commuter Sans instead of Futura and while we all loved that pairing once we saw Futura in the combination we knew this was the font for the brand. We also defined where each font will be used around online and marketing materials.</p> */}
+        <div className="three-image-tiles">
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
         </div>
-        <div class="full-width-images">
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+        <div className="full-width-image">
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+
         </div>
-        <div class="full-width-images">
-          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
-          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
-        </div>
-        <div className="gatsby-image-wrapper"><img src={GIF} alt="" /></div>
-      </section>
-      <section className="project-info" id="social">
-        <h2>04 Social Media</h2>
-        <div className="project-copy project-steps-full">
-          {/* <p>Key to the success of this project was creating marketing materials that Atria can use around social media and in print. The marketing materials had to include tiles for the logo, events, imagery, quotes and overall brand awareness. </p> */}
-        </div>
-        <div class="full-width-images">
-          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
-          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
-        </div>
-        <div class="full-width-images">
-          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
-          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
+        <div className="two-images-one">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+
         </div>
       </section>
+
+
     </div>
     <Projectfooter />
   </Layout>
@@ -146,110 +80,82 @@ export default JoRodrigues
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "jo-rodrigues/intro.png" }) {
+    imageOne: file(relativePath: { eq: "jo-rodrigues/jo-1.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "jo-rodrigues/logo-mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "jo-rodrigues/jo-2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "jo-rodrigues/colour-mobile.png" }) {
+    imageThree: file(relativePath: { eq: "jo-rodrigues/jo-3.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFour: file(relativePath: { eq: "jo-rodrigues/site-mobile.png" }) {
+    imageFour: file(relativePath: { eq: "jo-rodrigues/jo-4.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "jo-rodrigues/social-mobile.png" }) {
+    imageFive: file(relativePath: { eq: "jo-rodrigues/jo-5.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "jo-rodrigues/logo.png" }) {
+    imageSix: file(relativePath: { eq: "jo-rodrigues/jo-6.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSeven: file(relativePath: { eq: "jo-rodrigues/icons.jpg" }) {
+    imageSeven: file(relativePath: { eq: "jo-rodrigues/jo-7.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageEight: file(relativePath: { eq: "jo-rodrigues/colours.png" }) {
+    imageEight: file(relativePath: { eq: "jo-rodrigues/jo-8.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageNine: file(relativePath: { eq: "jo-rodrigues/type.png" }) {
+    imageNine: file(relativePath: { eq: "jo-rodrigues/jo-9.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTen: file(relativePath: { eq: "jo-rodrigues/type-two.png" }) {
+    imageTen: file(relativePath: { eq: "jo-rodrigues/jo-10.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
-      imageEleven: file(relativePath: { eq: "jo-rodrigues/type-three.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid_noBase64
-          }
+    imageEleven: file(relativePath: { eq: "jo-rodrigues/jo-11.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_noBase64
         }
       }
-      imageTwelve: file(relativePath: { eq: "jo-rodrigues/site.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid_noBase64
-          }
-        }
-      }
-      imageThirteen: file(relativePath: { eq: "jo-rodrigues/site-two.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid_noBase64
-          }
-        }
-      }
-      imageFourteen: file(relativePath: { eq: "jo-rodrigues/social-one.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid_noBase64
-          }
-        }
-      }
-      imageFifteen: file(relativePath: { eq: "jo-rodrigues/social-two.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid_noBase64
-          }
-        }
-      }
+    }
   }
 `
