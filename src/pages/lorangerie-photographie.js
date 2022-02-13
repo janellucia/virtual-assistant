@@ -24,6 +24,8 @@ const Lorangerie = (props) => (
         <div className="project-copy">
           <h2>Brand Identity &amp; Squarespace site for L'Orangerie Photographie.</h2>
           <p>Sadie at L'Orangerie is a wedding and family photographer. Focused on intimate creative shoots in the city and in the countryside. Her style is classic, fun, effortless and it’s all about setting the right mood and capturing those candid moments and we needed to create a brand identity to reflect that.</p>
+          <p>I worked with Sadie to create a logo and brand identity with strong typography, social media layouts and to also build her website on Squarespace with custom coding and bring her intimate and romantic experience to make users feel at ease.</p>
+          <p>Please take a look at the project below, I am driven by clean design, clear typography and the challenge of a custom layout, I am at your service for any collaboration.</p>
         </div>
         <div className="sidebar-intro">
           <div>

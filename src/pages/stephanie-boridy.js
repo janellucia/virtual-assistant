@@ -23,7 +23,7 @@ const Stephanie = (props) => (
       </div>
     </section>
 
-    <div id="bad-girls" className="wrapper">
+    <div className="wrapper">
       <section className="project-info">
         <div className="project-copy">
           <h2>Custom Shopify site built for a growing astrology brand.</h2>
@@ -45,17 +45,30 @@ const Stephanie = (props) => (
         </div>
       </section>
       <section className="project-info">
-        <div className="two-images">
-          <div className="gatsby-image-wrapper"><img src={GIF} alt="" className="gif" /></div>
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
 
+        <div className="two-images-one">
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+          <div className="gatsby-image-wrapper"><img src={GIF} alt="" className="gif" /></div>
+        </div>
+        <div className="three-image-tiles">
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+        </div>
+        <div className="three-image-tiles">
+          <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSix.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-image">
+          <Img fluid={props.data.imageEight.childImageSharp.fluid} />
+        </div>
+        <div className="two-images-one">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
         </div>
       </section>
 
-      <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-      <Img fluid={props.data.imageThree.childImageSharp.fluid} />
-      <Img fluid={props.data.imageFour.childImageSharp.fluid} />
-      <Img fluid={props.data.imageFive.childImageSharp.fluid} />
 
     </div>
     <Projectfooter />
@@ -66,35 +79,70 @@ export default Stephanie
 
 export const pageQuery = graphql`
   query {
-  imageOne: file(relativePath: {eq: "steph/logo.png" }) {
+  imageOne: file(relativePath: {eq: "steph/sb-1.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageTwo: file(relativePath: {eq: "steph/colours.jpg" }) {
+  imageTwo: file(relativePath: {eq: "steph/sb-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageThree: file(relativePath: {eq: "steph/insta.jpg" }) {
+  imageThree: file(relativePath: {eq: "steph/sb-3.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFour: file(relativePath: {eq: "steph/stories.jpg" }) {
+  imageFour: file(relativePath: {eq: "steph/sb-4.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFive: file(relativePath: {eq: "steph/site.jpg" }) {
+  imageFive: file(relativePath: {eq: "steph/sb-5.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageSix: file(relativePath: {eq: "steph/sb-6.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageSeven: file(relativePath: {eq: "steph/sb-7.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageEight: file(relativePath: {eq: "steph/sb-8.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageNine: file(relativePath: {eq: "steph/sb-9.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageTen: file(relativePath: {eq: "steph/sb-10.png" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
