@@ -46,29 +46,35 @@ const AnneSophie = (props) => (
         </div>
       </section>
       <section className="project-info">
-        <div className="two-images">
-          <div className="gatsby-image-wrapper"><img src={ash} alt="" className="gif" /></div>
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-        </div>
-        <div className="full-width-image">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
-        </div>
-        <div className="two-images">
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
-        <div className="full-width-image">
+        <div className="two-images-one hide-on-mobile">
+          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
           <Img fluid={props.data.imageSix.childImageSharp.fluid} />
         </div>
-        <div className="two-images">
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} />
+        <div className="two-images hide-on-desktop">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSeven.childImageSharp.fluid} />
         </div>
-        <div className="full-width-image">
+        <div className="three-image-tiles">
           <Img fluid={props.data.imageEight.childImageSharp.fluid} />
-        </div>
-        <div className="full-width-image">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+        </div>
+        <div className="full-width-images">
+          <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
+        </div>
+        <div className="two-images-one hide-on-mobile">
+          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
+        </div>
+        <div className="two-images hide-on-desktop">
+          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} />
+          <Img fluid={props.data.imageSixteen.childImageSharp.fluid} />
         </div>
       </section>
 
@@ -83,63 +89,112 @@ export default AnneSophie
 
 export const pageQuery = graphql`
   query {
-  imageOne: file(relativePath: {eq: "ash/ash-logo.jpg" }) {
+  imageOne: file(relativePath: {eq: "ash/ash-1.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageTwo: file(relativePath: {eq: "ash/type.jpg" }) {
+  imageTwo: file(relativePath: {eq: "ash/ash-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageThree: file(relativePath: {eq: "ash/type-two.jpg" }) {
+  imageThree: file(relativePath: {eq: "ash/ash-3.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFour: file(relativePath: {eq: "ash/site-eng.png" }) {
+  imageFour: file(relativePath: {eq: "ash/ash-4.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageFive: file(relativePath: {eq: "ash/site-fr.png" }) {
+  imageFive: file(relativePath: {eq: "ash/ash-4-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageSix: file(relativePath: {eq: "ash/site-1.png" }) {
+  imageSix: file(relativePath: {eq: "ash/ash-5.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageSeven: file(relativePath: {eq: "ash/ash-logo-black.png" }) {
+  imageSeven: file(relativePath: {eq: "ash/ash-5-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageEight: file(relativePath: {eq: "ash/site-2.png" }) {
+  imageEight: file(relativePath: {eq: "ash/ash-6.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageNine: file(relativePath: {eq: "ash/site-3.png" }) {
+  imageNine: file(relativePath: {eq: "ash/ash-7.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageTen: file(relativePath: {eq: "ash/ash-8.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageEleven: file(relativePath: {eq: "ash/ash-9.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageTwelve: file(relativePath: {eq: "ash/ash-9-2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageThirteen: file(relativePath: {eq: "ash/ash-10.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageFourteen: file(relativePath: {eq: "ash/ash-10-2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageFifteen: file(relativePath: {eq: "ash/ash-11.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+  imageSixteen: file(relativePath: {eq: "ash/ash-11-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64

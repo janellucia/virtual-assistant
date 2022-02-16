@@ -67,8 +67,8 @@ const ThuyDoan = (props) => (
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
         </div>
         <div className="two-images hide-on-desktop">
+          <Img fluid={props.data.imageTen.childImageSharp.fluid} />
           <Img fluid={props.data.imageFifteen.childImageSharp.fluid} />
-          <Img fluid={props.data.imageSixteen.childImageSharp.fluid} />
         </div>
       </section>
 
@@ -180,20 +180,14 @@ export const pageQuery = graphql`
       }
     }
   }
-  imageFifteen: file(relativePath: {eq: "ctd/ctd-10-2.jpg" }) {
+  imageFifteen: file(relativePath: {eq: "ctd/ctd-11-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
-  imageSixteen: file(relativePath: {eq: "ctd/ctd-11-2.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-      ...GatsbyImageSharpFluid_noBase64
-      }
-    }
-  }
+
 
 }
 `

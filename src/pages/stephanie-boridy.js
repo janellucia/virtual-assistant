@@ -46,9 +46,9 @@ const Stephanie = (props) => (
       </section>
       <section className="project-info">
 
-        <div className="two-images-one">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+        <div className="two-images-two">
           <div className="gatsby-image-wrapper"><img src={GIF} alt="" className="gif" /></div>
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
         </div>
         <div className="three-image-tiles">
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
@@ -64,9 +64,13 @@ const Stephanie = (props) => (
           <Img fluid={props.data.imageEight.childImageSharp.fluid} />
           <Img fluid={props.data.imageEleven.childImageSharp.fluid} />
         </div>
-        <div className="two-images-one">
+        <div className="two-images-one hide-on-mobile">
           <Img fluid={props.data.imageNine.childImageSharp.fluid} />
           <Img fluid={props.data.imageTen.childImageSharp.fluid} />
+        </div>
+        <div className="two-images-one hide-on-desktop">
+          <Img fluid={props.data.imageNine.childImageSharp.fluid} />
+          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} />
         </div>
       </section>
 
@@ -151,6 +155,13 @@ export const pageQuery = graphql`
     }
   }
   imageEleven: file(relativePath: {eq: "steph/sb-8-2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_noBase64
+      }
+    }
+  }
+    imageTwelve: file(relativePath: {eq: "steph/sb-10-2.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64

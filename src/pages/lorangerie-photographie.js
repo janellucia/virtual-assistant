@@ -150,7 +150,7 @@ export const pageQuery = graphql`
       }
     }
   }
-  imageEleven: file(relativePath: {eq: "lop/lop-011.jpg" }) {
+  imageEleven: file(relativePath: {eq: "lop/lop-11.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
       ...GatsbyImageSharpFluid_noBase64

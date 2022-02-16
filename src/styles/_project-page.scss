@@ -421,7 +421,28 @@ margin: 20px 0;
         width: 31%;
         margin-bottom: 0.5%;
         &:nth-child(2) {
-            width: 65%;
+            width: 65.5%;
+        }
+        @media (max-width: 768px) {
+            width: 100%;
+            &:nth-child(2) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.two-images-two {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .gatsby-image-wrapper {
+        width: 65.5%;
+        margin-bottom: 0.5%;
+        &:nth-child(2) {
+            width: 31%;
         }
         @media (max-width: 768px) {
             width: 100%;
