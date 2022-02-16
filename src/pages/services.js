@@ -132,7 +132,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "ash/ash-logo.jpg" }) {
+    imageTwo: file(relativePath: { eq: "ash/ash-11.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
