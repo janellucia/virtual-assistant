@@ -23,6 +23,8 @@ const Qube = (props) => (
         <div className="project-copy">
           <h2>Creating a brand identity for a Commercial Real Estate Firm</h2>
           <p>Qube Properties goal is to build long term personal relationships with their clients that promotes trust and integrity. They use their expertise to motivate, guide, and champion their clients through real estate.</p>
+          <p>I worked with Quintin and Ben to create a logo and brand identity with strong typography, social media layouts and print design including brochures, business cards, staionary and listing signs.</p>
+          <p>Take a look at the project below, I am driven by clean design, clear typography and the challenge of a custom layout, I am at your service for any collaboration.</p>
         </div>
         <div className="sidebar-intro">
           <div>

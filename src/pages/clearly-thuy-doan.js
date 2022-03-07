@@ -24,6 +24,8 @@ const ThuyDoan = (props) => (
         <div className="project-copy">
           <h2>Designing a brand and sub-brand for a growing content-creator</h2>
           <p>Thuy is a front-end developer, currently working in education technology at Prodigy Education. She is passionate about accessibility and learning how to spread awareness for all the under-represented groups as an industry leader and also a podcast content creator.</p>
+          <p>I worked with Thuy to create a logo and brand identity with strong typography, social media layouts and to also design her website with dark mode and accessibility in mind.</p>
+          <p>Take a look at the project below, I am driven by clean design, clear typography and the challenge of a custom layout, I am at your service for any collaboration.</p>
         </div>
         <div className="sidebar-intro">
           <div>
@@ -187,7 +189,6 @@ export const pageQuery = graphql`
       }
     }
   }
-
 
 }
 `
