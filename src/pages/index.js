@@ -50,11 +50,11 @@ const IndexPage = (props) => (
             <p className="category">— Brand Identity, Logo Design, Shopify design & build, Social Media Design</p>
           </div>
         </Link>
-        <Link to="/carnations/" className="project-wrap">
+        <Link to="/tulipomania/" className="project-wrap">
           <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="Custom floral illustration" />
           <div className="home-project-info">
-            <h3>Blue Mondays</h3>
-            <p className="category">— Illustration, Seamless Pattern Design</p>
+            <h3>Tulipomania</h3>
+            <p className="category">— Illustration</p>
           </div>
         </Link>
         <Link to="/clearly-thuy-doan/" className="project-wrap">
@@ -155,7 +155,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/carnation-home.png" }) {
+    imageFive: file(relativePath: { eq: "services/floral-home.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

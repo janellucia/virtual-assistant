@@ -6,7 +6,6 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Projectfooter from '../components/project-footer'
 
-import ash from '../images/home/ash-home-2.gif';
 
 
 const AnneSophie = (props) => (
