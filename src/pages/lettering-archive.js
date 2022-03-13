@@ -17,6 +17,12 @@ const Type = (props) => (
       <div className="wrapper">
         <h1>Typography Posters</h1>
         <p className="subtitle">A lil project to explore type, research interesting authors & poets, and express creatively with typography.</p>
+        <div className="button-wrap">
+          <a href="https://society6.com/letteringarchive/prints" className="button" target="_blank" rel="noopener noreferrer">Shop Posters</a>
+          <a href="https://www.instagram.com/letteringarchive/" className="button" target="_blank" rel="noopener noreferrer">View Insta</a>
+        </div>
+        <div className="button-wrap">
+        </div>
       </div>
     </section>
     <div id="lettering-archive" className="wrapper lettering-image-wrap">

@@ -16,9 +16,10 @@ const Vintage = (props) => (
       <div className="wrapper">
         <h1>Vintage Florals</h1>
         <p className="subtitle">A seamless pattern of some of my favorite flowers.</p>
-        {/* <div className="button-wrap">
-          <a href="https://www.annesophiehuot.com/" className="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
-        </div> */}
+        <div className="button-wrap">
+          <a href="https://society6.com/senseaddictions/all" className="button" target="_blank" rel="noopener noreferrer">Shop Prints</a>
+          <a href="https://www.instagram.com/sense.addictions/" className="button" target="_blank" rel="noopener noreferrer">View Insta</a>
+        </div>
       </div>
     </section>
 
@@ -33,7 +34,7 @@ const Vintage = (props) => (
           <div>
             <h3>Services</h3>
             <ul>
-              <li>Custom Illusrtration</li>
+              <li>Custom Illustration</li>
               <li>Seamless pattern</li>
               <li>Procreate</li>
               <li>Adobe Illustrator</li>

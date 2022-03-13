@@ -16,6 +16,10 @@ const Tulips = (props) => (
       <div className="wrapper">
         <h1>Tulipomania</h1>
         <p className="subtitle">A tulip series to welcome Spring and give praise to the natural lines and curves of tulips. posters available upon request.</p>
+        <div className="button-wrap">
+          <a href="https://society6.com/senseaddictions/all" className="button" target="_blank" rel="noopener noreferrer">Shop Prints</a>
+          <a href="https://www.instagram.com/sense.addictions/" className="button" target="_blank" rel="noopener noreferrer">View Insta</a>
+        </div>
       </div>
     </section>
     <div id="lettering-archive" className="wrapper lettering-image-wrap">
