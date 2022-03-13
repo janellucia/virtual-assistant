@@ -28,20 +28,16 @@ const Links = (props) => (
               <a href="/services" class="insta-links">Design Services</a>
             </div>
             <div className="tab">
-              <a href="/coaching" class="insta-links">Resources for Designers</a>
-            </div>
-
-            <div className="tab">
-              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify Playlists</a>
+              <a href="/" class="insta-links">View Website</a>
             </div>
             <div className="tab">
-              <a href="/" class="insta-links">Website</a>
+              <a href="https://www.instagram.com/sense.addictions/" class="insta-links" target="new">@sense.addictions</a>
             </div>
             <div className="tab">
               <a href="https://www.instagram.com/letteringarchive/" class="insta-links" target="new">@letteringarchive</a>
             </div>
             <div className="tab">
-              <a href="https://www.instagram.com/sense.addictions/" class="insta-links" target="new">@sense.addictions</a>
+              <a href="https://open.spotify.com/user/12180117318?si=BeIdke_bS1m-OxfdC7gW9w" target="new" class="insta-links">Spotify Playlists</a>
             </div>
           </div>
 

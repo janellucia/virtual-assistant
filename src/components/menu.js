@@ -14,12 +14,16 @@ export default props => {
         services
       </a>
 
+      <a href="#shop-links">
+        shop
+      </a>
+
       <a className="menu-item" href="/">
         portfolio
       </a>
 
       <a href="/coaching">
-        resources for designers
+        for designers
       </a>
 
       <a className="menu-item" href="mailto:hello@janellucia.com">
