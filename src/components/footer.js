@@ -31,7 +31,7 @@ const Footer = ({ siteTitle }) => (
       </section>
       <section className="social">
         <a href="https://www.instagram.com/janellucia/" target="blank" rel="noopener noreferrer">insta</a>
-        <a href="https://www.tiktok.com/@janellucia" target="blank" rel="noopener noreferrer">tiktok</a>
+        <a href="https://www.tiktok.com/@sense.addictions" target="blank" rel="noopener noreferrer">tiktok</a>
         <a href="https://www.linkedin.com/in/janel-lucia-designer-b7425b9a/" target="blank" rel="noopener noreferrer">linked-in</a>
       </section>
     </div>

@@ -22,9 +22,6 @@ const Links = (props) => (
               <a href="https://society6.com/letteringarchive/prints" class="insta-links" target="new">Shop Posters</a>
             </div>
             <div className="tab">
-              <a href="https://society6.com/letteringarchive/stickers" class="insta-links" target="new">Shop Stickers</a>
-            </div>
-            <div className="tab">
               <a href="/services" class="insta-links">Design Services</a>
             </div>
             <div className="tab">

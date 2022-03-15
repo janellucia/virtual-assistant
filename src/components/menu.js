@@ -39,7 +39,7 @@ export default props => {
         insta
       </a>
 
-      <a href="https://www.tiktok.com/@janellucia" target="blank" rel="noopener noreferrer">
+      <a href="https://www.tiktok.com/@sense.addictions" target="blank" rel="noopener noreferrer">
         tiktok
       </a>
 
