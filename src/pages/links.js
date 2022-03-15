@@ -10,9 +10,9 @@ const Links = (props) => (
     <div className="wrapper">
       <section className="landing-about">
         <div className="about-wrap">
-          <p>Branding + Logos + Websites</p>
-          <p>Beautiful & Intelligent Design for the Modern Business</p>
-          {/* <p>“Like all explorers, we are drawn to discover what's out there without knowing yet if we have the courage to face it.” <br></br>— Pema Chödrön</p> */}
+          {/* <p>Branding + Logos + Websites</p> */}
+          {/* <p>Beautiful & Intelligent Design for the Modern Business</p> */}
+          <p className='links-quote'>“Like all explorers, we are drawn to discover what's out there without knowing yet if we have the courage to face it.” <br></br>— Pema Chödrön</p>
         </div>
       </section>
       <section className="about-page">
