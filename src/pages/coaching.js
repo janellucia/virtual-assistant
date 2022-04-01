@@ -48,7 +48,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "services/website-design.png" }) {
+    imageTwo: file(relativePath: { eq: "services/logo.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
