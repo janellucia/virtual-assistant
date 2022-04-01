@@ -7,6 +7,8 @@ import SEO from '../components/seo'
 
 import Testimonials from '../components/testimonials'
 
+import GIF from '../images/services/website.gif'
+
 
 const Services = (props) => (
   <Layout name="about-page-wrap services-page-wrap">
@@ -65,7 +67,8 @@ const Services = (props) => (
         </div>
 
         <div id="web-design" className="services-block services-reverse">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="a look at a web design project" />
+          {/* <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="a look at a web design project" /> */}
+          <div className="gatsby-image-wrapper"><img src={GIF} alt="" className="gif" /></div>
           <div className="service-info">
             <h2>Website Design &amp; Build</h2>
             <p>Your site is where your audience connects to your brand — where your brand connects to their needs. The use of clear crisp images, text spacing, colour scheme, typography, and accessibility are all elements in satisfying site design.</p>
@@ -132,7 +135,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "ash/ash-11.jpg" }) {
+    imageTwo: file(relativePath: { eq: "services/logo.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
@@ -146,21 +149,21 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFour: file(relativePath: { eq: "services/social-media.png" }) {
+    imageFour: file(relativePath: { eq: "services/social-media.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageFive: file(relativePath: { eq: "home/carnation-home.png" }) {
+    imageFive: file(relativePath: { eq: "services/illustrations.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageSix: file(relativePath: { eq: "home/cs-home.jpg" }) {
+    imageSix: file(relativePath: { eq: "services/print-editorial.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

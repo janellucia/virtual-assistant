@@ -16,6 +16,9 @@ const Lorangerie = (props) => (
       <div className="wrapper">
         <h1>L'Orangerie Photographie</h1>
         <p className="subtitle">Designing a brand experience for a growing Photography brand.</p>
+        <div className="button-wrap">
+          <a href="https://www.orangeriephotographie.com/" className="button" target="_blank" rel="noopener noreferrer">View Website</a>
+        </div>
       </div>
     </section>
 
