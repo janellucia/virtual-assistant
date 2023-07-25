@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
-import Testimonials from '../components/testimonials'
 
 
 const IndexPage = (props) => (
@@ -16,22 +15,18 @@ const IndexPage = (props) => (
         <div className="about-panel">
           <Img fluid={props.data.imageOne.childImageSharp.fluid} />
           <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
-          <p>I aim to create design people feel connected to, my values are “Love More” and “Lead with Simplicity” these provide the foundation for all the work I produce.</p>
         </div>
 
         <div className="about-wrap">
-          <h2>Hi, I’m Janel &mdash; <br></br>a Graphic Designer</h2>
+          <h2>Hi, I’m Janel &mdash; <br></br>a Virtual Assistant in Toronto</h2>
           <div className="text">
-            <p>I specialize in brand identity, logo design, type-led graphic design and illustration. I work with businesses to design unique experiences that connect to their audience.</p>
-            <p>I’ve been designing since 2016 and I've worked for companies like Official Community, designing and building websites for musical legends like Celine Dion, Elton John & George Michael. I had a role in the design department of ITRG where I designed countless reports, webpages and slide decks. Then the team at The Good Ones Academy saw my work and liked it, so they hired me to create an app experience for their online hair academy. That's when I became interested in working for myself. Since then I’ve been working with businesses to design experiences that are beautiful & full of brand personality.</p>
-            <p>As a designer, I love colours, layouts, images, and of course, sometimes more than anything, typography. It's what transforms design into a beautiful work of art. It gives the design character. It evokes a feeling. My obsession with typography and layouts became the basis for my visual language and the way I solve problems. Getting the right message and the right tone to your audience is crucial and sometimes it's effortless, sometimes complicated, but good design can express a certain feeling. It connects and creates community.</p>
-            <p>My ideal client has a love for what they are doing—and is excited to create something that inspires and connects. For business inquiries, collaborations, press features or to simply say hi, please email <a href="mailto:hello@janellucia.com">hello@janellucia.com</a>.</p>
-            <p>For a peak at my design work, please take a look at my <a href="/">portfilio page</a></p>
+            <p>I specialize in administration, email management, appointment scheduling, data entry, website updates, blog management and photo editing. To me, being a virtual assistant is more than answering messages and scheduling appointments, it's helping businesses succeed by taking on some of the time consuming yet neccessary tasks.</p>
+            <p>I have over 7+ years experience with administration work, scheduling appointments, managing teams, software systems, websites and social media. Hiring a virtual assistant will massively reduce your workload. We will work together to identify the areas a virtual assistant will best serve you and your business. I am responsible, dependable, and can quickly become polished in any task that's given to me. As a high-achiever, I push myself to be the best at everything I do.</p>
+            <p>My ideal client has a love for what they are doing—and is excited to grow their business with confidence. To get in touch, please email <a href="mailto:hello@janellucia.com">hello@janellucia.com</a>.</p>
+            <p>Serving worldwide.</p>
           </div>
         </div>
       </section>
-
-      <Testimonials />
     </div>
   </Layout>
 )

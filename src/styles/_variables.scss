@@ -1,11 +1,11 @@
 $black: #000;
 $white: #fff;
 $grey: #f8f8f5;
-$darkGrey: #d4d4d4;
+$darkGrey: #e8e8e5;
 
 $mainColor: #f1d3c9;
-$secondColor: #dba483; 
-$thirdColor: #c9654d; 
+$secondColor: #dba483;
+$thirdColor: #c9654d;
 $fourthColor: #2f7c67;
 $fifthColor: #051f48;
 $sixthColor: #d31021;
@@ -19,11 +19,9 @@ $ninethColor: #ecb0c6;
 
 
 
-@import url("https://use.typekit.net/yri4mff.css");
+@import url("https://use.typekit.net/wwe8uni.css");
 
-$titleFont: freight-big-pro, serif;
-$bodyFont: freight-big-pro, serif;
-$accentFont: poppins, sans-serif;
-
-
-
+// $titleFont: kepler-3-display-variable, sans-serif;
+$titleFont: gelica, sans-serif;
+$bodyFont: futura-pt, sans-serif;
+$accentFont: futura-pt, sans-serif;

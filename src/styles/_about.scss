@@ -1,11 +1,13 @@
 .about-page-wrap {
+
     //background: $mainColor;
     ::selection {
-        background: $sixthColor; 
+        background: $sixthColor;
         color: white;
     }
 
-    header, footer {
+    header,
+    footer {
         //background: $mainColor;
 
     }
@@ -16,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 120px;
 
     @media (max-width: 768px) {
         margin-top: 50px;
@@ -26,7 +28,7 @@
         width: calc(35% - 100px);
         padding: 20px 0;
 
-        @media (max-width: 768px)  {
+        @media (max-width: 768px) {
             width: 100%;
             display: flex;
             padding: 20px 0;
@@ -38,6 +40,7 @@
 
         .gatsby-image-wrapper {
             width: 100%;
+
             img {
                 width: 100%;
                 height: auto;
@@ -45,7 +48,7 @@
         }
 
         .gatsby-image-wrapper:first-child {
-            @media (max-width: 768px)  {
+            @media (max-width: 768px) {
                 display: none;
 
             }
@@ -53,7 +56,8 @@
 
         .gatsby-image-wrapper:nth-child(2) {
             display: none;
-            @media (max-width: 768px)  {
+
+            @media (max-width: 768px) {
                 display: block;
 
             }
@@ -65,7 +69,7 @@
             font-weight: 500;
             line-height: 1.2;
 
-            @media (max-width: 900px)  {
+            @media (max-width: 900px) {
                 // font-size: 22px;
 
             }
@@ -77,34 +81,36 @@
         width: 65%;
         margin-left: 40px;
 
-        @media (max-width: 768px)  {
+        @media (max-width: 768px) {
             width: 100%;
             order: 2;
             margin-left: initial;
         }
-        
+
         h2 {
             width: 100%;
             // font-family: $accentLight;
             font-size: 3rem;
             margin: 15px 0 7px;
             line-height: 1.1;
+
             br {
                 display: none;
             }
 
-            @media (min-width: 701px) and (max-width: 1125px)  {
+            @media (min-width: 701px) and (max-width: 1125px) {
                 font-size: 2.5rem;
             }
 
-            @media (max-width: 700px)  {
+            @media (max-width: 700px) {
                 font-size: 2.2rem;
+
                 br {
                     display: inline-block;
                 }
             }
         }
-        
+
         .text {
             font-size: 20px;
             letter-spacing: 0.3px;
@@ -121,19 +127,20 @@
                 margin-top: 0;
             }
 
-            @media (max-width: 768px)  {
+            @media (max-width: 768px) {
                 width: 100%;
                 column-count: 1;
                 max-width: 600px;
-                
+
                 p {
                     font-size: 1.3rem;
                     font-weight: 400;
                 }
             }
-            
+
         }
     }
+
     .resume {
         display: flex;
         justify-content: space-between;
@@ -141,7 +148,7 @@
         padding: 40px 0;
         border-top: 1px solid $black;
 
-        @media (max-width: 768px)  {
+        @media (max-width: 768px) {
             order: 4;
         }
 
@@ -149,7 +156,7 @@
             width: 30%;
             max-width: 600px;
 
-            @media (max-width: 768px)  {
+            @media (max-width: 768px) {
                 width: 100%;
             }
 
@@ -163,10 +170,12 @@
 
             div {
                 margin: 25px 0;
+
                 p {
                     margin: 0;
                     line-height: 1.25;
                     font-size: 1.3rem;
+
                     strong {
                         font-weight: 700;
                     }

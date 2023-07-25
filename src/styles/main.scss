@@ -6,7 +6,7 @@
 @import 'home';
 @import 'about';
 @import 'services';
-@import 'project-page';
+@import 'marquee';
 
 @import 'testimonials';
 
@@ -17,24 +17,50 @@ html {
 body {
   margin: 0;
   font-family: $bodyFont;
-  font-weight: 400;
   line-height: 1.45;
   background: $grey;
   color: $black;
+  font-size: 20px;
 
   ::selection {
-    background: $mainColor; 
+    background: $seventhColor;
   }
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $titleFont;
-  font-weight: 300;
+  font-weight: 300 !important;
+  font-variation-settings: "wdth" 100, "wght" 300;
+  line-height: 1.1;
+  margin-bottom: 15px;
 }
 
 
+h1 {
+  font-size: 72px;
+}
 
+h2 {
+  font-size: 53px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+h4 {
+  font-size: 33px;
+}
+
+h5 {
+  font-size: 26px;
+}
 
 a {
   color: $black;
@@ -42,7 +68,9 @@ a {
   display: inline-block;
   padding: 3px;
 }
-a:hover, a:focus {
+
+a:hover,
+a:focus {
   color: $sixthColor;
 }
 
@@ -57,28 +85,30 @@ main {
 }
 
 a.hidden {
-  left:-1200000px;
-  position:absolute;
-  top:0;
+  left: -1200000px;
+  position: absolute;
+  top: 0;
   // left: 0;
   width: 0;
   height: 0;
-  overflow:hidden;
-  z-index:-999;
+  overflow: hidden;
+  z-index: -999;
 }
-a.hidden:focus, a.hidden:active {
+
+a.hidden:focus,
+a.hidden:active {
   color: $black;
-  background-color:$mainColor;
+  background-color: $mainColor;
   top: auto;
   left: 0;
   width: 150px;
   height: auto;
-  overflow:auto;
+  overflow: auto;
   // margin: 10px 15%;
-  padding:5px;
-  text-align:center;
-  font-size:1.2em;
-  z-index:999;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 999;
 }
 
 
@@ -86,11 +116,13 @@ a.hidden:focus, a.hidden:active {
 
 .links-page-wrap {
   background: $grey;
+
   ::selection {
-      background: $mainColor; 
+    background: $mainColor;
   }
 
-  header, footer {
+  header,
+  footer {
     background: $grey;
   }
 
@@ -100,7 +132,7 @@ a.hidden:focus, a.hidden:active {
 
   .landing-about {
     @media (max-width: 768px) {
-        padding: 60px 0 20px 0;
+      padding: 60px 0 20px 0;
     }
 
   }
@@ -109,24 +141,27 @@ a.hidden:focus, a.hidden:active {
     border: 1px solid black;
     margin-bottom: 70px;
   }
+
   .tab {
     border-bottom: 1px solid black;
 
     .insta-links {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-family: $accentFont;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 0.3px;
-  padding: 20px 0;
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-family: $accentFont;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 0.3px;
+      padding: 20px 0;
 
-  &:active, &:hover, &:focus {
-    background: $seventhColor;
-    color: black !important;
-  }
-}
+      &:active,
+      &:hover,
+      &:focus {
+        background: $seventhColor;
+        color: black !important;
+      }
+    }
   }
 
   .tab-paragraph {

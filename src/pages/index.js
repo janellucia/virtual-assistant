@@ -5,122 +5,74 @@ import Layout from '../components/layout'
 import Img from 'gatsby-image'
 import SEO from '../components/seo'
 
-import Testimonials from '../components/testimonials'
-
-import ash from '../images/home/ash-home.gif';
-import atria from '../images/home/atria-logo-mobile.gif';
+import Marquee from '../components/marquee'
 
 const IndexPage = (props) => (
   <Layout name="home-page">
     <SEO title="Graphic Designer" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design', 'typography']} />
-    <div className="wrapper">
-      <section className="landing-about">
-        <div className="about-wrap">
-          <p>I help businesses design logos, brands &amp; websites that are beautifully simple, reassuringly smart and full of brand personality.</p>
+    <section className="home-atf">
+      <div className="wrapper">
+        <h1>Efficient & Dependable <br></br>Virtual Assistant</h1>
+      </div>
+    </section>
+    <Marquee />
+    <section className="home-about">
+      <div className="wrapper">
+        <div className='image'>
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
         </div>
-      </section>
-      <section className="portfolio">
-        <Link to="/anne-sophie-huot/" className="project-wrap">
-          <img src={ash} alt="Anne-Sophie Huot logo animation" />
-          <div className="home-project-info">
-            <h3>Anne-Sophie Huot</h3>
-            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build</p>
-          </div>
-        </Link>
-        <Link to="/lorangerie-photographie/" className="project-wrap">
-          <Img fluid={props.data.imageNine.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
-          <Img fluid={props.data.imageTen.childImageSharp.fluid} alt="L'Orangerie Photographie logo" />
-          <div className="home-project-info">
-            <h3>L'Orangerie Photographie</h3>
-            <p className="category">— Brand Identity, Logo Design, Squarespace design &amp; build, Social Media Design</p>
-          </div>
-        </Link>
-        <Link to="/vintage-florals/" className="project-wrap">
-          <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="seamless pattern design with vintage florals" />
-          <Img fluid={props.data.imageFour.childImageSharp.fluid} alt="seamless pattern design with vintage florals" />
-          <div className="home-project-info">
-            <h3>Vintage Floral Pattern</h3>
-            <p className="category">— Illustration, Seamless Pattern Design</p>
-          </div>
-        </Link>
-        <Link to="/stephanie-boridy/" className="project-wrap">
-          <Img fluid={props.data.imageSix.childImageSharp.fluid} alt="Stephanie Boridy logo" />
-          <div className="home-project-info">
-            <h3>Stephanie Boridy</h3>
-            <p className="category">— Brand Identity, Logo Design, Shopify design & build, Social Media Design</p>
-          </div>
-        </Link>
-        <Link to="/tulipomania/" className="project-wrap">
-          <Img fluid={props.data.imageFive.childImageSharp.fluid} alt="Custom floral illustration" />
-          <div className="home-project-info">
-            <h3>Tulipomania</h3>
-            <p className="category">— Illustration</p>
-          </div>
-        </Link>
-        <Link to="/clearly-thuy-doan/" className="project-wrap">
-          <Img fluid={props.data.imageSeven.childImageSharp.fluid} alt="clearly, ThuyDoan logo" />
-          <Img fluid={props.data.imageEight.childImageSharp.fluid} alt="clearly, ThuyDoan logo" />
-          <div className="home-project-info perceived-info">
-            <h3>clearly, Thuy Doan</h3>
-            <p className="category">— Brand Identity, Logo Design, Web Design, Social Media Design</p>
-          </div>
-        </Link>
-        <Link to="/jo-rodrigues/" className="project-wrap">
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Jo Rodrigues logo" />
-          <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Jo Rodrigues logo" />
-          <div className="home-project-info">
-            <h3>Jo Rodrigues</h3>
-            <p className="category">— Brand Identity, Logo Design, Wordpress build, Social Media Design</p>
-          </div>
-        </Link>
-        <Link to="/bad-girls/" className="project-wrap">
-          <Img fluid={props.data.imageThirteen.childImageSharp.fluid} alt="Bad Girls Collective logo" />
-          <div className="home-project-info">
-            <h3>Bad Girls Collective</h3>
-            <p className="category">— Shopify Website Build</p>
-          </div>
-        </Link>
-        <Link to="/atria-coaching/" className="project-wrap">
-          <img src={atria} alt="Atria Coaching logo animation" />
-          <div className="home-project-info">
-            <h3>Atria Coaching</h3>
-            <p className="category">— Brand Identity, Logo Design, Social Media Design</p>
-          </div>
-        </Link>
-        <Link to="/livie-jewelry/" className="project-wrap">
-          <Img fluid={props.data.imageTwelve.childImageSharp.fluid} alt="Livie Jewelry logo" />
-          <div className="home-project-info">
-            <h3>Livie Jewelry</h3>
-            <p className="category">— Brand Identity, Logo Design, Shopify site design</p>
-          </div>
-        </Link>
-        <Link to="/conceived-space/" className="project-wrap">
-          <Img fluid={props.data.imageEleven.childImageSharp.fluid} alt="Conceived Space logo" />
-          <div className="home-project-info">
-            <h3>Conceived Space</h3>
-            <p className="category">— Brand Identity, Logo Design, Squarespace Design &amp; Build, Social Media, Print Design</p>
-          </div>
-        </Link>
-        <Link to="/lettering-archive/" className="project-wrap">
-          <Img fluid={props.data.imageFourteen.childImageSharp.fluid} alt="lettering archive logo" />
-          <Img fluid={props.data.imageFifteen.childImageSharp.fluid} alt="lettering archive logo" />
-          <div className="home-project-info">
-            <h3>Typography Posters</h3>
-            <p className="category">— Graphic Design</p>
-          </div>
-        </Link>
-        <Link to="/qube-properties/" className="project-wrap">
-          <Img fluid={props.data.imageSixteen.childImageSharp.fluid} alt="Qube logo" />
-          <Img fluid={props.data.imageSeventeen.childImageSharp.fluid} alt="Qube logo" />
-          <div className="home-project-info">
-            <h3>Qube Properties</h3>
-            <p className="category">— Brand Identity, Logo Design, Graphic Design, Print Design, Signage</p>
-          </div>
-        </Link>
-      </section>
-      <Testimonials />
-    </div>
-  </Layout>
+        <div className='text'>
+          <h2>I'm Janel, your dependable problem solver & solution finder</h2>
+          <p>As a detail-oriented and organized professional, I take pride in completing assignments on time and with accuracy. Excellent communication skills, both written and verbal. I would love the opportunity to utilize these skills as your Virtual Assistant.</p>
+          <p><a href="/about">more about me</a> <a href="/about">book a call</a></p>
+        </div>
+      </div>
+    </section>
+    <section className="home-plan">
+      <div className="wrapper">
+        <div className='image'>
+          <Img fluid={props.data.imageTwo.childImageSharp.fluid} />
+        </div>
+        <div className='text'>
+          <h2>Imagine what a virtual assistant could take off your plate?</h2>
+          <p>Highly dynamic Virtual Assistant with 7+ years of experience providing exceptional administrative and management support to clients. Adept in multitasking and effectively prioritizing tasks to achieve the best outcomes. Knowledgeable and skilled in document management software and content management systems. My mission is to support people of all backgrounds reach their greatest potential.</p>
+          <p><a href="/services">my services</a> <a href="/about">book a call</a></p>
+        </div>
+      </div>
+    </section>
+    <section className='home-services'>
+      <div className='wrapper'>
+        <div className='service'>
+          <h3>Administration</h3>
+          <p>Respond to emails, Schedule meetings, organize calendar, travel & accommodations, Prepare spreadsheets and keep online records of business needs</p>
+        </div>
+        <div className='service'>
+          <h3>Data Entry</h3>
+          <p>Compiling, verifying & sorting information to prepare source data. Reviewing data for deficiencies or errors, correcting any incompatibilities.</p>
+        </div>
+        <div className='service'>
+          <h3>Graphic Design</h3>
+          <p>Create compelling presentations and slide decks as assigned, photo and video editing, flyers, brochures, and other printed materials for your business</p>
+        </div>
+        <div className='service'>
+          <h3>Manage Website</h3>
+          <p>Monitor your website for updates to keep you running smoothly. subscription management, blog management, copy writing, photo editing & technical support</p>
+        </div>
+      </div>
+    </section>
+    <section className="home-about">
+      <div className="wrapper">
+        <div className='image'>
+          <Img fluid={props.data.imageThree.childImageSharp.fluid} />
+        </div>
+        <div className='text'>
+          <h2>Behind every successful business owner is a virtual assistant</h2>
+          <p>I'm able to handle a variety administrative projects and deliver high-quality work under minimum supervision. I'm familiar with current technologies, like desktop sharing, cloud services and VoIP, Experience with word-processing software and spreadsheets</p>
+          <p>Knowledge of online calendars and scheduling, Professional email and instant messaging communication skills, Excellent time management skills, Solid organizational skills</p>
+        </div>
+      </div>
+    </section>
+  </Layout >
 )
 
 export default IndexPage
@@ -142,104 +94,6 @@ export const pageQuery = graphql`
       }
     }
     imageThree: file(relativePath: { eq: "home/floral-home.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageFour: file(relativePath: { eq: "home/floral-home-mobile.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageFive: file(relativePath: { eq: "services/floral-home.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageSix: file(relativePath: { eq: "home/sb-home.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageSeven: file(relativePath: { eq: "home/ctd-home.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageEight: file(relativePath: { eq: "home/ctd-home-mobile.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageNine: file(relativePath: { eq: "home/lop-home.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageTen: file(relativePath: { eq: "home/lop-home-mobile.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageEleven: file(relativePath: { eq: "home/cs-home.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageTwelve: file(relativePath: { eq: "home/livie-home-mobile.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageThirteen: file(relativePath: { eq: "home/bgc-home.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageFourteen: file(relativePath: { eq: "home/type-posters.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageFifteen: file(relativePath: { eq: "home/type-posters-mobile.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageSixteen: file(relativePath: { eq: "home/qube-home.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    imageSeventeen: file(relativePath: { eq: "home/qube-home-mobile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
