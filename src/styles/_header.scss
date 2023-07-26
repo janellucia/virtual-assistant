@@ -21,10 +21,12 @@ header {
       a {
         font-size: 33px;
         letter-spacing: -1px;
+        text-transform: lowercase;
+        font-style: italic;
         margin: 0;
         padding: 0;
         font-family: $bodyFont;
-        font-weight: 700;
+        font-weight: 500;
         padding: 0;
 
         &:hover,

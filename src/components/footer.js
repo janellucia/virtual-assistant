@@ -14,7 +14,7 @@ const Footer = ({ siteTitle }) => (
       <div className="wrapper">
         <p>I acknowledge that I, live, work and play on the unceded, ancestral territories of the Haudenosaunee, Anishinabewaki, Mississaugas of the Credit First Nation, Mississauga, and the Wendake-Nionwentsïo nations.</p>
         <p>Virtual Assistant Services in Toronto.</p>
-        <a href="mailto:hello@janellucia.com">Get in touch</a>
+        <a href="mailto:hello@janellucia.com">Book a call</a>
       </div>
     </section>
     <section class="bottom-footer">
@@ -24,9 +24,9 @@ const Footer = ({ siteTitle }) => (
           {/* <p>this site was designed and created by yours truly.</p> */}
         </div>
         <div className="social">
-          <a href="https://www.instagram.com/janellucia/" target="blank" rel="noopener noreferrer">insta</a>
-          <a href="https://www.tiktok.com/@sense.addictions" target="blank" rel="noopener noreferrer">tiktok</a>
-          <a href="https://www.linkedin.com/in/janel-lucia-designer-b7425b9a/" target="blank" rel="noopener noreferrer">linked-in</a>
+          <a href="/about">about</a>
+          <a href="/services">services</a>
+          <a href="/contact" className="contact-menu-item">contact</a>
         </div>
       </div>
     </section>

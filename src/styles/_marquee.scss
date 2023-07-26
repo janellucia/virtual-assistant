@@ -10,6 +10,7 @@ section#marquee {
 
 section>.marquee {
   font-size: 20px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -34,7 +35,7 @@ section>.marquee {
 
 @media (prefers-reduced-motion: no-preference) {
   .marquee::before {
-    animation: marquee 60s linear infinite;
+    animation: marquee 150s linear infinite;
   }
 
   /*	.marquee--reverse::before {animation-direction: reverse;}*/
@@ -58,6 +59,6 @@ section>.marquee {
 
   section>.marquee {
     bottom: 0;
-    font-size: clamp(50px, 50vw, 100px);
+    font-size: 18px;
   }
 }

@@ -30,10 +30,33 @@
   justify-content: space-between;
   padding: 70px 0 0 0;
 
+  @media(max-width:920px) {
+    justify-content: space-around;
+  }
+
+  @media(max-width:767px) {
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  @media(max-width:767px) {
+    justify-content: center;
+  }
+
   .service {
     width: 30%;
     text-align: center;
     margin-bottom: 70px;
+
+    @media(max-width:920px) {
+      width: 45%;
+      margin-bottom: 50px;
+    }
+
+    @media(max-width:767px) {
+      width: 80%;
+      margin-bottom: 50px;
+    }
 
     .service-dot {
       height: 50px;
@@ -42,6 +65,12 @@
       background-color: $fourthColor;
       margin: 0 auto;
 
+    }
+
+    p {
+      @media(max-width:767px) {
+        font-size: 16px;
+      }
     }
 
 

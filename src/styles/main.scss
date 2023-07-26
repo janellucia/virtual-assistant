@@ -6,6 +6,7 @@
 @import 'home';
 @import 'about';
 @import 'services';
+@import 'contact';
 @import 'marquee';
 
 @import 'testimonials';
@@ -44,22 +45,54 @@ h6 {
 
 h1 {
   font-size: 72px;
+
+  @media (max-width: 920px) {
+    font-size: 60px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 42px;
+  }
 }
 
 h2 {
   font-size: 53px;
+
+  @media (max-width: 920px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 33px;
+  }
 }
 
 h3 {
   font-size: 42px;
+
+  @media (max-width: 920px) {
+    font-size: 33px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 26px;
+  }
 }
 
 h4 {
   font-size: 33px;
+
+  @media (max-width: 920px) {
+    font-size: 26px;
+  }
 }
 
 h5 {
   font-size: 26px;
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }
 }
 
 a {
@@ -80,8 +113,13 @@ main {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1400px;
   padding: 1.45rem 1.0875rem;
+
+  @media (max-width: 768px) {
+    // font-size: 22px;
+  }
 }
 
 a.hidden {

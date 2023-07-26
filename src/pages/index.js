@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Img from 'gatsby-image'
@@ -9,7 +9,7 @@ import Marquee from '../components/marquee'
 
 const IndexPage = (props) => (
   <Layout name="home-page">
-    <SEO title="Graphic Designer" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design', 'typography']} />
+    <SEO title="Virtual Assistant" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design', 'typography']} />
     <section className="home-atf">
       <div className="wrapper">
         <h1>Efficient & Dependable <br></br>Virtual Assistant</h1>
@@ -24,7 +24,7 @@ const IndexPage = (props) => (
         <div className='text'>
           <h2>I'm Janel, your dependable problem solver & solution finder</h2>
           <p>As a detail-oriented and organized professional, I take pride in completing assignments on time and with accuracy. Excellent communication skills, both written and verbal. I would love the opportunity to utilize these skills as your Virtual Assistant.</p>
-          <p><a href="/about">more about me</a> <a href="/about">book a call</a></p>
+          <p><a href="/about">about me</a> <a href="/about">book a call</a></p>
         </div>
       </div>
     </section>
@@ -66,7 +66,7 @@ const IndexPage = (props) => (
           <Img fluid={props.data.imageThree.childImageSharp.fluid} />
         </div>
         <div className='text'>
-          <h2>Behind every successful business owner is a virtual assistant</h2>
+          <h2>Behind every successful business is a virtual assistant</h2>
           <p>I'm able to handle a variety administrative projects and deliver high-quality work under minimum supervision. I'm familiar with current technologies, like desktop sharing, cloud services and VoIP, Experience with word-processing software and spreadsheets</p>
           <p>Knowledge of online calendars and scheduling, Professional email and instant messaging communication skills, Excellent time management skills, Solid organizational skills</p>
         </div>
@@ -79,21 +79,21 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "home/jo-home.png" }) {
+    imageOne: file(relativePath: { eq: "home/janel-virtual-assistant.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "home/jo-home-mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "home/best-assistant-millie.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    imageThree: file(relativePath: { eq: "home/floral-home.jpg" }) {
+    imageThree: file(relativePath: { eq: "home/best-assistant-millie.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_noBase64

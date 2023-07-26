@@ -8,11 +8,11 @@ const Header = ({ siteTitle }) => (
     <a href="#main" className="hidden">Skip to Main</a>
     <a href="#footer" className="hidden">Skip to Footer</a>
     <nav className="wrapper">
-      <h1 className="logo"><a href="/">west end VA</a></h1>
+      <h1 className="logo"><a href="/">{siteTitle}</a></h1>
       <ul>
         <li><a href="/about">about</a></li>
         <li><a href="/services">services</a></li>
-        <li><a href="mailto:hello@janellucia.com" className="contact-menu-item">book a discovery call</a></li>
+        <li><a href="/contact">book a call</a></li>
       </ul>
     </nav>
   </header>

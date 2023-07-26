@@ -9,7 +9,7 @@ import Marquee from '../components/marquee'
 
 const Services = (props) => (
   <Layout name="services-page-wrap">
-    <SEO title="Design Services" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design']} />
+    <SEO title="Services" keywords={[`Branding Designer`, `Brand Identity`, `Logo Designer`, `Graphic Designer`, `Illustration`, `illustrator`, `Design Accessibility`, 'website designer', 'squarespace designer', 'social media design', 'editorial design', 'print design']} />
     <div className="wrapper">
       <section className="service-atf">
         <h1>Your Personal Administrative Virtual Assistant</h1>
